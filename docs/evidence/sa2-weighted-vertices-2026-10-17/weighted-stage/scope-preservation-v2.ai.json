@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "version": "original",
+      "file": "src/Importers/SA2/ModelVertexTransform.h",
+      "preserved_prefix_bytes": 1095,
+      "before_sha256": "83221782b523e4bc6a9d249f64f7826635cef3febf6ba820e9e5f0bb004070c6",
+      "current_sha256": "58cd6ea98922160097fe77c86dc18967ed57e5c7d8b3edd0b787d63006fa521d",
+      "allowed_preexisting_line_changes": "one ModelData.h include only; no old types/functions/helpers changed"
+    },
+    {
+      "version": "original",
+      "file": "src/Importers/SA2/ModelVertexTransform.cpp",
+      "preserved_prefix_bytes": 5466,
+      "before_sha256": "a7f00eb46756c8e51bda76d399693b01370f331dc2843ee976ad7e2eacea0645",
+      "current_sha256": "621b6973688ccd4cb001a86e3dd5329b86b23363e64aa0a7a08a065f6033b425",
+      "allowed_preexisting_line_changes": "one ModelData.h include only; no old types/functions/helpers changed"
+    },
+    {
+      "version": "core-validated",
+      "file": "src/Importers/SA2/ModelVertexTransform.h",
+      "preserved_prefix_bytes": 1902,
+      "before_sha256": "5c2123327fc2f7db2eb5943e1b87dc4d397f73bd63c412d9f8ee4c4117479346",
+      "current_sha256": "58cd6ea98922160097fe77c86dc18967ed57e5c7d8b3edd0b787d63006fa521d",
+      "allowed_preexisting_line_changes": "one ModelData.h include only; no old types/functions/helpers changed"
+    },
+    {
+      "version": "core-validated",
+      "file": "src/Importers/SA2/ModelVertexTransform.cpp",
+      "preserved_prefix_bytes": 9308,
+      "before_sha256": "d695c56d426d73137d13f05f63609b1b50902ba721bf8abd3278645c4d1bd1fd",
+      "current_sha256": "621b6973688ccd4cb001a86e3dd5329b86b23363e64aa0a7a08a065f6033b425",
+      "allowed_preexisting_line_changes": "one ModelData.h include only; no old types/functions/helpers changed"
+    }
+  ],
+  "validation_binding": "Core314-case/all65536-weight candidate hashes preserved exactly in core-validated snapshots. Current candidate only adds stream declarations/function and one dependency include; every weighted/unweighted function body remains identical. New stream oracle and packaging test the complete current translation unit."
+}

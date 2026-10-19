@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "Read-only identity recheck of weighted core, quantization, Sonic sample, dispatcher and stream ledgers; no numerical/native/game replay.",
+  "script_runs": "inspect_evidence_recheck_v1.py once; recheck_evidence_v1.py once (retained strict raw FAIL); adjudicate_evidence_hashes_v1.py once; recheck_evidence_v2.py once",
+  "source_identity_checks": 250,
+  "distinct_physical_paths": 248,
+  "category_counts": {
+    "language": 3,
+    "current_candidate": 6,
+    "analysis_evidence": 118,
+    "primary_reference": 4,
+    "frozen_decompilation": 111,
+    "original": 4,
+    "historical_candidate": 4
+  },
+  "recorded_digest_references": 683,
+  "optional_blank_digest_fields_skipped": 11,
+  "full_files_rehashed": 247,
+  "original_ISO": {
+    "sha256": "c8f9db7c936fffed7a5ea12a099c39ad3197208731ebbe4bcdfc3cec9b350638",
+    "bytes": 1459978240,
+    "method": "Reused existing completed sample full-hash + original read-only PRS validation; size checked; no duplicate full ISO hashing.",
+    "evidence": [
+      "work/sa2-weighted-samples-v1/summary.ai.json",
+      "work/sa2-weighted-samples-v1/source-digests.csv"
+    ]
+  },
+  "historical_candidate_digest_references_mapped": 8,
+  "prefix_checks": 4,
+  "prefix_checks_failed": [],
+  "LF_text_identities_adjudicated": [
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-vertex-dispatch-v1\\dispatch-reference.md",
+      "category": "analysis_evidence",
+      "bytes": 10984,
+      "expected_sha256": "bf4871386905e2ff6e9fbe546d08af8e990c7c60001cc937bffe00b76d49d8ae",
+      "actual_sha256": "d420d9c8045af08ce03cc64f47a0d81a741547cab51adc092eb37e194a3deeb7",
+      "status": "PASS_LF_TEXT_IDENTITY",
+      "method": "verified exact LF-text identity; raw bytes separately match sealed manifest.csv; adjudication-v1",
+      "reference_count": 2,
+      "ledgers": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-vertex-dispatch-v1\\dispatch-reference.ai.json;C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-vertex-dispatch-v1\\manifest.ai.json"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weight-quantization-v1\\weight-reference.md",
+      "category": "analysis_evidence",
+      "bytes": 9700,
+      "expected_sha256": "d1999a87659a19a61a045c769beb9794fd578fd91b57cd9668ba499fd4c1cdb9",
+      "actual_sha256": "753976596f8a848c4a668d5dca94c94973b601f0cfec1a2d2e707dd06a6ca6b4",
+      "status": "PASS_LF_TEXT_IDENTITY",
+      "method": "verified exact LF-text identity; raw bytes separately match sealed manifest.csv; adjudication-v1",
+      "reference_count": 2,
+      "ledgers": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weight-quantization-v1\\manifest.ai.json;C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weight-quantization-v1\\weight-reference.ai.json"
+    }
+  ],
+  "prior_strict_raw_recheck": "evidence-recheck-v1 FAIL preserved unchanged; two LF-vs-CRLF fields only; raw sealed files already matched",
+  "adjudication": "evidence-hash-adjudication-v1.ai.json",
+  "input_ledgers_unchanged": 41,
+  "changed_input_ledgers": [],
+  "failed_source_identities": [],
+  "top_level_human_reports_checked": 36,
+  "human_reports_with_meaningful_twin": 36,
+  "missing_human_AI_twins": [],
+  "twin_policy": "Same-stem .ai.json/.ai.md/--AI.md/--AI.json with substantive content; AI docs are not recursively required to have twins.",
+  "failure_versions": "All existing failed scripts/reports and manifest entries preserved and included where a digest is recorded; none rewritten.",
+  "limits": [
+    "ISO full hash reused, not freshly recomputed in this pass.",
+    "Current root engine/docs guard inventories remain root-owned; this pass checks only recorded source/candidate identities, not all repository files.",
+    "Companion presence/content check establishes a usable AI summary exists, not a fresh semantic proof of every claim.",
+    "Identity consistency does not prove generated C equivalence, retail runtime state or whole-game completion."
+  ],
+  "files_changed": [
+    "new work/weighted-stage evidence-recheck artifacts only"
+  ],
+  "outputs": [
+    "evidence-recheck-v2.csv",
+    "evidence-recheck-references-v2.csv",
+    "evidence-recheck-optional-blanks-v2.csv",
+    "evidence-recheck-prefixes-v2.csv",
+    "evidence-recheck-twins-v2.csv"
+  ]
+}

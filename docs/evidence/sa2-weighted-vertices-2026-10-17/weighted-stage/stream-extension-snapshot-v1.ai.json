@@ -1,0 +1,9 @@
+{
+  "status": "snapshot",
+  "core_weighted_source_sha256": {
+    "src/Importers/SA2/ModelVertexTransform.h": "5c2123327fc2f7db2eb5943e1b87dc4d397f73bd63c412d9f8ee4c4117479346",
+    "src/Importers/SA2/ModelVertexTransform.cpp": "d695c56d426d73137d13f05f63609b1b50902ba721bf8abd3278645c4d1bd1fd"
+  },
+  "reason": "Preserve exact314-case/all65536-weight validated helper before append-only stream dispatcher integration. Existing helper function bodies will remain unchanged.",
+  "repository_edited": false
+}

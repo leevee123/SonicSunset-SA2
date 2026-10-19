@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "human_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weight-quantization-v1\\weight-reference.md",
+      "raw_bytes": 9700,
+      "CRLF_pairs": 69,
+      "raw_sha256": "753976596f8a848c4a668d5dca94c94973b601f0cfec1a2d2e707dd06a6ca6b4",
+      "LF_text_bytes": 9631,
+      "LF_text_sha256": "d1999a87659a19a61a045c769beb9794fd578fd91b57cd9668ba499fd4c1cdb9",
+      "recorded_human_report_sha256": "d1999a87659a19a61a045c769beb9794fd578fd91b57cd9668ba499fd4c1cdb9",
+      "manifest_csv_sha256": "6b836de00c0dd49eb1a981f16b3c37420ecde0c4123b50f0322e648ef4f84524",
+      "manifest_csv_raw_file_identity_matches": true,
+      "LF_text_identity_matches": true,
+      "finalizer_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weight-quantization-v1\\finalize_weight_v1.py",
+      "finalizer_sha256": "341f960ee0137c2dd30144beb369ebf25d816afabdf069a946ee3aff1a631d38",
+      "cause": "hash of LF human.encode() text vs write_text default Windows CRLF file bytes",
+      "original_or_frozen_drift": false
+    },
+    {
+      "human_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-vertex-dispatch-v1\\dispatch-reference.md",
+      "raw_bytes": 10984,
+      "CRLF_pairs": 75,
+      "raw_sha256": "d420d9c8045af08ce03cc64f47a0d81a741547cab51adc092eb37e194a3deeb7",
+      "LF_text_bytes": 10909,
+      "LF_text_sha256": "bf4871386905e2ff6e9fbe546d08af8e990c7c60001cc937bffe00b76d49d8ae",
+      "recorded_human_report_sha256": "bf4871386905e2ff6e9fbe546d08af8e990c7c60001cc937bffe00b76d49d8ae",
+      "manifest_csv_sha256": "8a96cbf9c3cba07d9151fed61b02d80c2ae86f93290b3c68f9d1885725fe3668",
+      "manifest_csv_raw_file_identity_matches": true,
+      "LF_text_identity_matches": true,
+      "finalizer_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-vertex-dispatch-v1\\finalize_dispatch_v2.py",
+      "finalizer_sha256": "cc33de631c6003535cebedc5229ae4ad06da1aa8ff824fea4ba0bedccbdb3c95",
+      "cause": "hash of LF human.encode() text vs write_text default Windows CRLF file bytes",
+      "original_or_frozen_drift": false
+    }
+  ],
+  "decision": "Treat these exact two human_report_sha256 fields as LF-text identities. manifest.csv is the sealed raw-byte identity; preserve both immutable ledgers and both report bytes.",
+  "proof": "Both current raw human files match their sealed manifest CSV entries. Replacing every CRLF with LF exactly reproduces both historical text digests; finalizer writes human using default newline translation but hashes human.encode() before that translation.",
+  "prior_recheck": "evidence-recheck-v1 FAIL retained; it correctly found raw-byte versus LF-text digest mismatch, not original/frozen source drift.",
+  "scope": "Exact two named fields only; no blanket normalization or waiver for other mismatches.",
+  "script_runs": "adjudicate_evidence_hashes_v1.py once",
+  "mutations": "new adjudication artifacts only; originals, finalizers, reports, manifests, repository and analysis databases unchanged"
+}

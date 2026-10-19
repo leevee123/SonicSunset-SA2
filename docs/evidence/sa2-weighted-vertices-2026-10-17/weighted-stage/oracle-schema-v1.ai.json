@@ -1,0 +1,51 @@
+{
+  "cases": 314,
+  "schema": {
+    "case_id": "str",
+    "kind": "str",
+    "input_offset": "int",
+    "packet_offset": "str",
+    "count": "int",
+    "start": "int",
+    "variant": "int",
+    "matrix_name": "str",
+    "destinations": "list",
+    "matrix_bits": "list",
+    "records_hex": "str",
+    "lookahead_hex": "str",
+    "input_source_sha256": "str",
+    "before_file": "str",
+    "after_file": "str",
+    "before_sha256": "str",
+    "after_sha256": "str",
+    "target_min": "int",
+    "target_max": "int",
+    "unique_targets": "int",
+    "gqr1_before": "str",
+    "gqr1_after": "str",
+    "steps": "int"
+  },
+  "first_real": {
+    "case_id": "real_000_identity",
+    "kind": "real",
+    "input_offset": 7236,
+    "packet_offset": "0x1c3c",
+    "count": 18,
+    "start": 0,
+    "variant": 2,
+    "before_file": "cases\\real_000_identity.before.bin",
+    "after_file": "cases\\real_000_identity.after.bin",
+    "gqr1_before": "deadbeef",
+    "gqr1_after": "08070807"
+  },
+  "CSV_headers": {
+    "oracle-output-slots.csv": [
+      "case_id",
+      "record_ordinal",
+      "destination_raw",
+      "scratch_index",
+      "before_hex",
+      "after_hex"
+    ]
+  }
+}

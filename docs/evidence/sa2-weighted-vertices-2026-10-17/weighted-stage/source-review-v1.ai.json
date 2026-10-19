@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "reviewer": "root; independent numerical/control references already completed",
+  "independent_final_source_reviewer": "interrupted by worker usage limit before report; root completed code review",
+  "reviewed": "ModelVertexTransform.h/.cpp additive weighted and full-stream APIs",
+  "checks": [
+    "28-byte BE records; signed16/256; additive u16base+u16destination into bounded u64 slot offset",
+    "variant7-bit mask and every nonzero fused accumulation; all previous6 values loaded before stores",
+    "copied scratch and ordered duplicate/cross-packet writes; final PSQ FTZ preserved",
+    "END-before-info/opaque info overlap and stored stepping inherited unchanged; no unused opaque matrix/scratch guard",
+    "23 state OR3 and2C modeled GQR1 clobber; no invented2A effects returned",
+    "fixed matrix/nonalias and finite/rounding/NI0 explicit; unsafe native faults, lookahead, zero loops and aliases excluded",
+    "all source hashes match applied and tested candidate; earlier core bodies protected by exact prefix checks"
+  ],
+  "actionable_issues": [],
+  "production_edits": false,
+  "runtime_retests": false
+}

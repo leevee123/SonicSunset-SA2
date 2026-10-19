@@ -1,0 +1,9 @@
+{
+  "scope": "Staged human section for weighted2C/full firststream; inserted with computed VA/DOL/ISO table by prepare_weighted_docs_v1.py",
+  "source_sha256": "42ec52cb7966810484201f077fd6605f86e05caf223e361f8c8a23a19e4aa3d8",
+  "weighted_cases": 314,
+  "stream_cases": 309,
+  "signed_weight_domain": 65536,
+  "remaining": "2A/livebindings/render/animation/gameplay",
+  "complete_game": false
+}

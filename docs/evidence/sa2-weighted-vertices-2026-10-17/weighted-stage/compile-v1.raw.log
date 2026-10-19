@@ -1,0 +1,8 @@
+ModelVertexTransform.cpp
+weighted_data_check_iso.cpp
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\weighted_data_check.cpp(81): error C2220: the following warning is treated as an error
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\weighted_data_check.cpp(81): warning C4244: 'initializing': conversion from 'const _Elem' to 'uint8_t', possible loss of data
+        with
+        [
+            _Elem=int
+        ]

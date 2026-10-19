@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "exit": 0,
+  "flags": "/std:c++latest /EHsc /O2 /fp:strict /W4 /WX",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\weighted-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.cpp": "621b6973688ccd4cb001a86e3dd5329b86b23363e64aa0a7a08a065f6033b425",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\weighted-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.h": "58cd6ea98922160097fe77c86dc18967ed57e5c7d8b3edd0b787d63006fa521d"
+  },
+  "unchanged_reader_objects_sha256": {
+    "C:\\decomp\\SonicFantasy-master\\src\\Importers\\SA2\\ModelData.h": "8d06da6b9a74be3bd35312dd516cd5a5fc5cb8c5896d322ace5ad03dd35798bf",
+    "C:\\decomp\\SonicFantasy-master\\src\\Importers\\SA2\\ModelData.cpp": "7e9303c5b0c05b7eb5f447157ccaabaeb504cfe126e31fa15ab821857609e805",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-validation\\sa2_prs.obj": "84de8de9fd0bfa84d6087de64df3fcfab0602eb180e77eab4512ae48177fd7e0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-validation\\shadow_prs.obj": "6bfa00e9dfbbe223b9f2bc5cd2f7e69da22f4d57b06abb67a945fe3930fb6cb9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-validation\\gc_disc.obj": "c0294500684e5e8176764dfbdcd533ee4c1cf4925162d0d0bd8ea64abb2fcc6b"
+  },
+  "raw_log_sha256": "cd15a431fb615d4e6ac6f8982c4cdd53d18b9f657d633ba7f382d912f1f1d33a",
+  "checker_sha256": "8d959138757ad6041628c2ebc4b6c967fbc6b52ffbbcf69b42c03de607eb0db8"
+}

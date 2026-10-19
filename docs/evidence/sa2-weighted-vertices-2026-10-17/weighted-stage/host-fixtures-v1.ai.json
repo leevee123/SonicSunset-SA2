@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "exit": 0,
+  "result": "preserved=12 rejected=17",
+  "checker_sha256": "7b7e374a7b256755e0411788010e44f434dc723337f18a04d76a0b3cb4ef6755",
+  "scope": "Explicit signed weights, additive base, all-nonzero modes, ordered duplicate destinations, copied/untouched bytes and host finite/bounds/environment guards; numerical oracle remains independent."
+}

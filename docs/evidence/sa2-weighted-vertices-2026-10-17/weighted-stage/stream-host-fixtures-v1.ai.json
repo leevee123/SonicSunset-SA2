@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "exit": 0,
+  "result": "preserved=6 rejected=6",
+  "checker_sha256": "8d959138757ad6041628c2ebc4b6c967fbc6b52ffbbcf69b42c03de607eb0db8",
+  "scope": "END-before-info, opaque4B overlap/skip, unused nonfinite matrix, packed+weighted cross-packet accumulation/state/GQR1carry, offset,2Areject, missingEND/zero/hostbounds."
+}

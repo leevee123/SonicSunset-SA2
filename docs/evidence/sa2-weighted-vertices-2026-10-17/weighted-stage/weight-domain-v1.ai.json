@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "batches": 8,
+  "signed16_weights": 65536,
+  "stored_float_words": 393216,
+  "whole_scratch_bytes_compared": 2097408,
+  "reference_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weight-quantization-v1\\all-s16-weight-f32-oracle.csv": "50558525eb7de76c648555fdc33dac564660692c3b4b193fd2a03ce6f3838556"
+  },
+  "checker_sha256": "7b7e374a7b256755e0411788010e44f434dc723337f18a04d76a0b3cb4ef6755",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\weighted-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.cpp": "d695c56d426d73137d13f05f63609b1b50902ba721bf8abd3278645c4d1bd1fd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\weighted-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.h": "5c2123327fc2f7db2eb5943e1b87dc4d397f73bd63c412d9f8ee4c4117479346"
+  },
+  "scope": "Actual full weighted API with identity and six1.0inputcomponents; everyS16weight output equals independent quantization CSV, all untouched/tail/extra-slot bytes preserved. Mode0, raw bit15set, explicit host Float32 contract, no runtime game execution."
+}

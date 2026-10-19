@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Weighted memory/metadata under explicit GQR0=0/RNnearest/NI0/nontrapping/finite-retained-lane contract. Supplied matrices/initial caches are tests, not live state.",
+  "cases": 314,
+  "real_cases": 249,
+  "synthetic_cases": 65,
+  "real_unique_packets": 83,
+  "output_record_rows": 2567,
+  "whole_scratch_bytes_compared": 13326784,
+  "host_fixtures": "preserved=12 rejected=17",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\weighted-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.cpp": "d695c56d426d73137d13f05f63609b1b50902ba721bf8abd3278645c4d1bd1fd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\weighted-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.h": "5c2123327fc2f7db2eb5943e1b87dc4d397f73bd63c412d9f8ee4c4117479346"
+  },
+  "checker_sha256": "7b7e374a7b256755e0411788010e44f434dc723337f18a04d76a0b3cb4ef6755",
+  "bank_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "oracle_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\oracle-cases.jsonl": "9ce4d29c5825635931c7fd516914d293ae26902b0eeafb4d0e4f48541f4d46df",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\oracle-summary.ai.json": "3c5d3d8b1c2a7e8d7d6109716e9088bef2823ca13cfb732fb3f6b62ee13e3dc8",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\oracle-output-slots.csv": "8584ad9eedb2823cddd75bcd0ff62cff445767400823ced1e26c077048413270",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\weighted_oracle_v1.py": "6c7aece3aa76114216ba319b80ac608ccd7b3684e264558c087912474e62243f"
+  },
+  "production_corrections": 0,
+  "original_game_or_dolphin_executed": false
+}

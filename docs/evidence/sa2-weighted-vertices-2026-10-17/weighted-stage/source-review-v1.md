@@ -1,0 +1,3 @@
+# Weighted source review
+
+PASS: root reviewed applied weighted/stream code against completed independent numerical and control references. All source identities match the tested candidate. Record layout, signed weight, index bounds, fused mode branch, ordered stores, opaque/END rules, modeled state/GQR1 and excluded native effects are consistent with the explicit contract. No actionable issue or code edit. The optional independent final source-review worker was interrupted by its usage limit; this report is the root review, not a completed second code review. Existing independent original-word references and differential checks remain valid.

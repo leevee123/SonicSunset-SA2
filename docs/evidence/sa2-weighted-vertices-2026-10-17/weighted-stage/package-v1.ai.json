@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "status": "PASS",
+  "package": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Weighted-Vertex-Check",
+  "launcher": "Check-SA2-Weighted-Vertices.cmd",
+  "package_execution_runs": 1,
+  "weighted_cases": 314,
+  "weighted_real_cases": 249,
+  "weighted_synthetic_cases": 65,
+  "real_weighted_packets": 83,
+  "stream_cases": 309,
+  "stream_real_cases": 300,
+  "stream_synthetic_cases": 9,
+  "real_streams": 100,
+  "weight_domain_batches": 8,
+  "signed16_weights": 65536,
+  "case_rows": 631,
+  "whole_scratch_bytes_compared": 20486848,
+  "metadata_comparison": "Every case exact packet start/count/variant or stream end/state/GQR1; all passed.",
+  "weighted_host_fixtures": "preserved=12 rejected=17",
+  "stream_host_fixtures": "preserved=6 rejected=6",
+  "checker_sha256": "8d959138757ad6041628c2ebc4b6c967fbc6b52ffbbcf69b42c03de607eb0db8",
+  "reference_sha256": "5f132a5f2bd05ce76c86e1881ad324e1b2f82bd99ba978efa2e26e64607d1ca9",
+  "original_ISO_sha256": "c8f9db7c936fffed7a5ea12a099c39ad3197208731ebbe4bcdfc3cec9b350638",
+  "decoded_bank_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "original_disc_access": "Native extraction opened read-only; launcher checked complete ISO SHA before and after.",
+  "original_disc_modified": false,
+  "media_bundled": false,
+  "original_code_bundled": false,
+  "real_case_byte_policy": "Only offsets, own fixtures/matrices/state, metadata and expected hashes; no original packet/record/lookahead/output bytes.",
+  "own_fixture_blobs": 127,
+  "own_fixture_blob_roles": {
+    "own_initial_scratch": 53,
+    "own_synthetic_weighted_input": 65,
+    "own_synthetic_stream_input": 9
+  },
+  "source_guards_unchanged_after_run": 337,
+  "temporary_files_removed": true,
+  "cleanup_policy": "Resolve strict child path; verify package parent, containment, prefix and non-symlink immediately before recursive removal.",
+  "post_build_document_edits": [
+    "README.md: human spacing/readability only; checker, script, reference and expected fixtures unchanged."
+  ],
+  "package_files_sha256": {
+    "Check-SA2-Weighted-Vertices.cmd": "ffd85164cc94aa6b2295aff98cbbd370d59fdddfa873df9d0ed6c303ca56a720",
+    "check_weighted_vertices.py": "e41d07f56811f386c4e6d7a944e03c664ad69337c53d8a1c6ad410b840d6eced",
+    "README.ai.json": "b46070e0614c596a872a080ac3717a87cb9c70ebda90ff385d0dacf0398e2abb",
+    "README.md": "99894b15afd5da4141cf1a0c9fbb78b04e0444bfa2af338bd635917a48ee850e",
+    "Reference.ai.json": "5f132a5f2bd05ce76c86e1881ad324e1b2f82bd99ba978efa2e26e64607d1ca9",
+    "vertex_stream_data_check_iso.exe": "8d959138757ad6041628c2ebc4b6c967fbc6b52ffbbcf69b42c03de607eb0db8"
+  },
+  "runtime_result_files_sha256": {
+    "Last-case-results.csv": "691a0a2f6d78b09e72293398737f4d49af62a86308f3daf6c57fb1336872f945",
+    "Last-result.ai.json": "6863840cdde13f791f2a0a4f1b7b913e8369bc4d053058c53833dd23f795f5a0",
+    "Last-result.md": "8963659934ee1d2aba1aae81560a56bc5881a6344b6b77c6167c577b480fa565"
+  },
+  "raw_evidence": [
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-package-v1\\package-files.csv",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-package-v1\\final-source-guards.csv",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Weighted-Vertex-Check\\Last-case-results.csv"
+  ],
+  "scripts_sha256": {
+    "build_package_v1.py": "bfd6350e9d2fb329ddb72fa791923a57d11b17b20734e472a6ac3e9d131f1403",
+    "finalize_package_v1.py": "22d36495b8a1802b67573c636b0ce975bbf360d664a57715f261b953e58d2008",
+    "inspect_inputs_v1.py": "ae545ab7e72669cdc8ad5daecee2d1a63914b170e0eb0620638359d190c0f61c"
+  },
+  "scope": "Explicit GQR0=0/RNnearest-even/NI0/nontrapping/finite retained-lane calculations with supplied matrix and test-owned initial scratch/state; no live game state recovered.",
+  "not_done": "No live matrix, scratch, GQR/FPSCR or node/packet execution binding recovered; no model display/animation/levels/gameplay/original-game execution.",
+  "repository_or_engine_changes_by_this_task": [],
+  "python_runs": "inspect_inputs_v1, build_package_v1, package runtime and finalize_package_v1 each once."
+}
