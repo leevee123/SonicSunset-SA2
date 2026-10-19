@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "result": "passed",
+  "weighted_stored_streams": 65,
+  "stored_weighted_variant_sequences": {
+    "2": 27,
+    "0;2": 15,
+    "0": 21,
+    "0;1;2": 1,
+    "0;1": 1
+  },
+  "weighted_packet_count_distribution": {
+    "18": 2,
+    "24": 4,
+    "12": 8,
+    "41": 1,
+    "36": 1,
+    "5": 11,
+    "31": 1,
+    "7": 6,
+    "6": 8,
+    "32": 4,
+    "66": 1,
+    "4": 9,
+    "2": 8,
+    "3": 10,
+    "17": 4,
+    "1": 5
+  },
+  "post_declared_following_same_stream_opcodes": {
+    "0xff": 65,
+    "0x2c": 18
+  },
+  "pooled_category_pairs": [
+    {
+      "first_category": "0x23",
+      "second_category": "0x29",
+      "first_unique_destinations": "52",
+      "second_unique_destinations": "509",
+      "intersection_count": "52"
+    },
+    {
+      "first_category": "0x23",
+      "second_category": "0x2c.variant0",
+      "first_unique_destinations": "52",
+      "second_unique_destinations": "248",
+      "intersection_count": "49"
+    },
+    {
+      "first_category": "0x23",
+      "second_category": "0x2c.variant1",
+      "first_unique_destinations": "52",
+      "second_unique_destinations": "6",
+      "intersection_count": "1"
+    },
+    {
+      "first_category": "0x23",
+      "second_category": "0x2c.variant2",
+      "first_unique_destinations": "52",
+      "second_unique_destinations": "248",
+      "intersection_count": "49"
+    },
+    {
+      "first_category": "0x29",
+      "second_category": "0x2c.variant0",
+      "first_unique_destinations": "509",
+      "second_unique_destinations": "248",
+      "intersection_count": "248"
+    },
+    {
+      "first_category": "0x29",
+      "second_category": "0x2c.variant1",
+      "first_unique_destinations": "509",
+      "second_unique_destinations": "6",
+      "intersection_count": "6"
+    },
+    {
+      "first_category": "0x29",
+      "second_category": "0x2c.variant2",
+      "first_unique_destinations": "509",
+      "second_unique_destinations": "248",
+      "intersection_count": "248"
+    },
+    {
+      "first_category": "0x2c.variant0",
+      "second_category": "0x2c.variant1",
+      "first_unique_destinations": "248",
+      "second_unique_destinations": "6",
+      "intersection_count": "6"
+    },
+    {
+      "first_category": "0x2c.variant0",
+      "second_category": "0x2c.variant2",
+      "first_unique_destinations": "248",
+      "second_unique_destinations": "248",
+      "intersection_count": "248"
+    },
+    {
+      "first_category": "0x2c.variant1",
+      "second_category": "0x2c.variant2",
+      "first_unique_destinations": "6",
+      "second_unique_destinations": "248",
+      "intersection_count": "6"
+    }
+  ],
+  "pooled_weighted_destination_groups": 248,
+  "pooled_weighted_destinations_in_more_than_one_stream": 248,
+  "source_inputs_verified": 6,
+  "native_lookahead_access_established_here": false,
+  "normalization_or_weight_sum_rule_inferred": false,
+  "runtime_order_or_binding_proved": false,
+  "script_runs": "finalize_weighted_digest_v1.py once",
+  "source_artifacts": [
+    {
+      "name": "weighted-packets.csv",
+      "sha256": "a17d4fbd38225080616291288e37348602fbb924905ac631ad91dd70f6dde508",
+      "bytes": 71943
+    },
+    {
+      "name": "weighted-records.csv",
+      "sha256": "0f634a7bd96cd9222f1d81e1d8646537891249a3dae537e5c6cdc58132a82f08",
+      "bytes": 389340
+    },
+    {
+      "name": "stored-first-streams.csv",
+      "sha256": "ce49a3c2004781ba149e6e95d3a5f3737243a2f7913b1cfda4881a8aca97fb55",
+      "bytes": 14000
+    },
+    {
+      "name": "category-destination-intersections.csv",
+      "sha256": "8b7213e3175cac6acc70ec2ca0474a72d3521bb304db666d768e5744aace10eb",
+      "bytes": 12860
+    },
+    {
+      "name": "post-declared-packet-windows.csv",
+      "sha256": "75080bcdf0aa5903bd2166096c0c68cfaabdf6f39633bee5b4a436d43c5bf789",
+      "bytes": 22520
+    },
+    {
+      "name": "same-stream-packet-order.csv",
+      "sha256": "c598899f45fa5e7877f09c8faabe2583e6d1c3447ef4d2bd02643d544a24d08c",
+      "bytes": 228129
+    }
+  ],
+  "absent_real_sample_values": [
+    "negative signed weights",
+    "weight256 and larger signed weights",
+    "zero packet count",
+    "masked variants3..127",
+    "destination65535"
+  ],
+  "observed_boundary_values": {
+    "weight0": 30,
+    "weight255": 30
+  }
+}

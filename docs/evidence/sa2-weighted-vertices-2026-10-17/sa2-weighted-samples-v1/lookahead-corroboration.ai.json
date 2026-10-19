@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "version": 2,
+    "result": "passed",
+    "native_original_word_rows_rechecked": 232,
+    "selected_control_load_sites": 18,
+    "real_weighted_packets_covered": 83,
+    "lookahead_byte_count_histogram_under_Float32_contract": {
+      "28": 81,
+      "24": 2
+    },
+    "all_windows_cover_source_derived_access_range": true,
+    "declared_packet_tails_added": false,
+    "runtime_register_state_or_execution_observed": false,
+    "script_runs": "corroborate_lookahead_v2.py once",
+    "prior_version_failure": "V1 int(value,0) rejected bare hexadecimal instruction word; V2 uses explicit base16. No byte or native-code change."
+  },
+  "source_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\raw-audit.md",
+  "instruction_source": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\original-words.csv",
+  "source_snapshots": [
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-samples-v1\\summary.ai.json",
+      "sha256": "d9739d40e3f1532f93cdcbd7cac9c5956fd6213ce70dc4a233f75e4e4675f8ba"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-samples-v1\\weighted-packets.csv",
+      "sha256": "a17d4fbd38225080616291288e37348602fbb924905ac631ad91dd70f6dde508"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-samples-v1\\post-declared-packet-windows.csv",
+      "sha256": "75080bcdf0aa5903bd2166096c0c68cfaabdf6f39633bee5b4a436d43c5bf789"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-samples-v1\\corroborate_lookahead_v1.py",
+      "sha256": "651156f66b46878bafd08f2d103442f4478c534d978c52a7420deeb5afbafd86"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\raw-audit.md",
+      "sha256": "cae81b9be701cad01053f7d1ce1352ab3f9448e376265109c109316bba56bda1"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\raw-audit.ai.md",
+      "sha256": "a679d05fd1c70f19b99197d15a8a228112a6f48722049d3965bd4aec81c4eb85"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\raw-audit.ai.json",
+      "sha256": "d246f4b2e21911a658561152dd3607df44924a63b9e8939f3d6ca54ba928a674"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\original-words.csv",
+      "sha256": "02f4147c8fa525ab02f6ddab4c5542854e28ba3186cb14338939548a2a1a6895"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-transform-v1\\PSQ-fields.csv",
+      "sha256": "fbf8c658cf507e4b3536e9a4db51ff9c7ed097deb3fbcd704a077a88c565f7c4"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-weighted-samples-v1\\corroborate_lookahead_v2.py",
+      "sha256": "e8b5d5879d1e22585665426933f5152026afae30d6e8a28b542e2d2e7902343a"
+    }
+  ],
+  "scope": "Native control-flow facts are cross-referenced to the independent original-word audit; this script rechecks words and original-byte range coverage, not numerical results or CPU execution."
+}

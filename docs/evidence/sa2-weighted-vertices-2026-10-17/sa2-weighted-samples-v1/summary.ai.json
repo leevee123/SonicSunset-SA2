@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "result": "passed",
+  "sample": "GSNE8P rev0 sonicmdl.prs",
+  "original_ISO_sha256": "c8f9db7c936fffed7a5ea12a099c39ad3197208731ebbe4bcdfc3cec9b350638",
+  "FST_index": 2428,
+  "stored_ISO_offset": "0x479024a4",
+  "stored_bytes": 102331,
+  "stored_sha256": "d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99",
+  "PRS_consumed_bytes": 102331,
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "stored_first_streams_crosschecked": 100,
+  "all_packet_rows_crosschecked": 254,
+  "all_record_rows_crosschecked": 3167,
+  "original_mask_instruction_rows_verified": 72,
+  "weighted_packets": 83,
+  "weighted_records": 830,
+  "weighted_source_word_rows": 4980,
+  "packet_variants": {
+    "2": 43,
+    "0": 38,
+    "1": 2
+  },
+  "record_variants": {
+    "2": 412,
+    "0": 412,
+    "1": 6
+  },
+  "packet_counts_min_max": [
+    1,
+    66
+  ],
+  "zero_count_packets": 0,
+  "unknown_variants_outside0_1_2": 0,
+  "first_scratch_words": {
+    "0": 45,
+    "26": 1,
+    "2": 1,
+    "32": 2,
+    "8": 1,
+    "86": 2,
+    "212": 1,
+    "206": 1,
+    "286": 1,
+    "122": 1,
+    "200": 1,
+    "284": 1,
+    "220": 1,
+    "232": 1,
+    "134": 1,
+    "6": 3,
+    "10": 3,
+    "44": 1,
+    "42": 1,
+    "84": 1,
+    "48": 2,
+    "52": 2,
+    "36": 1,
+    "16": 1,
+    "30": 1,
+    "62": 1,
+    "18": 1,
+    "60": 1,
+    "34": 1,
+    "24": 1,
+    "22": 1
+  },
+  "weighted_header_bit15_set_packets": 83,
+  "weight_signed_min_max": [
+    0,
+    255
+  ],
+  "weight_unique_values": 187,
+  "negative_weight_records": 0,
+  "zero_weight_records": 30,
+  "weight255_records": 30,
+  "weight256_records": 0,
+  "raw_destination_min_max": [
+    0,
+    317
+  ],
+  "relative_destination_min_max": [
+    2,
+    317
+  ],
+  "unique_weighted_relative_destinations": 248,
+  "within_packet_duplicate_destination_groups": 0,
+  "weighted_packets_with_declared_tail": 0,
+  "weighted_declared_tail_bytes": 0,
+  "post_declared_windows": 83,
+  "post_declared_available_bytes_histogram": {
+    "28": 83
+  },
+  "weighted_packets_followed_by_same_stream_EOS": 65,
+  "same_stream_packet_pairs": 57,
+  "same_stream_packet_pairs_with_destination_overlap": 0,
+  "same_stream_weighted_mode_pairs_with_destination_overlap": 0,
+  "same_stream_2c_vs23_29_pairs_with_overlap": 0,
+  "source_f32_candidate_classes": {
+    "finite_nonzero": 4980
+  },
+  "protected_files_unchanged": 130,
+  "recorded_hashes_verified": 119,
+  "native_or_engine_execution": false,
+  "normalizing_or_weight_sum_rule_inferred": false,
+  "runtime_node_stream_order_or_scratch_binding_proved": false,
+  "offset_space": "decoded sonicmdl.prs bytes; compressed ISO offset recorded separately",
+  "script_runs": "audit_weighted_samples_v1.py once",
+  "engine_files_changed": [],
+  "unknowns": [
+    "Actual matrix inputs are external state, not these six raw record source words.",
+    "Weight normalization, sums, combined influence meaning and numerical results; no such rule is inferred.",
+    "Runtime matrix/node traversal, cross-stream order, cache/binding and prior scratch initialization/capacity.",
+    "The file proves exact declared spans and bytes after them; native pipeline accesses and unused/discarded loads require the separate original instruction audit.",
+    "Negative/boundary weights, other counts/variants and malformed inputs absent from this real sample remain unvalidated by this inventory."
+  ],
+  "schemas": [
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\input-artifacts.csv",
+      "field_names": [
+        "path",
+        "bytes",
+        "sha256"
+      ],
+      "rows": 12,
+      "sha256": "6752868ec5bcf1a19f9c85adb30c15bbb9b508960a9b57da418d8c826135759d"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\consumer-source-artifacts.csv",
+      "field_names": [
+        "view",
+        "entry",
+        "dol_offset",
+        "kind",
+        "path",
+        "sha256",
+        "body_ranges",
+        "status",
+        "warning_categories"
+      ],
+      "rows": 105,
+      "sha256": "3ef49650c3a62f40ab1bc5c0bd453be1d89b0d5d5c8f069c155e33495ddabd66"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\first-stream-original-mask-words.csv",
+      "field_names": [
+        "entry",
+        "original_virtual_address",
+        "dol_offset",
+        "iso_offset",
+        "word",
+        "opcode",
+        "RT_RS",
+        "RA",
+        "RB_SH",
+        "decoded",
+        "immediate_signed",
+        "target",
+        "shift",
+        "mask_begin",
+        "mask_end",
+        "mask_hex",
+        "immediate_unsigned"
+      ],
+      "rows": 72,
+      "sha256": "77482e0378aad7cd3ee51775edaba1c79cbb483714c8d38d8feccb78c6667dfa"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\first-stream-sample-packets.csv",
+      "field_names": [
+        "stream_decoded_offset",
+        "payload_owners",
+        "packet_decoded_offset",
+        "raw_header",
+        "opcode",
+        "terminal",
+        "raw_info",
+        "count_high16",
+        "scratch_start_low16",
+        "encoded_size_high16_words",
+        "variant_7bits_for_2c",
+        "data_decoded_offset",
+        "data_bytes",
+        "encoded_span_bytes",
+        "next_decoded_offset",
+        "raw_span",
+        "record_bytes_proven_for_sample_opcode",
+        "next_offset_unread",
+        "info_word_unread"
+      ],
+      "rows": 254,
+      "sha256": "2623d08cfa44152257470d0582caa92ea0a02bdf038fc903ae5fe1d41d9dcaec"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\first-stream-sample-records.csv",
+      "field_names": [
+        "stream_decoded_offset",
+        "packet_decoded_offset",
+        "opcode",
+        "ordinal",
+        "record_decoded_offset",
+        "record_bytes",
+        "raw_record",
+        "first_scalar_words",
+        "BE_float_view_assumes_GQR0_float",
+        "BE_float_values",
+        "scratch_destination_index",
+        "raw_weight_halfword",
+        "signed_weight_word24",
+        "u16_destination_word26",
+        "weight_CPU_loadtype",
+        "packed_word12",
+        "original_rotate_left8"
+      ],
+      "rows": 3167,
+      "sha256": "373efad54769b2fd17d851b8a6861c73b570ae5978e58c1da71eafc01c54a054"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\first-stream-sample-streams.csv",
+      "field_names": [
+        "stream_decoded_offset",
+        "payload_owners",
+        "nonterminal_packets",
+        "records",
+        "EOS_decoded_offset",
+        "consumed_bytes_through_EOS",
+        "consumed_sha256"
+      ],
+      "rows": 100,
+      "sha256": "8d308ccecfd1928928392f67437ef895a2572497fdeeb5ebd16f1b17c56d15eb"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-payload-consumers\\sample-payload-headers.csv",
+      "field_names": [
+        "payload_offset",
+        "raw_24_bytes",
+        "stream_0",
+        "stream_4",
+        "field_08_raw",
+        "field_0c_raw",
+        "field_10_raw",
+        "field_14_raw"
+      ],
+      "rows": 115,
+      "sha256": "da74c3932e80ca41dc079e7aae91c5b0c4edf7c27943024aff8f36f5f0dbe97c"
+    }
+  ],
+  "boundary_values": [
+    {
+      "field": "signed_weight",
+      "value": -32768,
+      "record_count": 0
+    },
+    {
+      "field": "signed_weight",
+      "value": -1,
+      "record_count": 0
+    },
+    {
+      "field": "signed_weight",
+      "value": 0,
+      "record_count": 30
+    },
+    {
+      "field": "signed_weight",
+      "value": 1,
+      "record_count": 7
+    },
+    {
+      "field": "signed_weight",
+      "value": 127,
+      "record_count": 4
+    },
+    {
+      "field": "signed_weight",
+      "value": 128,
+      "record_count": 41
+    },
+    {
+      "field": "signed_weight",
+      "value": 254,
+      "record_count": 7
+    },
+    {
+      "field": "signed_weight",
+      "value": 255,
+      "record_count": 30
+    },
+    {
+      "field": "signed_weight",
+      "value": 256,
+      "record_count": 0
+    },
+    {
+      "field": "signed_weight",
+      "value": 32767,
+      "record_count": 0
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 0,
+      "record_count": 38
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 1,
+      "record_count": 35
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 255,
+      "record_count": 0
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 256,
+      "record_count": 0
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 508,
+      "record_count": 0
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 509,
+      "record_count": 0
+    },
+    {
+      "field": "raw_destination_u16",
+      "value": 65535,
+      "record_count": 0
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "all-record-destination-selectors.csv",
+      "bytes": 511773,
+      "sha256": "c7224a37653bc44550050acbb42772cfd410c601c8d1ceec6670510c0ab27221"
+    },
+    {
+      "name": "audit_weighted_samples_v1.py",
+      "bytes": 30058,
+      "sha256": "365d8d01d9a15fa5bdde7c98bd0e9ecdb13e778746ad4039e59a15d319ab8c51"
+    },
+    {
+      "name": "boundary-values.csv",
+      "bytes": 428,
+      "sha256": "314f141b31d32f490a2aa736c36325ce0a7c267cc7584fe4eef68af297bd4c69"
+    },
+    {
+      "name": "category-destination-intersections.csv",
+      "bytes": 12860,
+      "sha256": "8b7213e3175cac6acc70ec2ca0474a72d3521bb304db666d768e5744aace10eb"
+    },
+    {
+      "name": "destination-value-histogram.csv",
+      "bytes": 1738,
+      "sha256": "2407bd8095e1dcf9813207e2a3e4ac0e498a5dd6a51c6f004a19da0745880d94"
+    },
+    {
+      "name": "input-schemas.csv",
+      "bytes": 2653,
+      "sha256": "68d78d6aa95e8f01297d85e7aa0712b5fdf19662ea3635d0ede07cc34af3f8c5"
+    },
+    {
+      "name": "post-declared-packet-windows.csv",
+      "bytes": 22520,
+      "sha256": "75080bcdf0aa5903bd2166096c0c68cfaabdf6f39633bee5b4a436d43c5bf789"
+    },
+    {
+      "name": "same-stream-destination-history.csv",
+      "bytes": 562614,
+      "sha256": "7a6e4c437cbcd8e111b833f241fb25713191df5e5ad32a8846bbde02509c6985"
+    },
+    {
+      "name": "same-stream-packet-intersections.csv",
+      "bytes": 5203,
+      "sha256": "6e8f2ca7ac27cfb79638523036816cb1ccea4fc036d9608debb8a671196d9179"
+    },
+    {
+      "name": "same-stream-packet-order.csv",
+      "bytes": 228129,
+      "sha256": "c598899f45fa5e7877f09c8faabe2583e6d1c3447ef4d2bd02643d544a24d08c"
+    },
+    {
+      "name": "source-digests.csv",
+      "bytes": 50279,
+      "sha256": "81c0a03aa32e9f566e8c14771754dda1a85242525b731dd7e7a40fa4f0e8c44d"
+    },
+    {
+      "name": "stored-first-streams.csv",
+      "bytes": 14000,
+      "sha256": "ce49a3c2004781ba149e6e95d3a5f3737243a2f7913b1cfda4881a8aca97fb55"
+    },
+    {
+      "name": "weight-value-histogram.csv",
+      "bytes": 1274,
+      "sha256": "787ad49fea8395c9e43d6c9db7be49a4cfde133253300fd13a6679170b092b44"
+    },
+    {
+      "name": "weighted-packets.ai.json",
+      "bytes": 1525264,
+      "sha256": "21928d3a4e012ac104b093bf81afeeb50af3809bb4c8cf486bed156fa5345bbb"
+    },
+    {
+      "name": "weighted-packets.csv",
+      "bytes": 71943,
+      "sha256": "a17d4fbd38225080616291288e37348602fbb924905ac631ad91dd70f6dde508"
+    },
+    {
+      "name": "weighted-records.csv",
+      "bytes": 389340,
+      "sha256": "0f634a7bd96cd9222f1d81e1d8646537891249a3dae537e5c6cdc58132a82f08"
+    },
+    {
+      "name": "weighted-source-words.csv",
+      "bytes": 640732,
+      "sha256": "fc22adaa234c07dd260c95b49b2a01955a2cdd5213295d83b6f82a985788149c"
+    },
+    {
+      "name": "weighted-within-packet-duplicate-destinations.csv",
+      "bytes": 91,
+      "sha256": "1cc3db37cf571b6a44cedde3fb33321de6b01a480ebcd5d18244e6207c542f0a"
+    }
+  ]
+}
