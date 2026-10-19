@@ -1,0 +1,9 @@
+case_id,step,va,old,new
+real_088_identity,42,0x8011d2a4,a5a50040,a5a50043
+real_088_signed_nonuniform,42,0x8011d2a4,a5a50040,a5a50043
+real_088_non_diagonal,42,0x8011d2a4,a5a50040,a5a50043
+real_089_identity,42,0x8011d2a4,a5a50040,a5a50043
+real_089_signed_nonuniform,42,0x8011d2a4,a5a50040,a5a50043
+real_089_non_diagonal,42,0x8011d2a4,a5a50040,a5a50043
+synthetic_23_state_OR3_GQR_preserve,42,0x8011d2a4,fffffffc,ffffffff
+synthetic_23_then_weighted_preserve_raw24,42,0x8011d2a4,deadbeec,deadbeef

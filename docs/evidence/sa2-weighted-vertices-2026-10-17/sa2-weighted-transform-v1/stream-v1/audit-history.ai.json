@@ -1,0 +1,14 @@
+{
+  "v1": {
+    "runs": 1,
+    "status": "audit_metadata_failure_after_successful_math_and_input_checks",
+    "reason": "Hexadecimal ISO base from JSON was a string, added to an integer offset."
+  },
+  "v2": {
+    "runs": 1,
+    "status": "pass",
+    "fix": "Parse ISO metadata using int(value, 0).",
+    "frozen_case_manifest_sha256": "2ec2e706c87cad90c67918b58a2c1481e1f973a2f8bd25d4da37f87d998f4a9f"
+  },
+  "oracle_case_schema_bytes_or_production_changes": false
+}
