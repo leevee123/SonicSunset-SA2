@@ -1,0 +1,562 @@
+{
+  "status": "bounded dispatch/attribute/raw-layout contract complete; GPU/FP/runtime not reproduced",
+  "scope": {
+    "version": 1,
+    "scope": "bounded40 functions: dispatcher,7 emitters,20 local FIFO helpers,12 state/attribute/flush helpers; no caller/reset/module/FP closure",
+    "function_count": 40,
+    "original_words": 1907,
+    "retained_ASM_rows_compared": 1868,
+    "direct_call_rows_two_views": 290,
+    "computed_call_rows_two_views": 2,
+    "identified_direct_FIFO_store_rows": 44,
+    "input_sources": 129,
+    "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "FIFO_helpers": [
+      {
+        "entry": "0x8011d678",
+        "stores": []
+      },
+      {
+        "entry": "0x8011d67c",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011d690",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011d788",
+        "stores": []
+      },
+      {
+        "entry": "0x8011d78c",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011d7a0",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011d8e0",
+        "stores": []
+      },
+      {
+        "entry": "0x8011d8e4",
+        "stores": [
+          [
+            "sth",
+            "r3"
+          ],
+          [
+            "sth",
+            "r4"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011d8f4",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011d908",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011da04",
+        "stores": []
+      },
+      {
+        "entry": "0x8011da08",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011da1c",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011ffd0",
+        "stores": []
+      },
+      {
+        "entry": "0x8011ffd4",
+        "stores": [
+          [
+            "stw",
+            "r3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x8011ffe0",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x80120124",
+        "stores": []
+      },
+      {
+        "entry": "0x80120128",
+        "stores": [
+          [
+            "sth",
+            "r3"
+          ],
+          [
+            "sth",
+            "r4"
+          ]
+        ]
+      },
+      {
+        "entry": "0x80120138",
+        "stores": [
+          [
+            "stw",
+            "r3"
+          ]
+        ]
+      },
+      {
+        "entry": "0x80120144",
+        "stores": [
+          [
+            "stfs",
+            "f1"
+          ],
+          [
+            "stfs",
+            "f2"
+          ],
+          [
+            "stfs",
+            "f3"
+          ]
+        ]
+      }
+    ],
+    "limitations": [
+      "C and graph outputs remain generated analyses.",
+      "Direct FIFO-store tracking only follows simple local constant bases; all original words retained.",
+      "No topology, floating-point, cache-lifetime, allocation or retail-execution claim."
+    ]
+  },
+  "handler_layouts": [
+    {
+      "entry": "0x8011d594",
+      "raw_opcodes": "0x40",
+      "condition_at_draw_stage": "effective flag0x40 clear; live state0x803AE148 mask0x2 clear; either pending state",
+      "record_halfwords": "1 + ((rawInfo>>14)&3)",
+      "first_word": "signed16 scratch index; preserve raw bits",
+      "following_pair": "not consumed as a pair; extra info skips opaque",
+      "scratch_reads": "lfs+0,+4,+8 then lfs+C,+10,+14",
+      "descriptor_calls": "reset; (9,1); (10,1)",
+      "FIFO_per_record": "3 stfs then3 stfs"
+    },
+    {
+      "entry": "0x8011d6a4",
+      "raw_opcodes": "0x40",
+      "condition_at_draw_stage": "effective flag0x40 set; state mask0x2 ignored; either pending state",
+      "record_halfwords": "1 + ((rawInfo>>14)&3)",
+      "first_word": "signed16 scratch index; preserve raw bits",
+      "following_pair": "not consumed as a pair; extra info skips opaque",
+      "scratch_reads": "lfs+0,+4,+8 then lfs+C,+10,+14",
+      "descriptor_calls": "reset; (9,1); (10,1)",
+      "FIFO_per_record": "3 stfs then3 stfs"
+    },
+    {
+      "entry": "0x8011fef4",
+      "raw_opcodes": "0x40",
+      "condition_at_draw_stage": "effective flag0x40 clear; live state0x803AE148 mask0x2 set; either pending state",
+      "record_halfwords": "1 + ((rawInfo>>14)&3)",
+      "first_word": "signed16 scratch index; preserve raw bits",
+      "following_pair": "not consumed as a pair; extra info skips opaque",
+      "scratch_reads": "lfs+0,+4,+8 then lwz+18",
+      "descriptor_calls": "reset; (9,1); (11,1)",
+      "FIFO_per_record": "3 stfs then1 stw"
+    },
+    {
+      "entry": "0x8011d7b4",
+      "raw_opcodes": "0x41|0x42",
+      "condition_at_draw_stage": "effective flag0x40 clear; live state0x803AE148 mask0x2 clear; either pending state; current stream only",
+      "record_halfwords": "3 fixed; info skip bits discarded",
+      "first_word": "signed16 scratch index; preserve raw bits",
+      "following_pair": "two signed16 loads and two sth; preserve raw bits",
+      "scratch_reads": "lfs+0,+4,+8 then lfs+C,+10,+14",
+      "descriptor_calls": "format(0,13,1,3,opcode0x42?12:8); reset; (9,1); (10,1); (13,1)",
+      "FIFO_per_record": "3 stfs then3 stfs then2 sth"
+    },
+    {
+      "entry": "0x8011fff4",
+      "raw_opcodes": "0x41|0x42",
+      "condition_at_draw_stage": "effective flag0x40 clear; live state0x803AE148 mask0x2 set; pending zero",
+      "record_halfwords": "3 + ((rawInfo>>14)&3)",
+      "first_word": "signed16 scratch index; preserve raw bits",
+      "following_pair": "two signed16 loads and two sth; preserve raw bits",
+      "scratch_reads": "lfs+0,+4,+8 then lwz+18",
+      "descriptor_calls": "format(0,13,1,3,opcode0x42?12:8); reset; (9,1); (11,1); (13,1)",
+      "FIFO_per_record": "3 stfs then1 stw then2 sth"
+    },
+    {
+      "entry": "0x8011d91c",
+      "raw_opcodes": "0x41|0x42",
+      "condition_at_draw_stage": "effective flag0x40 set; state mask0x2 ignored; either pending state",
+      "record_halfwords": "3 + ((rawInfo>>14)&3)",
+      "first_word": "signed16 scratch index; preserve raw bits",
+      "following_pair": "two words skipped WITHOUT loads/emission; opaque",
+      "scratch_reads": "lfs+0,+4,+8 then lfs+C,+10,+14",
+      "descriptor_calls": "reset; (9,1); (10,1)",
+      "FIFO_per_record": "3 stfs then3 stfs"
+    },
+    {
+      "entry": "0x80120158",
+      "raw_opcodes": "0x41|0x42",
+      "condition_at_draw_stage": "effective flag0x40 clear; live state0x803AE148 mask0x2 set; pending nonzero; pointer-array path",
+      "record_halfwords": "multiple streams mutated independently; excluded from single-stream reader",
+      "first_word": "scratch index from stream0 only; others skip corresponding word",
+      "following_pair": "one pair from each stream; per-stream opcode0x42 format selector",
+      "scratch_reads": "lfs+0,+4,+8 then lwz+18 from stream0 index",
+      "descriptor_calls": "format(0,13+i,1,3,storedOpcode42[i]?12:8); reset; (9,1); (11,1); (13+i,1)",
+      "FIFO_per_record": "3 stfs then1 stw then2 sth per stream"
+    }
+  ],
+  "dispatch_inputs": [
+    "raw opcode captured before header override",
+    "effective signed high header byte; override under0x803AE0E8&0x800 using low16 masks0x803AE0E4/0x803AE0E0",
+    "saved effective flag byte for pending group",
+    "live0x803AE148&2 at draw selection",
+    "pending-group state and accumulated pointer array"
+  ],
+  "dispatch_stage_caveat": "First packet with zero pending and nonzero logical32-shift of sign-extended info>>14 is deferred. Table applies only once draw stage reached, not every raw geometry command.",
+  "raw_info": {
+    "group_count": "info &0x3fff",
+    "record_skip": "(info>>14)&3",
+    "outer_pending": "logical32 right-shift of signed16 info by14; not equivalent to raw high2 for bit15 set",
+    "group_count_zero": "native do-while has no zero guard; host rejection is conservative policy"
+  },
+  "prefix": {
+    "load": "signed16",
+    "count": "absolute value in32-bit integer, low16 passed to begin",
+    "min": 0,
+    "max": 32768,
+    "raw8000_magnitude": 32768,
+    "zero": "native no pre-loop guard; host reject",
+    "sign_effect": "all7 helpers use the same begin command0x98; no sign-dependent winding/topology conclusion"
+  },
+  "scratch_index": {
+    "load": "signed16 then shiftleft5 and add current r4 scratch base",
+    "capacity": "unknown",
+    "raw_reader": "retain bits and signed interpretation; do not dereference or normalize"
+  },
+  "pair": {
+    "native_load_when_used": "lha signed16",
+    "native_emit_when_used": "sth low16 r3 then r4",
+    "conversion": "none in these helpers",
+    "GX_format_numeric_arg": "8 for opcode41 /12 for opcode0x42 at attribute13, count1,type3; named units not assigned"
+  },
+  "attribute_calls": {
+    "baseline0x8011D2F4": [
+      [
+        0,
+        9,
+        1,
+        4,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        11,
+        1,
+        5,
+        0
+      ]
+    ],
+    "descriptor_reset": "0x80100cf8; numeric descriptor IDs recorded per handler",
+    "format_set": "0x80100d44; state-cache dirty bit0x10",
+    "descriptor_set": "0x80100830; state-cache dirty bit8",
+    "thunk0x8011D1AC": "forwards incoming r3..r6, inserts r7=0/r8=0x7D then calls0x801011D8",
+    "thunk_tuples_from_dispatch": [
+      [
+        0,
+        0,
+        1,
+        42,
+        0,
+        125
+      ],
+      [
+        0,
+        1,
+        4,
+        60,
+        0,
+        125
+      ],
+      [
+        "i",
+        1,
+        "i+4",
+        60,
+        0,
+        125
+      ]
+    ],
+    "GX_state_equivalence": "not established"
+  },
+  "FIFO": {
+    "address": "0xcc008000",
+    "all_identified_direct_static_store_sites": 44,
+    "local_helper_store_sites": 36,
+    "begin0x80101948": [
+      {
+        "va": "0x80101a00",
+        "store": "stb",
+        "source": "r0"
+      },
+      {
+        "va": "0x80101a04",
+        "store": "sth",
+        "source": "r31"
+      }
+    ],
+    "helper_sequences": {
+      "0x8011d678": [],
+      "0x8011d67c": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011d690": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011d788": [],
+      "0x8011d78c": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011d7a0": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011d8e0": [],
+      "0x8011d8e4": [
+        "sth:r3",
+        "sth:r4"
+      ],
+      "0x8011d8f4": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011d908": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011da04": [],
+      "0x8011da08": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011da1c": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x8011ffd0": [],
+      "0x8011ffd4": [
+        "stw:r3"
+      ],
+      "0x8011ffe0": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ],
+      "0x80120124": [],
+      "0x80120128": [
+        "sth:r3",
+        "sth:r4"
+      ],
+      "0x80120138": [
+        "stw:r3"
+      ],
+      "0x80120144": [
+        "stfs:f1",
+        "stfs:f2",
+        "stfs:f3"
+      ]
+    },
+    "packed_scratch18": "lwz/stw raw32; generated float-looking call expression is not a float-conversion proof",
+    "limit": "Full local helper stores and direct store sites retained; dirty-state flushes call other GX functions outside bounded closure, so this is not a complete dynamic GPU stream."
+  },
+  "minimal_safe_reader": {
+    "mode1": "IndexWithInfoSkips: op40, index plus opaque skip words",
+    "mode2": "IndexAndPair: op41/42, fixed3 halfwords",
+    "mode3": "IndexAndPairWithInfoSkips: op41/42,3+skip halfwords; trailing pair opaque underD91C",
+    "caller": "explicit helper-layout choice; do not infer native dispatch from header alone",
+    "preserve": [
+      "raw info and all count/index/pair/skip words",
+      "signed count prefix and abs8000=32768",
+      "declared command tail/padding"
+    ],
+    "host_reject": [
+      "wrong opcode/layout combination",
+      "info low14 zero",
+      "run prefix zero",
+      "truncated record spans or group prefixes"
+    ],
+    "exclude": [
+      "0x80120158 multi-stream collection",
+      "scratch dereference/FP/GPU/UV conversion",
+      "topology/winding/cache binding and native memory safety claims"
+    ]
+  },
+  "integer_validation": {
+    "all_halfwords": 65536,
+    "sample_geometry_validation": "not rerun here; root owns independent sample/reader validation",
+    "source_guards_unchanged": 129
+  },
+  "unknowns": [
+    "full GX state/flush semantics",
+    "retail cache contents and root/callback/culling order",
+    "scratch capacity/ownership and exact first-stream FP/GQR results",
+    "topology/winding meaning of command0x98",
+    "UV coordinate units/scaling/wrapping and rasterization",
+    "grouped-stream concrete runtime contents and safe native limits",
+    "exact floating-point and full function return ABI"
+  ],
+  "changes": {
+    "engine": [],
+    "repository": [],
+    "frozen_or_original": [],
+    "database_or_language": []
+  }
+}

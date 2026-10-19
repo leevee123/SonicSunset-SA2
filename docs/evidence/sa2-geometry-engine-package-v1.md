@@ -1,0 +1,1 @@
+Packaged geometry-data check PASS:73 commands/139 explicit layout views/952 signed-count groups/6561 corners/72 preserved tail bytes. Metadata and raw hashes match. No game media is included; the disc is unchanged. Local launcher uses existing machine paths. No actual mode selection, model rendering or gameplay is claimed.

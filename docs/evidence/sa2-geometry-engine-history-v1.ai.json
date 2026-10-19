@@ -1,0 +1,13 @@
+{
+  "engine_source_validation": "V2 PASS; production source unchanged after first compile",
+  "full_engine_build": "PASS",
+  "packaged_check": "PASS",
+  "helper_events": [
+    "Strict checker v1 opcode list inferred int; C4244/WX; production unit compiled. Checker v2 uses explicit uint16_t initializer list.",
+    "Python comparison v1 assumed extra_raw_words list; oracle has pipe-separated string. C++ completed, comparator failed. V2 actual schema passes and captured output remains scratch-only.",
+    "Read-only probes used one wrong cwd and two report paths before the reports existed; no changes.",
+    "Worker preserved absent retained-ASM probe, original-word fallback and one broad dirty-state store candidate later classified non-FIFO."
+  ],
+  "native_failure_claim": false,
+  "originals_frozen_projects_mutated": false
+}

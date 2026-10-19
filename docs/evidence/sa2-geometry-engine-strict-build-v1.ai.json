@@ -1,0 +1,5 @@
+{
+  "exit_code": 1,
+  "compiler": "Windows x64 MSVC/std:c++latest/W4/WX/O2",
+  "log_sha256": "3540a810d78201a3e673863ca5130f64b05d9d69fe952ad40a16ddc8cf16d38e"
+}

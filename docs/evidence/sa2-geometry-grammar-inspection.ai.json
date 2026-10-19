@@ -1,0 +1,23 @@
+{
+  "result": "original source/word inventory passed",
+  "core_functions": [
+    "0x8011d594",
+    "0x8011d6a4",
+    "0x8011d7b4",
+    "0x8011d91c",
+    "0x8011fef4",
+    "0x8011fff4",
+    "0x80120158"
+  ],
+  "function_scopes": 34,
+  "source_artifacts": 104,
+  "original_words": 713,
+  "retained_ASM_matched": 244,
+  "direct_call_rows": 156,
+  "missing_assembly_reason": "Successful core functions were exported C-only; original words selected directly through matched main/SDA body ranges.",
+  "DOL_ISO_base": "0x1e700",
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "decoder": "Reused AST-selected pure bounded decoder; added local convenience labels addic/lfs/stfs/neg/extsh without modifying original helper; unknown words retained.",
+  "native_execution": false,
+  "Ghidra_project_opens": 0
+}

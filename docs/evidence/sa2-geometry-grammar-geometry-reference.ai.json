@@ -1,0 +1,187 @@
+{
+  "result": "bounded original count/index/stride grammar established; no native drawing/runtime claim",
+  "human_report_sha256": "26b3c6cc8e86029abe24c0c46087915b7e6c8984a80e830186cea2eec3cc93fd",
+  "core_functions": [
+    {
+      "entry": "0x8011d594",
+      "dol_offset": "0x11a594",
+      "iso_offset": "0x138c94",
+      "ranges": "[[\"0x8011d594\", \"0x8011d678\"]]",
+      "words": "57"
+    },
+    {
+      "entry": "0x8011d6a4",
+      "dol_offset": "0x11a6a4",
+      "iso_offset": "0x138da4",
+      "ranges": "[[\"0x8011d6a4\", \"0x8011d788\"]]",
+      "words": "57"
+    },
+    {
+      "entry": "0x8011d7b4",
+      "dol_offset": "0x11a7b4",
+      "iso_offset": "0x138eb4",
+      "ranges": "[[\"0x8011d7b4\", \"0x8011d8e0\"]]",
+      "words": "75"
+    },
+    {
+      "entry": "0x8011d91c",
+      "dol_offset": "0x11a91c",
+      "iso_offset": "0x13901c",
+      "ranges": "[[\"0x8011d91c\", \"0x8011da04\"]]",
+      "words": "58"
+    },
+    {
+      "entry": "0x8011fef4",
+      "dol_offset": "0x11cef4",
+      "iso_offset": "0x13b5f4",
+      "ranges": "[[\"0x8011fef4\", \"0x8011ffd0\"]]",
+      "words": "55"
+    },
+    {
+      "entry": "0x8011fff4",
+      "dol_offset": "0x11cff4",
+      "iso_offset": "0x13b6f4",
+      "ranges": "[[\"0x8011fff4\", \"0x80120124\"]]",
+      "words": "76"
+    },
+    {
+      "entry": "0x80120158",
+      "dol_offset": "0x11d158",
+      "iso_offset": "0x13b858",
+      "ranges": "[[\"0x80120158\", \"0x801203e0\"]]",
+      "words": "162"
+    }
+  ],
+  "source_audit": {
+    "result": "original source/word inventory passed",
+    "core_functions": [
+      "0x8011d594",
+      "0x8011d6a4",
+      "0x8011d7b4",
+      "0x8011d91c",
+      "0x8011fef4",
+      "0x8011fff4",
+      "0x80120158"
+    ],
+    "function_scopes": 34,
+    "source_artifacts": 104,
+    "original_words": 713,
+    "retained_ASM_matched": 244,
+    "direct_call_rows": 156,
+    "missing_assembly_reason": "Successful core functions were exported C-only; original words selected directly through matched main/SDA body ranges.",
+    "DOL_ISO_base": "0x1e700",
+    "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "decoder": "Reused AST-selected pure bounded decoder; added local convenience labels addic/lfs/stfs/neg/extsh without modifying original helper; unknown words retained.",
+    "native_execution": false,
+    "Ghidra_project_opens": 0
+  },
+  "common": {
+    "run_count": "information&3FFF;native do-while,zero wraps2^32ifmemorysurvives",
+    "run_header": "BEs16;negate negative in32bits;raw8000\u219232768;zero likewise2^32inneriterations",
+    "index": "BEs16<<5 modulo32 +scratchbase;negative preserved",
+    "information_skips": "(information>>14)&3 EXACTMASK;distinctouterpendingunmaskedexpression"
+  },
+  "layouts_halfwords": {
+    "D594_D6A4_FEF4": "readindex;skipg;stride1+g",
+    "D7B4": "readsignedindex+signedpair;stride3 ignoresg",
+    "D91C": "readindex;skip2+g;stride3+g;pairNOTloaded",
+    "FFF4": "readsignedindex+signedpair;skipg;stride3+g",
+    "20158": "externalmutablepointerarray;runheaderfrom0;skipotherheaders;stream0index;foreach0..k secondaryskipindexthenreadpair;eachstreamstride3"
+  },
+  "scratch_fields": {
+    "scalar_paths": "lfs0,4,8/12,16,20",
+    "alternate_paths": "lfs0,4,8 + RAWlwz24;Cfloatpointerdoesnotestablishword24type",
+    "units_names": "unknown"
+  },
+  "setup_numeric_parameter": "D7B4/FFF4r6zero\u21928,nonzero\u219212fornumericattribute13;notUVmeaningproof",
+  "output": {
+    "classified_FIFO_stores": 38,
+    "broad_candidates": 39,
+    "non_FIFO_candidates": 1,
+    "validation_counter_correction": "FIFO_store_words39wasbroadselection,notallMMIO",
+    "C_loss": "scalartriples3stfs\u2192last;pair2sth\u2192last;beginbyte+halfword\u2192last",
+    "empty_end_helpers": [
+      "0x8011d678",
+      "0x8011d788",
+      "0x8011d8e0",
+      "0x8011da04",
+      "0x8011ffd0",
+      "0x80120124"
+    ],
+    "complete_GPU_transcript": false
+  },
+  "sample_validation": {
+    "result": "passed",
+    "real_geometry_packets": 73,
+    "explicit_layout_parses": 139,
+    "unique_data_bytes": 40582,
+    "sample_unambiguous_base_layout_runs": 952,
+    "sample_unambiguous_base_layout_records": 6561,
+    "raw_count_signs": {
+      "positive": 675,
+      "negative": 277
+    },
+    "absolute_count_range": [
+      3,
+      60
+    ],
+    "signed_index_range": [
+      0,
+      508
+    ],
+    "padding_bytes": 72,
+    "padding_values": [
+      "",
+      "0000"
+    ],
+    "runs_by_opcode": {
+      "0x41": 927,
+      "0x40": 25
+    },
+    "records_by_opcode": {
+      "0x41": 6371,
+      "0x40": 190
+    },
+    "raw_info_skip_counts": {
+      "0": 73
+    },
+    "full_count_cases": 65536,
+    "full_parameter_cases": 65536,
+    "full_index_cases": 65536,
+    "boundary_fixtures": 17,
+    "critical_words": 41,
+    "FIFO_store_words": 39,
+    "input_sources_reverified": 104,
+    "actual_runtime_layout_selection": "unknown; explicit layout parses are structural comparisons",
+    "sample_not_covering": [
+      "opcode42",
+      "nonzero info skips",
+      "outer groups",
+      "negative indices",
+      "zero count loops"
+    ],
+    "native_execution": false,
+    "engine_changes": []
+  },
+  "host_policy": [
+    "explicitcompatiblelayout/opcode",
+    "zeroouter/runreject",
+    "bounds/declaredspanreject",
+    "noindexdereference",
+    "keeprawsigns/tails/offset/padding",
+    "groupedunsupported"
+  ],
+  "unknowns": [
+    "runtimepath/header/globalstate",
+    "realgroupdata/capacity/aliases",
+    "scratchallocation/lifetime",
+    "topology/attribute/material/units",
+    "fullGPU/FP",
+    "otherbanks/versions/malformedexecution"
+  ],
+  "source_selection_limit": "7successfulcorefunctionsC-only/noindividualASM;matchedcatalograngesselectoriginalwords",
+  "engine_repository_frozen_mutations": [],
+  "project_opens": 0,
+  "native_execution": false,
+  "leaked_source": "none encountered or used"
+}

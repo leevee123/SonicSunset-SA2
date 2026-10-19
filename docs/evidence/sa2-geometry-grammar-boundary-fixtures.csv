@@ -1,0 +1,18 @@
+scenario,outcome,run_raw,signed_count,records,records_end,reason,stride_halfwords
+positive_one,preserved,0x1,1,1,4,,
+negative_one,preserved,0xffff,-1,1,4,,
+negative_minimum,preserved,0x8000,-32768,32768,65538,,
+zero_run,host_reject,,,,,host zero run-count rejection; native do-while would enter,
+index_info_skips_skips0,preserved,,,,4,,1
+index_info_skips_skips1,preserved,,,,6,,2
+index_info_skips_skips2,preserved,,,,8,,3
+index_info_skips_skips3,preserved,,,,10,,4
+index_pair_skips0,preserved,,,,8,,3
+index_pair_skips1,preserved,,,,8,,3
+index_pair_skips2,preserved,,,,8,,3
+index_pair_skips3,preserved,,,,8,,3
+index_pair_info_skips_skips0,preserved,,,,8,,3
+index_pair_info_skips_skips1,preserved,,,,10,,4
+index_pair_info_skips_skips2,preserved,,,,12,,5
+index_pair_info_skips_skips3,preserved,,,,14,,6
+zero_outer_count,host_reject,,,,,host zero outer-count rejection; native do-while would enter,

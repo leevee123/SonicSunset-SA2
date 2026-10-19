@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "scope": "bounded40 functions: dispatcher,7 emitters,20 local FIFO helpers,12 state/attribute/flush helpers; no caller/reset/module/FP closure",
+  "function_count": 40,
+  "original_words": 1907,
+  "retained_ASM_rows_compared": 1868,
+  "direct_call_rows_two_views": 290,
+  "computed_call_rows_two_views": 2,
+  "identified_direct_FIFO_store_rows": 44,
+  "input_sources": 129,
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "FIFO_helpers": [
+    {
+      "entry": "0x8011d678",
+      "stores": []
+    },
+    {
+      "entry": "0x8011d67c",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011d690",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011d788",
+      "stores": []
+    },
+    {
+      "entry": "0x8011d78c",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011d7a0",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011d8e0",
+      "stores": []
+    },
+    {
+      "entry": "0x8011d8e4",
+      "stores": [
+        [
+          "sth",
+          "r3"
+        ],
+        [
+          "sth",
+          "r4"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011d8f4",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011d908",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011da04",
+      "stores": []
+    },
+    {
+      "entry": "0x8011da08",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011da1c",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011ffd0",
+      "stores": []
+    },
+    {
+      "entry": "0x8011ffd4",
+      "stores": [
+        [
+          "stw",
+          "r3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x8011ffe0",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x80120124",
+      "stores": []
+    },
+    {
+      "entry": "0x80120128",
+      "stores": [
+        [
+          "sth",
+          "r3"
+        ],
+        [
+          "sth",
+          "r4"
+        ]
+      ]
+    },
+    {
+      "entry": "0x80120138",
+      "stores": [
+        [
+          "stw",
+          "r3"
+        ]
+      ]
+    },
+    {
+      "entry": "0x80120144",
+      "stores": [
+        [
+          "stfs",
+          "f1"
+        ],
+        [
+          "stfs",
+          "f2"
+        ],
+        [
+          "stfs",
+          "f3"
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "C and graph outputs remain generated analyses.",
+    "Direct FIFO-store tracking only follows simple local constant bases; all original words retained.",
+    "No topology, floating-point, cache-lifetime, allocation or retail-execution claim."
+  ]
+}

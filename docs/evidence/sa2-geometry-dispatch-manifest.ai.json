@@ -1,0 +1,121 @@
+{
+  "files": [
+    {
+      "path": "audit_dispatch_v1.py",
+      "bytes": 9376,
+      "sha256": "b5c145a9c5caad40711d299dea35c3864894777a7a01aedd77105dd9e10a6bc1"
+    },
+    {
+      "path": "C-first-feature-lines.csv",
+      "bytes": 96796,
+      "sha256": "8d57cff85adc6b3a00db677ecfe4fe1e7810ccccae1418a7e83d403aa2bd3c86"
+    },
+    {
+      "path": "canonical-contract-sites.csv",
+      "bytes": 8677,
+      "sha256": "2393c3dc51cbc79cab0d630fc646abb9dcbfb1da72f9b9ddb80d90ef9bbd07eb"
+    },
+    {
+      "path": "computed-calls.csv",
+      "bytes": 248,
+      "sha256": "c65e4d1e733aa2413a9f060a8ec72cf7242d726badf5e91a07878bf5984b122c"
+    },
+    {
+      "path": "contract-sites.ai.json",
+      "bytes": 180,
+      "sha256": "7a1480bb8a89ccf6a4c1c4f81bf841394a4d3d72277fbcf665fb8074360e378d"
+    },
+    {
+      "path": "contract-sites.md",
+      "bytes": 173,
+      "sha256": "d9327ae9662a7cd2589903713636d444afe392644f6e9dbc8dcdb567d5631eca"
+    },
+    {
+      "path": "direct-calls.csv",
+      "bytes": 37568,
+      "sha256": "9d93a62603fdd858bfb5601754e2e4f49307a7280973a68923392e3432600e80"
+    },
+    {
+      "path": "direct-FIFO-stores.csv",
+      "bytes": 13204,
+      "sha256": "0425bec6f57ed1db7f6da82385af920aef453f6d2460ecd62cba53a63dffac41"
+    },
+    {
+      "path": "dispatch-contract.ai.json",
+      "bytes": 15405,
+      "sha256": "ccd909b82daee12cff972e760eadc2683e0aa998e49dd904c7984958a3beb8de"
+    },
+    {
+      "path": "dispatch-contract.md",
+      "bytes": 7983,
+      "sha256": "81cfa9f660d722037395cf1dc346d1a067f9670d3ff6cd9cc4fd21006bc886f5"
+    },
+    {
+      "path": "dispatch-stride-load-windows.csv",
+      "bytes": 116384,
+      "sha256": "f27a2c0d486910d1938bca58afa17c0877d2b6af2c2cbdb76c9e7ed4ce6dfef7"
+    },
+    {
+      "path": "exhaustive-halfword-contract.csv",
+      "bytes": 2172294,
+      "sha256": "e52afd39c233d71e5a7690c63efaa6bcb2553e4a0aa7305fbbf3b93b5784ac83"
+    },
+    {
+      "path": "finalize_dispatch_contract_v1.py",
+      "bytes": 21796,
+      "sha256": "87186d4dc82f124b30a241bf548149dcfe55ecd71ef79a6c0a2ada3f47fe4ac4"
+    },
+    {
+      "path": "function-ranges.csv",
+      "bytes": 4041,
+      "sha256": "2caa5c325b60afc4c79c0e198d13fb517103aa8c948093a2011cd46053a0cf1b"
+    },
+    {
+      "path": "handler-layout-contract.csv",
+      "bytes": 2429,
+      "sha256": "8810eebc7ce14289e6ad59eb0b2845768b9d499d0164b4984d2f1a91c4550c3a"
+    },
+    {
+      "path": "input-source-hashes.csv",
+      "bytes": 16844,
+      "sha256": "d9556b05ca9a87f87ff28542cb052ef56fbe886a9f2d94b989f6ba1cefd6cffe"
+    },
+    {
+      "path": "inspect_contract_sites_v1.py",
+      "bytes": 1769,
+      "sha256": "737e13ad7b874fcb5eff902989808997d10f52b123558fba32115e828678b13c"
+    },
+    {
+      "path": "original-audit.ai.json",
+      "bytes": 4274,
+      "sha256": "765a6d19fe2ae144d45f6949bb9d17202c9bfbbb4031637d7ae8d469bc85ab99"
+    },
+    {
+      "path": "original-audit.md",
+      "bytes": 303,
+      "sha256": "d3f0705729c94be1700826a847e45d35612521e3809df2c4fae18057fdb6cc6d"
+    },
+    {
+      "path": "original-words.csv",
+      "bytes": 519143,
+      "sha256": "3132999199379e3cdcc89e4a061c96078c9db0ce56931dcef47073a0dcf62aa3"
+    },
+    {
+      "path": "polish_notation_v1.py",
+      "bytes": 3163,
+      "sha256": "bb44d1d2505d7c210cbe55c453bcfe0adecff4f628958c221f26a1b4c8667149"
+    },
+    {
+      "path": "source-hash-guards.csv",
+      "bytes": 17505,
+      "sha256": "5b09b01a6b7bcf491e32c24868ace9b43972d8fdacc2547bdd936f9ff6227fa1"
+    }
+  ],
+  "source_guards": 129,
+  "changes": {
+    "engine": [],
+    "repository": [],
+    "frozen_or_original": [],
+    "database_or_language": []
+  }
+}

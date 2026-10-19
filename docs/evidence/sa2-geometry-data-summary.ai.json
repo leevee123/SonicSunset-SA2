@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "result": "passed_candidate_basic_layouts",
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "geometry_commands": 73,
+  "opcodes": {
+    "0x41": 66,
+    "0x40": 7
+  },
+  "commands_with_nonzero_info_high2": 0,
+  "signed_run_records": 952,
+  "negative_signed_run_counts": 277,
+  "positive_signed_run_counts": 675,
+  "zero_signed_run_counts": 0,
+  "signed_run_count_min": -60,
+  "signed_run_count_max": 42,
+  "corner_records": 6561,
+  "corners_by_opcode": {
+    "0x41": 6371,
+    "0x40": 190
+  },
+  "index_raw_min": 0,
+  "index_raw_max": 508,
+  "negative_signed_indices": 0,
+  "unique_raw_indices": 509,
+  "extra_halfword_rows": 12742,
+  "extra_halfword_signed_min": -1,
+  "extra_halfword_signed_max": 256,
+  "declared_geometry_data_bytes": 40582,
+  "candidate_consumed_data_bytes": 40510,
+  "unconsumed_tail_bytes": 72,
+  "unconsumed_tail_lengths": {
+    "0": 37,
+    "2": 36
+  },
+  "unconsumed_tail_raw_patterns": {
+    "": 37,
+    "0000": 36
+  },
+  "selected_reader_functions": 6,
+  "original_reader_instruction_words": 378,
+  "protected_files_unchanged": 129,
+  "recorded_hashes_verified": 127,
+  "offset_space": "decoded sonicmdl.prs; original reader words have separate DOL offsets",
+  "native_execution": false,
+  "engine_execution": false,
+  "runtime_path_selected": false,
+  "topology_or_normalized_extra_field_meaning_inferred": false,
+  "engine_files_changed": [],
+  "script_runs": "inventory_geometry_v1.py once",
+  "candidate_contract": {
+    "run_count": "info & 0x3fff; only observed nonzero counts validated",
+    "run_prefix": "BE signed16; magnitude determines number of corner records in these native readers",
+    "plain_stride_halfwords": "1+((info>>14)&3), equal1 for all seven sample opcode40 commands",
+    "three_word_stride_halfwords": "3 in D7B4; 3+((info>>14)&3) in D91C/FFF4, equal3 in all sample opcode41 commands",
+    "corner_index": "first BE signed16 used with *0x20 in reader C; both signed and unsigned raw views retained",
+    "extra_fields": "raw halfwords only; no normalized interpretation",
+    "tail": "all remaining declared bytes preserved; not silently discarded or semantically named",
+    "context": "basic isolated reader with raw info; no claim of native branch or pending-state selection"
+  },
+  "unknowns": [
+    "Actual runtime parser pending-group state, header overrides, consumer branch and cache/caller ordering.",
+    "Topology, winding, normalized attribute meanings and any relation between signed run count sign and rendering output.",
+    "Meaning of remaining tail bytes; they are preserved as unconsumed bytes under the basic candidate layout.",
+    "Scratch availability/initialization, complete vertex data, numeric transforms and FIFO transcript.",
+    "Opcode42 and nonzero info-high2 inner layouts have source observations but no real sample validation here."
+  ],
+  "artifacts": [
+    {
+      "name": "geometry-corners.csv",
+      "bytes": 411756,
+      "sha256": "809b0eebd288f3b48c54669ff54af3bfa7e54be64f4fcd153ecb4f42f0816c01"
+    },
+    {
+      "name": "geometry-extra-halfwords.csv",
+      "bytes": 1343104,
+      "sha256": "490f083fa8f7167285752b6b610f6094f296ecacaf93142050c6bab27ccd0ffd"
+    },
+    {
+      "name": "geometry-oracle.ai.json",
+      "bytes": 3978474,
+      "sha256": "60d10a13b9ac49adcd7bb814c6d38d40af984d9f2e1ac854567768ff0a883a8e"
+    },
+    {
+      "name": "geometry-packets.csv",
+      "bytes": 193006,
+      "sha256": "6562bc0cb31713d3308f6b4cdccd2fbc2ca62b2c21aceab302f6914de7a0cdba"
+    },
+    {
+      "name": "geometry-runs.csv",
+      "bytes": 190069,
+      "sha256": "016290cf723ea419de948d3de3fd447db3197fb70143c4c59b8ff7101118b889"
+    },
+    {
+      "name": "inventory_geometry_v1.py",
+      "bytes": 18322,
+      "sha256": "8773d0bbac17acfc3b6250f6d3630f07298b9245fa92318f94b9de110d2ed71b"
+    },
+    {
+      "name": "reader-original-words.csv",
+      "bytes": 23296,
+      "sha256": "f382c5be018562700ed7e0c5c6a12041dfb63f7c7b5725d906cb03a424c724d9"
+    },
+    {
+      "name": "reader-source-features.csv",
+      "bytes": 8440,
+      "sha256": "258c2439345dc1bc7ca3a7eebfc6f8605dacf85a3d0e7b99d9d9b022f6927550"
+    },
+    {
+      "name": "source-digests.csv",
+      "bytes": 49345,
+      "sha256": "727380c5f2eb841b27264bf405821ab2bf46e5b4a77121aa0fddfa49cfa809b6"
+    }
+  ]
+}

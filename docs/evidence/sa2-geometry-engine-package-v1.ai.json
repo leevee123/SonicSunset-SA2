@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "package": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Geometry-Data-Check",
+  "launcher": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Geometry-Data-Check\\Start-SA2-Geometry-Data-Check.cmd",
+  "package_files_sha256": {
+    "check_geometry_data.py": "ff8f9a7e31f5da5b54263feaa162f50a187443df43bc78c60deb91c70c132233",
+    "geometry_data_check.exe": "faf7744fb80dc446efd423d1e283e6dc6b24684ac685e159b6d1ba6fc85d0a4a",
+    "Last-result.ai.json": "0e8b98703533b11d446ce7bbfb3aeb673e256d892f1d4c46f720002f3109f24b",
+    "Last-result.md": "c92c9b03a3b823c38b7e861dd7ce10849f5510f3a1c3c9dc7e4230ecdf20486a",
+    "Package-check.raw.log": "525b62236632dc527d39ec2950ea98b1b32f5d139af2a2e75bd8e31f4546afbd",
+    "README.ai.json": "a5075c12def1f8e48bade6caadb1c37387808ad0953a5bf53f2a5643f1357c0f",
+    "README.md": "fcce7608dbad49ff9f7b6edc49e46bac7dabc01165c16f556139348c01dbd21e",
+    "Reference.ai.json": "7ac0b519e2b029e71b1cfe1823cd2a53cc9498680ecc458359c68b6da0d308b6",
+    "Start-SA2-Geometry-Data-Check.cmd": "f3197131d7edf2df538e1afc504b8c47801db1d116960a12595ef0e6e0d292cd"
+  },
+  "result": {
+    "status": "PASS",
+    "scope": "Raw Sonic geometry records with explicit layouts; no model rendering, actual mode selection or gameplay execution.",
+    "unique_commands": 73,
+    "explicit_layout_views": 139,
+    "signed_count_groups": 952,
+    "corner_records": 6561,
+    "preserved_tail_bytes": 72,
+    "engine_boundary_checks": "geometry_preservation_cases=16 rejection_cases=19 passed",
+    "original_disc_modified": false,
+    "actual_runtime_mode_inferred": false
+  },
+  "run": "once/package-v1",
+  "game_media_included": false
+}

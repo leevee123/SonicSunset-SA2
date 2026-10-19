@@ -1,0 +1,193 @@
+{
+  "result": "passed",
+  "original_function": {
+    "original_va": "0x8011ccf8",
+    "dol_offset": "0x119cf8",
+    "iso_offset": "0x1383f8"
+  },
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "DOL_ISO_offset": "0x1e700",
+  "sample": {
+    "decoded_bytes": 136360,
+    "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "stored_ISO_offset": "0x479024a4",
+    "stored_bytes": 102331,
+    "stored_sha256": "d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99",
+    "coordinate_note": "All sample packet offsets refer to decompressed bytes; no direct offset mapping into PRS/ISO."
+  },
+  "source_artifacts": 38,
+  "ASM_rows_matched_original": 838,
+  "unique_ASM_addresses": 536,
+  "helper_words": 26,
+  "direct_call_rows_matched_original": 88,
+  "critical_words": 28,
+  "sample_payloads": 115,
+  "payloads_with_nonzero_stream4": 64,
+  "distinct_payload_stream4_roots": 64,
+  "all_linear_entries_including_definition_bodies": 79,
+  "stream_stops": {
+    "exact_end": 64,
+    "cache_define_return": 15
+  },
+  "packet_rows": 289,
+  "unique_packet_offsets": 289,
+  "unique_opcode_packets": {
+    "0x11": 13,
+    "0x8": 55,
+    "0x41": 66,
+    "0xff": 64,
+    "0x5": 15,
+    "0x4": 15,
+    "0x40": 7,
+    "0x13": 30,
+    "0x17": 6,
+    "0x14": 3,
+    "0x0": 15
+  },
+  "unique_kind_packets": {
+    "signed_length": 52,
+    "signed_argument": 55,
+    "unsigned_length_information": 73,
+    "exact_end": 64,
+    "cache_call_continue": 15,
+    "cache_define_return": 15,
+    "single_halfword": 15
+  },
+  "definitions": {
+    "0": [
+      "0x26d2",
+      "0xb892",
+      "0x10f62",
+      "0x129fa",
+      "0x1564a",
+      "0x17b4e",
+      "0x1856e",
+      "0x1b41e"
+    ],
+    "1": [
+      "0xe0ea",
+      "0xf9ae",
+      "0x1645e",
+      "0x17236",
+      "0x19a52",
+      "0x1a3fe",
+      "0x1ad02"
+    ]
+  },
+  "cache_call_candidates": 15,
+  "cache_candidate_counts": {
+    "8": 8,
+    "7": 7
+  },
+  "signed_length_range": [
+    2,
+    6
+  ],
+  "unsigned_length_range": [
+    6,
+    3738
+  ],
+  "information_effective_groups": {
+    "0": 73
+  },
+  "exhaustive_header_cases": 65536,
+  "header_classes": {
+    "single_halfword": 1536,
+    "cache_define_return": 256,
+    "cache_call_continue": 256,
+    "signed_argument": 2048,
+    "signed_length": 12288,
+    "unsigned_length_information": 49151,
+    "exact_end": 1
+  },
+  "exhaustive_length_cases": 65536,
+  "exhaustive_info_cases": 65536,
+  "boundary_fixtures": 10,
+  "control_trace_scenarios": [
+    {
+      "scenario": "synthetic_define_then_call_and_continue",
+      "initial_cache": {},
+      "caller_sequence": [
+        "0x0",
+        "0x6"
+      ],
+      "results": [
+        "returned",
+        "returned"
+      ],
+      "initial_counter": 0,
+      "final_counter": 0,
+      "final_cache": {
+        "7": "0x2"
+      },
+      "events": 6,
+      "qualification": "explicit synthetic caller state/order; no graphics or native execution"
+    },
+    {
+      "scenario": "synthetic_explicit_cache_counter_wrap",
+      "initial_cache": {
+        "7": "0x2"
+      },
+      "caller_sequence": [
+        "0x6"
+      ],
+      "results": [
+        "returned"
+      ],
+      "initial_counter": 0,
+      "final_counter": 4294967295,
+      "final_cache": {
+        "7": "0x2"
+      },
+      "events": 5,
+      "qualification": "explicit synthetic caller state/order; no graphics or native execution"
+    },
+    {
+      "scenario": "synthetic_unresolved_cache",
+      "initial_cache": {},
+      "caller_sequence": [
+        "0x6"
+      ],
+      "results": [
+        "unresolved_cache"
+      ],
+      "initial_counter": 0,
+      "final_counter": 0,
+      "final_cache": {},
+      "events": 1,
+      "qualification": "explicit synthetic caller state/order; no graphics or native execution"
+    },
+    {
+      "scenario": "real_bytes_explicit_same_index_candidate",
+      "initial_cache": {
+        "0": "0x26d2"
+      },
+      "caller_sequence": [
+        "0x1c38"
+      ],
+      "results": [
+        "returned"
+      ],
+      "initial_counter": 0,
+      "final_counter": 4294967295,
+      "final_cache": {
+        "0": "0x26d2"
+      },
+      "events": 7,
+      "qualification": "explicit synthetic caller state/order; no graphics or native execution"
+    }
+  ],
+  "host_guards": [
+    "file read bounds",
+    "encoded positive progress for linear scans",
+    "linear cursor cycle/budget",
+    "explicit cache presence in trace",
+    "call active-path cycle/depth/event budgets"
+  ],
+  "not_original_guards": true,
+  "native_execution": false,
+  "Ghidra_project_opens": 0,
+  "engine_repository_frozen_mutations": [],
+  "leaked_source": "none encountered or used",
+  "parallel_analysis": "All four team slots active; parent owns engine/docs and other workers own independent audits; this cursor/cache slice sequential."
+}

@@ -1,0 +1,8 @@
+ModelGeometryData.cpp
+geometry_data_check.cpp
+geometry_data_check.cpp(96): error C2220: the following warning is treated as an error
+geometry_data_check.cpp(96): warning C4244: 'initializing': conversion from 'const _Elem' to 'uint16_t', possible loss of data
+        with
+        [
+            _Elem=int
+        ]

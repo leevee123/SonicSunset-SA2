@@ -1,0 +1,5 @@
+{
+  "rows": 440,
+  "source": "original-words.csv; already source-word and offset checked",
+  "scope": "selected instructions only; full function bodies retained separately"
+}

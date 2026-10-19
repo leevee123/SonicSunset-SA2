@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "unique_commands": 73,
+  "explicit_layout_views": 139,
+  "unique_primitives": 952,
+  "unique_corner_records": 6561,
+  "metadata_primitives_across_views": 1879,
+  "metadata_records_across_views": 12932,
+  "declared_data_bytes": 40582,
+  "unconsumed_tail_bytes": 72,
+  "all_header_info_count_index_tail_word_offsets_raw_bytes_hashes_match": true,
+  "preservation_cases": 16,
+  "rejection_cases": 19,
+  "strict_compile": "Windows x64 MSVC/std:c++latest/W4/WX/O2 PASS after test-only typed-list fix",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\geometry-stage\\prepared\\src\\Importers\\SA2\\ModelGeometryData.h": "0c05287726d3f29b488e5bb4a7021f1671e810d47b465772c4922c0343ce1c17",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\geometry-stage\\prepared\\src\\Importers\\SA2\\ModelGeometryData.cpp": "817978103c5385003ab3b7dd397cb055920bb40dedb18eaf99f4cd77f19db79a",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\geometry_data_check_v2.cpp": "6368b57e4755082ce8eec9e2273cfd7216b71fe7a5fa5a62b6ee15c8538d1aca",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_geometry_data_v2.cmd": "cb93be36dff36167e6db7cfdd960804a710dae0e4959a82d58b9615f29da00f2",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-geometry-data-v1\\geometry-oracle.ai.json": "60d10a13b9ac49adcd7bb814c6d38d40af984d9f2e1ac854567768ff0a883a8e"
+  },
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "limits": [
+    "All real info high2 values are zero, so both paired layouts agree on real data; distinct skip behavior has original-word and synthetic coverage.",
+    "Explicit layouts do not establish actual runtime dispatch, pending groups, cache bindings or draw order.",
+    "Indices, counts and following words remain raw; no scratch dereference, topology, winding, normalized UV, matrix, skin, graphics or gameplay execution.",
+    "Declared-span containment and rejection of zero native do-while counts are host policies; malformed native behavior is not emulated.",
+    "Multi-stream80120158 is outside this single-stream API."
+  ],
+  "comparison_v1_failure": "Reference extra_raw_words is a pipe-separated string; V1 treated it as a list and failed in the comparator after C++ exited successfully. V2 uses the actual schema; original version/log retained.",
+  "helper_failure": "Strict v1 helper opcode initializer was inferred as int; W4/WX C4244. Production unit passed. V2 types the helper list uint16_t; original version/log retained."
+}

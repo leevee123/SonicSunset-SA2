@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+  "geometry_unit_compiled": true,
+  "executable_linked": true,
+  "compiler_errors": 0,
+  "raw_log_sha256": "adc8e937768a39d7de188b96d06456280ec04a84e62f56ad629fcf73a9f5f0cb",
+  "executable_sha256": "b110b05500b0c584137bb0c2e6a1f37c744cd872a73a00aace403325d00bf794",
+  "debug_information": "Existing invocation-only Embedded workaround; repository defaults unchanged",
+  "scope": "Raw geometry importer only; no native drawing, transform, animation or gameplay execution test"
+}
