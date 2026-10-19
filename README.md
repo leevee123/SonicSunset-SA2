@@ -1,21 +1,27 @@
-# SonicSunset-SA2
+# SonicSunset / SA2
 
-Private project backup for the SonicSunset engine and Sonic Adventure 2 reconstruction.
+C++ engine work for Sonic Adventure, Shadow the Hedgehog (2005), and Sonic Adventure 2 Battle, with Lua gameplay and documented reverse engineering.
 
-The complete reviewed snapshot contains **2,118 source, dependency and documentation files**. Disc images, extracted native game files, save states, local builds, credentials and private assistant directories are excluded.
+This is a work in progress. Sonic Adventure 2 is not fully decompiled, animated or playable in this engine. Original disc images, extracted game files, save states and local builds are not included.
 
-## Get the source
+## Current SA2 progress
 
-Download this repository through **Code → Download ZIP**, extract it, then double-click **Restore-Source.cmd** on this computer. It verifies the archive and every source-file hash before restoring the normal project into a new **Source** folder. It does not overwrite an existing Source folder, access the network or modify the uploaded parts. Python3.10+ can also run `python restore_source.py`.
+The engine has validated PRS and texture/palette loaders, REL and pointer-bank readers, model/drawing/geometry data readers, and explicit CPU vertex transforms. The latest weighted vertex and complete first-stream path passes314 weighted cases,309 stream cases and all65,536 signed weight values against independent original-instruction references. The full Windows x64 MSVC/Ninja Debug editor build passes.
 
-`source-upload.part01` and `source-upload.part02` together hold the complete source archive. They are transport files, not game data. The verified archive SHA256 is `17be8afe19f7950caad7c7b6b9762b158f62d5d9776faf3a4873fd62ae87f6d8`.
+Matrices, scratch buffers and state are explicit test inputs. Live animation, matrix/cache/material bindings, complete model rendering, levels, player physics and camera still need original evidence and implementation. Unknown opcode2A is rejected rather than guessed.
 
-## Current engine status
+## Working with the project
 
-Weighted vertices and complete first-stream calculations pass314 weighted cases,309 stream cases and all65,536 signed weights. The full Windows engine builds and links. SA2 is not yet fully decompiled or playable: live animation/cache/material bindings, rendering, levels and gameplay remain unfinished. Unknown2A behavior is not guessed.
+- Read [AGENTS.md](AGENTS.md) for repository instructions.
+- Start documentation at [docs/ai/README.md](docs/ai/README.md); human references are linked there.
+- Build/layout/runtime details: [architecture](docs/ARCHITECTURE.md).
+- SA2 status: [decompilation progress](docs/SA2_DECOMPILATION_PROGRESS.md).
+- Vertex reconstruction, function addresses and validation: [model reference](docs/SA2_MODEL_DATA_REFERENCE.md).
+- Exact engine edits: [engine changes](docs/ENGINE_CHANGES.md).
+- GitHub source policy and import method: [repository notes](docs/GITHUB.md).
 
-## GitHub file-tree import
+CMake3.28+, C++23 and the vendored dependencies are used. Configure with `cmake -S . -B build` and build with `cmake --build build`. Consult the architecture document for platform/editor settings and the tested Windows configuration. Supply your own game files locally; do not commit them.
 
-Expanding the snapshot into GitHub's browsable source tree is pending. Automatic approval review rejected a proposed import workflow because it would give GitHub Actions repository write/push permission. No such workflow or permission was enabled. The exact proposed workflow is saved as `proposed-import-workflow.yml.txt`; this text file cannot run as a GitHub workflow. The uploaded backup and local restoration work without granting that permission.
+Existing third-party license notices remain in their original directories. This import does not assign a new license to the project.
 
-Existing vendor license notices are preserved. No new project license was assigned.
+The importers and engine logic are published as normal `src/` and `Scripts/` files. See [the handoff guide](docs/HANDOFF.md) for where to continue, required game files, validation limits and the next unknowns. The original two-part snapshot remains as an older recovery backup.
