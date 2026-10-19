@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "bodyArchive": "al_body.prs",
+  "banks": [
+    "al_nc00.GVP",
+    "al_nc01.GVP",
+    "al_hcz.GVP",
+    "al_hcn.GVP",
+    "al_hcs.GVP",
+    "al_hcf.GVP",
+    "al_hcr.GVP",
+    "al_hcp.GVP",
+    "al_dc.GVP",
+    "al_hnz.GVP",
+    "al_hnn.GVP",
+    "al_hns.GVP",
+    "al_hnf.GVP",
+    "al_hnr.GVP",
+    "al_hnp.GVP",
+    "al_hsz.GVP",
+    "al_hsn.GVP",
+    "al_hss.GVP",
+    "al_hsf.GVP",
+    "al_hsr.GVP",
+    "al_hsp.GVP",
+    "al_hfz.GVP",
+    "al_hfn.GVP",
+    "al_hfs.GVP",
+    "al_hff.GVP",
+    "al_hfr.GVP",
+    "al_hfp.GVP",
+    "al_hrz.GVP",
+    "al_hrn.GVP",
+    "al_hrs.GVP",
+    "al_hrf.GVP",
+    "al_hrr.GVP",
+    "al_hrp.GVP",
+    "al_hpz.GVP",
+    "al_hpn.GVP",
+    "al_hps.GVP",
+    "al_hpf.GVP",
+    "al_hpr.GVP",
+    "al_hpp.GVP"
+  ],
+  "families": [
+    {
+      "label": "Family 1",
+      "type": 2,
+      "textureEntries": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "label": "Family 2",
+      "type": 6,
+      "textureEntries": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "label": "Family 3",
+      "type": 9,
+      "textureEntries": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "Family 4",
+      "type": 12,
+      "textureEntries": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "Family 5",
+      "type": 15,
+      "textureEntries": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "label": "Family 6",
+      "type": 18,
+      "textureEntries": [
+        15,
+        16,
+        17
+      ]
+    }
+  ]
+}
