@@ -1,0 +1,9 @@
+# GitHub compact twin
+
+CURRENT2026-10-19:https://github.com/leevee123/SonicSunset-SA2 PUBLIC, explicituser“makeitpublic”. GitHubsudoverificationcompletedBYUSERinbrowser/noOTPchat/storage;Settings“currentlypublic”verified. CreatedprivateOct18(historyinhuman). RemoteREADME/statusNOTchanged:optionalexternalcommitautoreviewrejectedoutsidevisibility-onlyrequest;uploadcancelled/oldPrivatewordingstale;setting+badgePUBLIC. Noenginecode/media/license/archivechange.
+
+2118-filecompleteengine/vendor/docsbackupin2parts/32274101B;archiveSHA17be8afe19f7950caad7c7b6b9762b158f62d5d9776faf3a4873fd62ae87f6d8. Restore-Source.cmd+restore_source.py→newSourcefolder/checkallpaths,size,SHA/nooverwrite/network;verify-only2118PASS. ExcludeISO/RVZ/gameassets/nativecorpora/build/save/privateassistant/env/credentials;vendorlicensespreserved/noprojectlicenseinvented. .gitignoreexclusions/.gitattributes*-textpreservesrawSHAbytes.
+
+BrowsabletreeimportSTILLpendingexplicitapproval. PriorautomaticreviewrejectedGitHubActionscontents:write+push;NOworkflowenabled;proposalINERTtxt. PublicvisibilitydoesNOTauthorizepreviousimport. NoPAT/localGitcredential/fakeclone;originalcheckoutZIP. Hardlinkfixturedenied→workspacecopies/restoreV2PASS/historypreserved.
+
+Weighted314+streams309+all65536weights/fullWindowsbuildPASS;localtestbundleoutputs. Livebindings/2A/render/animation/levels/gameplayunfinished/notfullgame. LastenginefilesModelVertexTransform.hcpp→ENGINE_CHANGES. HumanGITHUB.mdsourcepolicy/history.
