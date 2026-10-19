@@ -1,0 +1,11 @@
+path,sha256,bytes
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sa2-disc\main.dol,a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e,1960448
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\dol-elf-mapping-final.json,2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361,2071
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sa2-disc\sonicmdl.prs,d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99,102331
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sa2-disc\sonicmdl.prs.decoded,b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963,136360
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\prs-validation.csv,a965814658d8a0b24e2178bcaa606c36fb3c385d681ea51b3147d707b2754e63,257727
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sonicmdl-loader\DumpSonicLoader.java,70d79684eb9589c76df5021f3414f4ccfaa1f135d1471c15fcc2464f4fb17cee,3378
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sonicmdl-loader\compile.raw.log,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sonicmdl-loader\decode.raw.log,ff650e3a1e976fdd6736a734c28e77c43032ada7f7134e637029a3d7fe0217e6,430684
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\FullSa2ExportV4.java,7428f8e383b3c50196800648f008a344dde219820e3b3264be11e0a3f7d83011,48525
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_gekko_broadway.sla,aa25bde9ffb8f6366e1e490c6a488b1aced4665dc6c4f2fdca9cc598d5530975,99315

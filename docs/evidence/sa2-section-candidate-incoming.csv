@@ -1,0 +1,7 @@
+source_module,source_module_id,import_file_offset,stream_file_offset,source_section,source_section_offset,canonical_source_offset,type,width,target_module_id,target_section,addend,original_bytes,candidate_module,identity_scope,possible_target_paths,binding_ambiguous
+ChaoStgEntrance.prs,75,0x5086c,0x47184,1,0x2ee,0x3ce,6,2,75,1,0x0,0000,ChaoStgEntrance.prs,self_exact_file,ChaoStgEntrance.prs,False
+ChaoStgEntrance.prs,75,0x5086c,0x4718c,1,0x2f2,0x3d2,4,2,75,1,0x0,0000,ChaoStgEntrance.prs,self_exact_file,ChaoStgEntrance.prs,False
+ChaoStgLobby.rel,61,0x310a4,0x30a1c,1,0x362,0x442,6,2,61,1,0x0,0000,ChaoStgLobby.rel,self_exact_file,ChaoMotionsD.rel;ChaoStgLobby.rel,False
+ChaoStgLobby.rel,61,0x310a4,0x30a2c,1,0x36a,0x44a,4,2,61,1,0x0,0000,ChaoStgLobby.rel,self_exact_file,ChaoMotionsD.rel;ChaoStgLobby.rel,False
+ChaoStgOdekake.prs,73,0x10d21,0xcf81,1,0x1162,0x1242,6,2,73,1,0x0,0000,ChaoStgOdekake.prs,self_exact_file,ChaoStgOdekake.prs,False
+ChaoStgOdekake.prs,73,0x10d21,0xcf89,1,0x1166,0x1246,4,2,73,1,0x0,0000,ChaoStgOdekake.prs,self_exact_file,ChaoStgOdekake.prs,False

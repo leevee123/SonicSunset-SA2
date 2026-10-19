@@ -1,0 +1,11 @@
+module,canonical_file_offset,storage,bits,value
+ChaoStgOdekake.prs,0x96f0,BE32float,41a00000,20.0
+ChaoStgOdekake.prs,0x96f4,BE32float,434c0000,204.0
+ChaoStgOdekake.prs,0x96f8,BE32float,3d4ccccd,0.05000000074505806
+ChaoStgOdekake.prs,0x96fc,BE32float,3f800000,1.0
+ChaoStgOdekake.prs,0x9700,BE32float,3da3d70a,0.07999999821186066
+ChaoStgOdekake.prs,0x9704,BE32float,00000000,0.0
+ChaoStgOdekake.prs,0x9708,BE32float,42980000,76.0
+ChaoStgOdekake.prs,0x970c,BE32float,42600000,56.0
+ChaoStgOdekake.prs,0x9710,BE32float,c1f00000,-30.0
+ChaoStgOdekake.prs,0x9718,BE64double,4330000080000000,4503601774854144.0

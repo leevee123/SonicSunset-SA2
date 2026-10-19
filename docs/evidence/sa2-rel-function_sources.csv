@@ -1,0 +1,10 @@
+function,dol_file_offset,iso_absolute_offset,first_word,generated_c_sha256,evidence_status
+0x800e8114,0xe5114,0x103814,4e800020,289eb5f3694ccdeb15cba4e9230adc9125225bbdffb0fadd62469ceb87a094e3,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x800e8118,0xe5118,0x103818,4e800020,32edcfa8609ddaad6c49b192773ab906e0446673f042e7cfadaae249f73000ef,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x800e8128,0xe5128,0x103828,7c0802a6,dcd972d2f31e7e28cac4848f68ccdb7e6b0a3dd83df5f04ebab5f23bb73ab832,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x800e839c,0xe539c,0x103a9c,7c0802a6,798b3a24a6691670aef8ba674b87a4a51a17cf64986b157a4a8bd1437a40d3a6,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x800e85ec,0xe55ec,0x103cec,7c0802a6,c38c1651c7a74e21557beea457076283a05bcb02991b660d8b353de626f2b500,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x800e87f8,0xe57f8,0x103ef8,7c0802a6,153f86f35f0b20a0e9daaf309229eb83f2ac780090eba12f56bef3b51202dd47,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x80019d78,0x16d78,0x35478,7c0802a6,bffceaa05151c251e275bce40ba52b19ad4a91075d3f678993d55a55bf5917d2,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x80019e70,0x16e70,0x35570,7c0802a6,f5d1cb77ff14fdb3c19ad33cebca8570a106fcb2be18d27cdff064621a104458,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven
+0x8001a5b0,0x175b0,0x35cb0,7c0802a6,5c197e4e79193cb95182bb1a62500e67099c6de14e3fada79d65a71507b283a6,original bytes plus generated C reviewed for the bounded documented operations; complete prototype/behavior equivalence unproven

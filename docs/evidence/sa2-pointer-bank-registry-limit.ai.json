@@ -1,0 +1,12 @@
+{
+  "original_instruction_va": "0x8005025C",
+  "DOL_offset": "0x4D25C",
+  "ISO_offset": "0x6b95c",
+  "word": "0x2C000214",
+  "unsigned_positive_limit_hex": "0x214",
+  "limit_decimal": 532,
+  "eligible_max_decimal": 531,
+  "sample_eligible": 64,
+  "engine_and_reference_use_hex_limit": true,
+  "historical_prose_correction": "Agent report omitted hexadecimal notation and said 0..213; original words and code use 0..531."
+}

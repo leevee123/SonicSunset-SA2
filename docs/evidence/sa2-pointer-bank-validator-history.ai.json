@@ -1,0 +1,10 @@
+{
+  "status": "stopped_before_checker_execution",
+  "script": "work/validate_pointer_bank_v2.py",
+  "reason": "Loaded the earlier 242-file REL-only engine guard instead of the 244-file post-pointer-bank guard; assertion failed before Popen.",
+  "game_or_Cpp_check_failed": false,
+  "corrected_version": "work/validate_pointer_bank_v3.py",
+  "corrected_result": "PASS: 5 preservation/11 rejection cases; real 529 stores match in order.",
+  "earlier_V1": "Real Sonic case passed; later review added mutable-ID/sentinel alias cases and changed implementation.",
+  "source_versions_preserved": true
+}

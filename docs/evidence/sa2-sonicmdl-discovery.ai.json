@@ -1,0 +1,232 @@
+{
+  "strings": [
+    {
+      "needle": "sonicmdl",
+      "dol_offset": "0x1718b8",
+      "virtual_address": "0x801748b8",
+      "bytes": "4d4554414c534f4e49434d444c2e505253",
+      "text": "METALSONICMDL.PRS"
+    },
+    {
+      "needle": "sonicmdl",
+      "dol_offset": "0x17194c",
+      "virtual_address": "0x8017494c",
+      "bytes": "534f4e49434d444c2e505253",
+      "text": "SONICMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x1718b8",
+      "virtual_address": "0x801748b8",
+      "bytes": "4d4554414c534f4e49434d444c2e505253",
+      "text": "METALSONICMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x1718ec",
+      "virtual_address": "0x801748ec",
+      "bytes": "544552494f534d444c2e505253",
+      "text": "TERIOSMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171908",
+      "virtual_address": "0x80174908",
+      "bytes": "534841444f57314d444c2e505253",
+      "text": "SHADOW1MDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171928",
+      "virtual_address": "0x80174928",
+      "bytes": "414d594d444c2e505253",
+      "text": "AMYMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x17194c",
+      "virtual_address": "0x8017494c",
+      "bytes": "534f4e49434d444c2e505253",
+      "text": "SONICMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171968",
+      "virtual_address": "0x80174968",
+      "bytes": "534f4e4943314d444c2e505253",
+      "text": "SONIC1MDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171e14",
+      "virtual_address": "0x80174e14",
+      "bytes": "4348414f53304d444c2e505253",
+      "text": "CHAOS0MDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171e4c",
+      "virtual_address": "0x80174e4c",
+      "bytes": "544943414c4d444c2e505253",
+      "text": "TICALMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171e84",
+      "virtual_address": "0x80174e84",
+      "bytes": "524f5547454d444c2e505253",
+      "text": "ROUGEMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171ea0",
+      "virtual_address": "0x80174ea0",
+      "bytes": "42524f5547454d444c2e505253",
+      "text": "BROUGEMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171ebc",
+      "virtual_address": "0x80174ebc",
+      "bytes": "48524f5547454d444c2e505253",
+      "text": "HROUGEMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171ed8",
+      "virtual_address": "0x80174ed8",
+      "bytes": "58524f5547454d444c2e505253",
+      "text": "XROUGEMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171f10",
+      "virtual_address": "0x80174f10",
+      "bytes": "4b4e55434b4d444c2e505253",
+      "text": "KNUCKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171f2c",
+      "virtual_address": "0x80174f2c",
+      "bytes": "424b4e55434b4d444c2e505253",
+      "text": "BKNUCKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171f48",
+      "virtual_address": "0x80174f48",
+      "bytes": "484b4e55434b4d444c2e505253",
+      "text": "HKNUCKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171f64",
+      "virtual_address": "0x80174f64",
+      "bytes": "584b4e55434b4d444c2e505253",
+      "text": "XKNUCKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x171fa8",
+      "virtual_address": "0x80174fa8",
+      "bytes": "4d494c45534d444c2e505253",
+      "text": "MILESMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x17203c",
+      "virtual_address": "0x8017503c",
+      "bytes": "4457414c4b4d444c2e505253",
+      "text": "DWALKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x172068",
+      "virtual_address": "0x80175068",
+      "bytes": "4357414c4b4d444c2e505253",
+      "text": "CWALKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x172094",
+      "virtual_address": "0x80175094",
+      "bytes": "5457414c4b4d444c2e505253",
+      "text": "TWALKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x1720b0",
+      "virtual_address": "0x801750b0",
+      "bytes": "5457414c4b314d444c2e505253",
+      "text": "TWALK1MDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x1720dc",
+      "virtual_address": "0x801750dc",
+      "bytes": "4557414c4b4d444c2e505253",
+      "text": "EWALKMDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x1720f8",
+      "virtual_address": "0x801750f8",
+      "bytes": "4557414c4b324d444c2e505253",
+      "text": "EWALK2MDL.PRS"
+    },
+    {
+      "needle": "mdl.prs",
+      "dol_offset": "0x172740",
+      "virtual_address": "0x80175740",
+      "bytes": "4547474d444c2e505253",
+      "text": "EGGMDL.PRS"
+    }
+  ],
+  "source_references": [
+    {
+      "view": "context_free",
+      "entry": "0x80086ba4",
+      "dol_offset": "0x83ba4",
+      "source_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80086ba4.c",
+      "line": 43,
+      "text": "uVar3 = FUN_80050210(s_METALSONICMDL_PRS_801748b8);"
+    },
+    {
+      "view": "context_free",
+      "entry": "0x800874c0",
+      "dol_offset": "0x844c0",
+      "source_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800874c0.c",
+      "line": 46,
+      "text": "uVar3 = FUN_80050210(s_SONICMDL_PRS_8017494c);"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80086ba4",
+      "dol_offset": "0x83ba4",
+      "source_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80086ba4.c",
+      "line": 41,
+      "text": "uVar3 = FUN_80050210(s_METALSONICMDL_PRS_801748b8);"
+    },
+    {
+      "view": "sda",
+      "entry": "0x800874c0",
+      "dol_offset": "0x844c0",
+      "source_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800874c0.c",
+      "line": 44,
+      "text": "uVar3 = FUN_80050210(s_SONICMDL_PRS_8017494c);"
+    }
+  ],
+  "sample_metadata": {
+    "path": "sonicmdl.prs",
+    "disc_offset": "0x479024a4",
+    "compressed_size": "102331",
+    "consumed_size": "102331",
+    "decompressed_size": "136360",
+    "trailing_size": "0",
+    "sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "prefix": "0000000100010f2c000000020000cf68"
+  },
+  "source_artifacts": 6,
+  "scope": "Original literal search and matching C only; references/runtime invocation not yet proven."
+}

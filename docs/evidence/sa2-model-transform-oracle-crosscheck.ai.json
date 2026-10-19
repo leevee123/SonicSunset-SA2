@@ -1,0 +1,80 @@
+{
+  "status": "pass",
+  "per_lane_operation_rows": 166068,
+  "distinct_operation_operand_cases_CRT_checked": 102818,
+  "exact_oracle_vs_CRT_bit_mismatches": [],
+  "targeted_exact_zero_subnormal_checks": {
+    "mul_negative_zero": {
+      "actual": "80000000",
+      "expected": "80000000"
+    },
+    "mul_double_negative_zero": {
+      "actual": "00000000",
+      "expected": "00000000"
+    },
+    "fma_both_negative_zero": {
+      "actual": "80000000",
+      "expected": "80000000"
+    },
+    "fma_opposite_zero_a": {
+      "actual": "00000000",
+      "expected": "00000000"
+    },
+    "fma_opposite_zero_b": {
+      "actual": "00000000",
+      "expected": "00000000"
+    },
+    "fma_negative_product_zero": {
+      "actual": "80000000",
+      "expected": "80000000"
+    },
+    "fma_exact_cancellation": {
+      "actual": "00000000",
+      "expected": "00000000"
+    },
+    "fma_positive_half_min_subnormal": {
+      "actual": "00000000",
+      "expected": "00000000"
+    },
+    "fma_negative_half_min_subnormal": {
+      "actual": "80000000",
+      "expected": "80000000"
+    },
+    "fma_normal_boundary": {
+      "actual": "00800000",
+      "expected": "00800000"
+    },
+    "mul_subnormal_intermediate": {
+      "actual": "00400000",
+      "expected": "00400000"
+    },
+    "negative_subnormal_final_store": {
+      "actual": "80000000",
+      "expected": "80000000"
+    }
+  },
+  "synthetic_first_output_words": {
+    "synthetic_23_fused_cancellation": "a8800000",
+    "synthetic_23_signed_subnormal": "80000000",
+    "synthetic_23_signed_zero": "00000000",
+    "synthetic_29_fused_cancellation": "a8800000",
+    "synthetic_29_signed_subnormal": "80000000",
+    "synthetic_29_signed_zero": "00000000"
+  },
+  "input_paths_rehashed_unchanged": 18,
+  "discarded_lane_overflow_counterexamples": [
+    {
+      "opcode": "0x23",
+      "pc": "0x8011da88",
+      "reason": "rounded binary32 overflow",
+      "explanation": "The all-zero stored coefficients would yield finite stored components, but forced-one discarded lanes sum maximum finite source components and overflow. This oracle conservatively rejects all-lane overflow; engine retained-lane contract is narrower."
+    },
+    {
+      "opcode": "0x29",
+      "pc": "0x8011db60",
+      "reason": "rounded binary32 overflow",
+      "explanation": "The all-zero stored coefficients would yield finite stored components, but forced-one discarded lanes sum maximum finite source components and overflow. This oracle conservatively rejects all-lane overflow; engine retained-lane contract is narrower."
+    }
+  ],
+  "CRT_note": "Independent arithmetic cross-check, not hardware/Dolphin execution; nearest rounding and subnormal sanity passed; oracle primary remains exact rational."
+}

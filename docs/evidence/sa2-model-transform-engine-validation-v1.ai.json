@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Independent original-word finite Float32 contract; supplied matrices are test inputs, not live recovered matrices.",
+  "cases": 219,
+  "real_cases": 213,
+  "synthetic_cases": 6,
+  "real_unique_packets": 71,
+  "output_slots": 7017,
+  "complete_scratch_bytes_compared": 458112,
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\transform-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.cpp": "a7f00eb46756c8e51bda76d399693b01370f331dc2843ee976ad7e2eacea0645",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\transform-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.h": "83221782b523e4bc6a9d249f64f7826635cef3febf6ba820e9e5f0bb004070c6"
+  },
+  "checker_sha256": "6feb3c9eb895bbd19eb9a723b9b0330b1a1920a49d13adb0441f2d6fd253d841",
+  "oracle_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-model-transform-v1\\oracle-cases.jsonl": "6c606992eb435e705879e6f5db9fb513ce52f44b8a5ae73aa25358f59e38eff2",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-model-transform-v1\\oracle-output-slots.csv": "127a087734d70083ea608c63296fa348815a7b486bbf9d8fcfd3a393fdec77b8",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-model-transform-v1\\oracle-summary.ai.json": "9bf2645a3794516cdc6d6d0e6e8e7a7c86d9be5b5971927cd52d33f79f24e641",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-model-transform-v1\\vertex_oracle_v1.py": "b8c753c95a1f53bbc7eabb8ca3c026ec20b8cdd9cb7265b35134418ea84fb432"
+  },
+  "bank_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "host_fixtures": "preserved=5 rejected=15",
+  "original_game_or_dolphin_executed": false,
+  "production_corrections": 0
+}

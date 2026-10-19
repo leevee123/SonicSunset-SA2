@@ -1,0 +1,3 @@
+# Vertex arithmetic evidence manifest
+
+169 complete evidence files;62 raw CSVs;22647323 bytes. Copies map to exact source/hash in CSV. binary game/media/scratch, private runtime caches/classes, Java argfiles and primary emulator source code are not copied; complete raw slot CSV+seed CSV reconstruct all438 before/after hashes; official source URLs/SHA retained. Source/hash recheck184 distinct inputs PASS. The initial generated-C selection now has an explicit compact companion flagging its100-line cap; full original bootstrap/native-word evidence supersedes those snippets. Findings remain bounded, not live game or full decompilation.

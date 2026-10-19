@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "real_modules": 95,
+  "section_entries": 1848,
+  "initialized_section_bytes": 102635025,
+  "bss_bytes": 1754728,
+  "skipped_foreign_imports": 24,
+  "all_addresses_and_section_bytes_match_frozen_ELF": true,
+  "original_modules_and_repository_engine_unchanged": true,
+  "fixture_exact_masks_carries_END_delta_unknown_and_duplicate_ID_preservation_match": true,
+  "boundary_cases": 3,
+  "rejection_cases": 14,
+  "strict_compile": "Windows x64 MSVC /std:c++latest /W4 /WX /O2 passed",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-view-stage\\prepared\\src\\Importers\\SA2\\Rel.h": "54eaf4dda45b42ba7657535e3dd4b01b2cdc476e6afd2d54145f7ecda5a98d8c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-view-stage\\prepared\\src\\Importers\\SA2\\Rel.cpp": "dc26566f110a1d7d8c8fd16f9b82ea9046265bf27034d14939ae0a0442191ba5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel_view_check.cpp": "0bac00d76f27409e1d1053d9c91e2db9a6192e0109746f51de3f8a0d5d437626",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_rel_view.cmd": "ad1c7118075f9a27b4797cbef5beb4c2af334760b3c2d0d931a8c84e99a2e5a3"
+  },
+  "limitations": [
+    "Caller-selected synthetic bases81000000/81700000 do not establish retail placement.",
+    "Foreign import streams remain unapplied; native execution, hardware caches, link-list/header mutation and dynamic lifetime are not modeled.",
+    "Only types1/4/6/10 have real-file patch coverage; other original branches receive synthetic data-effect tests, not malformed retail execution.",
+    "Host view rejects unsupported ranges/alignment/BSS inconsistencies/stream starts; raw reader remains unchanged."
+  ]
+}

@@ -1,0 +1,4 @@
+module,candidate_entry,canonical_decoded_rel_offset,candidate_body_bytes,baseline_selected_functions,candidate_selected_functions,verified_checkpoint_records,assembly_files,loaded_memory_hash_matches_baseline,existing_selected_bodies_unchanged,v2_runner_saved_project_guard,candidate_review_status
+ChaoStgEntrance.prs,0x810000e0,0xe0,100,109,110,110,41,True,True,True,unreviewed section-boundary/prologue hypothesis
+ChaoStgLobby.rel,0x810000e0,0xe0,664,20,21,21,8,True,True,True,unreviewed section-boundary/prologue hypothesis
+ChaoStgOdekake.prs,0x810000e0,0xe0,524,70,71,71,29,True,True,True,unreviewed section-boundary/prologue hypothesis

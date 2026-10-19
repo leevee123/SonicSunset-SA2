@@ -1,0 +1,5 @@
+# Vertex arithmetic cross-check
+
+All 166068 per-lane operation rows reduce to 102818 distinct operation/operand cases. Exact-rational oracle result bits matched independent Windows CRT fmaf or exactly representable binary64 product followed by float conversion with zero differences, including signed zeros. Twelve targeted signed-zero/subnormal/boundary assertions passed; synthetic cancellation stores A8800000 and signed-subnormal stores 80000000 as expected. All 18 original/frozen/primary-source input paths were rehashed unchanged.
+
+The oracle deliberately rejects overflow in either paired lane. Two separate maximum-finite source/all-zero-matrix counterexamples show an unused forced-one lane can overflow while all three retained components would be finite. These are conservatively unsupported by this oracle and are not part of its 219 successful cases; they do not show an error in a host API whose contract checks only retained-lane intermediates. Exact PCs/reasons are retained in JSON. No engine implementation or native game was executed.

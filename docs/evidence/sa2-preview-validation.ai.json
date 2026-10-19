@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "discId": "GSNE8P rev0",
+  "manifestBanks": 39,
+  "manifestFamilies": 6,
+  "palettePayloadBytes": 3744,
+  "native": {
+    "banks": 39,
+    "bodyTextures": 143,
+    "controlChecks": [
+      {
+        "family": 0,
+        "frame": 0,
+        "mixes": [
+          0.0,
+          0.0,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "family": 1,
+        "frame": 3,
+        "mixes": [
+          0.0,
+          0.0,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "family": 1,
+        "frame": 6,
+        "mixes": [
+          0.0,
+          0.0,
+          0.5,
+          0.6200000047683716
+        ]
+      },
+      {
+        "family": 0,
+        "frame": 9,
+        "mixes": [
+          0.0,
+          0.0,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "family": 0,
+        "frame": 12,
+        "mixes": [
+          0.6200000047683716,
+          0.0,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "family": 0,
+        "frame": 15,
+        "mixes": [
+          0.6200000047683716,
+          0.6200000047683716,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "family": 0,
+        "frame": 18,
+        "mixes": [
+          0.6200000047683716,
+          0.6200000047683716,
+          0.6200000047683716,
+          0.5
+        ]
+      },
+      {
+        "family": 0,
+        "frame": 21,
+        "mixes": [
+          0.0,
+          0.0,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "familyCases": 6,
+    "gpuBytesCompared": 172032,
+    "passed": true,
+    "renderer": "AMD Radeon RX 9060 XT",
+    "textureRects": [
+      [
+        8.0,
+        263.0,
+        328.0,
+        583.0
+      ],
+      [
+        344.0,
+        263.0,
+        664.0,
+        583.0
+      ],
+      [
+        680.0,
+        263.0,
+        1000.0,
+        583.0
+      ]
+    ]
+  },
+  "frameSize": [
+    1100,
+    760
+  ],
+  "renderedTexturePixels": 307200,
+  "renderedResetPixelsMatch": 307200,
+  "renderedChangedPixels": 307200,
+  "errorCases": [
+    {
+      "case": "usage",
+      "exit": 1,
+      "message": "Usage: SonicSunset --sa2-palette-preview <SA2.iso> <PalettePreview.json>\nCheck: SonicSunset --sa2-palette-preview-check <SA2.iso> <PalettePreview.json> <output folder>"
+    },
+    {
+      "case": "missing_disc",
+      "exit": 1,
+      "message": "SA2 preview: Select an uncompressed Sonic Adventure 2 Battle USA revision 0 disc image (GSNE8P)."
+    },
+    {
+      "case": "invalid_manifest",
+      "exit": 1,
+      "message": "SA2 preview: The preview manifest needs version 1, 39 banks and six families."
+    }
+  ],
+  "frames": {
+    "default": "342830852c2783252a606db1b865797cfb1fb88a5eb0ed33cec96a78b229727e",
+    "changed": "3788f1d1701c61444eb96990cc93f7da45df754c858fb01c8172135e89d998dc",
+    "reset": "e30fff8e4ff7318dc53c21a96f81339b8260a127dbb548bb3aa64e40b7f96d4b"
+  },
+  "build": {
+    "fullEngine": "passed Windows x64 MSVC/Ninja Debug EDITOR ON; invocation-only Embedded debug info",
+    "strictPreview": "passed /W4 /WX /O2",
+    "existingGameRuntime": "not tested",
+    "editorOffLinuxPortability": "not tested"
+  },
+  "engineFiles": [
+    "src/main.cpp",
+    "CMakeLists.txt",
+    "src/EngineEditor/SA2PalettePreview.h",
+    "src/EngineEditor/SA2PalettePreview.cpp"
+  ]
+}

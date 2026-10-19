@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "sample": "sonicmdl.prs / GSNE8P disc0 rev0",
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "relocated_sha256": "7d67b1ed6d86009780b34cd52bd767f57fca364126711e62331fa0165914a90c",
+  "entries": 64,
+  "sentinel_offset": 512,
+  "node_visits": 688,
+  "unique_nodes": 200,
+  "payload_visits": 115,
+  "unique_opaque_payloads": 115,
+  "pointer_stores": 529,
+  "all_entry_fields_match_original_reference": true,
+  "every_pointer_store_position_before_after_and_order_match": true,
+  "source_buffer_preserved": true,
+  "repeated_nodes_not_globally_pruned": true,
+  "boundary_cases": 5,
+  "rejection_cases": 11,
+  "strict_compile": "Windows x64 MSVC /std:c++latest /W4 /WX /O2 passed",
+  "source_hashes": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-view-stage\\prepared\\src\\Importers\\SA2\\PointerBank.h": "8204b50c93ee0e170281a64e8580429b30ac4d67184c35adccd63eed4bec54a2",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-view-stage\\prepared\\src\\Importers\\SA2\\PointerBank.cpp": "104b25883c965a83834c257456c6ddee7d7b338a5f9287bb76c7b23fd8534646",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\pointer_bank_check.cpp": "5cca8036fa097e1d586c42ca411e0bffe7baf919364f74a7ee0b31f8afd58def",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_pointer_bank.cmd": "07216a5a53edf797d5a5877ccfcf321c4c060dc9e5bee02373f560fff850aed2"
+  },
+  "reference_validation": "Original loader 42 artifacts/863 ASM rows/195 parsed words; independent exact-order sample simulation",
+  "limitations": [
+    "Registry slots, allocation callbacks, global memory aliasing and runtime loading are not emulated.",
+    "View requires declared high-bit base/self-contained pointers and rejects unverified cyclic/out-of-bounds inputs; original unchecked behavior remains documented.",
+    "52 bytes is minimum observed node span, not a named/complete geometry structure.",
+    "Opaque payload, drawing, animation, unused fields, other filenames/regions and native execution remain unknown."
+  ]
+}

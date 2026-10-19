@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "module_reader_bundle": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-REL-Check",
+  "module_count": 95,
+  "relocation_records": 1664013,
+  "package_resources_unchanged": true,
+  "interactive_launcher_not_started_by_agent": true,
+  "compiled_implementation_unchanged": true,
+  "game_media_included": false
+}

@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "engine_reader_scope": "immutable version-2 REL metadata and original decoded bytes; no BSS allocation/import binding/native execution",
+  "real_modules": 95,
+  "raw_modules": 76,
+  "prs_modules": 19,
+  "decoded_bytes": 115971764,
+  "sections": 1848,
+  "imports": 214,
+  "relocation_records_including_END": 1664013,
+  "all_header_section_import_record_fields_match": true,
+  "all_decoded_bytes_and_hashes_match": true,
+  "valid_boundary_cases": 10,
+  "rejected_cases": 15,
+  "strict_compile": "Windows x64 MSVC /std:c++latest /W4 /WX /O2 passed",
+  "protected_engine_content_hashes_unchanged_before_apply": 240,
+  "source_hashes": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-port-stage\\src\\Importers\\SA2\\Rel.h": "9772c8cf3e22c41d972c8a5aa127dfc1fb960ce732e5d74d338ce578c8df51e6",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-port-stage\\src\\Importers\\SA2\\Rel.cpp": "5defb587918a29605644778603c6bdd0ba9b99fcbf92657673e6f83ec52be8b9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel_check.cpp": "cdbfeef10a034d75b7ce3ea6118d7a7ef4b27933d88787a75341b76224611385",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_rel.cmd": "542a4a6c9011645289ff11a964a507b609c87cb847b609bec959a6b4937ca086",
+    "C:\\decomp\\SonicFantasy-master\\src\\Importers\\SA2\\Prs.cpp": "c2b47d4bdcc3c37eda437c4b535fdc455279fe2e8a1b588f949030175946651e",
+    "C:\\decomp\\SonicFantasy-master\\src\\Importers\\STH2005\\Prs.cpp": "85338ada91040e666a4ae912357ba70e17ece6e696b99a7c3905f57508f9a6cc",
+    "C:\\decomp\\SonicFantasy-master\\src\\Importers\\GameCube\\GCDisc.cpp": "91cc61e284e36bce16bd650421a074f80bceaea5a9bd3df93f9ca863e7473c82"
+  },
+  "known_limits": [
+    "Version 0/1/3 and other games/regions unvalidated and rejected.",
+    "Synthetic safety checks are host policy, not claims about retail malformed-input behavior.",
+    "Unknown types/fields, duplicate target IDs/streams, BSS totals/alignment and callback indices remain raw metadata.",
+    "No existing SA/Shadow reader or shared decoder changed; full-engine integration build follows repository apply."
+  ],
+  "full_engine_build": {
+    "exit_code": 0,
+    "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+    "debug_information": "invocation-only Embedded setting; repository defaults unchanged",
+    "log_sha256": "b5769e8be79f218256ef8dd963fe690be231147e01c039b9cd28dbc950c0379d",
+    "rel_source_compiled": true,
+    "executable_linked": true,
+    "executable_exists": true,
+    "executable_sha256": "2495df8c69648890dfcc3bfa7bfb369fea877df8bc10d15bd288c891778177af",
+    "compiler_errors": 0,
+    "runtime_claim": "No SA2 module execution or existing gameplay validation; additive reader has no existing callers."
+  },
+  "engine_files_changed": [
+    "CMakeLists.txt",
+    "src/Importers/SA2/Rel.h",
+    "src/Importers/SA2/Rel.cpp"
+  ],
+  "header_comment_only_clarification_after_validation": "Changed immutable source data wording to retains stored file; declarations/compiled implementation unchanged."
+}

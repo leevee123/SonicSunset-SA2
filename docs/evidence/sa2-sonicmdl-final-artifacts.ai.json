@@ -1,0 +1,5 @@
+{
+  "top_level_artifacts": 36,
+  "manifest_sha256": "1a5bd5953c7a94f85cbaa019baab31e1b2c0e09535d6a14517ba685fd4a463a4",
+  "scope": "Private top-level evidence only; excludesrecursiveclasses/runtimeandmanifestdigestfiles."
+}

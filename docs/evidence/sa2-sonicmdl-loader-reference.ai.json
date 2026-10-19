@@ -1,0 +1,414 @@
+{
+  "result": "bounded original loader/container layout established; complete model format/rendering not established",
+  "sample_validation": {
+    "result": "passed",
+    "sample": {
+      "fst_index": 2428,
+      "path": "sonicmdl.prs",
+      "entry_iso_offset": "0x2042d0",
+      "name_iso_offset": "0x20dc97",
+      "disc_offset": "0x479024a4",
+      "stored_bytes": 102331
+    },
+    "compressed_sha256": "d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99",
+    "decoded_bytes": 136360,
+    "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "prs_consumed": 102331,
+    "padding_read_bytes": 5,
+    "sector_reservation_bytes": 102400,
+    "compressed_scratch_address": "0x811e6e60",
+    "copy_round4_bytes": 136360,
+    "DOL_iso_offset": "0x1e700",
+    "request_literal": "SONICMDL.PRS",
+    "request_literal_va": "0x8017494c",
+    "request_literal_dol_offset": "0x17194c",
+    "request_literal_iso_offset": "0x19004c",
+    "name_compare_table_va": "0x801764b8",
+    "name_compare_matches_real_FST": true,
+    "source_artifacts": 42,
+    "export_ASM_rows_verified": 863,
+    "independent_original_words_verified": 195,
+    "filename_call_sites": [
+      {
+        "view": "context_free",
+        "owner": "0x800874c0",
+        "original_virtual_address": "0x800875f8",
+        "dol_offset": "0x845f8",
+        "iso_offset": "0xa2cf8",
+        "word": "0x4bfc8c19",
+        "instruction": "bl 0x80050210",
+        "analysis_override": "NONE"
+      },
+      {
+        "view": "context_free",
+        "owner": "0x800874c0",
+        "original_virtual_address": "0x80087620",
+        "dol_offset": "0x84620",
+        "iso_offset": "0xa2d20",
+        "word": "0x4bfc8bf1",
+        "instruction": "bl 0x80050210",
+        "analysis_override": "NONE"
+      }
+    ],
+    "table_entries": 64,
+    "sentinel_offset": "0x200",
+    "sentinel_first_word": "0xffffffff",
+    "sentinel_following_word_unread": "0x0",
+    "eligible_ids": 64,
+    "duplicate_ids": {},
+    "relative_root_words": 64,
+    "zero_root_words": 0,
+    "absolute_root_words": 0,
+    "unique_linked_nodes": 200,
+    "recursive_visits": 688,
+    "opaque_two_word_payloads": 115,
+    "relocation_stores": 529,
+    "synthetic_base": "0x81000000",
+    "synthetic_post_relocation_sha256": "7d67b1ed6d86009780b34cd52bd767f57fca364126711e62331fa0165914a90c",
+    "cache_substrings": [
+      {
+        "virtual_address": "0x803ae92c",
+        "dol_offset": "0x1dbecc",
+        "iso_offset": "0x1fa5cc",
+        "text": "cam.prs",
+        "substring_in_request": false
+      },
+      {
+        "virtual_address": "0x803ae924",
+        "dol_offset": "0x1dbec4",
+        "iso_offset": "0x1fa5c4",
+        "text": ".bin",
+        "substring_in_request": false
+      },
+      {
+        "virtual_address": "0x803ae934",
+        "dol_offset": "0x1dbed4",
+        "iso_offset": "0x1fa5d4",
+        "text": ".BIN",
+        "substring_in_request": false
+      },
+      {
+        "virtual_address": "0x803ae93c",
+        "dol_offset": "0x1dbedc",
+        "iso_offset": "0x1fa5dc",
+        "text": ".BMP",
+        "substring_in_request": false
+      },
+      {
+        "virtual_address": "0x803ae944",
+        "dol_offset": "0x1dbee4",
+        "iso_offset": "0x1fa5e4",
+        "text": ".bmp",
+        "substring_in_request": false
+      }
+    ],
+    "runtime_execution_observed": false,
+    "unknowns": [
+      "Actual allocation address/callback implementation and registry prior contents",
+      "Opaque payload structures beyond its two adjusted words",
+      "Node fields other than+4,+2C,+30 and true structure boundaries",
+      "Geometry/drawing/animation semantics",
+      "Indirect loader callers and successful runtime I/O"
+    ]
+  },
+  "filename_call": {
+    "view": "sda",
+    "caller_entry": "0x800874c0",
+    "caller_file_offset": "0x844c0",
+    "call_site": "800875f8",
+    "call_site_file_offset": "0x845f8",
+    "target": "80050210",
+    "target_file_offset": "0x4d210",
+    "target_function": "80050210",
+    "target_name": "FUN_80050210",
+    "reference_type": "UNCONDITIONAL_CALL",
+    "target_status": "defined_function_entry",
+    "caller_iso_offset": "0xa2bc0",
+    "call_site_iso_offset": "0xa2cf8",
+    "raw_target": "0x80050210",
+    "raw_link_bit": "1"
+  },
+  "original_functions": [
+    {
+      "view": "sda",
+      "entry": "0x8001a190",
+      "dol_offset": "0x17190",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8001a190.c",
+      "sha256": "bdf14061cadcfee1b8073ef6706e526df9ed45f9d96d1ab083be9958465ab769",
+      "body_ranges": "[[8001a190, 8001a2af]]",
+      "status": "completed",
+      "signature": "undefined FUN_8001a190()",
+      "entry_iso_offset": "0x35890",
+      "role": "File-size/read/PRS/callback/copy pipeline"
+    },
+    {
+      "view": "sda",
+      "entry": "0x8001acac",
+      "dol_offset": "0x17cac",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8001acac.c",
+      "sha256": "c494b32f3169d2071581d15c88df238e7a25af09ad9a254daf5de7e57f39b739",
+      "body_ranges": "[[8001acac, 8001add3]]",
+      "status": "completed",
+      "signature": "undefined FUN_8001acac()",
+      "entry_iso_offset": "0x363ac",
+      "role": "File read wrapper"
+    },
+    {
+      "view": "sda",
+      "entry": "0x8002f88c",
+      "dol_offset": "0x2c88c",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8002f88c.c",
+      "sha256": "22b4030ac469d2273e0c09956f8d1f6b941b2f503d0370e0b0291ffe62b5d5ec",
+      "body_ranges": "[[8002f88c, 8002f95b]]",
+      "status": "completed",
+      "signature": "undefined FUN_8002f88c()",
+      "entry_iso_offset": "0x4af8c",
+      "role": "Linked-node and opaque payload pointer adjustment"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80050210",
+      "dol_offset": "0x4d210",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80050210.c",
+      "sha256": "306ecf300f35fa212d9335379bfb20301575d78adfb39b825b01f058138ee4d4",
+      "body_ranges": "[[80050210, 800502ff]]",
+      "status": "completed",
+      "signature": "undefined FUN_80050210()",
+      "entry_iso_offset": "0x6b910",
+      "role": "Sentinel table scan, registration and root traversal"
+    },
+    {
+      "view": "sda",
+      "entry": "0x800874c0",
+      "dol_offset": "0x844c0",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800874c0.c",
+      "sha256": "8f26ceb16d40053470fd851817eb4c3b4587d755a7222ee948fd3ab4927fc139",
+      "body_ranges": "[[800874c0, 80087847]]",
+      "status": "completed",
+      "signature": "undefined FUN_800874c0()",
+      "entry_iso_offset": "0xa2bc0",
+      "role": "Filename selection and returned blob storage"
+    },
+    {
+      "view": "sda",
+      "entry": "0x800d2684",
+      "dol_offset": "0xcf684",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800d2684.c",
+      "sha256": "ecef7791235004be2ba4bc2454b507371eac96cb9cccf2f73d789730c2ea6b26",
+      "body_ranges": "[[800d2684, 800d2827]]",
+      "status": "completed",
+      "signature": "undefined FUN_800d2684()",
+      "entry_iso_offset": "0xedd84",
+      "role": "Verified PRS decoder"
+    },
+    {
+      "view": "sda",
+      "entry": "0x800eecfc",
+      "dol_offset": "0xebcfc",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800eecfc.c",
+      "sha256": "9338ffae03384ab5105c5092834f56d92ad3702870a7c12531f8388212b64719",
+      "body_ranges": "[[800eecfc, 800eefef]]",
+      "status": "completed_with_warnings",
+      "signature": "undefined FUN_800eecfc()",
+      "entry_iso_offset": "0x10a3fc",
+      "role": "FST pathname lookup"
+    },
+    {
+      "view": "sda",
+      "entry": "0x800eeff0",
+      "dol_offset": "0xebff0",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800eeff0.c",
+      "sha256": "12b7be80c38bb70d16847a53b9652593323554612ce713985220676e4a938c95",
+      "body_ranges": "[[800eeff0, 800ef0b7]]",
+      "status": "completed",
+      "signature": "undefined FUN_800eeff0()",
+      "entry_iso_offset": "0x10a6f0",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x8010ba44",
+      "dol_offset": "0x108a44",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010ba44.c",
+      "sha256": "92b944b2baf2930c20fa230ba8285786a77ed67a17c283436cc5323b1b99e4c3",
+      "body_ranges": "[[8010ba44, 8010ba6b]]",
+      "status": "completed",
+      "signature": "undefined FUN_8010ba44()",
+      "entry_iso_offset": "0x127144",
+      "role": "Byte comparison mapping"
+    },
+    {
+      "view": "sda",
+      "entry": "0x8010bdf4",
+      "dol_offset": "0x108df4",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010bdf4.c",
+      "sha256": "c1910a3dc88979ec42d32d32a4d1681f5283e0c331526cee10b2396c8bb08e5d",
+      "body_ranges": "[[8010bdf4, 8010becf]]",
+      "status": "completed",
+      "signature": "undefined FUN_8010bdf4()",
+      "entry_iso_offset": "0x1274f4",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x8010dd3c",
+      "dol_offset": "0x10ad3c",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010dd3c.c",
+      "sha256": "0063a6c7099056b216489981e24dced01ac074a7ce4e2946ed4b8f06f82e1198",
+      "body_ranges": "[[8010dd3c, 8010dda7]]",
+      "status": "completed",
+      "signature": "undefined FUN_8010dd3c()",
+      "entry_iso_offset": "0x12943c",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80119730",
+      "dol_offset": "0x116730",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119730.c",
+      "sha256": "2d716c654ade46e4b500556ca89a2260a0cc076582f02272cc1f058030886b8c",
+      "body_ranges": "[[80119730, 80119753]]",
+      "status": "completed",
+      "signature": "undefined FUN_80119730()",
+      "entry_iso_offset": "0x134e30",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x801197d0",
+      "dol_offset": "0x1167d0",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x801197d0.c",
+      "sha256": "77850d4235af131d37820eeef00edcb04dfd0e08a221aee138c3232c388c4619",
+      "body_ranges": "[[801197d0, 801197fb]]",
+      "status": "completed",
+      "signature": "undefined FUN_801197d0()",
+      "entry_iso_offset": "0x134ed0",
+      "role": "Dynamic size callback preserving r3 input/output"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80119d64",
+      "dol_offset": "0x116d64",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119d64.c",
+      "sha256": "29baf7b85abf380c1e7076bad0975cd24a393dc400d84bcd7b16c352ad57a1e3",
+      "body_ranges": "[[80119d64, 80119e6b]]",
+      "status": "completed",
+      "signature": "undefined FUN_80119d64()",
+      "entry_iso_offset": "0x135464",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80119e6c",
+      "dol_offset": "0x116e6c",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119e6c.c",
+      "sha256": "3a6ab2a30b4baf8c6e360a51ea1622f074b466b480a9ad837039c4d2c91978fc",
+      "body_ranges": "[[80119e6c, 80119ea3]]",
+      "status": "completed",
+      "signature": "undefined FUN_80119e6c()",
+      "entry_iso_offset": "0x13556c",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80119ec4",
+      "dol_offset": "0x116ec4",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119ec4.c",
+      "sha256": "4f7a0f22ce71d96388d5014caf3a34da46d2f520b9eb2417452c45f5da354cf5",
+      "body_ranges": "[[80119ec4, 80119ee3]]",
+      "status": "completed",
+      "signature": "undefined FUN_80119ec4()",
+      "entry_iso_offset": "0x1355c4",
+      "role": "read/copy/helper evidence"
+    },
+    {
+      "view": "sda",
+      "entry": "0x80119ef0",
+      "dol_offset": "0x116ef0",
+      "kind": "pseudocode",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119ef0.c",
+      "sha256": "0fd96a52996faa62acc4f5ff35c67dcce181c9651356f68825b755a621fb73c4",
+      "body_ranges": "[[80119ef0, 80119fd7]]",
+      "status": "completed",
+      "signature": "undefined FUN_80119ef0()",
+      "entry_iso_offset": "0x1355f0",
+      "role": "read/copy/helper evidence"
+    }
+  ],
+  "table_layout": {
+    "entry_bytes": 8,
+    "id": "BE signed32",
+    "pointer": "BE u32",
+    "sentinel": "id ==-1; pointer word unread",
+    "count": "no original count field demonstrated",
+    "registry": "801E6688+ID*8,+4 only ifID0..213 andslotwordzero",
+    "root_conversion": "nonzero bit31clear addbase; highbitkeep; nonzero traverse eveninvalidID"
+  },
+  "node_layout": {
+    "minimum_span_hex": "34",
+    "minimum_span_bytes": 52,
+    "pointer_fields": [
+      "04",
+      "2c",
+      "30"
+    ],
+    "field04": "convert onlynonzero bit31clear; targetfirst2nonzero words addbasewithoutinnerhighbittest",
+    "links": "2C recurse first,30second; conversionguard only, traversalnotpruned",
+    "other_fields": "unknown/raw preserved"
+  },
+  "raw_node_pointer_word_class_counts": {
+    "field_04": {
+      "relative": 115,
+      "zero": 85
+    },
+    "field_2c": {
+      "relative": 159,
+      "zero": 41
+    },
+    "field_30": {
+      "zero": 173,
+      "relative": 27
+    }
+  },
+  "synthetic_experiment": "81000000 base/freshempty registry; actualallocation/registryunknown; notruntimeobserved",
+  "cache_substring_path": "noneofthefiveoriginalstringsmatchesSONICMDL.PRS; visibleFSTbranch",
+  "ABI_caveats": [
+    "80050210Cvoid/omittedfilename vsoriginalr3preservedtocall",
+    "801197D0Cvoidvsoriginalsizeinr3/callbackreturnr3"
+  ],
+  "unknowns": [
+    "Actual allocation address/callback implementation and registry prior contents",
+    "Opaque payload structures beyond its two adjusted words",
+    "Node fields other than+4,+2C,+30 and true structure boundaries",
+    "Geometry/drawing/animation semantics",
+    "Indirect loader callers and successful runtime I/O",
+    "Registry other word",
+    "Resource freeing/lifetime",
+    "Complete node size/alignment",
+    "Other character/alternate-model payloads",
+    "Retail I/O results, malformed unchecked reads"
+  ],
+  "decision": "Preserve onlydemonstrated sentinel/word/link rules andrawunknownbytes; nofamiliarformat/struct names.",
+  "engine_files_changed": [],
+  "repository_files_changed": [],
+  "Ghidra_project_opens": 0,
+  "leaked_source": "none encountered orused",
+  "human_report_sha256": "6371e4eff14ee660f13a2353c552edf212b26b19d2c70a769152dec3fc7f4665",
+  "evidence": "Complete CSV files inthisprivatefolder; decodedassetoffsets have noone-to-onecompressedISOcoordinates."
+}

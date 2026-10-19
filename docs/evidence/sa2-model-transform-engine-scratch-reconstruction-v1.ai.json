@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cases": 219,
+  "algorithm": "before[i]=(initial_seed+i*initial_byte_step)&255 for i<initial_size; replace each 32-byte output slot using oracle-output-slots.csv after_hex at scratch_index*32",
+  "binary_game_media_copied_to_docs": false,
+  "raw_slot_CSV_complete": true,
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-model-transform-v1\\oracle-output-slots.csv": "127a087734d70083ea608c63296fa348815a7b486bbf9d8fcfd3a393fdec77b8"
+  }
+}
