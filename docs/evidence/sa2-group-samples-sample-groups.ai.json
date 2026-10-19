@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "version": 1,
+    "result": "bounded_scan_complete",
+    "disc_id": "GSNE8P",
+    "disc_revision": 0,
+    "disc_bytes": 1459978240,
+    "disc_sha256": "c8f9db7c936fffed7a5ea12a099c39ad3197208731ebbe4bcdfc3cec9b350638",
+    "FST_iso_offset": "0x1fd100",
+    "FST_bytes": 74203,
+    "FST_sha256": "6118fa4570449fb2414ad4c52847e1c3a70a1de272539f76fc212ead251cb661",
+    "FST_file_entries": 2819,
+    "candidate_selection": "all FST basenames ending MDL.PRS, case-insensitive; cross-referenced with bounded prior original DOL literal set",
+    "limits": {
+      "candidate_files": 64,
+      "decoded_bytes_per_file": 8388608,
+      "decoded_bytes_total": 134217728,
+      "table_entries_per_file": 4096,
+      "unique_nodes_per_file": 20000,
+      "local_commands_per_entry": 10000,
+      "unique_commands_per_file": 100000,
+      "first_stream_packets": 10000,
+      "collected_streams_host_bound": 4
+    },
+    "model_name_literal_offsets": 24,
+    "candidate_assets": 23,
+    "candidates_with_literal_match": 20,
+    "candidate_statuses": {
+      "candidate_scanned_not_runtime_proven": 23
+    },
+    "decoded_bytes_total": 2462312,
+    "bank_candidate_table_entries": 815,
+    "bank_candidate_unique_nodes": 2311,
+    "bank_candidate_unique_payloads": 1311,
+    "local_stream_entries": 923,
+    "local_stream_statuses": {
+      "outer_scan_completed_static_local_path": 923
+    },
+    "unique_asset_command_rows": 4839,
+    "geometry_commands": 1595,
+    "geometry_info_high2": {
+      "0": 1595
+    },
+    "nonzero_pending_group_candidates": 0,
+    "group_candidate_statuses": {},
+    "groups_collecting_at_least_two_streams": 0,
+    "positive_group_asset_paths": [],
+    "scan_errors": 0,
+    "scan_error_stages": {},
+    "protected_files_unchanged": 69,
+    "recorded_hashes_verified": 61,
+    "offset_space": "table/node/payload/command/group offsets are decoded asset file bytes; separate compressed asset ISO offsets identify storage only",
+    "native_execution": false,
+    "runtime_cache_or_caller_order_inferred": false,
+    "engine_files_changed": [],
+    "script_runs": "search_group_samples_v1.py once"
+  },
+  "groups": []
+}

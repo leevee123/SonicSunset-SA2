@@ -1,0 +1,12 @@
+selector,basename,string_address,string_dol_offset,load_path,evidence
+0x3c,boss_bigfoot,0x8017406c,0x17106c,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x3d,boss_hotshot,0x8017407c,0x17107c,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x3e,boss_fdog,0x8017408c,0x17108c,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x3f,boss_bigbogy,0x80174098,0x171098,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x40,boss_golem,0x801740a8,0x1710a8,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x41,boss_last1,0x801740c0,0x1710c0,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x42,boss_last2,0x801740cc,0x1710cc,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x43,boss_golemE,0x801740b4,0x1710b4,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x46,cart,0x803ae91c,0x1dbebc,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x47,cart,0x803ae91c,0x1dbebc,raw80019E70,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed
+0x5a,CHAOMAIN,0x80174040,0x171040,PRS8001A5B0,Generated switch8001A3BC under explicit startup-SDA assumption; raw string bytes verified; runtime execution not observed

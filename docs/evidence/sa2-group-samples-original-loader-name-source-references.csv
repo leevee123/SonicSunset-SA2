@@ -1,0 +1,5 @@
+view,entry,dol_offset,source_path,line,text
+context_free,0x80086ba4,0x83ba4,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main\export\pseudocode\0x80086ba4.c,43,uVar3 = FUN_80050210(s_METALSONICMDL_PRS_801748b8);
+context_free,0x800874c0,0x844c0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main\export\pseudocode\0x800874c0.c,46,uVar3 = FUN_80050210(s_SONICMDL_PRS_8017494c);
+sda,0x80086ba4,0x83ba4,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80086ba4.c,41,uVar3 = FUN_80050210(s_METALSONICMDL_PRS_801748b8);
+sda,0x800874c0,0x844c0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800874c0.c,44,uVar3 = FUN_80050210(s_SONICMDL_PRS_8017494c);

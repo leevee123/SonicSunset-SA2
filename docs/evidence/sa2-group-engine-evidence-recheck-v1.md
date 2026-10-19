@@ -1,0 +1,1 @@
+Rechecked 116 distinct original/analysis/reference inputs from 7 completed source ledgers: all byte counts/SHA-256 match. Worker final narrative handoffs were interrupted by usage limits; completed paired reports, original word data and probe oracle are retained and reverified. No target execution, project open or original/frozen mutation.

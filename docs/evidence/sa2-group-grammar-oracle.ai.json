@@ -1,0 +1,30 @@
+{
+  "result": "passed",
+  "source_paired_commands": 66,
+  "explicit_N1_cases": 66,
+  "explicit_N2_duplicate_cases": 66,
+  "cases": 132,
+  "stream_rows": 198,
+  "run_stream_rows": 2781,
+  "record_stream_rows": 19113,
+  "primary_runs_across_probes": 1854,
+  "primary_records_across_probes": 12742,
+  "partial_overlap_model": {
+    "steps": 87,
+    "events": 23,
+    "final_cursors": [
+      "0x100008",
+      "0x10000a"
+    ],
+    "result": "matches original integer-word order"
+  },
+  "caller_contract": {
+    "input": "ordered command offsets; previous high-family>=40; last41/42;copied independent cursors",
+    "run_count": "last command info&3FFF, not first",
+    "counts": "signed stream0 prefixes authority; preserve others without compare",
+    "records": "allstreamstride3;only stream0 index read,othersskip;two pair words readevery stream",
+    "aliases": "equal/overlapping immutable stream bytes allowed; native pointer-array/data alias excluded"
+  },
+  "observed_retail_groups": 0,
+  "native_execution": false
+}

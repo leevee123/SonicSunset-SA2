@@ -1,0 +1,11 @@
+field_offset,nodes,unique_raw_words,u32_min,u32_max,f32_finite_min_candidate,f32_finite_max_candidate,f32_classification_counts,semantics
+0x0,200,13,4,30,5.605193857299268e-45,4.203895392974451e-44,"{""finite_nonzero"": 200}",unknown; candidate interpretation statistics only
+0x8,200,49,0,3201458455,-0.41089698672294617,2.7580230236053467,"{""finite_nonzero"": 122, ""negative_zero"": 31, ""positive_zero"": 47}",unknown; candidate interpretation statistics only
+0xc,200,35,0,3218930114,-1.7263720035552979,5.244298934936523,"{""finite_nonzero"": 56, ""negative_zero"": 65, ""positive_zero"": 79}",unknown; candidate interpretation statistics only
+0x10,200,29,0,3209856324,-0.8223459720611572,0.8223459720611572,"{""finite_nonzero"": 39, ""negative_zero"": 57, ""positive_zero"": 104}",unknown; candidate interpretation statistics only
+0x14,200,28,0,4294967208,0.0,4.704158944738411e-42,"{""finite_nonzero"": 17, ""nan"": 15, ""positive_zero"": 168}",unknown; candidate interpretation statistics only
+0x18,200,31,0,4294966694,0.0,5.1749952287515494e-42,"{""finite_nonzero"": 18, ""nan"": 16, ""positive_zero"": 166}",unknown; candidate interpretation statistics only
+0x1c,200,66,0,4294967044,0.0,4.636476228911522e-41,"{""finite_nonzero"": 37, ""nan"": 43, ""positive_zero"": 120}",unknown; candidate interpretation statistics only
+0x20,200,1,1065353216,1065353216,1.0,1.0,"{""finite_nonzero"": 200}",unknown; candidate interpretation statistics only
+0x24,200,1,1065353216,1065353216,1.0,1.0,"{""finite_nonzero"": 200}",unknown; candidate interpretation statistics only
+0x28,200,1,1065353216,1065353216,1.0,1.0,"{""finite_nonzero"": 200}",unknown; candidate interpretation statistics only

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "package": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Grouped-Data-Check",
+  "launcher": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Grouped-Data-Check\\Start-SA2-Grouped-Data-Check.cmd",
+  "package_files_sha256": {
+    "check_group_data.py": "84ae182f5447229c67db2623840e4d7b1d9ccd4fad80fa1629f5512ad79700a8",
+    "group_data_check.exe": "0b0a77f9ea39692da456af5a86bd93638b9b8585a3dcfc28f77f5dfa16941248",
+    "Last-result.ai.json": "c57a2dc4f1dec9a2b18daaec60434fc397a65939592a6d7a74558881200fa3ec",
+    "Last-result.md": "45fccdb01fa5b3e799ef20103d2facb3a72f41d41be42a4efdd2369d3f3a3769",
+    "Package-check.raw.log": "11ae3a66d843e1a12abd3a47ee331594d9ee1ca904db35d8c4efa4baed31f3a0",
+    "README.ai.json": "aa2e6505481b9f80776fabdbf311f6c76911db7f9b887de6a9cffd7d68ccbf6d",
+    "README.md": "6c24320f99427a2da513919f43e068f5623c4a782decae11a310cb8b7d58af49",
+    "Reference.ai.json": "02dab97279326c516e3c3ddeed652a8b93948952a79c4fac4118829dcb9a9a72",
+    "Start-SA2-Grouped-Data-Check.cmd": "f506b9768f0543aae9de142b4ffe4b0609dc161d4556954ba37eef4f62eab3a1"
+  },
+  "result": {
+    "status": "PASS",
+    "scope": "Explicit grouped-helper inputs made from real Sonic bytes; no encoded/runtime groups were observed in the bounded23-bank search.",
+    "real_source_commands": 66,
+    "explicit_helper_cases": 132,
+    "explicit_stream_views": 198,
+    "record_stream_rows": 19113,
+    "engine_boundary_checks": "group_preservation_cases=9 rejection_cases=16 passed",
+    "original_disc_modified": false,
+    "observed_encoded_or_runtime_groups": 0
+  },
+  "run": "once/package-v1",
+  "game_media_included": false
+}

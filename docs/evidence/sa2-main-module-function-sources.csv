@@ -1,0 +1,4 @@
+function,dol_offset,iso_offset,c_sha256,context_qualification
+0x8001a3bc,0x173bc,0x35abc,368ea17c7972e905a44a896e928684d77887ce9941e08e9a2bf3fc00c2e208ed,startup SDA analysis assumption; generated C unreviewed except bounded call/literal observations
+0x8001dd78,0x1ad78,0x39478,f77e647e82957daaf375f29b19977914f4caccc4a60586e3962a28d6a12722b3,startup SDA analysis assumption; generated C unreviewed except bounded call/literal observations
+0x800d2dd4,0xcfdd4,0xee4d4,b50e8864fa31039f1338646c88bf02a47921e6ec3ad914bf75b91b6a45e05a66,startup SDA analysis assumption; generated C unreviewed except bounded call/literal observations

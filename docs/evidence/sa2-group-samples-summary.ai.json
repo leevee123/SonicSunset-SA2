@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "result": "bounded_scan_complete",
+  "disc_id": "GSNE8P",
+  "disc_revision": 0,
+  "disc_bytes": 1459978240,
+  "disc_sha256": "c8f9db7c936fffed7a5ea12a099c39ad3197208731ebbe4bcdfc3cec9b350638",
+  "FST_iso_offset": "0x1fd100",
+  "FST_bytes": 74203,
+  "FST_sha256": "6118fa4570449fb2414ad4c52847e1c3a70a1de272539f76fc212ead251cb661",
+  "FST_file_entries": 2819,
+  "candidate_selection": "all FST basenames ending MDL.PRS, case-insensitive; cross-referenced with bounded prior original DOL literal set",
+  "limits": {
+    "candidate_files": 64,
+    "decoded_bytes_per_file": 8388608,
+    "decoded_bytes_total": 134217728,
+    "table_entries_per_file": 4096,
+    "unique_nodes_per_file": 20000,
+    "local_commands_per_entry": 10000,
+    "unique_commands_per_file": 100000,
+    "first_stream_packets": 10000,
+    "collected_streams_host_bound": 4
+  },
+  "model_name_literal_offsets": 24,
+  "candidate_assets": 23,
+  "candidates_with_literal_match": 20,
+  "candidate_statuses": {
+    "candidate_scanned_not_runtime_proven": 23
+  },
+  "decoded_bytes_total": 2462312,
+  "bank_candidate_table_entries": 815,
+  "bank_candidate_unique_nodes": 2311,
+  "bank_candidate_unique_payloads": 1311,
+  "local_stream_entries": 923,
+  "local_stream_statuses": {
+    "outer_scan_completed_static_local_path": 923
+  },
+  "unique_asset_command_rows": 4839,
+  "geometry_commands": 1595,
+  "geometry_info_high2": {
+    "0": 1595
+  },
+  "nonzero_pending_group_candidates": 0,
+  "group_candidate_statuses": {},
+  "groups_collecting_at_least_two_streams": 0,
+  "positive_group_asset_paths": [],
+  "scan_errors": 0,
+  "scan_error_stages": {},
+  "protected_files_unchanged": 69,
+  "recorded_hashes_verified": 61,
+  "offset_space": "table/node/payload/command/group offsets are decoded asset file bytes; separate compressed asset ISO offsets identify storage only",
+  "native_execution": false,
+  "runtime_cache_or_caller_order_inferred": false,
+  "engine_files_changed": [],
+  "script_runs": "search_group_samples_v1.py once",
+  "unknowns": [
+    "Whether candidate assets are reached, which native caller/consumer is selected and the live parser/global state.",
+    "Actual runtime cache initialization, bindings, mutation and caller order; local continuation after a reference is conditional on its call returning.",
+    "Topology, attributes, complete inner multi-stream layout, pointer-array capacities/aliases, transforms and FIFO behavior.",
+    "PRS files outside the explicit MDL.PRS basename boundary, other regions/revisions and malformed native behavior."
+  ],
+  "decision": "A model-like filename only selects a candidate. Each stage is independently validated or rejected within stated host bounds; rejection is not proof of another native format. Storage sequence is not execution order.",
+  "artifacts": [
+    {
+      "name": "candidate-assets.csv",
+      "bytes": 13117,
+      "sha256": "28cccc20d5ece2cee039e186d07682cf145bfb1b9b7ca838691efdb9bf4c3916"
+    },
+    {
+      "name": "candidate-linked-nodes.csv",
+      "bytes": 333480,
+      "sha256": "2a2477e8594798e260c18faa0fa3c8155bd1c9a1390f4fbd24072c23b66b3a6c"
+    },
+    {
+      "name": "candidate-local-streams.csv",
+      "bytes": 165218,
+      "sha256": "77cb8e99e39dcd1932f435b9e2a3d17a5b4cd84002a13edac6e8d57ec194fb61"
+    },
+    {
+      "name": "candidate-payload-pointers.csv",
+      "bytes": 68932,
+      "sha256": "277f4f174e306184a671c6d8b7a9354f2427fc72eb673841d7cecd5cbdcd4eed"
+    },
+    {
+      "name": "candidate-stream4-commands.csv",
+      "bytes": 2197381,
+      "sha256": "830507a492d5f65de7519a9cd72bc3e2f8252507a270e1e2ea7e70bd61201ec5"
+    },
+    {
+      "name": "candidate-table-entries.csv",
+      "bytes": 25389,
+      "sha256": "fe82331f8f524e222fd8da5d488064adeffc3f10cb369fd1a4a7c9d1262022a5"
+    },
+    {
+      "name": "group-candidates.csv",
+      "bytes": 22,
+      "sha256": "8032b8005e85a41f5da816eb20af1802b975c40c4e6e6cd138e6078f03472ac3"
+    },
+    {
+      "name": "group-collected-streams.csv",
+      "bytes": 22,
+      "sha256": "0b159e080028342e9e242acbece83d311a1ada1b98e708ed6746b93c2c15fd65"
+    },
+    {
+      "name": "original-loader-name-source-references.csv",
+      "bytes": 975,
+      "sha256": "c08652495773ed9fc2ad5fa1272bb14897043452df099fa926436c3c241791ad"
+    },
+    {
+      "name": "original-model-name-literals.csv",
+      "bytes": 3368,
+      "sha256": "ff1de270b20823de6a21b324a5bc8f83bded08510c372fa5735586bbe9ffdeb5"
+    },
+    {
+      "name": "sample-groups.ai.json",
+      "bytes": 2218,
+      "sha256": "be3e5562ce07a306ecf3aa8e32da7301efe33611b3ddddc5f97eca3e00a881b0"
+    },
+    {
+      "name": "samples\\0152-amymdl.prs.decoded.bin",
+      "bytes": 98020,
+      "sha256": "f8bd3dcd0f83841509436e5d8495043230b781a5ebe15c408812574522304952"
+    },
+    {
+      "name": "samples\\0152-amymdl.prs.stored.bin",
+      "bytes": 77077,
+      "sha256": "577a6394afe5c7766be3dd45cfe7ac673a95a283b743f768b329c00695bf748e"
+    },
+    {
+      "name": "samples\\0262-bknuckmdl.prs.decoded.bin",
+      "bytes": 95892,
+      "sha256": "5bbeb6dbc30a337de3bf2f5c8c4d51030858708ee67c3faa4cb69d42a5792c16"
+    },
+    {
+      "name": "samples\\0262-bknuckmdl.prs.stored.bin",
+      "bytes": 80985,
+      "sha256": "a737d302bfae5d49c14afa3a391315b2a964a82ca50b82b37671fdf709ce8393"
+    },
+    {
+      "name": "samples\\0290-brougemdl.prs.decoded.bin",
+      "bytes": 91088,
+      "sha256": "612d6d25605afdf4aca629b572e19c07e75936401af1f166883390e6b4476eb9"
+    },
+    {
+      "name": "samples\\0290-brougemdl.prs.stored.bin",
+      "bytes": 72469,
+      "sha256": "19d240682bebed61e1c6fd098f39e97010fa7668a643dca17ccaf5e3a0909cf5"
+    },
+    {
+      "name": "samples\\0326-chaos0mdl.prs.decoded.bin",
+      "bytes": 117624,
+      "sha256": "060efcabcb9b84f5f75d2c9515b719df9614960f3d7d3872cb24d3e879fd2a55"
+    },
+    {
+      "name": "samples\\0326-chaos0mdl.prs.stored.bin",
+      "bytes": 102047,
+      "sha256": "3ce0efcbe8a4e60de2a7d3b79cca7f7c60423dbdc5bc40552ef8561e98f7ffc2"
+    },
+    {
+      "name": "samples\\0426-cwalkmdl.prs.decoded.bin",
+      "bytes": 83404,
+      "sha256": "58d3dcd72743c3f21f5a195c005386c275c5f9580bcaea5ea2bce5fb9897ad57"
+    },
+    {
+      "name": "samples\\0426-cwalkmdl.prs.stored.bin",
+      "bytes": 60065,
+      "sha256": "c75cbba107edda4a1259dcfac67edbcdd42a12e5ca02706d181c01cbbc8d47fb"
+    },
+    {
+      "name": "samples\\0472-dwalkmdl.prs.decoded.bin",
+      "bytes": 73536,
+      "sha256": "3b4c13ddfe14a2ee6e0cb5582f3e47efe85d705e1a7df09439fcd3f1f807c189"
+    },
+    {
+      "name": "samples\\0472-dwalkmdl.prs.stored.bin",
+      "bytes": 53195,
+      "sha256": "ab7d3a2edb7184b136c8b8d777347826ecb6c983df455218241a0d1cd7e568be"
+    },
+    {
+      "name": "samples\\0519-eggmdl.prs.decoded.bin",
+      "bytes": 84992,
+      "sha256": "678917998d9210a3885c62dc99687a64568f887fca6c1cfd084437169ed75e5c"
+    },
+    {
+      "name": "samples\\0519-eggmdl.prs.stored.bin",
+      "bytes": 74906,
+      "sha256": "ad3fb8c251fe5deb2b55cd680c6bb11bfd75a9fd10cb6a9623b8917ddc5cfe31"
+    },
+    {
+      "name": "samples\\1433-ewalk1mdl.prs.decoded.bin",
+      "bytes": 99568,
+      "sha256": "e1df0a9c6f02399c1470d4d7d269a4a059bba152957670fb80f67b21acf7f8bf"
+    },
+    {
+      "name": "samples\\1433-ewalk1mdl.prs.stored.bin",
+      "bytes": 69782,
+      "sha256": "9972e80e596d6823dabf8d87293b08a98a405e788f32bf3fa37e1982201c7dfb"
+    },
+    {
+      "name": "samples\\1435-ewalk2mdl.prs.decoded.bin",
+      "bytes": 97620,
+      "sha256": "2fb954ac2c650efb8ab1cede7bc8b783d742be28c2a3d08b0bdb99f98355b95e"
+    },
+    {
+      "name": "samples\\1435-ewalk2mdl.prs.stored.bin",
+      "bytes": 68478,
+      "sha256": "001b6871b65ffeb620f9924e7e141fff40be7cf2e2db1114e335d1b74d84bcb4"
+    },
+    {
+      "name": "samples\\1437-ewalkmdl.prs.decoded.bin",
+      "bytes": 118496,
+      "sha256": "ca07664b6653d1011fd198ddb4c9d70a6ce085e1e0b6dd5bd6defc6f6895625b"
+    },
+    {
+      "name": "samples\\1437-ewalkmdl.prs.stored.bin",
+      "bytes": 81028,
+      "sha256": "074ea70145c5cc5aeac62db56223dbe6d814fe25231b05e0e462f1a003ba1c29"
+    },
+    {
+      "name": "samples\\1516-knuckmdl.prs.decoded.bin",
+      "bytes": 113600,
+      "sha256": "2c0cd52cccaef5eb49f7e2c9cac2cb0cce07a7bca84a5440b650da40a91692af"
+    },
+    {
+      "name": "samples\\1516-knuckmdl.prs.stored.bin",
+      "bytes": 93077,
+      "sha256": "33726ca2f5d59edefc9c6faefb9daa12c0caba35944033d9aed751860970a0f8"
+    },
+    {
+      "name": "samples\\1615-metalsonicmdl.prs.decoded.bin",
+      "bytes": 72280,
+      "sha256": "57262249db5c620d0abf495a3360771749100b805e5514551a636016de45316b"
+    },
+    {
+      "name": "samples\\1615-metalsonicmdl.prs.stored.bin",
+      "bytes": 60613,
+      "sha256": "58c50938f8d33c1dd7d3860fb50bc31a7bc98cb9b3b7b5c687b94898003c832f"
+    },
+    {
+      "name": "samples\\1924-milesmdl.prs.decoded.bin",
+      "bytes": 89832,
+      "sha256": "445cb3910ad2d9534674e81387d701b8d3845820d670b62586a4b44dbc1b816a"
+    },
+    {
+      "name": "samples\\1924-milesmdl.prs.stored.bin",
+      "bytes": 70584,
+      "sha256": "3d546dd0a67b4d1c11644d28b3506525911c277fa8ccc0e9e7c16cd7c8975e80"
+    },
+    {
+      "name": "samples\\2118-rougemdl.prs.decoded.bin",
+      "bytes": 133824,
+      "sha256": "8ccd64b7363eb46c1d09d4c7c67f622cbc22880ba9c123755999832c50374b4b"
+    },
+    {
+      "name": "samples\\2118-rougemdl.prs.stored.bin",
+      "bytes": 107191,
+      "sha256": "788e77425766641a7ddb40aa10c2e57c07f074d04f0e7d84e51487073ba93277"
+    },
+    {
+      "name": "samples\\2417-shadow1mdl.prs.decoded.bin",
+      "bytes": 97444,
+      "sha256": "4a678b0ab78067839d0468c80e5048a52e7cef0e3fae5c9db78ee2f1b09d0922"
+    },
+    {
+      "name": "samples\\2417-shadow1mdl.prs.stored.bin",
+      "bytes": 71074,
+      "sha256": "425cd89236546b5d393f7bc83fd3a942cfd04b39ca2dda543d6168548fe3cf4b"
+    },
+    {
+      "name": "samples\\2426-sonic1mdl.prs.decoded.bin",
+      "bytes": 83276,
+      "sha256": "52516a1ad23c1f9cfadfeeedd3f5331e0e55f54ec824b2e1907f994a1c046903"
+    },
+    {
+      "name": "samples\\2426-sonic1mdl.prs.stored.bin",
+      "bytes": 62203,
+      "sha256": "58bab171a9c864e6bc59f382999181a840e58d8a40e36e36e6c604d89dd3514c"
+    },
+    {
+      "name": "samples\\2428-sonicmdl.prs.decoded.bin",
+      "bytes": 136360,
+      "sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963"
+    },
+    {
+      "name": "samples\\2428-sonicmdl.prs.stored.bin",
+      "bytes": 102331,
+      "sha256": "d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99"
+    },
+    {
+      "name": "samples\\2434-sshadowmdl.prs.decoded.bin",
+      "bytes": 176168,
+      "sha256": "97f1396bd4a350e3fff12edcddd95a96f9c96e9c638f47ee2e58e0bbbcd8eea3"
+    },
+    {
+      "name": "samples\\2434-sshadowmdl.prs.stored.bin",
+      "bytes": 136842,
+      "sha256": "7eb19b01972165404f5cec75da6ad5dbe9f687b1d213b6c50dafbbc2381972c6"
+    },
+    {
+      "name": "samples\\2438-ssonicmdl.prs.decoded.bin",
+      "bytes": 149380,
+      "sha256": "34a86fcb6e284af6b5becc2d0fe3e38f4bdeae5eb7e77cf5b4cebdafa2390e7a"
+    },
+    {
+      "name": "samples\\2438-ssonicmdl.prs.stored.bin",
+      "bytes": 117407,
+      "sha256": "55a84c0fe8bdeb019bebbd21bc379d1cd5ef11a73db2294b45fb8e6472f910ba"
+    },
+    {
+      "name": "samples\\2766-teriosmdl.prs.decoded.bin",
+      "bytes": 154260,
+      "sha256": "7e3ecf4b1b2ecc887b82f06b6428bbed6d23039bd97c122043b88fff68e06da2"
+    },
+    {
+      "name": "samples\\2766-teriosmdl.prs.stored.bin",
+      "bytes": 115400,
+      "sha256": "d9c512a137239fbd354d3d9384c834460d64458037ccb2aefd05b51bfb2ef36c"
+    },
+    {
+      "name": "samples\\2776-ticalmdl.prs.decoded.bin",
+      "bytes": 92044,
+      "sha256": "66382dc6f4aa810be44060cbe0d1200bebfe8ce8505a489b4070b4a4d589ad81"
+    },
+    {
+      "name": "samples\\2776-ticalmdl.prs.stored.bin",
+      "bytes": 76630,
+      "sha256": "1267aebf2ecc25f3df2cecfcbcde5885edf49a6cded3178d4ccc1760d17266ea"
+    },
+    {
+      "name": "samples\\2794-twalk1mdl.prs.decoded.bin",
+      "bytes": 97456,
+      "sha256": "def24a4d9567c1f10e1de7a9c90b1faf272ebdd2822a05f6a8bf55ae9ba84f2e"
+    },
+    {
+      "name": "samples\\2794-twalk1mdl.prs.stored.bin",
+      "bytes": 70321,
+      "sha256": "98a0e657baabba18794602ef0ef278a1d1e06cf4913dfa36e680bf03aca9d5ca"
+    },
+    {
+      "name": "samples\\2796-twalkmdl.prs.decoded.bin",
+      "bytes": 106148,
+      "sha256": "20cdcb4815d1897a54ccff4593f6464142c908591efe7763a7f5b533f62184d4"
+    },
+    {
+      "name": "samples\\2796-twalkmdl.prs.stored.bin",
+      "bytes": 74118,
+      "sha256": "e71cce13ed6d4652c6648b9e3eec3e957038e27fabedf964bf308637c7350b6f"
+    },
+    {
+      "name": "scan-errors.csv",
+      "bytes": 45,
+      "sha256": "095cd776570b473121e31c52b3d58153adf3bdbd54967a1f5db431ef34caa540"
+    },
+    {
+      "name": "search_group_samples_v1.py",
+      "bytes": 29350,
+      "sha256": "31a6a2dfc70e3ba3396abc1fd50f783c29e2809af34215b7da016e3f49d832ed"
+    },
+    {
+      "name": "source-digests.csv",
+      "bytes": 26252,
+      "sha256": "42307fe150fbc54ac11d2633a6e8af8744451f9e32f4f47fb57ca56db9dc6e6f"
+    }
+  ]
+}

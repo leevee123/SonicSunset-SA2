@@ -1,0 +1,1 @@
+Packaged explicit-helper check PASS:132 cases/198 stream views/19113 stream-record rows from66 real Sonic commands. No actual encoded/runtime grouped example is claimed. Original disc unchanged; no game media included. Local launcher saves paired results.

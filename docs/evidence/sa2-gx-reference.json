@@ -1,0 +1,25 @@
+{
+  "commit": "e6f3ae17627e4344da95b13424af5baf4c892b08",
+  "files": [
+    {
+      "file": "TextureDecoder_Generic.cpp",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/TextureDecoder_Generic.cpp",
+      "sha256": "8f4630151f3c28f0408a1ce0351080fec50bd85f3b0503f08580a636650dac92"
+    },
+    {
+      "file": "TextureDecoder_Util.h",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/TextureDecoder_Util.h",
+      "sha256": "49f30c4eaa4a2b59788dee9d1847b02b378e1a0dd5845ad918bb5bea1ada24a9"
+    },
+    {
+      "file": "LookUpTables.h",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/LookUpTables.h",
+      "sha256": "b5167b2c5202a8641e5bbb10e232f5d0d3ef177e395d4c84f6e29aaef3cc26ea"
+    },
+    {
+      "file": "TextureDecoder.h",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/TextureDecoder.h",
+      "sha256": "41b61799b252ffb7a0e63f1f56ccd232e88d0bb01e90c8859421259a7337a7f1"
+    }
+  ]
+}

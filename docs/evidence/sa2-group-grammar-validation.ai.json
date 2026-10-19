@@ -1,0 +1,32 @@
+{
+  "result": "passed",
+  "ordered_model_cases": 18,
+  "ordered_model_steps": 12412,
+  "ordered_model_events": 4848,
+  "alias_prefix_cases": 3,
+  "all_model_events": 4857,
+  "unrolled_k_cases": 257,
+  "outer_information_cases": 65536,
+  "outer_k_domain_counts": {
+    "0": 16384,
+    "1": 16384,
+    "262142": 16384,
+    "262143": 16384
+  },
+  "real_explicit_duplicate_stream_cases": 66,
+  "real_first_stream_runs": 927,
+  "real_first_stream_records": 6371,
+  "real_stream_record_rows": 12742,
+  "observed_retail_groups": 0,
+  "real_data_qualification": "Explicit hypothetical pairs of real packet bytes; not actual group selection.",
+  "zero_counts": "Original do-while,algebraic2^32ifmemorysurvives;hostreject,notexecuted",
+  "original_integer_model_limits": [
+    "Only original2021C..203C8 structural integer operations",
+    "FP loads ignored; scratch word24 reads supplied zero",
+    "Calls opaque/no input-memory side effects or volatile-clobber behavior modeled",
+    "NoMMIO/nativeCPU/exceptions modeled"
+  ],
+  "engine_changes": [],
+  "native_execution": false,
+  "project_opens": 0
+}

@@ -1,0 +1,1 @@
+Prepared95 complete evidence files/55 raw CSVs. Completed original collector/helper words, integer/alias cases, source guards, bounded real-asset negative search, explicit real-byte probes and all corrections retained. No encoded/runtime group or numerical/GPU behavior inferred. Manifest maps every exact copy to source/hash.

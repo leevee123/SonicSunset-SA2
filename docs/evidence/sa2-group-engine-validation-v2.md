@@ -1,0 +1,3 @@
+# Grouped-helper data validation
+
+PASS: 132 explicit helper probes built from66 real Sonic commands, 198 stream views, 1854 primary primitives and 19113 stream-record rows match every independently original-derived header/info/prefix/index/pair/offset/final cursor/tail and raw byte/hash. These are direct helper probes with declared inputs, not observed encoded groups or runtime selection. 9 preservation/16 host rejection fixtures pass, including last-info/primary-prefix authority, disagreeing skipped fields, one/two/eight cursors, overlap, negative bits, host bounds/zero/native-alias window. Strict MSVC passed; all250 prior source/content hashes and reference inputs remain unchanged before apply.

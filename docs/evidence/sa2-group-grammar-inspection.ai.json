@@ -1,0 +1,50 @@
+{
+  "result": "passed",
+  "source_artifacts": 12,
+  "original_words": 479,
+  "retained_ASM_rows_matched": 604,
+  "direct_call_rows": 86,
+  "function_scopes": [
+    {
+      "entry": "0x80120158",
+      "start": "0x80120158",
+      "end_exclusive": "0x801203e0",
+      "va": "0x80120158",
+      "dol_offset": "0x11d158",
+      "iso_offset": "0x13b858",
+      "words": 162
+    },
+    {
+      "entry": "0x8011ccf8",
+      "start": "0x8011ccf8",
+      "end_exclusive": "0x8011d1ac",
+      "va": "0x8011ccf8",
+      "dol_offset": "0x119cf8",
+      "iso_offset": "0x1383f8",
+      "words": 301
+    },
+    {
+      "entry": "0x8010afc4",
+      "start": "0x8010afc4",
+      "end_exclusive": "0x8010afe4",
+      "va": "0x8010afc4",
+      "dol_offset": "0x107fc4",
+      "iso_offset": "0x1266c4",
+      "words": 8
+    },
+    {
+      "entry": "0x8010b010",
+      "start": "0x8010b010",
+      "end_exclusive": "0x8010b030",
+      "va": "0x8010b010",
+      "dol_offset": "0x108010",
+      "iso_offset": "0x126710",
+      "words": 8
+    }
+  ],
+  "direct_incoming_grouped_sites": [
+    "8011d144"
+  ],
+  "native_execution": false,
+  "project_opens": 0
+}

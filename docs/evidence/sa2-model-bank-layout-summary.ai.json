@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "result": "passed",
+  "sample": {
+    "fst_index": 2428,
+    "path": "sonicmdl.prs",
+    "entry_iso_offset": "0x2042d0",
+    "name_iso_offset": "0x20dc97",
+    "disc_offset": "0x479024a4",
+    "stored_bytes": 102331
+  },
+  "canonical_offset_space": "decoded sonicmdl.prs file bytes; not compressed offsets, ISO offsets or observed runtime addresses",
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "protected_files": 60,
+  "recorded_hashes_verified": 52,
+  "all_protected_files_unchanged": true,
+  "table_entries": 64,
+  "sentinel_offset": "0x200",
+  "unique_nodes": 200,
+  "recursive_visits_crosschecked": 688,
+  "node_candidate_fields_each": 10,
+  "node_candidate_field_rows": 2000,
+  "unique_payload_headers": 115,
+  "payload_pointer_word_rows": 230,
+  "payload_zero_words": 66,
+  "unique_nonzero_payload_inner_targets": 164,
+  "pointer_words_total": 894,
+  "pointer_word_classes": {
+    "in_file": 529,
+    "zero": 365
+  },
+  "shared_target_offsets_all_roles": 44,
+  "shared_payload_header_offsets": 0,
+  "shared_inner_target_offsets": 0,
+  "minimum_footprint_overlap_pairs": 0,
+  "inner_targets_inside_proven_minimum_footprints": 0,
+  "known_offsets_including_eof": 545,
+  "candidate_partition_rows": 544,
+  "candidate_span_shorter_than_minimum_rows": 0,
+  "node_candidate_field_aggregates": [
+    {
+      "field_offset": "0x0",
+      "nodes": 200,
+      "unique_raw_words": 13,
+      "u32_min": 4,
+      "u32_max": 30,
+      "f32_finite_min_candidate": "5.605193857299268e-45",
+      "f32_finite_max_candidate": "4.203895392974451e-44",
+      "f32_classification_counts": "{\"finite_nonzero\": 200}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x8",
+      "nodes": 200,
+      "unique_raw_words": 49,
+      "u32_min": 0,
+      "u32_max": 3201458455,
+      "f32_finite_min_candidate": "-0.41089698672294617",
+      "f32_finite_max_candidate": "2.7580230236053467",
+      "f32_classification_counts": "{\"finite_nonzero\": 122, \"negative_zero\": 31, \"positive_zero\": 47}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0xc",
+      "nodes": 200,
+      "unique_raw_words": 35,
+      "u32_min": 0,
+      "u32_max": 3218930114,
+      "f32_finite_min_candidate": "-1.7263720035552979",
+      "f32_finite_max_candidate": "5.244298934936523",
+      "f32_classification_counts": "{\"finite_nonzero\": 56, \"negative_zero\": 65, \"positive_zero\": 79}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x10",
+      "nodes": 200,
+      "unique_raw_words": 29,
+      "u32_min": 0,
+      "u32_max": 3209856324,
+      "f32_finite_min_candidate": "-0.8223459720611572",
+      "f32_finite_max_candidate": "0.8223459720611572",
+      "f32_classification_counts": "{\"finite_nonzero\": 39, \"negative_zero\": 57, \"positive_zero\": 104}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x14",
+      "nodes": 200,
+      "unique_raw_words": 28,
+      "u32_min": 0,
+      "u32_max": 4294967208,
+      "f32_finite_min_candidate": "0.0",
+      "f32_finite_max_candidate": "4.704158944738411e-42",
+      "f32_classification_counts": "{\"finite_nonzero\": 17, \"nan\": 15, \"positive_zero\": 168}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x18",
+      "nodes": 200,
+      "unique_raw_words": 31,
+      "u32_min": 0,
+      "u32_max": 4294966694,
+      "f32_finite_min_candidate": "0.0",
+      "f32_finite_max_candidate": "5.1749952287515494e-42",
+      "f32_classification_counts": "{\"finite_nonzero\": 18, \"nan\": 16, \"positive_zero\": 166}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x1c",
+      "nodes": 200,
+      "unique_raw_words": 66,
+      "u32_min": 0,
+      "u32_max": 4294967044,
+      "f32_finite_min_candidate": "0.0",
+      "f32_finite_max_candidate": "4.636476228911522e-41",
+      "f32_classification_counts": "{\"finite_nonzero\": 37, \"nan\": 43, \"positive_zero\": 120}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x20",
+      "nodes": 200,
+      "unique_raw_words": 1,
+      "u32_min": 1065353216,
+      "u32_max": 1065353216,
+      "f32_finite_min_candidate": "1.0",
+      "f32_finite_max_candidate": "1.0",
+      "f32_classification_counts": "{\"finite_nonzero\": 200}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x24",
+      "nodes": 200,
+      "unique_raw_words": 1,
+      "u32_min": 1065353216,
+      "u32_max": 1065353216,
+      "f32_finite_min_candidate": "1.0",
+      "f32_finite_max_candidate": "1.0",
+      "f32_classification_counts": "{\"finite_nonzero\": 200}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    },
+    {
+      "field_offset": "0x28",
+      "nodes": 200,
+      "unique_raw_words": 1,
+      "u32_min": 1065353216,
+      "u32_max": 1065353216,
+      "f32_finite_min_candidate": "1.0",
+      "f32_finite_max_candidate": "1.0",
+      "f32_classification_counts": "{\"finite_nonzero\": 200}",
+      "semantics": "unknown; candidate interpretation statistics only"
+    }
+  ],
+  "payload_candidate_span_bytes_min": 24,
+  "payload_candidate_span_bytes_max": 24,
+  "inner_target_candidate_span_bytes_min": 4,
+  "inner_target_candidate_span_bytes_max": 12228,
+  "source_basis": {
+    "loader": "0x80050210",
+    "linked_pointer_conversion": "0x8002f88c",
+    "prior_sample_validator": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\validate_sample_v1.py"
+  },
+  "decisions": [
+    "Use original bytes, never the synthetic relocated view.",
+    "Report BE u32 and f32 interpretations without field names or geometry guesses.",
+    "Use next distinct known start or file end only as a candidate partition boundary; it is not a declared record length.",
+    "Minimum footprints are table entries 8 bytes, sentinel word 4 bytes, nodes 0x34 bytes and payload headers 8 bytes, exactly the prior loader evidence.",
+    "Raw next-boundary spans and an exact decoded-bank copy preserve bytes for consumer tracing."
+  ],
+  "unknowns": [
+    "Meanings of node +00/+08..+28 fields.",
+    "Full node and payload structures and their declared lengths.",
+    "Meaning of inner pointed data and its first raw word.",
+    "Native consumers, drawing, transforms, geometry, animation, ownership and live allocation address.",
+    "Runtime execution and gameplay behavior."
+  ],
+  "runtime_execution_observed": false,
+  "geometry_semantics_established": false,
+  "engine_files_changed": [],
+  "run": "inventory_bank_v1.py run once; all arithmetic, matching and counts performed by Python",
+  "artifacts": [
+    {
+      "name": "candidate-span-shorter-than-minimum.csv",
+      "bytes": 60,
+      "sha256": "c8c23e95b2b940240a9858252cc566cfad92b40a8719224fb40d2f034d39cc1f"
+    },
+    {
+      "name": "decoded-bank.bin",
+      "bytes": 136360,
+      "sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963"
+    },
+    {
+      "name": "inner-target-minimum-containment.csv",
+      "bytes": 100,
+      "sha256": "e9f06de0a946725d382a5730970d5511d268491c69f18b4b8d3a19b96c64947c"
+    },
+    {
+      "name": "inner-target-spans.csv",
+      "bytes": 268708,
+      "sha256": "d975f0637aefbd0be2117be7bad1bafaf39f5f4fbfd5922fec991150ee730730"
+    },
+    {
+      "name": "inventory_bank_v1.py",
+      "bytes": 20502,
+      "sha256": "b7fb67f5cb77e5959124c7e82561c570300e55e0013f9141001e744f6a914049"
+    },
+    {
+      "name": "known-offset-partitions.csv",
+      "bytes": 332717,
+      "sha256": "be3d1876c47a901411d451c6402e731465f9104226a37526d2f73d184dc0be03"
+    },
+    {
+      "name": "minimum-footprint-overlaps.csv",
+      "bytes": 154,
+      "sha256": "fe12bbea5ebf7f8cbac53578831972d48ccf5bc9ded25802c7e4cd90ff088d8f"
+    },
+    {
+      "name": "node-field-aggregates.csv",
+      "bytes": 1701,
+      "sha256": "b9a5ac7ffcf8163619b6dec3ff7dad6288ecdf59e16b9fb70b3efc218e135879"
+    },
+    {
+      "name": "node-field-bits-histogram.csv",
+      "bytes": 6575,
+      "sha256": "6205e6fe66643a50e2b3556c24b8bb6d70fe763bb73e1c372e7a601293f01603"
+    },
+    {
+      "name": "node-field-values.csv",
+      "bytes": 214643,
+      "sha256": "6d7f6d652659e2eaa21b0827c7d45b1a950230e8a2714b89aed3a8c58a455821"
+    },
+    {
+      "name": "nodes.csv",
+      "bytes": 68150,
+      "sha256": "389a3a513293933bfe2295bf664c6bff5e7a6c740e89429adcd1fe714b0bdb18"
+    },
+    {
+      "name": "payload-spans.csv",
+      "bytes": 25909,
+      "sha256": "3238c25d6b2b5f5982fb4f286a95296c62f9e070df7ce1fab03f53bebf27755a"
+    },
+    {
+      "name": "pointer-words.csv",
+      "bytes": 51764,
+      "sha256": "0788e7a691fce4da4f52bb1b109adc98bd9e6bd13a3611e6837d09795335194a"
+    },
+    {
+      "name": "shared-pointers.csv",
+      "bytes": 2135,
+      "sha256": "ec5e3fbe2ce593234a5e88570a43233815cea681ee290b65cd2ac2c2bcb68a91"
+    },
+    {
+      "name": "source-digests.csv",
+      "bytes": 22960,
+      "sha256": "97c6464f4308911c57e4a64e742ce17e55ac17cab8393946b39adf092fa17563"
+    },
+    {
+      "name": "table-entries.csv",
+      "bytes": 3995,
+      "sha256": "fbc0d233fd01eceb95e19d113d256fddbee713a5fedeb4acffd735a74fe7a3c2"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+case,pointer_slot_address,data_read_address,before_u16,after_original_store_read_u16,read_site,original_integer_steps,result
+slot0_count_alias,0x1fffc,0x1fffe,0xfffe,0x0,0x80120228,4,write-before-read changes pointed bytes; immutable snapshot would differ
+slot0_index_alias,0x1fffc,0x1fffe,0xfffe,0x0,0x8012032c,5,write-before-read changes pointed bytes; immutable snapshot would differ
+slot0_pair_alias,0x1fffc,0x1fffe,0xfffe,0x0,0x80120384,4,write-before-read changes pointed bytes; immutable snapshot would differ

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "real_source_commands": 66,
+  "explicit_helper_cases": 132,
+  "explicit_stream_views": 198,
+  "primary_primitives_across_cases": 1854,
+  "primary_records_across_cases": 12742,
+  "record_stream_rows": 19113,
+  "all_metadata_raw_skipped_words_cursors_tails_bytes_hashes_match": true,
+  "observed_encoded_or_runtime_groups": 0,
+  "earlier_helper_failure": "V1 expected pipe-separated offsets; oracle uses semicolons. It stopped before launching C++; V2 follows the actual schema.",
+  "preservation_cases": 9,
+  "rejection_cases": 16,
+  "strict_compile": "Windows x64 MSVC/std:c++latest/W4/WX/O2 PASS",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\group-stage\\prepared\\src\\Importers\\SA2\\ModelGeometryGroup.h": "df90d763889774e6905bdc5c1cc00f73b3b9e51b7242ce8edfc34b67f48cb35c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\group-stage\\prepared\\src\\Importers\\SA2\\ModelGeometryGroup.cpp": "5b5b08f123fb918281dc7619b728e3cdfaeaa71d853c5f115a51a9e7d9376664",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\group_data_check.cpp": "31d1fc61b96563af4278c880ded30c68bbc13f47477a9f54744f19bfd705fec3",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_group_data.cmd": "dcd53ff05df3909c38438310a1f249d1590865b643ee031e8264d4e7692a90cb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-group-grammar-v1\\oracle-cases.csv": "131760ebc3121012b0cd1067bb28fd7319d14685cf3ee817065549e8a69f8ae4",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-group-grammar-v1\\oracle-streams.csv": "28703cfa5040e579da9bc11b1c1525b652fdb39d0a14f91807751e0f17e8cd76",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-group-grammar-v1\\oracle-runs.csv": "ba749542167c3c3f1f3247db6560cde52c8f5ddafda2b3732a15eeb11d96b9e2",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-group-grammar-v1\\oracle-records.csv": "590b8340805cdfa18674bc839c6ababadc79d66ad0d2c994a05e5fe536e2bbdb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-group-grammar-v1\\oracle.ai.json": "7dabde4c6f7774a8abf8ecb19b64c9338d9d172335c4892c92bba20c0cc126ca"
+  },
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "host_stream_limit": "1..8 explicit streams; conservative independent stack-window policy, not a native guard/capacity claim",
+  "limits": [
+    "Inputs explicitly supply stream collections; real file bytes are used, but no encoded grouped example was found in the bounded23-MDL.PRS search.",
+    "Native pointer-array/data and collector stack-array aliases are excluded; immutable byte-stream overlap/duplicate offsets are supported.",
+    "Negative/zero unsafe loop behavior, outer count/group matching, state/callbacks, GPU/FP, scratch dereference and gameplay are not executed."
+  ]
+}

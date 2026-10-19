@@ -1,0 +1,25 @@
+flag_index,flag_relative_offset,pointer_slot_alias,qualification
+0,0x10,,original caller stack-relative addresses only; no safe native capacity inferred
+1,0x14,,original caller stack-relative addresses only; no safe native capacity inferred
+2,0x18,,original caller stack-relative addresses only; no safe native capacity inferred
+3,0x1c,,original caller stack-relative addresses only; no safe native capacity inferred
+4,0x20,,original caller stack-relative addresses only; no safe native capacity inferred
+5,0x24,,original caller stack-relative addresses only; no safe native capacity inferred
+6,0x28,,original caller stack-relative addresses only; no safe native capacity inferred
+7,0x2c,,original caller stack-relative addresses only; no safe native capacity inferred
+8,0x30,0,original caller stack-relative addresses only; no safe native capacity inferred
+9,0x34,1,original caller stack-relative addresses only; no safe native capacity inferred
+10,0x38,2,original caller stack-relative addresses only; no safe native capacity inferred
+11,0x3c,3,original caller stack-relative addresses only; no safe native capacity inferred
+12,0x40,4,original caller stack-relative addresses only; no safe native capacity inferred
+13,0x44,5,original caller stack-relative addresses only; no safe native capacity inferred
+14,0x48,6,original caller stack-relative addresses only; no safe native capacity inferred
+15,0x4c,7,original caller stack-relative addresses only; no safe native capacity inferred
+16,0x50,8,original caller stack-relative addresses only; no safe native capacity inferred
+17,0x54,9,original caller stack-relative addresses only; no safe native capacity inferred
+18,0x58,10,original caller stack-relative addresses only; no safe native capacity inferred
+19,0x5c,11,original caller stack-relative addresses only; no safe native capacity inferred
+20,0x60,12,original caller stack-relative addresses only; no safe native capacity inferred
+21,0x64,13,original caller stack-relative addresses only; no safe native capacity inferred
+22,0x68,14,original caller stack-relative addresses only; no safe native capacity inferred
+23,0x6c,15,original caller stack-relative addresses only; no safe native capacity inferred
