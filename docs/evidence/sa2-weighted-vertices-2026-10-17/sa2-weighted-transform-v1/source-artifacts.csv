@@ -1,0 +1,8 @@
+view,entry,kind,path,sha256
+main,0x8011d1d4,pseudocode,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main\export\pseudocode\0x8011d1d4.c,d3593856497eeec52a7e3f475294973ac951a525cbffd98f50162d3bc0440e94
+main,0x8011d1d4,assembly,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main\export\assembly\0x8011d1d4.asm,19e9f3fed85e41c279ab877486382c25ffe7b0178d9f933aa4d4ec2a27b4e571
+main,0x8011dc98,pseudocode,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main\export\pseudocode\0x8011dc98.c,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,0x8011dc98,assembly,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main\export\assembly\0x8011dc98.asm,74befd970ba7e40a9a8f678f89b1baa0924d11cec05686620ed40e5d88a82e9d
+main-sda-v1,0x8011d1d4,pseudocode,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1d4.c,c0c3bb54b52ef08366b676713493d324c90f6b06060c67a8882e824a1508375c
+main-sda-v1,0x8011dc98,pseudocode,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011dc98.c,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,0x8011dc98,assembly,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm,4e8ef6714fc75d4019816b45b9b71d80494064cc9476ad979f6ab9a91fd266bc

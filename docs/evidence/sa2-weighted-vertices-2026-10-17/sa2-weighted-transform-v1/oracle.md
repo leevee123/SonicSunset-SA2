@@ -1,0 +1,11 @@
+# Independent weighted original-word oracle
+
+Own original-word interpreter, not Dolphin/game execution; GQR0=0, original GQR1 write08070807, RNnearest/NI0/nontrapping, finite consumed PS arithmetic/all lanes, disjoint buffers; exact rational MUL/FMA with original order, signed zeros, final PSQ-store FTZ.
+
+All 83 real packets retain original count, scratch base, variant, relative destination and record order. Each of three explicitly declared matrices runs with fresh finite six-word-per-slot sentinel scratch and arbitrary last-eight-byte sentinels. These isolated packet cases do not imply cross-packet runtime ordering or matrix bindings. Every original opcode is decoded at execution; no engine formula is imported. Primary arithmetic is exact rational nearest-even binary32 after each MUL/FMA; PSQ weight type7/scale8 is exact s16/256; final PSQ float stores flush subnormals to signed zero.
+
+Complete inputs/matrix words/record bytes/before-after binary paths/hashes/target domains/GQR1 state are in oracle-cases.jsonl. All load/store/order events and per-lane arithmetic rows are complete CSV; every referenced destination32-byte slot is retained. Repeated-destination rows point to the final slot image; actual intermediate writes and old-value reads remain in event CSV. Every unwritten byte, source buffer, matrix and descriptor is checked unchanged. GQR1 changes from DEADBEEF to08070807 on every successful helper invocation.
+
+Synthetic coverage includes all four test variants0/1/2/127, signed16 weight endpoints/negative/zero/255/256/257, additive base+dest0/65535, ordered/reversed duplicate destinations, fused weighted accumulation cancellation, transform-before-weight fusion, zero-weight FTZ/signed-zero feedback, mode0 ignoring nonfinite old scratch, and the special nonzero count1 lookahead of only24bytes. Original N0 is bounded to200steps and does not return. Exact totals/coverage/source hashes are in JSON.
+
+Finite/all-lane arithmetic is a conservative oracle subset: it rejects nonfinite consumed values or overflowing paired results, including discarded PS lanes. Native invalid exceptions/FPSCR flags, nonzero live GQR0, alternative rounding/NI, original memory aliases, native faults, and full runtime binding/order remain outside this reference. No repository/engine/native/frozen/language/helper changes.

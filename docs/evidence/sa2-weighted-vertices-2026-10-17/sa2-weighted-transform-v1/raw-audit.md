@@ -1,0 +1,19 @@
+# Original weighted vertex helper
+
+The original entry is **8011DC98**, DOL **11AC98**, ISO **0x139398** (exact ISO offset is recorded in CSV/JSON). Original retained assembly words are checked against the original DOL and DOL text-section mapping, and the ISO DOL slice hashes identically. No project or ProgramDB was opened. Frozen generated C was inspected first; its quantization expressions are not trusted because the known SLEIGH load-scale field truncates six bits to three.
+
+The r3 descriptor supplies scratch base at +0, input pointer +4, count +8 (`DC98/DC9C/DCA0`; complete VAs in CSV). Dispatcher scratch base already includes info low16*32. For each 28-byte record, six input binary32 values are at +0..20 under explicit GQR0=0; signed weight is BE s16 at +24; BE u16 destination is +26. Destination address is descriptor[0]+32*destination. There is no descriptor writeback.
+
+`DCA4/DCA8/DCAC` writes GQR1=08070807; load type=7 signed16 and load scale=8, so weight q=s16/256 exactly. It is **not restored on return**. This does not recover live GQR0/FPSCR or prove caller state. Negative weights and magnitudes above one are preserved by the source arithmetic, not clamped or normalized.
+
+Matrix loads use the same three 3-word columns and 3-word translation as the earlier helpers, with all byte offsets and GQR0 W bits retained. Under GQR0=0, let columns A=(m0,m1,m2), B=(m3,m4,m5), C=(m6,m7,m8), T=(m9,m10,m11). First triple P_i=FMA(C_i,z,FMA(B_i,y,FMA(A_i,x,T_i))). Second triple Q_i=FMA(C_i,w,FMA(B_i,v,MUL(A_i,u))). Each MUL/FMA rounds once to binary32; translation is in the first fused x step. Initial arithmetic is at DCFC/DD04, DD2C/DD30, DD4C/DD50 (P), DD0C/DD14, DD38/DD40, DD54/DD58 (Q); corresponding nonzero-path final steps are DE08/DE10/DE18/DE20.
+
+Variant is tested **only for zero** at DD44/DD48. Mode zero stores rounded MUL(P_i,q), MUL(Q_i,q), at DD60/DD64/DD6C/DD70 and corresponding loop operations. Every nonzero variant stores **FMA(P_i,q,old_i)** and **FMA(Q_i,q,old_i)**, at DE28/DE2C/DE34/DE38 and DEAC/DEB0/DEB8/DEBC. It does not separately round the weighted term before accumulation.
+
+The four PSQ stores always target destination+0/W0, +8/W1, +12/W0, +20/W1; under GQR0=0 they update the first 24 bytes and preserve +24..31. PSQ float stores apply unconditional signed-zero FTZ for subnormal results, including NI=0. Intermediate PS arithmetic retains subnormals at NI=0. Accumulation reads those previously stored/FTZ values using the same four offsets.
+
+First accumulation old values load DE04/DE0C/DE14/DE1C before its result. Loop previous-record stores DE58/DE60/DE68/DE70 happen **before** current-record old loads DE88/DE90/DE98/DEA0. Thus repeated destinations accumulate sequentially through the FTZ store boundary. The zero mode does not read old scratch values. Source/scratch/descriptor/stack aliases can change native behavior and are outside the independent disjoint-memory contract.
+
+Both modes load the next record's six scalar words before count-1 tests. Mode zero always loads the next weight/destination too. Nonzero mode count1 branches at DE40 before DE44/DE48, so only the next six scalars are read; nonzero N>=2 loads N+1 full records through its loop. Count zero sets CTR=FFFFFFFF and enters an unsafe huge loop, with modulo-32-bit pointers and possible aliases/faults; there is no native zero guard. Ten scalar stfd/lfd pairs save/restore f14..f23 PS0 around a 128-byte frame; PS1 preservation is not inferred. GQR1, volatile GPR/FPR and FPSCR side effects are not represented by a CPU-only host API.
+
+Complete raw words, PS operand fields, PSQ W/I/displacement/update fields, matrix load order, frozen-C feature lines, all source hashes and actual VA/DOL/ISO mappings are retained. No engine, repository, original game, frozen project, language or helper file was edited.

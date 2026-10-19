@@ -1,0 +1,1 @@
+CoreweightedexactrationalvsCRT0bitdifferences;row/unique/inputhashcountsJSON. FusedweightcancelB0000000vsseparateroundzero;transformbeforeweightA8000000. ZeroweightstillFTZ/signzero[0,80000000,0,0,80000000,0]. Duplicatedestforward0/reverse1 modes1/2;nonzeromodes1/2/127same. Noengine/Dolphin/gameexecution.

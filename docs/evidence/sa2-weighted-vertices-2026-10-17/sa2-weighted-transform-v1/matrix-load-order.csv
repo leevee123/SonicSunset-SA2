@@ -1,0 +1,9 @@
+owner,va,dol_offset,iso_offset,word,mnemonic,instruction,register,base,displacement,W,I,role,updates
+0x8011dc98,0x8011dce4,0x11ace4,0x1393e4,e0040000,psq_l,"psq_l f0,0x0(r4),0x0,GQR0",0,4,0,0,0,matrix,False
+0x8011dc98,0x8011dce8,0x11ace8,0x1393e8,e0248008,psq_l,"psq_l f1,0x8(r4),0x1,GQR0",1,4,8,1,0,matrix,False
+0x8011dc98,0x8011dcec,0x11acec,0x1393ec,e0c40024,psq_l,"psq_l f6,0x24(r4),0x0,GQR0",6,4,36,0,0,matrix,False
+0x8011dc98,0x8011dcf4,0x11acf4,0x1393f4,e0e4802c,psq_l,"psq_l f7,0x2c(r4),0x1,GQR0",7,4,44,1,0,matrix,False
+0x8011dc98,0x8011dd00,0x11ad00,0x139400,e044000c,psq_l,"psq_l f2,0xc(r4),0x0,GQR0",2,4,12,0,0,matrix,False
+0x8011dc98,0x8011dd08,0x11ad08,0x139408,e0648014,psq_l,"psq_l f3,0x14(r4),0x1,GQR0",3,4,20,1,0,matrix,False
+0x8011dc98,0x8011dd18,0x11ad18,0x139418,e0a48020,psq_l,"psq_l f5,0x20(r4),0x1,GQR0",5,4,32,1,0,matrix,False
+0x8011dc98,0x8011dd34,0x11ad34,0x139434,e0840018,psq_l,"psq_l f4,0x18(r4),0x0,GQR0",4,4,24,0,0,matrix,False

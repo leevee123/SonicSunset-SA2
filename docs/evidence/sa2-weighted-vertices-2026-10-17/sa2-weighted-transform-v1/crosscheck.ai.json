@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "PS_lane_rows": 82144,
+  "distinct_op_operand_cases_CRT_checked": 57802,
+  "exact_vs_CRT_mismatches": 0,
+  "zero_weight_FTZ_words": [
+    "00000000",
+    "80000000",
+    "00000000",
+    "00000000",
+    "80000000",
+    "00000000"
+  ],
+  "weighted_fused_cancellation_word": "b0000000",
+  "transform_then_weight_fused_word": "a8000000",
+  "ordered_duplicate_examples": {
+    "1": {
+      "forward_bits": "00000000",
+      "reverse_bits": "3f800000"
+    },
+    "2": {
+      "forward_bits": "00000000",
+      "reverse_bits": "3f800000"
+    }
+  },
+  "nonzero_modes_1_2_127_equal": true,
+  "unchanged_source_paths": 14,
+  "note": "CRT independent arithmetic cross-check only; primary oracle is exact rational original-word execution, not Dolphin/hardware"
+}
