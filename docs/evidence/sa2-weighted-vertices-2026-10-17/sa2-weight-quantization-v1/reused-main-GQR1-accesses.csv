@@ -1,0 +1,11 @@
+va,dol_offset,iso_offset,word,SPR,GQR,access,gpr,BIT_0,classification
+0x800e3cf4,0xe0cf4,0xff3f4,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution
+0x800e446c,0xe146c,0xffb6c,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution
+0x800e5640,0xe2640,0x100d40,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution
+0x800e5714,0xe2714,0x100e14,0x7c91e3a6,913,1,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution
+0x800e80d8,0xe50d8,0x1037d8,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution
+0x8010a78c,0x10778c,0x125e8c,0x7eb1e2a6,913,1,read_mfspr,21,0,exact valid instruction encoding candidate; static word presence not execution
+0x8010a8b0,0x1078b0,0x125fb0,0x7eb1e3a6,913,1,write_mtspr,21,0,exact valid instruction encoding candidate; static word presence not execution
+0x80113fa0,0x110fa0,0x12f6a0,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution
+0x80113fc8,0x110fc8,0x12f6c8,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution
+0x8011dcac,0x11acac,0x1393ac,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution

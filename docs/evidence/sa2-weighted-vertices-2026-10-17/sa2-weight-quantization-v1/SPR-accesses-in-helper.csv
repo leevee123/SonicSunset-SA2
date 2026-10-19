@@ -1,0 +1,3 @@
+va,dol_offset,iso_offset,word,opcode,field21,field16,field11,xo,SPR,access
+0x8011dcac,0x11acac,0x1393ac,0x7c11e3a6,31,0,17,28,467,913,write
+0x8011dce0,0x11ace0,0x1393e0,0x7d0903a6,31,8,9,0,467,9,write

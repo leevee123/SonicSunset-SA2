@@ -1,0 +1,161 @@
+view,line,text,source_sha256
+main,420,    lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,421,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,422,  else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,423,    lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,424,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,425,  if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,426,    dVar37 = (double)(lVar7 * (longlong)(double)*(char *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,427,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,428,  else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,429,    dVar37 = (double)(lVar7 * (longlong)(double)*(short *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,430,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,431,  else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,432,    dVar37 = (double)*pfVar1;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,433,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,434,  pfVar12 = (float *)(iVar16 + (uint)*(ushort *)((int)pfVar13 + 0x1a) * 0x20);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,435,  dVar30 = dVar20 * dVar46 + dVar18 * dVar25 + dVar23;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,596,      lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,597,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,598,    else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,599,      lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,600,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,601,    if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,602,      dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,603,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,604,    else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,605,      dVar48 = (double)(lVar7 * (longlong)(double)*(short *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,606,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,607,    else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,608,      dVar48 = (double)*pfVar1;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,609,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,610,    puVar14 = (ushort *)((int)pfVar13 + 0x36);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,611,    uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,844,        lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,845,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,846,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,847,        lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,848,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,849,      if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,850,        dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,851,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,852,      else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,853,        dVar48 = (double)(lVar7 * (longlong)(double)*(short *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,854,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,855,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,856,        dVar48 = (double)*pfVar13;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,857,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,858,      puVar14 = puVar14 + 0xe;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,859,      uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1084,        lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1085,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1086,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1087,        lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1088,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1089,      if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1090,        dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1091,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1092,      else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1093,        dVar48 = (double)(lVar7 * (longlong)(double)*(short *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1094,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1095,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1096,        dVar48 = (double)*pfVar1;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1097,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1098,      puVar14 = (ushort *)((int)pfVar13 + 0x36);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1099,      uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1472,          lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1473,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1474,        else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1475,          lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1476,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1477,        if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1478,          dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1479,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1480,        else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1481,          dVar48 = (double)(lVar7 * (longlong)(double)(short)*(ushort *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1482,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1483,        else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1484,          dVar48 = (double)*pfVar13;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1485,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1486,        puVar14 = puVar14 + 0xe;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main,1487,        uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,420,    lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,421,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,422,  else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,423,    lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,424,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,425,  if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,426,    dVar37 = (double)(lVar7 * (longlong)(double)*(char *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,427,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,428,  else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,429,    dVar37 = (double)(lVar7 * (longlong)(double)*(short *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,430,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,431,  else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,432,    dVar37 = (double)*pfVar1;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,433,  },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,434,  pfVar12 = (float *)(iVar16 + (uint)*(ushort *)((int)pfVar13 + 0x1a) * 0x20);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,435,  dVar30 = dVar20 * dVar46 + dVar18 * dVar25 + dVar23;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,596,      lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,597,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,598,    else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,599,      lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,600,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,601,    if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,602,      dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,603,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,604,    else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,605,      dVar48 = (double)(lVar7 * (longlong)(double)*(short *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,606,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,607,    else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,608,      dVar48 = (double)*pfVar1;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,609,    },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,610,    puVar14 = (ushort *)((int)pfVar13 + 0x36);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,611,    uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,844,        lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,845,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,846,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,847,        lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,848,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,849,      if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,850,        dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,851,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,852,      else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,853,        dVar48 = (double)(lVar7 * (longlong)(double)*(short *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,854,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,855,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,856,        dVar48 = (double)*pfVar13;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,857,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,858,      puVar14 = puVar14 + 0xe;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,859,      uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1084,        lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1085,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1086,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1087,        lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1088,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1089,      if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1090,        dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1091,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1092,      else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1093,        dVar48 = (double)(lVar7 * (longlong)(double)*(short *)pfVar1);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1094,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1095,      else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1096,        dVar48 = (double)*pfVar1;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1097,      },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1098,      puVar14 = (ushort *)((int)pfVar13 + 0x36);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1099,      uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1472,          lVar7 = 0x3ff0000000000000;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1473,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1474,        else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1475,          lVar7 = ldexpf(0xf8);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1476,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1477,        if (false) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1478,          dVar48 = (double)(lVar7 * (longlong)(double)*(char *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1479,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1480,        else if (true) {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1481,          dVar48 = (double)(lVar7 * (longlong)(double)(short)*(ushort *)pfVar13);,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1482,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1483,        else {,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1484,          dVar48 = (double)*pfVar13;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1485,        },fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1486,        puVar14 = puVar14 + 0xe;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95
+main-sda-v1,1487,        uVar2 = *puVar14;,fc982c2054e0a30728ffe74fadc3bfcfa354490d81c4a05f56c5d1d00bdb3a95

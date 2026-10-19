@@ -1,0 +1,9 @@
+raw_u16,signed_s16,exact_numerator,exact_denominator,value_decimal,PS0_f32_bits,PS1_f32_bits,classification,exact_without_rounding,host_f32_bits_match,signed_zero
+0x8000,-32768,-128,1,-128.0,0xc3000000,0x3f800000,normal,True,True,
+0x8001,-32767,-32767,256,-127.99609375,0xc2fffe00,0x3f800000,normal,True,True,
+0xffff,-1,-1,256,-0.00390625,0xbb800000,0x3f800000,normal,True,True,
+0x0,0,0,1,0.0,0x0,0x3f800000,positive_zero,True,True,positive
+0x1,1,1,256,0.00390625,0x3b800000,0x3f800000,normal,True,True,
+0xff,255,255,256,0.99609375,0x3f7f0000,0x3f800000,normal,True,True,
+0x100,256,1,1,1.0,0x3f800000,0x3f800000,normal,True,True,
+0x7fff,32767,32767,256,127.99609375,0x42fffe00,0x3f800000,normal,True,True,

@@ -1,0 +1,6 @@
+va,dol_offset,iso_offset,word,opcode,field21,field16,field11,xo,FPR,RA,W,I,signed_displacement12,RA_update,load
+0x8011dd1c,0x11ad1c,0x13941c,0xe6679008,57,19,7,18,4,19,7,1,1,8,True,True
+0x8011dd74,0x11ad74,0x139474,0xe6679008,57,19,7,18,4,19,7,1,1,8,True,True
+0x8011ddec,0x11adec,0x1394ec,0xe6679008,57,19,7,18,4,19,7,1,1,8,True,True
+0x8011de44,0x11ae44,0x139544,0xe6679008,57,19,7,18,4,19,7,1,1,8,True,True
+0x8011dec4,0x11aec4,0x1395c4,0xe6679008,57,19,7,18,4,19,7,1,1,8,True,True

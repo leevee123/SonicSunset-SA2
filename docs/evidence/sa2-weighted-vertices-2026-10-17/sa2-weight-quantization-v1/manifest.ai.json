@@ -1,0 +1,7 @@
+{
+  "result": "finalized",
+  "files": 22,
+  "manifest_sha256": "6b836de00c0dd49eb1a981f16b3c37420ecde0c4123b50f0322e648ef4f84524",
+  "source_guards_reverified": 20,
+  "human_report_sha256": "d1999a87659a19a61a045c769beb9794fd578fd91b57cd9668ba499fd4c1cdb9"
+}
