@@ -1,0 +1,22 @@
+{
+  "commit": "e6f3ae17627e4344da95b13424af5baf4c892b08",
+  "files": [
+    {
+      "name": "Interpreter_Paired.cpp",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_Paired.cpp",
+      "status": "saved",
+      "bytes": 15219,
+      "sha256": "7bc724e02d4341ffd1e556cfcb613288158a1d4e30255fcd68b5d796ac9417c6"
+    },
+    {
+      "name": "Interpreter_LoadStorePaired.cpp",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_LoadStorePaired.cpp",
+      "status": "saved",
+      "bytes": 12029,
+      "sha256": "878f81e8a2b0800037102b1d73c9d4cc249b26dfadc3322459a0717423528e89"
+    }
+  ],
+  "prior_web_tool": "cache miss for raw and GitHub blob URLs",
+  "use": "primary hardware semantic reference only; no game source; no engine code copied",
+  "source": "official dolphin-emu/dolphin"
+}

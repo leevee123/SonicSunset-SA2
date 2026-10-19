@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "exit": 0,
+  "flags": "/std:c++latest /EHsc /O2 /fp:strict /W4 /WX",
+  "raw_log_sha256": "4bd1998f2568be99b2b18d7fac2eefd7e627e40ab16c0ab710c54895de192075",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\transform-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.cpp": "a7f00eb46756c8e51bda76d399693b01370f331dc2843ee976ad7e2eacea0645",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\transform-stage\\prepared\\src\\Importers\\SA2\\ModelVertexTransform.h": "83221782b523e4bc6a9d249f64f7826635cef3febf6ba820e9e5f0bb004070c6"
+  },
+  "reused_object_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-validation\\sa2_prs.obj": "84de8de9fd0bfa84d6087de64df3fcfab0602eb180e77eab4512ae48177fd7e0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-validation\\shadow_prs.obj": "6bfa00e9dfbbe223b9f2bc5cd2f7e69da22f4d57b06abb67a945fe3930fb6cb9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-validation\\gc_disc.obj": "c0294500684e5e8176764dfbdcd533ee4c1cf4925162d0d0bd8ea64abb2fcc6b"
+  },
+  "exe_sha256": "6feb3c9eb895bbd19eb9a723b9b0330b1a1920a49d13adb0441f2d6fd253d841",
+  "scope": "Same transform and fixture harness; adds read-only original-disc extraction using existing validated engine GCDisc/PRS objects."
+}

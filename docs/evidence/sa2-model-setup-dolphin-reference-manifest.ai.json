@@ -1,0 +1,20 @@
+{
+  "commit": "e6f3ae17627e4344da95b13424af5baf4c892b08",
+  "files": [
+    {
+      "name": "Interpreter_Paired.cpp",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_Paired.cpp",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "Interpreter_LoadStorePaired.cpp",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_LoadStorePaired.cpp",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    }
+  ],
+  "prior_web_tool": "cache miss for raw and GitHub blob URLs",
+  "use": "primary hardware semantic reference only; no game source; no engine code copied",
+  "source": "official dolphin-emu/dolphin"
+}

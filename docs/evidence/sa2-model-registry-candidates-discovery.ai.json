@@ -1,0 +1,23 @@
+{
+  "status": "bounded_candidates_selected",
+  "registry_start": "0x801e6688",
+  "registry_end_exclusive": "0x801e7728",
+  "slots": 532,
+  "views": [
+    "context-free",
+    "startup-SDA assumption"
+  ],
+  "matched_sources": 64,
+  "unique_function_entries": 32,
+  "matching_lines": 218,
+  "raw_evidence": [
+    "registry-generated-matches.csv",
+    "registry-generated-sources.csv"
+  ],
+  "original_DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "source_guards": "244 engine/content and 92 docs unchanged",
+  "limitations": [
+    "Literal matches alone do not prove register-derived registry addresses or execution.",
+    "Search is bounded to generated main-DOL C, not indirect/native runtime or all module consumers."
+  ]
+}

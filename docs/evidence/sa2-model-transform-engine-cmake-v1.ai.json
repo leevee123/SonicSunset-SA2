@@ -1,0 +1,9 @@
+{
+  "status": "prepared",
+  "before_sha256": "a0e25826a913d014869a33e4de2165c89c96c6abbe95ddf95673e7efceba28f8",
+  "after_sha256": "dc5ec95c44fb1959419b431cf612b8e8091818eb27c3a20ced03f4d61748d61d",
+  "changes": [
+    "one new compilation unit",
+    "source-local /fp:strict or -ffp-contract=off; existing units retain options"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "cases": 219,
+  "schema": {
+    "case_id": "str",
+    "source_kind": "str",
+    "input_offset": "int",
+    "packet_decoded_offset": "str",
+    "opcode": "int",
+    "count": "int",
+    "start": "int",
+    "matrix_name": "str",
+    "matrix_bits": "list",
+    "records_hex": "str",
+    "input_source_sha256": "str",
+    "lookahead_hex": "str",
+    "before_file": "str",
+    "after_file": "str",
+    "before_sha256": "str",
+    "after_sha256": "str",
+    "steps": "int"
+  },
+  "real_sample": {
+    "case_id": "real_000_identity",
+    "opcode": 41,
+    "count": 163,
+    "start": 0,
+    "packet_decoded_offset": "0xc30",
+    "input_offset": 3128,
+    "before_file": "cases\\real_000_identity.before.bin",
+    "after_file": "cases\\real_000_identity.after.bin"
+  },
+  "synthetic_sample": {
+    "case_id": "synthetic_23_fused_cancellation",
+    "source_kind": "synthetic",
+    "input_offset": 0,
+    "packet_decoded_offset": null,
+    "opcode": 35,
+    "count": 1,
+    "start": 2,
+    "matrix_name": "fused_cancellation",
+    "input_source_sha256": "779e717382909805a8b9669db5983326d483936fba4b6b0fffa3c5518546f20f",
+    "before_file": "cases\\synthetic_23_fused_cancellation.before.bin",
+    "after_file": "cases\\synthetic_23_fused_cancellation.after.bin",
+    "before_sha256": "16f7485cc346a849678233c89e2bae36427a18d1fd211eef42a20a2e4590e085",
+    "after_sha256": "27ca5045e2e2ba0e637b89b536089b2c93b940db81cab344bdcfeff4ce797053",
+    "steps": 34
+  },
+  "synthetic_records_bytes": 16,
+  "synthetic_lookahead_bytes": 16
+}

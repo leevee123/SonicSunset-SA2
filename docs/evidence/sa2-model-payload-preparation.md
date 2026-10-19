@@ -1,0 +1,3 @@
+# Payload-consumer preparation
+
+Completed2026-10-14. Original C was read first, followed by existing frozen ASM where signatures, quantized arithmetic or FIFO writes were incomplete. A bounded integer selector checked against existing ASM supplied the original first-stream masks; no Ghidra project/JVM/native-game execution was needed. All five Python script versions ran once. Undefined source probes, oversized C expansions and failed external lookups remain explicit in the AI twin. Root requested the first-stream CPU reader contract before a render port; second-stream cache/render unknowns remain recorded. No installed/frozen, repository or engine source changed.

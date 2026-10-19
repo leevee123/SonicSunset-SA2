@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "package": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Vertex-Check",
+  "launcher": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Vertex-Check\\Start-SA2-Vertex-Check.cmd",
+  "result": {
+    "status": "PASS",
+    "scope": "Explicit vertex arithmetic with supplied test matrices; model display, weighted vertices, animation and gameplay remain unfinished.",
+    "cases": 219,
+    "real_unique_packets": 71,
+    "real_cases": 213,
+    "synthetic_cases": 6,
+    "output_slots": 7017,
+    "original_disc_modified": false,
+    "live_matrix_recovered": false,
+    "original_game_or_dolphin_executed": false,
+    "host_fixtures": "preserved=5 rejected=15"
+  },
+  "package_files_sha256": {
+    "check_vertices.py": "36b5e9ce25d716b8b7708309001b6bd502b57ff00f0a09f71b9ad54b889ed15d",
+    "Last-result.ai.json": "264e8d7d70626c7763507e84b22da37be2c1e0458873931ef0be5460ec28f6f7",
+    "Last-result.md": "d731a1a6ead5cbfb94f080c33743511b7b3a99b33faf78376c125dd579389e31",
+    "Package-check.raw.log": "c11898edfcb313fe749642f013d9615fcb5a0450216ed1ad407c62bac68d9cff",
+    "README.ai.json": "42fd00474985680629992c6aaa1ec9cfbd2d5fd89e357af60e4559d82beda300",
+    "README.md": "eca02e3bbb8654ca461c63027cb3d00a7f6a1ff014be564b2afd2d2bee310ae2",
+    "Reference.ai.json": "31f8e3df014431b3cd5d3d8b9bbcf92970e7801d811a56c2e9cc7a1004fe18d6",
+    "Start-SA2-Vertex-Check.cmd": "6a35adc3433c8c6c99492cda4db7adcdec48b5890f470cee3bec073884329395",
+    "transform_data_check_iso.exe": "6feb3c9eb895bbd19eb9a723b9b0330b1a1920a49d13adb0441f2d6fd253d841"
+  },
+  "run": "once/package-v1; packaging verification",
+  "game_media_included": false
+}

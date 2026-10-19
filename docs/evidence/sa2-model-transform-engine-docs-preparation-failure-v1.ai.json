@@ -1,0 +1,7 @@
+{
+  "status": "stopped_before_doc_edits",
+  "version": 1,
+  "reason": "Inherited426-file ledger does not contain the two earlier boot docs; v1 assumed it did.",
+  "correction": "v2 captures their current bytes explicitly as additional preimages; drift is guarded before final apply. All inherited426 entries still verify.",
+  "repo_changes": false
+}

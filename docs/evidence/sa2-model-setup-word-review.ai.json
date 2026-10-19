@@ -1,0 +1,50 @@
+{
+  "constants": [
+    {
+      "VA": "0x803b0fb8",
+      "DOL_offset": "0x1de558",
+      "ISO_offset": "0x1fcc58",
+      "word": "bf000000",
+      "f32": -0.5
+    },
+    {
+      "VA": "0x803b0fbc",
+      "DOL_offset": "0x1de55c",
+      "ISO_offset": "0x1fcc5c",
+      "word": "00000000",
+      "f32": 0.0
+    },
+    {
+      "VA": "0x803b0fc0",
+      "DOL_offset": "0x1de560",
+      "ISO_offset": "0x1fcc60",
+      "word": "3f000000",
+      "f32": 0.5
+    },
+    {
+      "VA": "0x803b0fc4",
+      "DOL_offset": "0x1de564",
+      "ISO_offset": "0x1fcc64",
+      "word": "3f800000",
+      "f32": 1.0
+    },
+    {
+      "VA": "0x803b07c8",
+      "DOL_offset": "0x1ddd68",
+      "ISO_offset": "0x1fc468",
+      "word": "3f800000",
+      "f32": 1.0
+    },
+    {
+      "VA": "0x803b07cc",
+      "DOL_offset": "0x1ddd6c",
+      "ISO_offset": "0x1fc46c",
+      "word": "00000000",
+      "f32": 0.0
+    }
+  ],
+  "selected_words": 158,
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "review_md_sha256": "d2baa6e0a230c2686c553c45d2f720871dc6eef5123e8344e14ac32d34019fce",
+  "limits": "GQR0/FPSCR live state unknown; original words only, no runtime execution. selected-pseudocode.md labels complete but truncates >100-line selection; original full C hashes retained, not relied on for exact PS math."
+}

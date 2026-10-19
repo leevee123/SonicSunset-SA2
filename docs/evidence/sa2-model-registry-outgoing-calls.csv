@@ -1,0 +1,11 @@
+view,caller_entry,caller_file_offset,call_site,call_site_file_offset,target,target_file_offset,target_function,target_name,reference_type,target_status
+main,0x8001a2b0,0x172b0,8001a2bc,0x172bc,80119828,0x116828,80119828,FUN_80119828,UNCONDITIONAL_CALL,defined_function_entry
+main,0x8005019c,0x4d19c,800501fc,0x4d1fc,8001a2b0,0x172b0,8001a2b0,FUN_8001a2b0,UNCONDITIONAL_CALL,defined_function_entry
+main,0x800503c8,0x4d3c8,800506a8,0x4d6a8,80050094,0x4d094,80050094,FUN_80050094,UNCONDITIONAL_CALL,defined_function_entry
+main,0x800503c8,0x4d3c8,800506c4,0x4d6c4,801197fc,0x1167fc,801197fc,FUN_801197fc,UNCONDITIONAL_CALL,defined_function_entry
+main,0x800503c8,0x4d3c8,800506e0,0x4d6e0,801197fc,0x1167fc,801197fc,FUN_801197fc,UNCONDITIONAL_CALL,defined_function_entry
+main-sda-v1,0x8001a2b0,0x172b0,8001a2bc,0x172bc,80119828,0x116828,80119828,FUN_80119828,UNCONDITIONAL_CALL,defined_function_entry
+main-sda-v1,0x8005019c,0x4d19c,800501fc,0x4d1fc,8001a2b0,0x172b0,8001a2b0,FUN_8001a2b0,UNCONDITIONAL_CALL,defined_function_entry
+main-sda-v1,0x800503c8,0x4d3c8,800506a8,0x4d6a8,80050094,0x4d094,80050094,FUN_80050094,UNCONDITIONAL_CALL,defined_function_entry
+main-sda-v1,0x800503c8,0x4d3c8,800506c4,0x4d6c4,801197fc,0x1167fc,801197fc,FUN_801197fc,UNCONDITIONAL_CALL,defined_function_entry
+main-sda-v1,0x800503c8,0x4d3c8,800506e0,0x4d6e0,801197fc,0x1167fc,801197fc,FUN_801197fc,UNCONDITIONAL_CALL,defined_function_entry

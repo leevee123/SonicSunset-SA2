@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "scripts_run_once_each": [
+    "discover_consumers_v1.py",
+    "inspect_original_v1.py",
+    "inspect_weighted_v1.py",
+    "validate_first_stream_v1.py",
+    "finalize_reference_v1.py"
+  ],
+  "new_Ghidra_program_or_native_runtime": false,
+  "original_instruction_selection": "ExistingfrozenASMplus boundedintegerdecoder checkedagainstexistingload/maskencodings; no projectfreeJVMneededthispass.",
+  "source_selection_failures": [
+    "Read-only probes8011FEE0 andearlier800EED84 wereundefined; actual source callees followed instead.",
+    "Whole PSQ C expansion was oversized/truncated; structural C selection and original ASM were used for record strides."
+  ],
+  "reference_probe": "Two pinned raw Dolphin URLs returned cache misses; no facts fromthose outputs. Primary existingpinnedGekko.h reused/hashretained.",
+  "all_sources_preserved": "C/ASMpaths+hashes andfullcallCSV retained; untouchedrepo/engine/frozen/installed files",
+  "counts": "105sourceartifacts/2427ASMrows/1428uniqueVAs/432edges;100firststreams/154packets/3167records",
+  "scope_change": "RootrequestedfirststreamCPUreadercontractpriority;fullsecondstreamrenderportdeferredwithexplicitunknowns."
+}

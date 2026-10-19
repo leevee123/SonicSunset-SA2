@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+  "transform_unit_compiled": true,
+  "executable_linked": true,
+  "compiler_errors": 0,
+  "raw_log_sha256": "340042180595ee32af398ef6330ae9b6fa13937df93861d84a6f87281b0ebb82",
+  "executable_sha256": "50968ef9f47acb436665fef202fafad5eee1aae1cc9a65f402f16a2522284b45",
+  "source_local_strict_FP": true,
+  "strict_FP_source_files": [
+    "C:/decomp/SonicFantasy-master/src/Importers/SA2/ModelVertexTransform.cpp"
+  ],
+  "debug_information": "Existing invocation-only Embedded workaround; repository defaults unchanged",
+  "scope": "Opt-in explicit Float32 helper; no existing caller, GPU, weighted op2C or gameplay execution"
+}

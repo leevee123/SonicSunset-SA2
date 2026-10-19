@@ -1,0 +1,2 @@
+literal,VA,DOL_offset,ISO_offset,loader_call_VA,target_VA,scope
+PLCOMMTN.PRS,0x80174414,0x171414,0x18fb14,0x800506A8,0x80050094,Original literal/call only; lower loader/format/runtime unreviewed

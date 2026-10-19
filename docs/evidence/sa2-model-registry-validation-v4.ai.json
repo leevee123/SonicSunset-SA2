@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "original_words": 310,
+  "new_parser_words": 250,
+  "reused_scanner_words": 60,
+  "retained_ASM_rows_verified": 426,
+  "functions": 4,
+  "new_source_artifacts": 8,
+  "registry_slots": 532,
+  "registry_entry_bytes": 8,
+  "initializer_registry_stores": 1064,
+  "initializer_final_word0": "index 0..531",
+  "initializer_final_word4": "zero",
+  "initializer_stop_before_first_secondary_motion_table_halfword_store": "0x800505d8",
+  "real_registration_writes": 64,
+  "real_unregistration_writes": 64,
+  "real_blob_after_registration_matches_prior_529_store_reference": true,
+  "original_bank_pointer_forwarded_to_release": true,
+  "fixture_match_clear_mismatch_keep_negative_and_limit_skip": true,
+  "native_release": "800501FC -> 8001A2B0 -> 80119828; pointer r3 preserved, actual runtime backend/lifetime unknown",
+  "bounded_interpreter": "Original integer words only; high-region bank and separate registry/stack, known pointer helper delegated to prior proven data rules; no native CPU/runtime execution",
+  "unmodeled": [
+    "Native allocation/filename I/O result",
+    "Global aliasing/concurrency and arbitrary callback mutations",
+    "Actual releasing/ownership/other references",
+    "Secondary table payload semantics, post-initialization loads and work buffers",
+    "All geometry/drawing/animation and full ABI"
+  ],
+  "source_hashes_unchanged": true,
+  "no_project_or_engine_repo_changes": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exit": 0,
+  "result": "preserved=5 rejected=15",
+  "exe_sha256": "89dcd860ab2016fcbac1070c1d53d3f00dbd5f262890f2da028f0044da096c47",
+  "raw_log_sha256": "a9f79e0760a56b61dc1abcedf4898e21ff5bd97c069b7171ccdb9767c75d4fd6",
+  "scope": "Host bounds, finite-input/intermediate and environment guards, packed-word rotate, copied scratch, nonzero offset, final PSQ FTZ and untouched bytes; original arithmetic checked independently."
+}

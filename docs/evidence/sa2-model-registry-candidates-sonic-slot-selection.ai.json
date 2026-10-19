@@ -1,0 +1,8 @@
+{
+  "status": "candidate_slot_join_only",
+  "sample_ids": 64,
+  "matching_lines": 107,
+  "function_entries": 31,
+  "original_behavior_proven": false,
+  "limitation": "A matching constant slot plus stored sample ID is not complete lifetime/binding or drawing-code proof."
+}

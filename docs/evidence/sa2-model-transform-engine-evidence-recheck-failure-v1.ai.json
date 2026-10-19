@@ -1,0 +1,7 @@
+{
+  "status": "schema_failure_before_completed_audit",
+  "version": 1,
+  "reason": "preparation-source-digests.csv has an optional empty expected_sha256; v1 selected it before recorded sha256_before/after.",
+  "source_or_engine_mutation": false,
+  "correction": "v2 selects the first populated recorded digest and verifies all populated digest columns agree; original v1 retained."
+}
