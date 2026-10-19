@@ -1,0 +1,12 @@
+order,VA,DOL_offset,ISO_offset,target,condition,caller_GPR_arguments,caller_FPR_arguments_under_startup_r2
+0,0x8011d318,0x11a318,0x138a18,0x80100d44,unconditional before gate,r3=0;r4=9;r5=1;r6=4;r7=0,
+1,0x8011d330,0x11a330,0x138a30,0x80100d44,unconditional before gate,r3=0;r4=10;r5=0;r6=4;r7=0,
+2,0x8011d348,0x11a348,0x138a48,0x80100d44,unconditional before gate,r3=0;r4=11;r5=1;r6=5;r7=0,
+3,0x8011d350,0x11a350,0x138a50,0x80102ef8,unconditional before gate,r3=1,
+4,0x8011d378,0x11a378,0x138a78,0x80105850,unconditional before gate,r3=80357880;r4=0,
+5,0x8011d384,0x11a384,0x138a84,0x8010588c,unconditional before gate,r3=80357880;r4=0,
+6,0x8011d3a8,0x11a3a8,0x138aa8,0x800ed7cc,only state at D388 has bit00100000 clear,r3=frameSP+68,f1=f2=wordBF000000(-0.5);f3=word00000000(0)
+7,0x8011d3bc,0x11a3bc,0x138abc,0x800ed798,only state at D388 has bit00100000 clear,r3=frameSP+38,f1=f2=word3F000000(0.5);f3=word3F800000(1)
+8,0x8011d3cc,0x11a3cc,0x138acc,0x800ed368,only state at D388 has bit00100000 clear,r3=frameSP+68;r4=80357880;r5=frameSP+08,
+9,0x8011d3dc,0x11a3dc,0x138adc,0x800ed368,only state at D388 has bit00100000 clear,r3=frameSP+38;r4=frameSP+08;r5=frameSP+08,
+10,0x8011d3ec,0x11a3ec,0x138aec,0x80105908,only state at D388 has bit00100000 clear,r3=frameSP+08;r4=2A;r5=0,

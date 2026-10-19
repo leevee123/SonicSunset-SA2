@@ -1,0 +1,33 @@
+owner,VA,DOL_offset,ISO_offset,operation,base_register,offset,FPR,GQR,W,constraint
+0x801057c4,0x801057c4,0x1027c4,0x120ec4,PSQ_load_pair,r3_source,0x0,0,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057c4,0x801057c8,0x1027c8,0x120ec8,PSQ_load_pair,r3_source,0x8,1,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057c4,0x801057cc,0x1027cc,0x120ecc,PSQ_load_pair,r3_source,0x10,2,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057c4,0x801057d0,0x1027d0,0x120ed0,PSQ_load_pair,r3_source,0x18,3,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057c4,0x801057d4,0x1027d4,0x120ed4,PSQ_load_pair,r3_source,0x20,4,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057c4,0x801057d8,0x1027d8,0x120ed8,PSQ_load_pair,r3_source,0x28,5,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057c4,0x801057dc,0x1027dc,0x120edc,PSQ_store_pair,r4_destination,0x0,0,0,0,stored size/value depend on GQR0 store type/scale
+0x801057c4,0x801057e0,0x1027e0,0x120ee0,PSQ_store_pair,r4_destination,0x0,1,0,0,stored size/value depend on GQR0 store type/scale
+0x801057c4,0x801057e4,0x1027e4,0x120ee4,PSQ_store_pair,r4_destination,0x0,2,0,0,stored size/value depend on GQR0 store type/scale
+0x801057c4,0x801057e8,0x1027e8,0x120ee8,PSQ_store_pair,r4_destination,0x0,3,0,0,stored size/value depend on GQR0 store type/scale
+0x801057c4,0x801057ec,0x1027ec,0x120eec,PSQ_store_pair,r4_destination,0x0,4,0,0,stored size/value depend on GQR0 store type/scale
+0x801057c4,0x801057f0,0x1027f0,0x120ef0,PSQ_store_pair,r4_destination,0x0,5,0,0,stored size/value depend on GQR0 store type/scale
+0x801057f8,0x801057f8,0x1027f8,0x120ef8,PSQ_load_pair,r3_source,0x0,0,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057f8,0x801057fc,0x1027fc,0x120efc,scalar_lfs,r3_source,0x8,1,,,scalar single load; GQR0 does not select its format
+0x801057f8,0x80105800,0x102800,0x120f00,PSQ_load_pair,r3_source,0x10,2,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057f8,0x80105804,0x102804,0x120f04,scalar_lfs,r3_source,0x18,3,,,scalar single load; GQR0 does not select its format
+0x801057f8,0x80105808,0x102808,0x120f08,PSQ_load_pair,r3_source,0x20,4,0,0,lane byte locations depend on GQR0 load type/scale
+0x801057f8,0x8010580c,0x10280c,0x120f0c,scalar_lfs,r3_source,0x28,5,,,scalar single load; GQR0 does not select its format
+0x801057f8,0x80105810,0x102810,0x120f10,PSQ_store_pair,r4_destination,0x0,0,0,0,stored size/value depend on GQR0 store type/scale
+0x801057f8,0x80105814,0x102814,0x120f14,scalar_stfs,r4_destination,0x0,1,,,scalar single store
+0x801057f8,0x80105818,0x102818,0x120f18,PSQ_store_pair,r4_destination,0x0,2,0,0,stored size/value depend on GQR0 store type/scale
+0x801057f8,0x8010581c,0x10281c,0x120f1c,scalar_stfs,r4_destination,0x0,3,,,scalar single store
+0x801057f8,0x80105820,0x102820,0x120f20,PSQ_store_pair,r4_destination,0x0,4,0,0,stored size/value depend on GQR0 store type/scale
+0x801057f8,0x80105824,0x102824,0x120f24,scalar_stfs,r4_destination,0x0,5,,,scalar single store
+0x8010582c,0x8010582c,0x10282c,0x120f2c,PSQ_load_pair,r3_source,0x0,0,0,0,lane byte locations depend on GQR0 load type/scale
+0x8010582c,0x80105830,0x102830,0x120f30,PSQ_load_pair,r3_source,0x8,1,0,0,lane byte locations depend on GQR0 load type/scale
+0x8010582c,0x80105834,0x102834,0x120f34,PSQ_load_pair,r3_source,0x10,2,0,0,lane byte locations depend on GQR0 load type/scale
+0x8010582c,0x80105838,0x102838,0x120f38,PSQ_load_pair,r3_source,0x18,3,0,0,lane byte locations depend on GQR0 load type/scale
+0x8010582c,0x8010583c,0x10283c,0x120f3c,PSQ_store_pair,r4_destination,0x0,0,0,0,stored size/value depend on GQR0 store type/scale
+0x8010582c,0x80105840,0x102840,0x120f40,PSQ_store_pair,r4_destination,0x0,1,0,0,stored size/value depend on GQR0 store type/scale
+0x8010582c,0x80105844,0x102844,0x120f44,PSQ_store_pair,r4_destination,0x0,2,0,0,stored size/value depend on GQR0 store type/scale
+0x8010582c,0x80105848,0x102848,0x120f48,PSQ_store_pair,r4_destination,0x0,3,0,0,stored size/value depend on GQR0 store type/scale

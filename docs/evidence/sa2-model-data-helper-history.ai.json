@@ -1,0 +1,17 @@
+{
+  "status": "preserved_with_final_pass",
+  "registry_helper_versions": [
+    "V1 stopped at a prior CSV column-name assumption before validation.",
+    "V2 original integer model stopped on subfic; V3 added it and stopped on extsh.",
+    "V4 adds both existing integer operations, stops before the first secondary motion-table halfword store and passes. XER carry is not modeled or used by this bounded data flow."
+  ],
+  "model_helper_versions": [
+    "First shell command used a duplicated work prefix and never invoked the compiler.",
+    "First strict harness compile had signed literal comparisons to optional<uint32_t>; production unit compiled, v2 unsigned literals pass.",
+    "V1 engine real-data validation passed; review then required raw info reads for every nonterminal, including four-byte opaque spans overlapping the next header.",
+    "Fixed source and v3 harness pass validation-v2; final integration rebuild and packaged checker pass."
+  ],
+  "documentation_only_command_failure": "PowerShell smart apostrophe parsing stopped the optional README spacing command before execution; apply_patch corrected the text.",
+  "engine_or_game_fault_claimed": false,
+  "failed_source_versions_and_original_logs_retained_in_workspace": true
+}

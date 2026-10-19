@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+  "model_unit_compiled": true,
+  "executable_linked": true,
+  "compiler_errors": 0,
+  "raw_log_sha256": "7ff22f0f0006e4319b1f0c4a05ed12b90ac4fc14a01d54207d6f6c4cf51fd0f8",
+  "executable_sha256": "78b11e7b3e9a4fbe0e1d4057a872f925685f63bfdd64abf923a0c8eda64b2128",
+  "debug_information": "Existing invocation-only Embedded workaround; repository defaults unchanged",
+  "scope": "Data importers only, no full-game/native/model rendering test"
+}

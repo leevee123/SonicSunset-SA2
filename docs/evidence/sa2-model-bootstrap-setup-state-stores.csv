@@ -1,0 +1,4 @@
+VA,DOL_offset,ISO_offset,base,displacement,value,label_under_startup_r13,meaning
+0x8011d358,0x11a358,0x138a58,live r13,-0x7180,0x0,0x803ae140,unknown state word; FFFFFFFF is not zero
+0x8011d360,0x11a360,0x138a60,live r13,-0x717c,0xffffffff,0x803ae144,unknown state word; FFFFFFFF is not zero
+0x8011d364,0x11a364,0x138a64,live r13,-0x7178,0x0,0x803ae148,unknown state word; FFFFFFFF is not zero

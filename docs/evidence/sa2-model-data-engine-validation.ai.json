@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "node_fields": 200,
+  "node_words": 2600,
+  "all_node_word_bits_match_original_sample": true,
+  "optional_field34": "Explicit host request; default retains52-byte minimum, native paths are conditional",
+  "node_metadata_sha256": "ea1161880cab792f914e0449cf5a7fa0eaf2141b9e18f3d9ec1b6100b4155e20",
+  "vertex_streams": 100,
+  "data_packets": 154,
+  "END_words": 100,
+  "raw_records": 3167,
+  "opcodes_packet_counts": {
+    "0x29": 69,
+    "0x2c": 83,
+    "0x23": 2
+  },
+  "raw_stream_bytes_including_END": 80448,
+  "all_packet_fields_offsets_sizes_AND_raw_bytes_match_original_derived_CSV": true,
+  "preservation_cases": 10,
+  "rejection_cases": 16,
+  "strict_compile": "Windows x64 MSVC/std:c++latest/W4/WX/O2 passed",
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\model-data-stage\\prepared\\src\\Importers\\SA2\\ModelData.h": "8d06da6b9a74be3bd35312dd516cd5a5fc5cb8c5896d322ace5ad03dd35798bf",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\model-data-stage\\prepared\\src\\Importers\\SA2\\ModelData.cpp": "7e9303c5b0c05b7eb5f447157ccaabaeb504cfe126e31fa15ab821857609e805",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\model_data_check_v3.cpp": "6583644d332b13b46bcc3255841d5f0cf73a1a27b076408e760f8904f03d407a",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_model_data_v3.cmd": "c506fa1bbbda96a883b7fed517a69b4543cf52a1af9975419f7fece55a2c60ee"
+  },
+  "original_reference": "Native8011D1D4 and three handler strides; agent original masks/words/records validated independently",
+  "earlier_helper_failures_preserved": [
+    "Initial shell path was relative to the wrong cwd; compiler did not run.",
+    "Strict test harness v1 used signed constants in optional<uint32_t> comparisons (C4389/WX); production ModelData unit compiled; unsigned literal suffixes in v2 fix the helper."
+  ],
+  "limits": [
+    "No model rendering, matrix execution, weight scaling/skinning or native GPU/cache state is ported.",
+    "Offset-named node words retain mode-dependent binary32/angle interpretations; no full native struct size or ABI is declared.",
+    "Only sample-proven first-stream opcodes23/29/2C receive record stride/info interpretation; other nonterminal packets are preserved opaque.",
+    "Original input bounds behavior is unchecked; host checks reject truncated/missing-END/known-record overruns.",
+    "Global/native allocation, registry aliasing/lifetime and gameplay remain unimplemented."
+  ]
+}

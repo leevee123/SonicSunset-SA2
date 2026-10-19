@@ -1,0 +1,1 @@
+Full Windows x64 MSVC/Ninja Debug EDITOR ON integration build exit 0; new ModelData unit compiled True; executable linked True; compiler errors 0. Existing invocation-only Embedded debug setting used; repo defaults unchanged. No full-game or geometry rendering execution claimed.

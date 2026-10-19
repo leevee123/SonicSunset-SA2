@@ -1,0 +1,321 @@
+{
+  "status": "Bounded node consumer/flag/order and real-field evidence complete; full geometry/FP/runtime unknown.",
+  "human_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\node-consumers.md",
+  "compact_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\node-consumers.ai.json",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\audit_consumers_v1.py",
+      "bytes": 11522,
+      "sha256": "e46362feea5ba72f88ad1ccee4c12d63fcc4e86eb5892ce7f7ffc7619073180f"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\audit_register_helper_transport_v1.py",
+      "bytes": 4093,
+      "sha256": "1b49df2333c3e184181b3f5b87c63ed6bfd6eec8fba590c21f315da3c7b4fa6f"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\canonical-function-addresses.csv",
+      "bytes": 3613,
+      "sha256": "e2c4b8feac895c1cbc51156b42de64c89c874652d927292b9bcfc7ba8903dcff"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\check_sample_link_guards_v1.py",
+      "bytes": 1905,
+      "sha256": "84925581960db4c41730dd5e7f95079ee86a4114d0d7c18ebe62b5d0110ada7c"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\consumer-bit-extractions.csv",
+      "bytes": 5526,
+      "sha256": "1b6e376b1ae4d34106b9bc9851e6a49cdb3584a85e6222c349ab9924b21a4ff3"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\consumer-field-accesses.csv",
+      "bytes": 32389,
+      "sha256": "0404d719cccee68826934d666178de20d17740b4ee7f2eef2202f4e41bd0b10f"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\consumer-original-calls.csv",
+      "bytes": 240128,
+      "sha256": "6eaab47a37ac3549688411c5308b168ad723b623659097baca0f1af08e12bb76"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\consumer-original-words.csv",
+      "bytes": 112358,
+      "sha256": "fe2be3e3288db25443d632ab52881658daadd5e785f5b2fecaaabc6a92b788ff"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\consumer-retained-asm-matches.csv",
+      "bytes": 52631,
+      "sha256": "70a8c9cbd6663aab2d6c75bec8acc7fd6ec3c6485569b71960300c07470820ac"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\finalize_node_consumers_v1.py",
+      "bytes": 6826,
+      "sha256": "c28cbc89bd583ddccf2920953fb2d68d5dbac4b0d96228f3b533935fa1a93a36"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\find_consumers_v1.py",
+      "bytes": 4337,
+      "sha256": "1c6cb7055f32d2230a02e8ef70ae2fd63f2c3dae4db26591e33e42398b16803f"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\node-consumers.ai.json",
+      "bytes": 7050,
+      "sha256": "2da6c4783257dc5474c391900ea09638f38b2c7aa61b02582fc66a5e1834715f"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\node-consumers.md",
+      "bytes": 14726,
+      "sha256": "0bf6087eef04a892ad4197e8674e663c4fd549f32530668493d08878b27e31ff"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\order-flags.ai.json",
+      "bytes": 13230,
+      "sha256": "b0d4d0bec545dbb5e7099794bc74ad3516355b1c360906fbf2092a2cbede7e7d"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\order-flags.md",
+      "bytes": 657,
+      "sha256": "65d469677e295b1f72d1b587796413c878ffa3c444b82838af4335c9a6b06b95"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-fields.ai.json",
+      "bytes": 3174,
+      "sha256": "1274e042362c2afeaff8e365bf21823be7d02ff65ceef56511cff07030e2eb59"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-fields.csv",
+      "bytes": 315624,
+      "sha256": "2fca59deec24fe73d0cceebe12a181263af3a5407103510c5cf504f6dc71953d"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-fields.md",
+      "bytes": 532,
+      "sha256": "75f9130920b9e0df5932118074de5c16050a70deddc33b8f14eddcc4c1e55ca6"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-flag-counts.csv",
+      "bytes": 120,
+      "sha256": "ba498bbf417ee2f30594d11d20a55c139b6d1b2bc43dcdc0f95e9ed3d74468bf"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-minimum-spans.csv",
+      "bytes": 39651,
+      "sha256": "b023ac26e1088580fb2e6c66f208805bef431463b3e8f475ea2fc4df7cf4d0f1"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-mode400-extension.csv",
+      "bytes": 57,
+      "sha256": "6e6d2dc251e29ae8b1023504940b75118b225fe9aee1aa92ebaee3fe399b8a99"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\recursive-candidate-lines.csv",
+      "bytes": 40717,
+      "sha256": "140faca5d7ab90d064524843410f5e659f8257fdb695fbebc8c22bdd34be7388"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\recursive-candidates.csv",
+      "bytes": 9596,
+      "sha256": "811847c12cec2773aab10cfe5f6c75c1da6cc2ec2ad880f7fcf9d9d84ff8dcd6"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\register-helper-original-words.csv",
+      "bytes": 1039,
+      "sha256": "603158930bd88562920efcbb738fee17357d078dc333168f5cf7989d8f9956c9"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\register-helper.ai.json",
+      "bytes": 2377,
+      "sha256": "8780c7210321a7320aa1eb255163baca3c4410b725b966319fe6b4c7ebf1b04d"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\register-helper.md",
+      "bytes": 366,
+      "sha256": "f1dfc13ea7e6652bb4f5602d8a71310f154e3376ddaed285dfcab2cfa751aa14"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\rotation-integer-order-traces.csv",
+      "bytes": 4520,
+      "sha256": "f6a1977f07ff0e1bbb177928d0a91198aa2f00567a7c23618d6b2e4512501bba"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\sample-link-guards.ai.json",
+      "bytes": 520,
+      "sha256": "e24c9ffc2d92f98a8ca50355fb93af83ed30da41a9899004f035c6e80a89b500"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\sample-link-guards.md",
+      "bytes": 334,
+      "sha256": "6bef5aa3c73bb0a5e849f59d155c0f4bb60e74082d7ebadecb40e1629fb6edb0"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\sample-zero-child-with-static-gate-open.csv",
+      "bytes": 138,
+      "sha256": "b66a42f85a7fa2c9a3372eb707d6499cbdf70dcdfc78425f691770fc8b6e9f14"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\search-source-hashes.csv",
+      "bytes": 2127562,
+      "sha256": "c3beb8f5233976f577bf9c85d60ce0ddbd1b31ac3a558bc4f81de5f59aeede49"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\search.ai.json",
+      "bytes": 36250,
+      "sha256": "2c04a29200a7c81ccaf44909d59266e182503f1a0f4b063de779fefd3189c032"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\search.md",
+      "bytes": 472,
+      "sha256": "598cb2c6a35361eafa637f406451ee2132955d140e7da3b79d3b74dcc6f5346d"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\sonic-direct-consumer-call-windows.csv",
+      "bytes": 18687,
+      "sha256": "1d0523f47d67eaea447cb179bc790eb2c8f1b0ff21d714641c032a6d6944e92b"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\static-node-flag-instructions.csv",
+      "bytes": 2089,
+      "sha256": "913ab6b56dedf0fa2f4079d74c32ae901e92119d0f092ccc156ba73ef07818bb"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\supplied-registry-consumer-groups.csv",
+      "bytes": 3785,
+      "sha256": "8503798d0556832ba973e9556260351b7a15c04e58d8c85975abcab3dc17f953"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\validate_order_flags_v1.py",
+      "bytes": 8801,
+      "sha256": "53ba1874018467a6d39ee741cbf114c73ba1efd79c00b2af21237512a2ef3370"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\validate_real_node_fields_v1.py",
+      "bytes": 7200,
+      "sha256": "6de51589ef71d6cf73cc17ce3b586648a7bdd73a1a60020b768bac006ac0eed7"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\word-audit.ai.json",
+      "bytes": 44776,
+      "sha256": "17a913cdaf1e879654cf38545f76c7aa119ae3bf325f8c25eab1690e27b0deb1"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\word-audit.md",
+      "bytes": 635,
+      "sha256": "3d6dd723c25436197cdbabf55c32c09ab4feb813e7257f1b8c0f3f914bcd194d"
+    }
+  ],
+  "relied_on_source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_odekake_pointer_abi_v1.py": "b9c504e6124d8e60b6c6c40ed9958891cc794e09cc5a5362908b7b38932831ee",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\main.dol": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\dol-elf-mapping-final.json": "2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\function_body_ranges.csv": "e1705a2f81742184bc8307aa69373393fe4efd35716e5643476aa15b5aba7e56",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\function_body_ranges.csv": "31af92b7d34942e22e9b5822277411ebd6a68b3de3617f7cbb7869156da9d1fd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\direct_calls.csv": "a2f2586ef2d9f53611312db796c9301bfec219de710e9b2b9d6238da76e36eb9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\direct_calls.csv": "280cd3bfdbca04aa81fc9e897da762db6fc3259ea83299ddcfa5a5ee0218fa5d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\computed_calls.csv": "0f98db50f0fba22544b997976fdef94793a704095ab8261952d0e395c3312304",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\computed_calls.csv": "b4e0432730398ffd56fbfe573d6b0c9bbd4b334ef4e52fd30c848bbb2e165a3f",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011dfc0.c": "260a0cac7b44e212074f9d3b24a23f5238f2fd1de1f4b8bfe40fb3630b0541eb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011dfc0.c": "260a0cac7b44e212074f9d3b24a23f5238f2fd1de1f4b8bfe40fb3630b0541eb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8012042c.c": "00b72d1c2bf043900eefaac4916c3d8d4798449fc65ef4cc8707cd5e9e91c2e0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x8012042c.asm": "a78cabfeb64ee20d8553049eef63b00a2db75873b178528690c0c1e821b1b532",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8012042c.c": "8cb431f34b056422c8c40351339cd610f27c85db1ccd6f843efdb2542abc12cd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011df44.c": "949eef174dddb7407de26385ceb1d546e4f1647917f1fbe7cab9985aa129a518",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011df44.c": "949eef174dddb7407de26385ceb1d546e4f1647917f1fbe7cab9985aa129a518",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011d554.c": "7aa1d0449c5384247d8ccba66345107662582ba767f7ec6c0cf4c5cd92fa30fc",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011d554.c": "7aa1d0449c5384247d8ccba66345107662582ba767f7ec6c0cf4c5cd92fa30fc",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011e214.c": "cb5388fb1090fff39ae7184099f735809e3ceb0da38a7b18f5be0c2bc9fda998",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011e214.c": "cb5388fb1090fff39ae7184099f735809e3ceb0da38a7b18f5be0c2bc9fda998",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x801203e0.c": "0b1dfef76551a4f8014695a8e0dc2eaf7b409ca77e641e33ed14ee08d9178d12",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x801203e0.asm": "da580a06b96078bfe070d2abc1458e1d74f6218e7e6544b474d5045952676343",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x801203e0.c": "2bf69d7bdafefc894633240f9d99989f91a4ada3ee2e2aa8a751524dbcc6bfcc",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011df20.c": "7748437639b84282aafe91cdfcb13e022f677d638d3dafcfa8b9d0e06d13aeb6",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011df20.c": "7748437639b84282aafe91cdfcb13e022f677d638d3dafcfa8b9d0e06d13aeb6",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011d484.c": "d223e69257f365beaf81dc8e7c4303f1fb902ab76d0acab438e70d42b3e04a20",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x8011d484.asm": "6ee39518c0404e5abfbb1a7116a28d819173357b9137b34f408d84f4f31c7e5b",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011d484.c": "238ce8365589a98d3a932fe6c4d52411695b308064d3a8426b733f5cf61b1ad8",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80113c4c.c": "38745c542c4a2ee49d2bd163001cdda9ffcbac9b5af2f75a3c849d3c74f2df46",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80113c4c.c": "38745c542c4a2ee49d2bd163001cdda9ffcbac9b5af2f75a3c849d3c74f2df46",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80113cd8.c": "7547cb6cbcec5c0862d558e9332a820b9fd30acb868169e77cdffef0e2fcf094",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80113cd8.asm": "9d9ecb42339d4227ec1aa98001527bfaef2e4b50e55c452957ffa132a7422ca0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80113cd8.c": "d4bed0006b87e5dc6d7c808b51eab6eacef35602d26cacae881c858e938a12e5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80115f68.c": "8cafa9a5e66b398d52c55e81d82d3888230fbd08ca8e25c2dc4ad67b5a24c555",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80115f68.asm": "0e779ba38a68003c699b50225f839a94b5e1619227ece48bb38b05c8b2ea1f17",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80115f68.c": "8cafa9a5e66b398d52c55e81d82d3888230fbd08ca8e25c2dc4ad67b5a24c555",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\assembly\\0x80115f68.asm": "b53843736900129f379b70d69982d1868ce4943c59feede942df4a969fe3970f",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80115eac.c": "293d98195a63c19eb14268073b902f0d264f0ec8c2eaa45a6bd45594d10af216",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80115eac.asm": "9b8854ea0a8d2694200b3bef327d35dbcd598e24b6b107191615ca8d7909603b",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80115eac.c": "2b68b6fa3b9b1be48a25dedaa41eefaadf7981a6ef4bc0e1367215ddd2fc7846",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80115e54.c": "ac68afa895057c1094db246da09bb6aa43b7a50076889497cad0655a1b5c00be",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80115e54.asm": "5dc5e5d9c26f4e089e1cc94cf01a1fddc736f24d81023be2a5b3f73c603d8e18",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80115e54.c": "f9ebe696eab6bf04147d9e02336c7ed90dadaa9e6976381a7247c925df82a988",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011df70.c": "52965cd35e69a6419a730283910a1385e5069ba18f37c08eaae0aefb4fbc9787",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x8011df70.asm": "db8f43755ceb0cfb95806ddaf11b8772fb39a12d82c025efccfe61b19af5205c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011df70.c": "3052980c6cfeea1fd1614491b5b2d167b5c6dac1ee694029551d0fe95fc3f29e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011616c.c": "c959a5d13a5cadca0e5a0d96e9beb104be77d7e21c47d2ea9e9858c389966725",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x8011616c.asm": "b0d1d8dc51704d7728cd1f97c4b8dae807bcecd67f4efd1d1aca70f804b03a2a",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011616c.c": "c959a5d13a5cadca0e5a0d96e9beb104be77d7e21c47d2ea9e9858c389966725",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\assembly\\0x8011616c.asm": "09a9961bcdf89403e3d379fa3e5d81e463a26e478b86e9352ed5b25e0d2c873a",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8011610c.c": "3ca17a8e31f08a12b57232f06e8f36f6d33fa343aa8d74e5341710a2709f2463",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x8011610c.asm": "b26db515970dd96f134088881fe384bda7612b52df509d3f398e927b40685a0b",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8011610c.c": "3ca17a8e31f08a12b57232f06e8f36f6d33fa343aa8d74e5341710a2709f2463",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\assembly\\0x8011610c.asm": "6413df5f5ec2905aca92b772ebb80b000370bfd54b4a0a0f57896b17bbd3bc19",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80116098.c": "734eeb4e34dcccb8220265d8fedabfec8256f18227f51ad85640996409c6bb65",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80116098.asm": "e7af042e95a37695979da87241f0045195cf334dbbb53dcf22dbf0492e5a1b82",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80116098.c": "734eeb4e34dcccb8220265d8fedabfec8256f18227f51ad85640996409c6bb65",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\assembly\\0x80116098.asm": "62f5ed24a40eb5b356e421702f47f3368c301691d4448ce3d63dbbd68996f00d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x801160e4.c": "faf0effcc5ba18c6d4b5c47886d2c4cb1a5d91488d5a09f26d644edb209b3a68",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x801160e4.asm": "ba2f8c051676c49b0886d40e02f6f099e0d2098bf368dfcea4f60061248bb617",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x801160e4.c": "81fb58120f8b71576fd24e7ae9bb497c6e601fd86a96b99358df100f9467b7fa",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80114f6c.c": "31b4720aafa51beb237b0fb0bcf141fbc9d592c685325e5cb4d0adda3a444f26",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80114f6c.asm": "bee4583adf7b3db77ee278ed04181aa3dca638e23e66cf4b4e53247fc0925f3d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80114f6c.c": "77c4288ad8193a99124fae37e2572a710aef586a01645c711515c5f98ad25071",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80089f48.c": "af8753798f6aa3de369330ee80e0c2a8d23e5144db37abc5fc966a2127334d00",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80089f48.c": "af8753798f6aa3de369330ee80e0c2a8d23e5144db37abc5fc966a2127334d00",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8002abc0.c": "e133c82afc0fb97f08c8038b4308c35d0fd696ac00b463385a750ac9cb7f9ea0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x8002abc0.asm": "3ec501697e2ee79ab4570c85511743260400d1987a6e30550755b98664e4e141",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8002abc0.c": "4305227751628ffd72f0800cb3b35979340c9176acd3efaf8af7fc31d21e32d9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonic-registry-trace\\sonic-slot-generated-consumers.csv": "97181b79337e60fb92fb119e6264112e1124e942fd5958d25ec9c0de61d73b75",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\audit_consumers_v1.py": "e46362feea5ba72f88ad1ccee4c12d63fcc4e86eb5892ce7f7ffc7619073180f",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8007bff4.c": "faff125b3e3f3acde884337b16d722489482001dc834e2a4340a79a9673d85da",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800874c0.c": "b45081d6c3a31434caba02ae99798e091f86c8ad277158205e14a4bc391c004f",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8007bff4.c": "733d94997a37bb0f772d546cc84e393c3c92c667be199f2d6c3b322e868bd717",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800874c0.c": "8f26ceb16d40053470fd851817eb4c3b4587d755a7222ee948fd3ab4927fc139",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\sonicmdl.prs.decoded": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\sample-linked-nodes.csv": "bd9eaeb4fcd301b1938ded03bf4d84d40daef8df7f08252903fde61dd8b8b447",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\sample-table-entries.csv": "8d231bf59e844563f80137e67f950fd4b62a15aa85e2d7355a6b71f72106aeaa",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\sample-validation.ai.json": "a96e050f1e454592bb047c53d863145319591deba81cc2ff08d18378bd108cb5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8010afcc.c": "8ee99cc823cc4e368961e033a65703a6f1ccbbe8c3e5acff651b8077b2cbc423",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010afcc.c": "8ee99cc823cc4e368961e033a65703a6f1ccbbe8c3e5acff651b8077b2cbc423",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8010b018.c": "7ef667fc2cfc027d507e99c7ade48cff9192c96880a9fada7c9338138b006576",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010b018.c": "7ef667fc2cfc027d507e99c7ade48cff9192c96880a9fada7c9338138b006576"
+  },
+  "all_relied_on_hashes_unchanged": true,
+  "full_discovery_hash_ledger": "search-source-hashes.csv; initial read hashes retained without a new whole-corpus scan",
+  "validation": {
+    "generated_source_files_scanned": 8811,
+    "raw_original_words": 984,
+    "bounded_function_spans": 21,
+    "original_callsites": 70,
+    "retained_asm_rows_verified": 797,
+    "shared_helper_words": 12,
+    "integer_index_cases": 262144,
+    "integer_only_order_traces": 6,
+    "unique_sonic_init_call_edges": 15,
+    "real_decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "real_nodes": 200,
+    "real_be32_field_words": 2600,
+    "supported_binary32_bit_views": 1200,
+    "negative_zero_bit_views": 153,
+    "real_mode400_nodes": 0,
+    "zero_child_nodes": 41,
+    "zero_child_nodes_with_static10_clear": 0,
+    "relied_on_source_hashes_unchanged": true,
+    "python_once_per_version": true,
+    "native_or_fp_execution": false
+  },
+  "missing_call_metadata_rows": [],
+  "project_opens": 0,
+  "native_or_fp_execution": false,
+  "engine_changes": [],
+  "repo_frozen_export_changes": []
+}

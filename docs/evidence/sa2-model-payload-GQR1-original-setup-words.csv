@@ -1,0 +1,7 @@
+view,entry,original_virtual_address,dol_offset,iso_offset,word,instruction,analysis_override,source_path
+sda,0x8011dc98,0x8011dca4,0x11aca4,0x1393a4,0x38000807,"li r0,0x807",NONE,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm
+sda,0x8011dc98,0x8011dca8,0x11aca8,0x1393a8,0x64000807,"oris r0,r0,0x807",NONE,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm
+sda,0x8011dc98,0x8011dcac,0x11acac,0x1393ac,0x7c11e3a6,"mtspr GQR1,r0",NONE,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm
+sda,0x8011dc98,0x8011dd1c,0x11ad1c,0x13941c,0xe6679008,"psq_lu f19,0x8(r7),0x1,GQR1",NONE,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm
+sda,0x8011dc98,0x8011dd20,0x11ad20,0x139420,0xa5470002,"lhzu r10,0x2(r7)",NONE,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm
+sda,0x8011dc98,0x8011dd24,0x11ad24,0x139424,0x554a2834,"rlwinm r10,r10,0x5,0x0,0x1a",NONE,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\assembly\0x8011dc98.asm

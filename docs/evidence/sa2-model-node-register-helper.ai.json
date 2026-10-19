@@ -1,0 +1,29 @@
+{
+  "status": "Shared helpers preserve GPR3..7; no fabricated pair return or lost mode argument needed.",
+  "helpers": [
+    {
+      "entry": "0x8010afcc",
+      "words": 6,
+      "gpr3_through7_preserved": true
+    },
+    {
+      "entry": "0x8010b018",
+      "words": 6,
+      "gpr3_through7_preserved": true
+    }
+  ],
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_odekake_pointer_abi_v1.py": "b9c504e6124d8e60b6c6c40ed9958891cc794e09cc5a5362908b7b38932831ee",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\main.dol": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\dol-elf-mapping-final.json": "2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\function_body_ranges.csv": "e1705a2f81742184bc8307aa69373393fe4efd35716e5643476aa15b5aba7e56",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8010afcc.c": "8ee99cc823cc4e368961e033a65703a6f1ccbbe8c3e5acff651b8077b2cbc423",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010afcc.c": "8ee99cc823cc4e368961e033a65703a6f1ccbbe8c3e5acff651b8077b2cbc423",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8010b018.c": "7ef667fc2cfc027d507e99c7ade48cff9192c96880a9fada7c9338138b006576",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8010b018.c": "7ef667fc2cfc027d507e99c7ade48cff9192c96880a9fada7c9338138b006576"
+  },
+  "all_source_hashes_unchanged": true,
+  "limits": [
+    "Preservation proof is for these original helper instruction bodies; it does not establish a complete surrounding callback ABI."
+  ]
+}

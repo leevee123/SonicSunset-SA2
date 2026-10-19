@@ -1,0 +1,9 @@
+{
+  "nodes": 200,
+  "zero_child_nodes": 41,
+  "zero_child_nodes_with_flag10_clear": 0,
+  "source_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-node-consumers\\real-node-minimum-spans.csv",
+  "source_sha256": "b023ac26e1088580fb2e6c66f208805bef431463b3e8f475ea2fc4df7cf4d0f1",
+  "unchanged": true,
+  "limit": "Sample combinations only; native static entry is still unguarded, callback results/lifetimes/mutations/draw selection remain unknown."
+}

@@ -1,0 +1,30 @@
+owner,word_order,store_VA,binary32_source_offset,binary32_destination_offset,store_kind,constraint
+0x801057c4,0,0x801057dc,0x0,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,1,0x801057dc,0x4,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,2,0x801057e0,0x8,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,3,0x801057e0,0xc,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,4,0x801057e4,0x10,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,5,0x801057e4,0x14,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,6,0x801057e8,0x18,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,7,0x801057e8,0x1c,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,8,0x801057ec,0x20,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,9,0x801057ec,0x24,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,10,0x801057f0,0x28,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057c4,11,0x801057f0,0x2c,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,0,0x80105810,0x0,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,1,0x80105810,0x4,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,2,0x80105814,0x8,0x0,scalar_stfs,ordinary scalar single load/store; numeric/NaN effects not validated
+0x801057f8,3,0x80105818,0x10,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,4,0x80105818,0x14,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,5,0x8010581c,0x18,0x0,scalar_stfs,ordinary scalar single load/store; numeric/NaN effects not validated
+0x801057f8,6,0x80105820,0x20,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,7,0x80105820,0x24,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x801057f8,8,0x80105824,0x28,0x0,scalar_stfs,ordinary scalar single load/store; numeric/NaN effects not validated
+0x8010582c,0,0x8010583c,0x0,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,1,0x8010583c,0x4,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,2,0x80105840,0x8,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,3,0x80105840,0xc,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,4,0x80105844,0x10,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,5,0x80105844,0x14,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,6,0x80105848,0x18,0x0,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated
+0x8010582c,7,0x80105848,0x1c,0x4,PSQ_pair_lane,GQR0 load/store type0 ordinary binary32 layout; numeric/NaN effects not validated

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "candidate_assets": 23,
+  "distinct_first_streams_per_asset": 1200,
+  "data_packets": 1738,
+  "opcode_packets": {
+    "0x23": 80,
+    "0x29": 744,
+    "0x2c": 914
+  },
+  "opcode2A_packets": 0,
+  "scope": "The23 MDL.PRS candidates from the completed bank search; encoded outer movement/raw info only, no unknown inner records or numeric execution inferred.",
+  "native_execution": false,
+  "originals_or_engine_changed": false
+}

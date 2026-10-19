@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "status": "All 200 original minimum node spans and 2600 fields matched; typed interpretation remains mode-dependent.",
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "nodes": 200,
+  "fields": 2600,
+  "mode400_nodes": 0,
+  "flags": [
+    {
+      "flags_u32": "0x4",
+      "nodes": 31
+    },
+    {
+      "flags_u32": "0x5",
+      "nodes": 29
+    },
+    {
+      "flags_u32": "0x6",
+      "nodes": 22
+    },
+    {
+      "flags_u32": "0x7",
+      "nodes": 4
+    },
+    {
+      "flags_u32": "0xc",
+      "nodes": 3
+    },
+    {
+      "flags_u32": "0xd",
+      "nodes": 5
+    },
+    {
+      "flags_u32": "0xe",
+      "nodes": 44
+    },
+    {
+      "flags_u32": "0xf",
+      "nodes": 21
+    },
+    {
+      "flags_u32": "0x14",
+      "nodes": 7
+    },
+    {
+      "flags_u32": "0x15",
+      "nodes": 5
+    },
+    {
+      "flags_u32": "0x16",
+      "nodes": 6
+    },
+    {
+      "flags_u32": "0x17",
+      "nodes": 11
+    },
+    {
+      "flags_u32": "0x1e",
+      "nodes": 12
+    }
+  ],
+  "float_bit_view_classes": {
+    "finite": 1047,
+    "negative_zero": 153
+  },
+  "original_lfs_addresses": {
+    "8": [
+      "0x80113d2c",
+      "0x80113ecc"
+    ],
+    "12": [
+      "0x80113d34",
+      "0x80113ed4"
+    ],
+    "16": [
+      "0x80113d3c",
+      "0x80113edc"
+    ],
+    "20": [
+      "0x80113da4",
+      "0x80113e38",
+      "0x80113f14"
+    ],
+    "24": [
+      "0x80113dac",
+      "0x80113e40",
+      "0x80113f1c"
+    ],
+    "28": [
+      "0x80113db4",
+      "0x80113e48",
+      "0x80113f24"
+    ],
+    "32": [
+      "0x80113eac",
+      "0x80113ee4"
+    ],
+    "36": [
+      "0x80113eb4",
+      "0x80113eec"
+    ],
+    "40": [
+      "0x80113ebc",
+      "0x80113ef4"
+    ],
+    "52": [
+      "0x80113d9c",
+      "0x80113e30",
+      "0x80113f0c"
+    ]
+  },
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\sonicmdl.prs.decoded": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\sample-linked-nodes.csv": "bd9eaeb4fcd301b1938ded03bf4d84d40daef8df7f08252903fde61dd8b8b447",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\sample-table-entries.csv": "8d231bf59e844563f80137e67f950fd4b62a15aa85e2d7355a6b71f72106aeaa",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sonicmdl-loader\\sample-validation.ai.json": "a96e050f1e454592bb047c53d863145319591deba81cc2ff08d18378bd108cb5"
+  },
+  "all_source_hashes_unchanged": true,
+  "limits": [
+    "No whole-node length, geometry, transform axis/unit or live draw visitation claimed.",
+    "s32 is a preserved two-complement bit view; full signed rotation semantics are not established by low16 indexing.",
+    "A mode400-free sample does not exercise the original conditional +34 float read."
+  ]
+}

@@ -1,0 +1,3 @@
+# SA2 model-data engine validation
+
+PASS: all 200 nodes / 2600 original word bits and 100 first streams / 154 packets / 100 END words / 3167 records match independently original-derived CSV fields and every raw stream byte/hash. Record strides23=16,29=24,2C=28 are preserved without vertex/weight/matrix execution. 10 preservation and 16 host rejection cases pass, including raw NaN/signed-zero words, optional+34, END-before-info, unknown opaque packets, zero counts and padding. Strict MSVC compile passes after a helper-only unsigned comparison fix; failed variants remain preserved. All engine/source guards unchanged before apply.

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "nodes": 200,
+  "vertex_streams": 100,
+  "data_packets": 154,
+  "END_words": 100,
+  "records": 3167,
+  "raw_stream_bytes": 80448,
+  "all_original_fields_bytes_and_hashes_match": true,
+  "disc_modified": false,
+  "scope": "Raw node and vertex-packet loading; geometry rendering, animation, weight/matrix math and gameplay unfinished."
+}

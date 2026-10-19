@@ -1,0 +1,13 @@
+store_VA,destination_component,binary32_destination_offset,load_pair_offset,load_lane,binary32_source_offset,source_component,constraint
+0x8011c164,0,0x0,0x0,0,0x0,0,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c164,1,0x4,0x10,0,0x10,4,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c16c,2,0x8,0x20,0,0x20,8,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c16c,3,0xc,0x0,1,0x4,1,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c174,4,0x10,0x10,1,0x14,5,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c174,5,0x14,0x20,1,0x24,9,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c17c,6,0x18,0x8,0,0x8,2,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c17c,7,0x1c,0x18,0,0x18,6,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c180,8,0x20,0x28,0,0x28,10,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c180,9,0x24,0x8,1,0xc,3,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c184,10,0x28,0x18,1,0x1c,7,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout
+0x8011c184,11,0x2c,0x28,1,0x2c,11,paired-lane origin; binary32 offsets conditional on GQR0 type0 layout

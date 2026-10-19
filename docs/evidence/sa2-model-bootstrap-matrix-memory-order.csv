@@ -1,0 +1,16 @@
+VA,DOL_offset,ISO_offset,event,global_pointer_VA,value,target,source_base,offset,FPR,destination_base
+0x8011c194,0x119194,0x137894,read_global_pointer,0x803ae0c4,,,,,,
+0x8011c19c,0x11919c,0x13789c,write_global_pointer_before_source_loads,0x803ae0c4,old+0x30 modulo32,,,,,
+0x8011c1a0,0x1191a0,0x1378a0,branch_to_shared_copy_block,,,0x8011c140,,,,
+0x8011c140,0x119140,0x137840,source_pair_load,,,,old_global_pointer,0x0,0,
+0x8011c144,0x119144,0x137844,source_pair_load,,,,old_global_pointer,0x10,2,
+0x8011c148,0x119148,0x137848,source_pair_load,,,,old_global_pointer,0x20,4,
+0x8011c14c,0x11914c,0x13784c,source_pair_load,,,,old_global_pointer,0x8,1,
+0x8011c154,0x119154,0x137854,source_pair_load,,,,old_global_pointer,0x18,3,
+0x8011c15c,0x11915c,0x13785c,source_pair_load,,,,old_global_pointer,0x28,5,
+0x8011c164,0x119164,0x137864,destination_pair_store,,,,,0x0,6,old_global_pointer+0x30 modulo32
+0x8011c16c,0x11916c,0x13786c,destination_pair_store,,,,,0x8,12,old_global_pointer+0x30 modulo32
+0x8011c174,0x119174,0x137874,destination_pair_store,,,,,0x10,7,old_global_pointer+0x30 modulo32
+0x8011c17c,0x11917c,0x13787c,destination_pair_store,,,,,0x18,8,old_global_pointer+0x30 modulo32
+0x8011c180,0x119180,0x137880,destination_pair_store,,,,,0x20,9,old_global_pointer+0x30 modulo32
+0x8011c184,0x119184,0x137884,destination_pair_store,,,,,0x28,10,old_global_pointer+0x30 modulo32

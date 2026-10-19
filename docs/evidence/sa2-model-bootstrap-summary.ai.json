@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "result": "passed_bounded_original_audit",
+  "original_instruction_rows_verified": 742,
+  "distinct_original_VAs": 742,
+  "selected_scopes": 19,
+  "setup_direct_calls": 11,
+  "setup_state_word_stores": 3,
+  "copy_memory_instructions": 32,
+  "conditional_binary32_upload_components": {
+    "0x801057c4": 12,
+    "0x801057f8": 9,
+    "0x8010582c": 8
+  },
+  "synthetic_integer_wrapper_cases": 54,
+  "synthetic_wrapper_events": 162,
+  "matrix_permuted_components": 12,
+  "matrix_source_component_order": [
+    0,
+    4,
+    8,
+    1,
+    5,
+    9,
+    2,
+    6,
+    10,
+    3,
+    7,
+    11
+  ],
+  "protected_files_unchanged": 87,
+  "recorded_hashes_verified": 82,
+  "native_game_execution": false,
+  "project_or_ProgramDB_opens": 0,
+  "GQR0_or_FPSCR_runtime_value_proved": false,
+  "matrix_source_ownership_or_initialization_proved": false,
+  "engine_files_changed": [],
+  "scripts": [
+    "prepare_bootstrap_v1.py once",
+    "audit_bootstrap_v1.py once"
+  ],
+  "facts": {
+    "setup": "8011D2F4: three D44 calls with raw arguments,2EF8(1), state writes0/FFFFFFFF/0,5850(source80357880,index0),588C(same,index0),then optional path if live SDA-71D8 bit00100000 clear; optional ED7CC/ED798/ED368 twice/5908(stack08,2A,0),fresh state reload OR00100000.",
+    "wrappers": "Each5850/588C/5908 writes byte10 then32-bit control toCC008000 BEFORE copy helper source loads.5850=((index<<2)mod32)|B0000\u219257C4.588C=(3*index+400 mod32)|80000\u219257F8.5908 address=index<40?index*4:(index-40)*4+500 mod32,OR ((mode==1?7:B)<<16);mode0\u219257C4,allnonzero\u2192582C. No GPU names inferred.",
+    "copy": "57C4 loads six GQR0 pairs offsets00/08/10/18/20/28 then stores six pairs repeatedly at destination+0.57F8 loads pairs00/10/20 and scalars08/18/28 then alternating pair/scalar stores at destination+0.582C loads four pairs00/08/10/18 then four stores at destination+0. All loads precede first store.",
+    "C18C": "Absolute803AE0C4 pointer read,advanced+30 and stored BEFORE source loads,then shared blockC140 loads six GQR0 pairs/reorders lanes/stores six pairs at old+30. Binary32-layout lane-source order0,4,8,1,5,9,2,6,10,3,7,11. This is lane provenance,not unqualified raw-bit/numeric/runtime equivalence."
+  },
+  "unknowns": [
+    "Actual GQR0 load/store format and scales, FPSCR/NI/NaN behavior and exact numeric results; other agents audit those scopes.",
+    "Initialization, ownership, capacity and lifetime of80357880 data and803AE0C4 pointed storage.",
+    "Live r2/r13 context; SDA labels/constants here use documented startup-base assumptions.",
+    "Caller closure, mode meanings, GPU interpretation, topology, transforms and successful retail execution.",
+    "C18C pointer/data aliasing can alter unread source when global pointer word aliases source; no nonalias assumption is elevated to native guarantee."
+  ],
+  "source_selection_limit": "Root selected-pseudocode.md is truncated for large functions despite complete labels; full frozen C hashes and original words were used. New structural excerpts are labelled partial.",
+  "artifacts": [
+    {
+      "name": "added-original-words.csv",
+      "bytes": 4503,
+      "sha256": "627ae6412cfd32a071e98c3cefc374cffc0b5fbdf19ac3a8848b49320c4307bc"
+    },
+    {
+      "name": "added-source-artifacts.csv",
+      "bytes": 5030,
+      "sha256": "7768f4c41efc765318c10160a7de9ab808814748e0e619a087879de329ce16d9"
+    },
+    {
+      "name": "audit_bootstrap_v1.py",
+      "bytes": 23944,
+      "sha256": "a0567d8d2e446babf34e15e416ab98755f66c989eb653489511b7192f10ae0ae"
+    },
+    {
+      "name": "C-structural-excerpts.csv",
+      "bytes": 20235,
+      "sha256": "f2219918f49edad9df392056bf2cdf4d831a639bbbb8a3ac6570884a5c371dec"
+    },
+    {
+      "name": "conditional-binary32-upload-order.csv",
+      "bytes": 3816,
+      "sha256": "69dfc3d8c635033db33494166c39ea8746e5a7ea3bbfbd1836368aa054b68402"
+    },
+    {
+      "name": "copy-memory-instructions.csv",
+      "bytes": 4089,
+      "sha256": "333aeafad7aa9b19094f2cfa81c1e68650576a9ec55a2bc301b499f01cd2d898"
+    },
+    {
+      "name": "function-ranges.tsv",
+      "bytes": 163,
+      "sha256": "a87f00afcd52be565341fb46d8126fb8046a17d4948e90b7298bc8b149eb64bf"
+    },
+    {
+      "name": "java-arguments.txt",
+      "bytes": 25197,
+      "sha256": "c2102fda4d826acbe61126828e22f19c7ec440370e9335237b12952ac5a7f098"
+    },
+    {
+      "name": "matrix-lane-permutation.csv",
+      "bytes": 1366,
+      "sha256": "a9226c7cf1f89f07a0ed72a2238c50d916d5c41cb8f701ccd84603d573ad17dc"
+    },
+    {
+      "name": "matrix-memory-order.csv",
+      "bytes": 1392,
+      "sha256": "ba27455289e56a10816e84d5b5d7f7db7ae8122fee4419aec4d8b815727760bd"
+    },
+    {
+      "name": "original-constants.csv",
+      "bytes": 294,
+      "sha256": "b11aa6df191933fe478bd911971c150cd5957ddebd7db431ee5281e72fd9c71b"
+    },
+    {
+      "name": "original-words.csv",
+      "bytes": 56035,
+      "sha256": "496cb15ed99532dabeb087f9f73ceb29abd14854ca6ae2ee4e597d9abfff15fb"
+    },
+    {
+      "name": "parser.raw.log",
+      "bytes": 430696,
+      "sha256": "29c320066600ab581cf161b7bb8163b702d84dc6120806d60240f48da3a1f838"
+    },
+    {
+      "name": "preparation-source-digests.csv",
+      "bytes": 31104,
+      "sha256": "2576c3793a76f6308e677b9d1eb18fef0bfdcfbc4c0a6fee2c25a2a2ac1e4021"
+    },
+    {
+      "name": "preparation.ai.json",
+      "bytes": 452,
+      "sha256": "072715619720819153e26d9fb63bba5b449826b94d083381c00efe78bdbbf810"
+    },
+    {
+      "name": "preparation.md",
+      "bytes": 685,
+      "sha256": "383536b848239b2b1360a8e7b0b7f8d1b838a850a5bf8d70673a285cd7775dcf"
+    },
+    {
+      "name": "prepare_bootstrap_v1.py",
+      "bytes": 8158,
+      "sha256": "76a9e43d6fef6370a875ccec0c2443d6cb028288c7aed3a20d3e9f0b3d87be10"
+    },
+    {
+      "name": "setup-call-order.csv",
+      "bytes": 1290,
+      "sha256": "e6ce7184d2988ccb8a75b73f4a24ad645c9188445df78c389af895e3bbb6a622"
+    },
+    {
+      "name": "setup-state-stores.csv",
+      "bytes": 398,
+      "sha256": "4b77a4076e68333fab572f31ed3a970dd07e80b8493ba314d9dffafc4686c742"
+    },
+    {
+      "name": "source-digests.csv",
+      "bytes": 30929,
+      "sha256": "2b302b91882f4a4032f66852df963efd342184f47df3683ce1620ca45cbab823"
+    },
+    {
+      "name": "static-source-locations.csv",
+      "bytes": 498,
+      "sha256": "1537886b51a70992cb2383999a327e1eff44a4318f2e83e1d5a0164395408456"
+    },
+    {
+      "name": "upload-wrapper-cases.csv",
+      "bytes": 6928,
+      "sha256": "e28695989b8cb603937370444058b17426bc09acb1d61ceccb7e47d86bd45147"
+    },
+    {
+      "name": "upload-wrapper-events.csv",
+      "bytes": 16723,
+      "sha256": "9f1884ec49ef544ea65d906b42fec4d541560c683fd835f89dbb0e8e78376f5e"
+    }
+  ]
+}

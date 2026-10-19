@@ -1,0 +1,1 @@
+Packaged standalone Sonic model-data checker passes200 node fields,100 vertex streams,154 packets and3167 records with exact original metadata/raw-data hashes. Resources unchanged; no game media included and original disc unmodified. Equivalent bounded launcher command checked; no3D/gameplay execution claimed.

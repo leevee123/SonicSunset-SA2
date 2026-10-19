@@ -1,0 +1,14 @@
+entry,original_virtual_address,dol_offset,iso_offset,word,opcode,RT_RS,RA,RB_SH,decoded,immediate_signed,target,shift,mask_begin,mask_end,mask_hex,immediate_unsigned,interpretation
+0x8011d1d4,0x8011d200,0x11a200,0x138900,0x5465043e,21,3,5,0,"rlwinm r5,r3,0,16,31",,,0,16,31,0xffff,,Header low16 extraction
+0x8011d1d4,0x8011d204,0x11a204,0x138904,0x5460001e,21,3,0,0,"rlwinm r0,r3,0,0,15",,,0,0,15,0xffff0000,,Header high16 mask
+0x8011d1d4,0x8011d208,0x11a208,0x138908,0x541d843e,21,0,29,16,"rlwinm r29,r0,16,16,31",,,16,16,31,0xffff,,Header high16 right extraction
+0x8011d1d4,0x8011d214,0x11a214,0x138914,0x54a5045e,21,5,5,0,"rlwinm r5,r5,0,17,15",,,0,17,15,0xffff7fff,,Clear header bit15 before variant extraction
+0x8011d1d4,0x8011d218,0x11a218,0x138918,0x5460001e,21,3,0,0,"rlwinm r0,r3,0,0,15",,,0,0,15,0xffff0000,,Information word high16 mask
+0x8011d1d4,0x8011d21c,0x11a21c,0x13891c,0x5400843e,21,0,0,16,"rlwinm r0,r0,16,16,31",,,16,16,31,0xffff,,Information word high16 count extraction
+0x8011d1d4,0x8011d228,0x11a228,0x138928,0x5460043e,21,3,0,0,"rlwinm r0,r3,0,16,31",,,0,16,31,0xffff,,Information word low16 start extraction
+0x8011d1d4,0x8011d22c,0x11a22c,0x13892c,0x54002834,21,0,0,5,"rlwinm r0,r0,5,0,26",,,5,0,26,0xffffffe0,,Start index times32
+0x8011d1d4,0x8011d264,0x11a264,0x138964,0x54a5c63e,21,5,5,24,"rlwinm r5,r5,24,24,31",,,24,24,31,0xff,,Opcode2C high-byte variant extraction after bit15 clear
+0x8011d1d4,0x8011d2b4,0x11a2b4,0x1389b4,0x381dffff,14,0,29,31,"addi r0,r29,-1",-1,,,,,,,Encoded header length minus1
+0x8011d1d4,0x8011d2b8,0x11a2b8,0x1389b8,0x5400103a,21,0,0,2,"rlwinm r0,r0,2,0,29",,,2,0,29,0xfffffffc,,Length units times4
+0x8011d1d4,0x8011d2c8,0x11a2c8,0x1389c8,0x5460063e,21,3,0,0,"rlwinm r0,r3,0,24,31",,,0,24,31,0xff,,Low-byte opcode/EOS extraction
+0x8011d1d4,0x8011d2cc,0x11a2cc,0x1389cc,0x280000ff,10,0,0,0,"cmplwi cr0,r0,255",255,,,,,,,Compare opcode withFF

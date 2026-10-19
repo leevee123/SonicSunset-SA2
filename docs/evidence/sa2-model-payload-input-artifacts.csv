@@ -1,0 +1,13 @@
+path,bytes,sha256
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sa2-disc\main.dol,1960448,a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\dol-elf-mapping-final.json,2071,2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sa2-disc\sonicmdl.prs,102331,d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sa2-disc\sonicmdl.prs.decoded,136360,b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sonicmdl-loader\sample-opaque-payloads.csv,8681,b39bffc42d0983893e09d988c28658b465023eee1d8aa20733779dff07b42097
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sonicmdl-loader\sample-validation.ai.json,3490,a96e050f1e454592bb047c53d863145319591deba81cc2ff08d18378bd108cb5
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\sonic-registry-trace\sonic-slot-generated-consumers.csv,44709,97181b79337e60fb92fb119e6264112e1124e942fd5958d25ec9c0de61d73b75
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_gekko_broadway.slaspec,78970,32ce4852d6243f5eea19cda1eb8cf0b2af8fb93532dcd9a585ee927a32c8eb75
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_gekko_broadway.sla,99315,aa25bde9ffb8f6366e1e490c6a488b1aced4665dc6c4f2fdca9cc598d5530975
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,19956,739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\language-provenance.ai.json,7948,29997e381a70b52ec03576599f699a8c53ecd1240f027634f0bb90345ccf27fd
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\FullSa2ExportV4.java,48525,7428f8e383b3c50196800648f008a344dde219820e3b3264be11e0a3f7d83011

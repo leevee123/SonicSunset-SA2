@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "static_flag_instructions": [
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011dff4",
+      "dol_file_offset": "0x11aff4",
+      "word": "57c00528",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x800",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e008",
+      "dol_file_offset": "0x11b008",
+      "word": "57c0077e",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x7",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e014",
+      "dol_file_offset": "0x11b014",
+      "word": "57c00738",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x8",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e034",
+      "dol_file_offset": "0x11b034",
+      "word": "57c006f6",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x10",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e040",
+      "dol_file_offset": "0x11b040",
+      "word": "57c005ee",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x100",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e068",
+      "dol_file_offset": "0x11b068",
+      "word": "57c007fe",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x1",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e07c",
+      "dol_file_offset": "0x11b07c",
+      "word": "57c007bc",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x2",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e088",
+      "dol_file_offset": "0x11b088",
+      "word": "57c004e6",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x1000",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e0a0",
+      "dol_file_offset": "0x11b0a0",
+      "word": "57c0056a",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x400",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e0c0",
+      "dol_file_offset": "0x11b0c0",
+      "word": "57c406b4",
+      "source_register": "30",
+      "destination_register": "4",
+      "shift": "0",
+      "mask": "0x20",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e0c8",
+      "dol_file_offset": "0x11b0c8",
+      "word": "57c0077a",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x4",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e0dc",
+      "dol_file_offset": "0x11b0dc",
+      "word": "57c00738",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x8",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e0fc",
+      "dol_file_offset": "0x11b0fc",
+      "word": "57c006f6",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x10",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    },
+    {
+      "entry": "0x8011dfc0",
+      "address": "0x8011e108",
+      "dol_file_offset": "0x11b108",
+      "word": "57c005ee",
+      "source_register": "30",
+      "destination_register": "0",
+      "shift": "0",
+      "mask": "0x100",
+      "record_cr0": "False",
+      "limit": "Bit extraction only; source identity established separately from surrounding code."
+    }
+  ],
+  "rotation_index_cases": 262144,
+  "rotation_index_mask": "0x7fff8",
+  "rotation_index_output_sha256": "119262421a70ff1915fedaf6232570d49ba7bceb3c4576be215aaa8a9f29a6e8",
+  "rotation_order_traces": [
+    {
+      "selector": "0x0",
+      "angle_words": "[\"0x1\", \"0x2\", \"0x3\"]",
+      "input_field_read_order": "[8, 4, 0]",
+      "node_field_order": "[\"0x1c\", \"0x18\", \"0x14\"]",
+      "visited_original_instructions": "[\"0x80115f94\", \"0x80115f98\", \"0x80115f9c\", \"0x80115fa0\", \"0x80115fa4\", \"0x80115fa8\", \"0x80115fac\", \"0x80115fb0\", \"0x80115fb4\", \"0x80115fb8\", \"0x80115fbc\", \"0x80115fc0\", \"0x80115fc4\", \"0x80115fc8\", \"0x80115fcc\", \"0x80115fd0\", \"0x80115fd4\", \"0x80115fd8\", \"0x80115fdc\", \"0x80115fe0\", \"0x80115fe4\", \"0x80115fe8\", \"0x80115fec\", \"0x80115ff0\", \"0x80115ff4\", \"0x80115ff8\", \"0x80115ffc\", \"0x80116000\", \"0x80116004\", \"0x80116008\", \"0x8011600c\", \"0x80116010\", \"0x80116014\", \"0x80116018\", \"0x8011601c\", \"0x80116020\", \"0x80116024\", \"0x80116028\", \"0x8011602c\", \"0x80116030\", \"0x80116034\", \"0x80116038\", \"0x8011603c\", \"0x80116040\", \"0x80116044\", \"0x80116048\", \"0x8011604c\", \"0x80116050\", \"0x80116054\", \"0x80116058\", \"0x8011605c\", \"0x80116060\", \"0x80116064\", \"0x80116068\", \"0x8011606c\", \"0x80116070\", \"0x80116074\", \"0x80116078\", \"0x8011607c\"]",
+      "fp_operations_executed": false
+    },
+    {
+      "selector": "0x0",
+      "angle_words": "[\"0x0\", \"0x0\", \"0x0\"]",
+      "input_field_read_order": "[8, 4, 0]",
+      "node_field_order": "[\"0x1c\", \"0x18\", \"0x14\"]",
+      "visited_original_instructions": "[\"0x80115f94\", \"0x80115f98\", \"0x80115f9c\", \"0x80115fa0\", \"0x80115fa4\", \"0x80115fa8\", \"0x80115fdc\", \"0x80115fe0\", \"0x80115fe4\", \"0x80115fe8\", \"0x80115fec\", \"0x8011602c\", \"0x80116030\", \"0x80116034\", \"0x80116038\", \"0x80116078\", \"0x8011607c\"]",
+      "fp_operations_executed": false
+    },
+    {
+      "selector": "0x0",
+      "angle_words": "[\"0xffff\", \"0x10000\", \"0x80000001\"]",
+      "input_field_read_order": "[8, 4, 0]",
+      "node_field_order": "[\"0x1c\", \"0x18\", \"0x14\"]",
+      "visited_original_instructions": "[\"0x80115f94\", \"0x80115f98\", \"0x80115f9c\", \"0x80115fa0\", \"0x80115fa4\", \"0x80115fa8\", \"0x80115fac\", \"0x80115fb0\", \"0x80115fb4\", \"0x80115fb8\", \"0x80115fbc\", \"0x80115fc0\", \"0x80115fc4\", \"0x80115fc8\", \"0x80115fcc\", \"0x80115fd0\", \"0x80115fd4\", \"0x80115fd8\", \"0x80115fdc\", \"0x80115fe0\", \"0x80115fe4\", \"0x80115fe8\", \"0x80115fec\", \"0x8011602c\", \"0x80116030\", \"0x80116034\", \"0x80116038\", \"0x8011603c\", \"0x80116040\", \"0x80116044\", \"0x80116048\", \"0x8011604c\", \"0x80116050\", \"0x80116054\", \"0x80116058\", \"0x8011605c\", \"0x80116060\", \"0x80116064\", \"0x80116068\", \"0x8011606c\", \"0x80116070\", \"0x80116074\", \"0x80116078\", \"0x8011607c\"]",
+      "fp_operations_executed": false
+    },
+    {
+      "selector": "0x20",
+      "angle_words": "[\"0x1\", \"0x2\", \"0x3\"]",
+      "input_field_read_order": "[4, 0, 8]",
+      "node_field_order": "[\"0x18\", \"0x14\", \"0x1c\"]",
+      "visited_original_instructions": "[\"0x80115f94\", \"0x80115f98\", \"0x80115fe0\", \"0x80115fe4\", \"0x80115fe8\", \"0x80115fec\", \"0x80115ff0\", \"0x80115ff4\", \"0x80115ff8\", \"0x80115ffc\", \"0x80116000\", \"0x80116004\", \"0x80116008\", \"0x8011600c\", \"0x80116010\", \"0x80116014\", \"0x80116018\", \"0x8011601c\", \"0x80116020\", \"0x80116024\", \"0x80116028\", \"0x8011602c\", \"0x80116030\", \"0x80116034\", \"0x80116038\", \"0x8011603c\", \"0x80116040\", \"0x80116044\", \"0x80116048\", \"0x8011604c\", \"0x80116050\", \"0x80116054\", \"0x80116058\", \"0x8011605c\", \"0x80116060\", \"0x80116064\", \"0x80116068\", \"0x8011606c\", \"0x80116070\", \"0x80116074\", \"0x80116078\", \"0x80115f9c\", \"0x80115fa0\", \"0x80115fa4\", \"0x80115fa8\", \"0x80115fac\", \"0x80115fb0\", \"0x80115fb4\", \"0x80115fb8\", \"0x80115fbc\", \"0x80115fc0\", \"0x80115fc4\", \"0x80115fc8\", \"0x80115fcc\", \"0x80115fd0\", \"0x80115fd4\", \"0x80115fd8\", \"0x80115fdc\", \"0x8011607c\"]",
+      "fp_operations_executed": false
+    },
+    {
+      "selector": "0x20",
+      "angle_words": "[\"0x0\", \"0x0\", \"0x0\"]",
+      "input_field_read_order": "[4, 0, 8]",
+      "node_field_order": "[\"0x18\", \"0x14\", \"0x1c\"]",
+      "visited_original_instructions": "[\"0x80115f94\", \"0x80115f98\", \"0x80115fe0\", \"0x80115fe4\", \"0x80115fe8\", \"0x80115fec\", \"0x8011602c\", \"0x80116030\", \"0x80116034\", \"0x80116038\", \"0x80116078\", \"0x80115f9c\", \"0x80115fa0\", \"0x80115fa4\", \"0x80115fa8\", \"0x80115fdc\", \"0x8011607c\"]",
+      "fp_operations_executed": false
+    },
+    {
+      "selector": "0x20",
+      "angle_words": "[\"0xffff\", \"0x10000\", \"0x80000001\"]",
+      "input_field_read_order": "[4, 0, 8]",
+      "node_field_order": "[\"0x18\", \"0x14\", \"0x1c\"]",
+      "visited_original_instructions": "[\"0x80115f94\", \"0x80115f98\", \"0x80115fe0\", \"0x80115fe4\", \"0x80115fe8\", \"0x80115fec\", \"0x8011602c\", \"0x80116030\", \"0x80116034\", \"0x80116038\", \"0x8011603c\", \"0x80116040\", \"0x80116044\", \"0x80116048\", \"0x8011604c\", \"0x80116050\", \"0x80116054\", \"0x80116058\", \"0x8011605c\", \"0x80116060\", \"0x80116064\", \"0x80116068\", \"0x8011606c\", \"0x80116070\", \"0x80116074\", \"0x80116078\", \"0x80115f9c\", \"0x80115fa0\", \"0x80115fa4\", \"0x80115fa8\", \"0x80115fac\", \"0x80115fb0\", \"0x80115fb4\", \"0x80115fb8\", \"0x80115fbc\", \"0x80115fc0\", \"0x80115fc4\", \"0x80115fc8\", \"0x80115fcc\", \"0x80115fd0\", \"0x80115fd4\", \"0x80115fd8\", \"0x80115fdc\", \"0x8011607c\"]",
+      "fp_operations_executed": false
+    }
+  ],
+  "sonic_call_window_rows": 210,
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\direct_calls.csv": "a2f2586ef2d9f53611312db796c9301bfec219de710e9b2b9d6238da76e36eb9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8007bff4.c": "faff125b3e3f3acde884337b16d722489482001dc834e2a4340a79a9673d85da",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800874c0.c": "b45081d6c3a31434caba02ae99798e091f86c8ad277158205e14a4bc391c004f",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\direct_calls.csv": "280cd3bfdbca04aa81fc9e897da762db6fc3259ea83299ddcfa5a5ee0218fa5d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8007bff4.c": "733d94997a37bb0f772d546cc84e393c3c92c667be199f2d6c3b322e868bd717",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800874c0.c": "8f26ceb16d40053470fd851817eb4c3b4587d755a7222ee948fd3ab4927fc139"
+  },
+  "all_source_hashes_unchanged": true,
+  "sda_assumption": {
+    "r13": "0x803b52c0",
+    "node_callback_global": "0x803ae048",
+    "provider_global": "0x803ae04c",
+    "context_global": "0x803ad6b0"
+  },
+  "no_native_or_fp_execution": true,
+  "limits": [
+    "Integer order trace assumes normal completion of opaque FP blocks; GQR/FPSCR/rounding/traps remain unknown.",
+    "Original call edges do not establish registry lifetime, selected roots, frame execution or complete payload ABI."
+  ]
+}

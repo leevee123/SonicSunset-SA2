@@ -1,0 +1,5 @@
+VA,DOL_offset,ISO_offset,requested_bytes,role,original_file_backed,original_file_bytes,inside_header_BSS,runtime_initialization_or_ownership
+0x80357880,,,48,setup upload source,False,,True,unknown from bounded scopes
+0x803ae0c4,,,4,C18C current pointer word,False,,True,unknown from bounded scopes
+0x803ae0e8,,,4,setup gate state label under startup r13,False,,True,unknown from bounded scopes
+0x803ae140,,,12,three setup state labels under startup r13,False,,True,unknown from bounded scopes

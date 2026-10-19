@@ -1,0 +1,5 @@
+# Bootstrap scope preparation v1
+
+One run passed. Full frozen C hashes were checked first; structural excerpts are explicitly partial. Existing DumpSonicLoader parsed original DOL words using frozen isolated language definitions and private runtime paths. No Program or project was opened.
+
+{"result":"passed","added_functions":4,"added_source_artifacts":16,"added_ranges":4,"added_original_words":60,"prior_original_words_verified":682,"protected_sources_unchanged":82,"native_game_execution":false,"project_or_ProgramDB_opens":0,"parser_exit":0,"parser_log_sha256":"29c320066600ab581cf161b7bb8163b702d84dc6120806d60240f48da3a1f838","script_runs":"prepare_bootstrap_v1.py once"}
