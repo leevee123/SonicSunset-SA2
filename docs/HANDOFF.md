@@ -26,4 +26,8 @@ Complete research CSVs and paired reports are under `docs/evidence/`. Some retai
 
 ## Publication validation
 
-The source tree is being published directly through GitHub's file upload UI, with a complete remote/local byte comparison and a clean-checkout build to follow. No write-enabled Actions workflow or personal token is needed. Final publication evidence is recorded separately when those checks complete. No engine behavior is changed by this publication.
+The public source audit checked all2123 selected committed files against the local SHA256 identities, with zero missing files or content mismatches. All252 C++/Lua engine files are included. The audited source commit is `244fd9d744cf57dd38e25fdd81030d24df2b1b08`. The five older backup/recovery files remain as additional history.
+
+A fresh public clone passed the Windows x64 MSVC/Ninja Debug editor build at `29ed1c4c949c529c78f9c160513bd14bb7665000`. All997 source/dependency inputs matched their exact committed bytes. The executable SHA256 was `db5c9f9b6b99c0de19cd3586040b04293d3d63a4a0e4ddfb123a7ce2b7d346f4`; the complete build-log SHA256 was `8d6e39ed93554c29911a5aa4eee5a660097dd23d775459c0f69f338a1fca989b`. The invocation-only debug-information option was `-DCMAKE_MSVC_DEBUG_INFORMATION_FORMAT=Embedded`. Existing ImGui Git attributes change only line endings in165 checked-out files; the committed originals still match exactly.
+
+The source was published directly through GitHub's file-upload UI. No write-enabled Actions workflow or personal token was created. The complete source/dependency set is buildable from a public clone; original game data and the analysis workspace are separate local inputs. No engine behavior changed. See GITHUB.md for publication history and exclusions.
