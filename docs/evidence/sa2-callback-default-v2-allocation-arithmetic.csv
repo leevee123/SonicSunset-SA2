@@ -1,0 +1,6 @@
+case,count,size,low32_product,default_heap_required_cell_bytes,payload_after_0x20_header,clear_bytes,qualification
+flags2_work,1,48,48,96,64,48,arithmetic from original words; no live heap execution
+flags4_work,2,28,56,96,64,56,arithmetic from original words; no live heap execution
+flags1_work,1,64,64,96,64,64,arithmetic from original words; no live heap execution
+flags8_work,1,16,16,64,32,16,arithmetic from original words; no live heap execution
+record_size_path,1,80,80,128,96,0,arithmetic from original words; no live heap execution

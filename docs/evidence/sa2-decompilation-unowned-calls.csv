@@ -1,0 +1,22 @@
+module,callsite,file_offset,body_owners,direct_call_reference_edges,status
+ChaoStgEntrance.prs,0x81000118,0x118,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x810000f8,0xf8,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000100,0x100,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000110,0x110,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x8100011c,0x11c,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000128,0x128,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000150,0x150,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000204,0x204,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000208,0x208,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x8100020c,0x20c,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x8100023c,0x23c,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000244,0x244,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x8100024c,0x24c,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000254,0x254,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x810002d4,0x2d4,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x81000310,0x310,,0,unresolved_import; unclassified_body
+ChaoStgLobby.rel,0x8100034c,0x34c,,0,unresolved_import; unclassified_body
+ChaoStgOdekake.prs,0x81000420,0x420,,0,unresolved_import; unclassified_body
+ChaoStgOdekake.prs,0x810004d4,0x4d4,,0,unresolved_import; unclassified_body
+ChaoStgOdekake.prs,0x810004d8,0x4d8,,0,unresolved_import; unclassified_body
+ChaoStgOdekake.prs,0x810004ec,0x4ec,,0,unresolved_import; unclassified_body

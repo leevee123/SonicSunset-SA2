@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "status": "Bounded original cleanup/helper mechanics reconstructed; runtime role, ABI and release backend unknown.",
+  "dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "scope": ["80071AF0/DOL6EAF0", "8007098C/DOL6D98C", "800067F8/DOL37F8", "80119828/DOL116828"],
+  "cleanup": {
+    "input": "71B04:r30=incomingr3; no nodeNULLguard",
+    "entry_callback": "71B0C:r0=[node18];71B10:[r13-7878]=r0;71B14:r12=[node18] secondread;NULLcheck;71B20:LR=r12;71B24:r3=node;71B28/6EB28 word4E800021 blrl",
+    "zero_fields_after_callback": "71B2C:r0=0;71B30..4C clearsnode10,14,18,1C,20,24,28,2C inthatorder",
+    "snapshots_after_callback_and_clears": "71B50:r5=[nodeC];71B54:r31=[node0]next;71B5C:r29=[node4]previous",
+    "retained_child_branch": "if savedchildnonzero:71B68reloadnode10,71B70compare7098C,71B74bneB98; equalityarm retestssame r5@B78;zeroarmB80..B88 writes71AF0tonode10",
+    "recursive_child_loop": "B98:r3=[nodeC];B9CNULLcheck;BA0bneB94;B94/6EB94 BL71AF0 withcurrentchild; reloadheadafterreturn; terminationunprovenformutated/invalidlists",
+    "unlink": "BA4:[savednext+4]=savedprevious;BA8:[savedprevious+0]=savednext; no neighborNULLguards",
+    "parent_head": "BAC:r3=[node8]; nonzero =>if[parent+C]==node, store0when savednext==node atBD0,else savednext atBD8; nonmatchingheadunchanged; skipglobaltable",
+    "global_heads": "parent0 =>savednext=0ifself atBE0..E8; CTR8@BEC..BF4; scan801FCEB8 eight32bitslots; firstmatchingnodereplacedwithsavednextatC1C; stopafterfirst; nomatchnowrite",
+    "release_order": ["node34", "node3C", "node38", "node40", "nodeitself"],
+    "work34_nested_cleanup": "ifnode34nonzeroand[work+2C]nonzero,C48r3=node,C4C/6EC4C BL67F8; thenreloadnode34@C50 beforeC54release",
+    "field30": "CA8:r4=[node30];ifnonzero CB4lha r3,2(r4); CBCword5463003C rlwinm maskFFFFFFFE;CC0sth low16to+2;CC4clear node30; noreleasewrappercallfor30",
+    "final": "CC8:r31=0;CCCclearnodeC;CD0:r3=node;CD4/CD8/CDClears8/4/0;CE0/6ECE0 BL119828;CE4:[r13-7878]=0; nofurthernodememoryaccess",
+    "global_order_limit": "Noexplicitglobalclear immediatelyafterentrycallback;recursivecalleesmaychangeit; priorvalue notexplicitlyrestored",
+    "field_types": "Onlyobservedpointerrelations; notallzeroed10..2Cfieldsassumedcallbacks"
+  },
+  "release_calls": [
+    {"argument": "currentnode34", "r3_definition": "80071C50:807E0034", "callsite": "80071C54/DOL6EC54", "clear": "80071C5C node34"},
+    {"argument": "node3C", "r3_definition": "80071C60:807E003C", "callsite": "80071C6C/DOL6EC6C", "clear": "80071C74 node3C"},
+    {"argument": "node38", "r3_definition": "80071C78:807E0038", "callsite": "80071C84/DOL6EC84", "clear": "80071C8C node38"},
+    {"argument": "node40", "r3_definition": "80071C90:807E0040", "callsite": "80071C9C/DOL6EC9C", "clear": "80071CA4 node40"},
+    {"argument": "node", "r3_definition": "80071CD0:7FC3F378", "callsite": "80071CE0/DOL6ECE0", "clear": "linkszerobeforecall"}
+  ],
+  "nested_helper_800067F8": {
+    "checks": "680C/6810: NULLnode;6814..1C: NULLnode34;6820..2C: NULLwork2C",
+    "nested_object": "6820:r0=[work2C];6828:r31=r0",
+    "flag": "6830lhz r0,4(r31);6834word54000421 rlwinm. mask8000",
+    "optional_release": "ifflag8000andnestedCnonzero:683C:r3=[nestedC];6848/DOL3848 BL119828;6850 clearsnestedC",
+    "nested_release": "6854:r3=r31;6858/DOL3858 BL119828",
+    "work_reload_and_clear": "685C:r3=[node34] again;6864clears[work+2C]",
+    "flag_ownership_role": "unknown"
+  },
+  "release_wrapper_80119828": {
+    "table": "119834:r4=[r13-71B8]",
+    "target": "119838:r12=[r4+4];11983C:LR=r12",
+    "call": "119840/DOL116840 word4E800021 blrl",
+    "argument_flow": "incomingr3unchangedbeforecall; solelastdefinition=incomingr3",
+    "no_table_or_target_null_guard": true,
+    "backend_target_full_abi_reclamation": "unknown",
+    "generated_void_noarg_signature": "notaprovenprototype"
+  },
+  "child_helper_8007098C": {
+    "self_pointer_case": "9A4loadnode10;9ACcompare7098C;ifselfandnodeCzero =>9C8store71AF0intonode10;nonzerochildreturnswithoutwrite",
+    "different_pointer_case": "9D8:r3=[nodeC];NULLcheck;9E0bne9D4;9D4/DOL6D9D4 BL71AF0(child);headreread",
+    "own_node_unlink_or_release_wrapper": false,
+    "gameplay_role": "unknown"
+  },
+  "quirks": {
+    "clear_before_compare": "node10=0at71B30;reloadB68;node r30unchanged/nointerveningcall/eightdistinctstores =>comparewithnonzero7098C unequalundersequentialexecution",
+    "same_saved_child_retest": "r5=[nodeC]atB50;nonnullrequired@B60;sameunchangedr5@B78;zeroarmB80..88infeasiblefromordinaryentry",
+    "policy": "Retainoriginalbranches/store; nofix orsimplification; concurrency/unknownentryoutsideproof",
+    "unowned_original_words": ["80071B90/DOL6EB90:48000008 b80071B98", "800709D0/DOL6D9D0:48000008 b800709D8"],
+    "gap_reachability": "notreachablefromdeclaredentriesinstructuralgraph; unknownincomingtransfersnotruledout; noownershipchange"
+  },
+  "sda_assumption": "r13startup803B52C0only =>currentcallback803ADA48 andallocationtablepointer803AE108; runtimecontextunknown",
+  "validation": {
+    "audit_script": "audit_callback_cleanup_v1.py",
+    "reused_original_words_verified": 519,
+    "raw_words": 205,
+    "raw_span_words_by_scope_order": [133, 27, 34, 11],
+    "control_flow_edges": 230,
+    "callsites": 12,
+    "unsupported_data_instructions": 0,
+    "retained_asm_rows_verified": {"80071AF0": 132, "80119828": 11},
+    "body_ranges_primary_equal_sda": true,
+    "review_script": "review_callback_cleanup_v1.py",
+    "call_graph_matches_both_views": 24,
+    "halfword_values_checked": 65536,
+    "halfword_result": "signedlha/rlwinm/sthlow16 exactlyinput&FFFE;digestgraph-quirk-review.ai.json",
+    "source_hashes_unchanged": true,
+    "each_script_execution_count": 1,
+    "game_execution_or_unknown_callbacks_emulated": false
+  },
+  "raw_artifacts": ["original-words.csv", "control-flow-edges.csv", "calls-and-r3-definitions.csv", "r3-reaching-definitions.csv", "field-accesses.csv", "retained-asm-80071af0.csv", "retained-asm-80119828.csv", "export-call-graph-matches.csv"],
+  "paired_evidence_reports": ["word-graph-audit.md/.ai.json", "graph-quirk-review.md/.ai.json"],
+  "unknowns": ["Gameplayidentity/fullcallbackandreturnABI/actualexecution", "Validnode/listinvariants andterminationundermutation", "Releasebackend/ownership/reclamationpolicy", "RuntimeSDAcontext/concurrency/reentrancy/callbacksideeffects", "Field30flag/nestedflag/otherfieldmeanings", "Unknownincomingtransfersintogaps/specialarms"],
+  "no_ghidra_project_open": true,
+  "no_leaked_original_source_encountered": true,
+  "engine_files_changed": [],
+  "repository_export_or_frozen_helper_files_changed": [],
+  "alias_closure_or_candidate_selection_claimed": false,
+  "behavior_port_or_full_game_completion_claimed": false
+}

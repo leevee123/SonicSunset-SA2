@@ -1,0 +1,174 @@
+{
+  "status": "pass_original_word_inventory",
+  "functions": 18,
+  "original_words": 626,
+  "dispatch_table_entries": 3,
+  "calloc_multiply_site": {
+    "function": "0x801198ec",
+    "address": "0x80119908",
+    "canonical_dol_offset": "0x116908",
+    "word": "0x7fe021d6",
+    "op": 31,
+    "xop": 235,
+    "rt_rs": 31,
+    "ra": 0,
+    "rb": 4,
+    "signed_immediate": 8662,
+    "decoded_subset_or_raw_word": "mullw r31,r0,r4"
+  },
+  "calloc_multiply_parameter_origins": {
+    "3": "other_or_memory",
+    "4": "incoming_size",
+    "0": "incoming_count"
+  },
+  "calloc_allocation_and_fill_calls": [
+    {
+      "function": "0x801198ec",
+      "callsite": "0x80119910",
+      "callsite_dol_offset": "0x116910",
+      "call_word": "0x4bfcac45",
+      "call": "bl 0x800e4554",
+      "preceding_context": "0x801198fc:stw r30,16(r1)|0x80119900:mr r0,r3|0x80119904:lwz r3,-29108(r13)|0x80119908:mullw r31,r0,r4|0x8011990c:mr r4,r31",
+      "following_context": "0x80119914:mr r30,r3|0x80119918:mr r3,r30|0x8011991c:addi r4,r0,0"
+    },
+    {
+      "function": "0x801198ec",
+      "callsite": "0x80119924",
+      "callsite_dol_offset": "0x116924",
+      "call_word": "0x4bfffe55",
+      "call": "bl 0x80119778",
+      "preceding_context": "0x80119910:bl 0x800e4554|0x80119914:mr r30,r3|0x80119918:mr r3,r30|0x8011991c:addi r4,r0,0|0x80119920:mr r5,r31",
+      "following_context": "0x80119928:mr r3,r30|0x8011992c:lwz r0,28(r1)|0x80119930:lwz r31,20(r1)"
+    }
+  ],
+  "no_branch_between_default_allocation_and_fill": true,
+  "record_previous_value_store_order": [
+    {
+      "function": "0x80071d04",
+      "address": "0x80071da0",
+      "canonical_dol_offset": "0x6eda0",
+      "word": "0x90030048",
+      "op": 36,
+      "xop": 36,
+      "rt_rs": 0,
+      "ra": 3,
+      "rb": 0,
+      "signed_immediate": 72,
+      "decoded_subset_or_raw_word": "stw r0,72(r3)"
+    },
+    {
+      "function": "0x80071d04",
+      "address": "0x80071da4",
+      "canonical_dol_offset": "0x6eda4",
+      "word": "0x93e30044",
+      "op": 36,
+      "xop": 34,
+      "rt_rs": 31,
+      "ra": 3,
+      "rb": 0,
+      "signed_immediate": 68,
+      "decoded_subset_or_raw_word": "stw r31,68(r3)"
+    }
+  ],
+  "direct_record_release_calls": [
+    {
+      "function": "0x80071af0",
+      "callsite": "0x80071c54",
+      "callsite_dol_offset": "0x6ec54",
+      "call_word": "0x480a7bd5",
+      "call": "bl 0x80119828",
+      "preceding_context": "0x80071c40:cmpli r0,0|0x80071c44:bc BO12,BI2,0x80071c50|0x80071c48:mr r3,r30|0x80071c4c:bl 0x800067f8|0x80071c50:lwz r3,52(r30)",
+      "following_context": "0x80071c58:addi r0,r0,0|0x80071c5c:stw r0,52(r30)|0x80071c60:lwz r3,60(r30)"
+    },
+    {
+      "function": "0x80071af0",
+      "callsite": "0x80071c6c",
+      "callsite_dol_offset": "0x6ec6c",
+      "call_word": "0x480a7bbd",
+      "call": "bl 0x80119828",
+      "preceding_context": "0x80071c58:addi r0,r0,0|0x80071c5c:stw r0,52(r30)|0x80071c60:lwz r3,60(r30)|0x80071c64:cmpli r3,0|0x80071c68:bc BO12,BI2,0x80071c78",
+      "following_context": "0x80071c70:addi r0,r0,0|0x80071c74:stw r0,60(r30)|0x80071c78:lwz r3,56(r30)"
+    },
+    {
+      "function": "0x80071af0",
+      "callsite": "0x80071c84",
+      "callsite_dol_offset": "0x6ec84",
+      "call_word": "0x480a7ba5",
+      "call": "bl 0x80119828",
+      "preceding_context": "0x80071c70:addi r0,r0,0|0x80071c74:stw r0,60(r30)|0x80071c78:lwz r3,56(r30)|0x80071c7c:cmpli r3,0|0x80071c80:bc BO12,BI2,0x80071c90",
+      "following_context": "0x80071c88:addi r0,r0,0|0x80071c8c:stw r0,56(r30)|0x80071c90:lwz r3,64(r30)"
+    },
+    {
+      "function": "0x80071af0",
+      "callsite": "0x80071c9c",
+      "callsite_dol_offset": "0x6ec9c",
+      "call_word": "0x480a7b8d",
+      "call": "bl 0x80119828",
+      "preceding_context": "0x80071c88:addi r0,r0,0|0x80071c8c:stw r0,56(r30)|0x80071c90:lwz r3,64(r30)|0x80071c94:cmpli r3,0|0x80071c98:bc BO12,BI2,0x80071ca8",
+      "following_context": "0x80071ca0:addi r0,r0,0|0x80071ca4:stw r0,64(r30)|0x80071ca8:lwz r4,48(r30)"
+    },
+    {
+      "function": "0x80071af0",
+      "callsite": "0x80071ce0",
+      "callsite_dol_offset": "0x6ece0",
+      "call_word": "0x480a7b49",
+      "call": "bl 0x80119828",
+      "preceding_context": "0x80071ccc:stw r31,12(r30)|0x80071cd0:mr r3,r30|0x80071cd4:stw r31,8(r30)|0x80071cd8:stw r31,4(r30)|0x80071cdc:stw r31,0(r30)",
+      "following_context": "0x80071ce4:stw r31,-30840(r13)|0x80071ce8:lwz r0,36(r1)|0x80071cec:lwz r31,28(r1)"
+    }
+  ],
+  "arithmetic": [
+    {
+      "case": "flags2_work",
+      "count": 1,
+      "size": 48,
+      "low32_product": 48,
+      "default_heap_required_cell_bytes": 96,
+      "payload_after_0x20_header": 64,
+      "clear_bytes": 48,
+      "qualification": "arithmetic from original words; no live heap execution"
+    },
+    {
+      "case": "flags4_work",
+      "count": 2,
+      "size": 28,
+      "low32_product": 56,
+      "default_heap_required_cell_bytes": 96,
+      "payload_after_0x20_header": 64,
+      "clear_bytes": 56,
+      "qualification": "arithmetic from original words; no live heap execution"
+    },
+    {
+      "case": "flags1_work",
+      "count": 1,
+      "size": 64,
+      "low32_product": 64,
+      "default_heap_required_cell_bytes": 96,
+      "payload_after_0x20_header": 64,
+      "clear_bytes": 64,
+      "qualification": "arithmetic from original words; no live heap execution"
+    },
+    {
+      "case": "flags8_work",
+      "count": 1,
+      "size": 16,
+      "low32_product": 16,
+      "default_heap_required_cell_bytes": 64,
+      "payload_after_0x20_header": 32,
+      "clear_bytes": 16,
+      "qualification": "arithmetic from original words; no live heap execution"
+    },
+    {
+      "case": "record_size_path",
+      "count": 1,
+      "size": 80,
+      "low32_product": 80,
+      "default_heap_required_cell_bytes": 128,
+      "payload_after_0x20_header": 96,
+      "clear_bytes": 0,
+      "qualification": "arithmetic from original words; no live heap execution"
+    }
+  ],
+  "original_dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "no_runtime_or_heap_fixture_execution": true
+}

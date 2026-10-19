@@ -1,0 +1,12 @@
+caller_entry,caller_file_offset,call_site,call_site_file_offset,target,target_file_offset,target_function,target_name,reference_type,target_status
+0x8101afd4,0x1afd4,8101b024,0x1b024,8101b25c,0x1b25c,8101b25c,FUN_8101b25c,UNCONDITIONAL_CALL,defined_function_entry
+0x8101afd4,0x1afd4,8101b03c,0x1b03c,801197fc,,801197fc,FUN_801197fc,UNCONDITIONAL_CALL,defined_function_entry
+0x8101afd4,0x1afd4,8101b04c,0x1b04c,800e839c,,800e839c,FUN_800e839c,UNCONDITIONAL_CALL,defined_function_entry
+0x8101afd4,0x1afd4,8101b070,0x1b070,800e5bf0,,800e5bf0,FUN_800e5bf0,UNCONDITIONAL_CALL,defined_function_entry
+0x8101afd4,0x1afd4,8101b084,0x1b084,800e5bf0,,800e5bf0,FUN_800e5bf0,UNCONDITIONAL_CALL,defined_function_entry
+0x8101afd4,0x1afd4,8101b098,0x1b098,800e5bf0,,800e5bf0,FUN_800e5bf0,UNCONDITIONAL_CALL,defined_function_entry
+0x8101b25c,0x1b25c,8101b27c,0x1b27c,80119d64,,80119d64,FUN_80119d64,UNCONDITIONAL_CALL,defined_function_entry
+0x8101b25c,0x1b25c,8101b298,0x1b298,80119ec4,,80119ec4,FUN_80119ec4,UNCONDITIONAL_CALL,defined_function_entry
+0x8101b25c,0x1b25c,8101b2bc,0x1b2bc,801197fc,,801197fc,FUN_801197fc,UNCONDITIONAL_CALL,defined_function_entry
+0x8101b25c,0x1b25c,8101b2d0,0x1b2d0,80119ef0,,80119ef0,FUN_80119ef0,UNCONDITIONAL_CALL,defined_function_entry
+0x8101b25c,0x1b25c,8101b2d8,0x1b2d8,80119e6c,,80119e6c,FUN_80119e6c,UNCONDITIONAL_CALL,defined_function_entry

@@ -1,0 +1,3 @@
+owner,va,dol_file_offset,iso_file_offset,word,decode,retained_asm,target,absolute,link
+,0x8011cdd4,0x119dd4,0x1384d4,4bffff25,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 746, 'immediate_signed': -12844, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-12844(r17)'}",,0x8011ccf8,False,True
+,0x8011d464,0x11a464,0x138b64,4bfff895,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 26, 'xo': 562, 'immediate_signed': -11164, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-11164(r17)'}",,0x8011ccf8,False,True

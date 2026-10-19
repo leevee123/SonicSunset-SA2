@@ -1,0 +1,7 @@
+owner,va,dol_file_offset,iso_file_offset,word,decode,retained_asm,kind
+,0x8011cd34,0x119d34,0x138434,3ba37a58,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 666, 'immediate_signed': -13004, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-13004(r17)'}",,table_low_half_candidate
+,0x8011cda0,0x119da0,0x1384a0,38037a58,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 720, 'immediate_signed': -12896, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-12896(r17)'}",,table_low_half_candidate
+,0x8011cdac,0x119dac,0x1384ac,806d8e34,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 726, 'immediate_signed': -12884, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-12884(r17)'}",,exact_counter_sda_displacement
+,0x8011cdb4,0x119db4,0x1384b4,900d8e34,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 730, 'immediate_signed': -12876, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-12876(r17)'}",,exact_counter_sda_displacement
+,0x8011cdd8,0x119dd8,0x1384d8,806d8e34,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 748, 'immediate_signed': -12840, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-12840(r17)'}",,exact_counter_sda_displacement
+,0x8011cde0,0x119de0,0x1384e0,900d8e34,"{'opcode': 32, 'reg_field21': 0, 'reg_field16': 17, 'reg_field11': 25, 'xo': 752, 'immediate_signed': -12832, 'reads': [17], 'writes': [0], 'decoded': 'lwz r0,-12832(r17)'}",,exact_counter_sda_displacement

@@ -1,0 +1,5 @@
+caller_entry,caller_file_offset,call_site,call_site_file_offset,target,target_file_offset,target_function,target_name,reference_type,target_status
+0x8001e89c,0x1b89c,8001e968,0x1b968,80071a40,0x6ea40,80071a40,FUN_80071a40,UNCONDITIONAL_CALL,defined_function_entry
+0x800708d8,0x6d8d8,80070940,0x6d940,800708d8,0x6d8d8,800708d8,FUN_800708d8,UNCONDITIONAL_CALL,defined_function_entry
+0x80071214,0x6e214,8007122c,0x6e22c,80071a40,0x6ea40,80071a40,FUN_80071a40,UNCONDITIONAL_CALL,defined_function_entry
+0x80071a40,0x6ea40,80071aa8,0x6eaa8,800708d8,0x6d8d8,800708d8,FUN_800708d8,UNCONDITIONAL_CALL,defined_function_entry

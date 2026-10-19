@@ -1,0 +1,742 @@
+{
+  "version": 1,
+  "status": "Bounded original-word and GPR-result audit; candidate and complete ABI remain unverified.",
+  "original_dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "original_decoded_module_sha256": "0ab8fd024aee271d8911c5212c24d4c23f208647e624e72827c544d747ef830c",
+  "module_id": 73,
+  "canonical_candidate_file_offset": "0xe0",
+  "synthetic_candidate_address": "0x810000e0",
+  "native_word_count": 519,
+  "native_functions": [
+    {
+      "entry": "0x8001e89c",
+      "dol_file_offset": "0x1b89c",
+      "original_body_ranges": [
+        {
+          "start": "0x8001e89c",
+          "end_exclusive": "0x8001eae0",
+          "dol_file_offset": "0x1b89c",
+          "bytes": 580,
+          "sha256": "b86ae60933cb3326091f29163b86a1b794417a66353d04521dcde91aa88cc175"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8001e89c.c",
+          "sha256": "750ac8a9c5678edbc4d3e6fc3a5d4cdbc261fe5888af97b7bea56cc509c28ae4"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8001e89c.c",
+          "sha256": "286976e3f0a1b57c83970c18ff3e86173e697b23910f18b83b66f0edeb8eb53c"
+        }
+      ],
+      "generated_c_identical_after_header": false
+    },
+    {
+      "entry": "0x800708d8",
+      "dol_file_offset": "0x6d8d8",
+      "original_body_ranges": [
+        {
+          "start": "0x800708d8",
+          "end_exclusive": "0x8007098c",
+          "dol_file_offset": "0x6d8d8",
+          "bytes": 180,
+          "sha256": "22cbb8d96b559655caf42c94d75b526cc2c63f4f452c59e50497edcee7ad5312"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800708d8.c",
+          "sha256": "f015501be815a78f637bae2c7f5acd2ae63cd7c90a3f5bde1bc97ee383c03a74"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800708d8.c",
+          "sha256": "d518068b8b3314bc9807b98c3dfc1a69c79c9cf41c7f858643ddb2a5d9d243d3"
+        }
+      ],
+      "generated_c_identical_after_header": false
+    },
+    {
+      "entry": "0x80071214",
+      "dol_file_offset": "0x6e214",
+      "original_body_ranges": [
+        {
+          "start": "0x80071214",
+          "end_exclusive": "0x80071250",
+          "dol_file_offset": "0x6e214",
+          "bytes": 60,
+          "sha256": "f0eb2fffda9c4af334dd270a011d38a57f3ec1413af3b5bf0d71266f6448a6fd"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071214.c",
+          "sha256": "c2fc3df257c75373fc9705d507d2482af8144d96b65678c4127ba92c464aee5c"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071214.c",
+          "sha256": "c2fc3df257c75373fc9705d507d2482af8144d96b65678c4127ba92c464aee5c"
+        }
+      ],
+      "generated_c_identical_after_header": true
+    },
+    {
+      "entry": "0x80071a40",
+      "dol_file_offset": "0x6ea40",
+      "original_body_ranges": [
+        {
+          "start": "0x80071a40",
+          "end_exclusive": "0x80071ae0",
+          "dol_file_offset": "0x6ea40",
+          "bytes": 160,
+          "sha256": "cb31f65085209d10762d8712bbdf785c5b96b44430d9e853d65034e504b316af"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071a40.c",
+          "sha256": "d33ec8badd39771eb1c1d1e3339bd1540d05c57183c671c8ef45c755ba7f4e5e"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071a40.c",
+          "sha256": "cd18a94f794714b96447be906b53f10234bba755d9410a5bfd944c27156ded1a"
+        }
+      ],
+      "generated_c_identical_after_header": false
+    },
+    {
+      "entry": "0x80071ae0",
+      "dol_file_offset": "0x6eae0",
+      "original_body_ranges": [
+        {
+          "start": "0x80071ae0",
+          "end_exclusive": "0x80071af0",
+          "dol_file_offset": "0x6eae0",
+          "bytes": 16,
+          "sha256": "aa1d0fdeb3c93a67e164aef0cb2425a6f85e9ca74bf33f0e4739fb3af0559283"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071ae0.c",
+          "sha256": "edcd4af70ef8cb5ea775f01b0e635a45e828e3db440784b683f1cde4493568e5"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071ae0.c",
+          "sha256": "edcd4af70ef8cb5ea775f01b0e635a45e828e3db440784b683f1cde4493568e5"
+        }
+      ],
+      "generated_c_identical_after_header": true
+    },
+    {
+      "entry": "0x80071af0",
+      "dol_file_offset": "0x6eaf0",
+      "original_body_ranges": [
+        {
+          "start": "0x80071af0",
+          "end_exclusive": "0x80071b90",
+          "dol_file_offset": "0x6eaf0",
+          "bytes": 160,
+          "sha256": "56e57229e769a4713dca6c052faf7f0a479d0aad8beba289cc36b9733c5c261a"
+        },
+        {
+          "start": "0x80071b94",
+          "end_exclusive": "0x80071d04",
+          "dol_file_offset": "0x6eb94",
+          "bytes": 368,
+          "sha256": "fa1eaef00f84c72ad41dfd87b65f8e80e2733dedfacca3c02d5a7fd951a23f75"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071af0.c",
+          "sha256": "6a53e99b62f8d7aa964631875b25f0585915c801823cac4427494b3b112717f8"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071af0.c",
+          "sha256": "2378519779e3bf08366ca376481c0167e76d1951956778bf6ecf91f5e3c2d7c5"
+        }
+      ],
+      "generated_c_identical_after_header": false
+    },
+    {
+      "entry": "0x80071d04",
+      "dol_file_offset": "0x6ed04",
+      "original_body_ranges": [
+        {
+          "start": "0x80071d04",
+          "end_exclusive": "0x80071e0c",
+          "dol_file_offset": "0x6ed04",
+          "bytes": 264,
+          "sha256": "ef3c35a96eaf36965f3a937f8042ccbab1a02efcfe02ee06c1b1d0e070589d6a"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071d04.c",
+          "sha256": "0e7be53ef603636c4eae67684dfb74e98e16619c309cfb6505e00fef5f1d11c0"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071d04.c",
+          "sha256": "0e7be53ef603636c4eae67684dfb74e98e16619c309cfb6505e00fef5f1d11c0"
+        }
+      ],
+      "generated_c_identical_after_header": true
+    },
+    {
+      "entry": "0x80071e0c",
+      "dol_file_offset": "0x6ee0c",
+      "original_body_ranges": [
+        {
+          "start": "0x80071e0c",
+          "end_exclusive": "0x80071f2c",
+          "dol_file_offset": "0x6ee0c",
+          "bytes": 288,
+          "sha256": "670e0f82446de69e196e76e2d6afa3fef5658ff9ac399ce8417a267fe88fb794"
+        }
+      ],
+      "views": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071e0c.c",
+          "sha256": "bb9993290fb87aaf5a9ea44b2fdcaa6f38af4d85f98a76b84e7fe3c0ae1e37ae"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071e0c.c",
+          "sha256": "bb9993290fb87aaf5a9ea44b2fdcaa6f38af4d85f98a76b84e7fe3c0ae1e37ae"
+        }
+      ],
+      "generated_c_identical_after_header": true
+    }
+  ],
+  "result_register_audits": [
+    {
+      "function_entry": "0x80071a40",
+      "callsite": "0x80071a90",
+      "callsite_dol_file_offset": "0x6ea90",
+      "visited_words": 25,
+      "terminals": [
+        {
+          "address": "0x80071adc",
+          "reason": "return_with_r3_unread"
+        },
+        {
+          "address": "0x80071a8c",
+          "reason": "r3_overwritten_without_prior_read"
+        },
+        {
+          "address": "0x80071aa4",
+          "reason": "r3_overwritten_without_prior_read"
+        }
+      ],
+      "r3_read_observed": false,
+      "bounded_audit_complete": true,
+      "limit": "Only explicit GPR3 uses in this declared body; callback effects and complete ABI unknown."
+    },
+    {
+      "function_entry": "0x800708d8",
+      "callsite": "0x80070924",
+      "callsite_dol_file_offset": "0x6d924",
+      "visited_words": 31,
+      "terminals": [
+        {
+          "address": "0x80070988",
+          "reason": "return_with_r3_unread"
+        },
+        {
+          "address": "0x80070920",
+          "reason": "r3_overwritten_without_prior_read"
+        },
+        {
+          "address": "0x8007093c",
+          "reason": "r3_overwritten_without_prior_read"
+        }
+      ],
+      "r3_read_observed": false,
+      "bounded_audit_complete": true,
+      "limit": "Only explicit GPR3 uses in this declared body; callback effects and complete ABI unknown."
+    },
+    {
+      "function_entry": "0x80071214",
+      "callsite": "0x8007122c",
+      "callsite_dol_file_offset": "0x6e22c",
+      "visited_words": 9,
+      "terminals": [
+        {
+          "address": "0x80071228",
+          "reason": "r3_overwritten_without_prior_read"
+        },
+        {
+          "address": "0x8007124c",
+          "reason": "return_with_r3_unread"
+        }
+      ],
+      "r3_read_observed": false,
+      "bounded_audit_complete": true,
+      "limit": "Only explicit GPR3 uses in this declared body; callback effects and complete ABI unknown."
+    },
+    {
+      "function_entry": "0x8001e89c",
+      "callsite": "0x8001e968",
+      "callsite_dol_file_offset": "0x1b968",
+      "visited_words": 2,
+      "terminals": [
+        {
+          "address": "0x8001e970",
+          "reason": "r3_overwritten_without_prior_read"
+        }
+      ],
+      "r3_read_observed": false,
+      "bounded_audit_complete": true,
+      "limit": "Only explicit GPR3 uses in this declared body; callback effects and complete ABI unknown."
+    }
+  ],
+  "direct_dispatch_edges": [
+    {
+      "caller_entry": "0x8001e89c",
+      "caller_file_offset": "0x1b89c",
+      "call_site": "8001e968",
+      "call_site_file_offset": "0x1b968",
+      "target": "80071a40",
+      "target_file_offset": "0x6ea40",
+      "target_function": "80071a40",
+      "target_name": "FUN_80071a40",
+      "reference_type": "UNCONDITIONAL_CALL",
+      "target_status": "defined_function_entry"
+    },
+    {
+      "caller_entry": "0x800708d8",
+      "caller_file_offset": "0x6d8d8",
+      "call_site": "80070940",
+      "call_site_file_offset": "0x6d940",
+      "target": "800708d8",
+      "target_file_offset": "0x6d8d8",
+      "target_function": "800708d8",
+      "target_name": "FUN_800708d8",
+      "reference_type": "UNCONDITIONAL_CALL",
+      "target_status": "defined_function_entry"
+    },
+    {
+      "caller_entry": "0x80071214",
+      "caller_file_offset": "0x6e214",
+      "call_site": "8007122c",
+      "call_site_file_offset": "0x6e22c",
+      "target": "80071a40",
+      "target_file_offset": "0x6ea40",
+      "target_function": "80071a40",
+      "target_name": "FUN_80071a40",
+      "reference_type": "UNCONDITIONAL_CALL",
+      "target_status": "defined_function_entry"
+    },
+    {
+      "caller_entry": "0x80071a40",
+      "caller_file_offset": "0x6ea40",
+      "call_site": "80071aa8",
+      "call_site_file_offset": "0x6eaa8",
+      "target": "800708d8",
+      "target_file_offset": "0x6d8d8",
+      "target_function": "800708d8",
+      "target_name": "FUN_800708d8",
+      "reference_type": "UNCONDITIONAL_CALL",
+      "target_status": "defined_function_entry"
+    }
+  ],
+  "candidate_sources": [
+    {
+      "entry": "0x810000e0",
+      "canonical_file_offset": "0xe0",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgOdekake.prs\\export\\pseudocode\\0x810000e0.c",
+      "sha256": "63c4768237888309941c00e11a0438b8ce3ecb8bce2def80bf836b0351adebe1"
+    },
+    {
+      "entry": "0x81001204",
+      "canonical_file_offset": "0x1204",
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgOdekake.prs\\export\\pseudocode\\0x81001204.c",
+      "sha256": "fad5afa92117fffef5e8a5bb29aaf3d9006802546ca91c0a74c507c553ce1ea6"
+    }
+  ],
+  "relocation_count": 4,
+  "relevant_relocations": [
+    {
+      "source_module_path": "ChaoStgOdekake.prs",
+      "source_module_id": "73",
+      "import_file_offset": "0x10d11",
+      "stream_file_offset": "0xb461",
+      "patch_section": "1",
+      "patch_section_offset": "0x3c",
+      "canonical_source_offset": "0x11c",
+      "analysis_site": "0x8100011c",
+      "type": "10",
+      "width": "4",
+      "target_module": "0",
+      "target_section": "2",
+      "addend": "0x80071ae0",
+      "scope": "main",
+      "target_analysis_address": "0x80071ae0",
+      "target_canonical_offset": "0x6eae0",
+      "original_bytes": "48000001",
+      "relocated_bytes": "4b0719c5"
+    },
+    {
+      "source_module_path": "ChaoStgOdekake.prs",
+      "source_module_id": "73",
+      "import_file_offset": "0x10d11",
+      "stream_file_offset": "0xb491",
+      "patch_section": "1",
+      "patch_section_offset": "0x1170",
+      "canonical_source_offset": "0x1250",
+      "analysis_site": "0x81001250",
+      "type": "10",
+      "width": "4",
+      "target_module": "0",
+      "target_section": "2",
+      "addend": "0x80071e0c",
+      "scope": "main",
+      "target_analysis_address": "0x80071e0c",
+      "target_canonical_offset": "0x6ee0c",
+      "original_bytes": "48000001",
+      "relocated_bytes": "4b070bbd"
+    },
+    {
+      "source_module_path": "ChaoStgOdekake.prs",
+      "source_module_id": "73",
+      "import_file_offset": "0x10d21",
+      "stream_file_offset": "0xcf81",
+      "patch_section": "1",
+      "patch_section_offset": "0x1162",
+      "canonical_source_offset": "0x1242",
+      "analysis_site": "0x81001242",
+      "type": "6",
+      "width": "2",
+      "target_module": "73",
+      "target_section": "1",
+      "addend": "0x0",
+      "scope": "self",
+      "target_analysis_address": "0x810000e0",
+      "target_canonical_offset": "0xe0",
+      "original_bytes": "0000",
+      "relocated_bytes": "8100"
+    },
+    {
+      "source_module_path": "ChaoStgOdekake.prs",
+      "source_module_id": "73",
+      "import_file_offset": "0x10d21",
+      "stream_file_offset": "0xcf89",
+      "patch_section": "1",
+      "patch_section_offset": "0x1166",
+      "canonical_source_offset": "0x1246",
+      "analysis_site": "0x81001246",
+      "type": "4",
+      "width": "2",
+      "target_module": "73",
+      "target_section": "1",
+      "addend": "0x0",
+      "scope": "self",
+      "target_analysis_address": "0x810000e0",
+      "target_canonical_offset": "0xe0",
+      "original_bytes": "0000",
+      "relocated_bytes": "00e0"
+    }
+  ],
+  "native_field_accesses": [
+    {
+      "function_entry": "0x800708d8",
+      "address": "0x800708f0",
+      "dol_file_offset": "0x6d8f0",
+      "iso_file_offset": "0x8bff0",
+      "word": "93810010",
+      "decoded": "stw r28,16(r1)",
+      "gpr_reads": "[28, 1]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 8,
+      "field21": 28,
+      "field16": 1,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x800708d8",
+      "address": "0x80070908",
+      "dol_file_offset": "0x6d908",
+      "iso_file_offset": "0x8c008",
+      "word": "819f0010",
+      "decoded": "lwz r12,16(r31)",
+      "gpr_reads": "[31]",
+      "gpr_writes": "[12]",
+      "opcode": 32,
+      "xo": 8,
+      "field21": 12,
+      "field16": 31,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x800708d8",
+      "address": "0x8007097c",
+      "dol_file_offset": "0x6d97c",
+      "iso_file_offset": "0x8c07c",
+      "word": "83810010",
+      "decoded": "lwz r28,16(r1)",
+      "gpr_reads": "[1]",
+      "gpr_writes": "[28]",
+      "opcode": 32,
+      "xo": 8,
+      "field21": 28,
+      "field16": 1,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071a40",
+      "address": "0x80071a74",
+      "dol_file_offset": "0x6ea74",
+      "iso_file_offset": "0x8d174",
+      "word": "819d0010",
+      "decoded": "lwz r12,16(r29)",
+      "gpr_reads": "[29]",
+      "gpr_writes": "[12]",
+      "opcode": 32,
+      "xo": 8,
+      "field21": 12,
+      "field16": 29,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071ae0",
+      "address": "0x80071ae8",
+      "dol_file_offset": "0x6eae8",
+      "iso_file_offset": "0x8d1e8",
+      "word": "90030010",
+      "decoded": "stw r0,16(r3)",
+      "gpr_reads": "[0, 3]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 8,
+      "field21": 0,
+      "field16": 3,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071af0",
+      "address": "0x80071b30",
+      "dol_file_offset": "0x6eb30",
+      "iso_file_offset": "0x8d230",
+      "word": "901e0010",
+      "decoded": "stw r0,16(r30)",
+      "gpr_reads": "[0, 30]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 8,
+      "field21": 0,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071af0",
+      "address": "0x80071b68",
+      "dol_file_offset": "0x6eb68",
+      "iso_file_offset": "0x8d268",
+      "word": "809e0010",
+      "decoded": "lwz r4,16(r30)",
+      "gpr_reads": "[30]",
+      "gpr_writes": "[4]",
+      "opcode": 32,
+      "xo": 8,
+      "field21": 4,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071af0",
+      "address": "0x80071b88",
+      "dol_file_offset": "0x6eb88",
+      "iso_file_offset": "0x8d288",
+      "word": "901e0010",
+      "decoded": "stw r0,16(r30)",
+      "gpr_reads": "[0, 30]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 8,
+      "field21": 0,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071af0",
+      "address": "0x80071c30",
+      "dol_file_offset": "0x6ec30",
+      "iso_file_offset": "0x8d330",
+      "word": "807e0034",
+      "decoded": "lwz r3,52(r30)",
+      "gpr_reads": "[30]",
+      "gpr_writes": "[3]",
+      "opcode": 32,
+      "xo": 26,
+      "field21": 3,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 52
+    },
+    {
+      "function_entry": "0x80071af0",
+      "address": "0x80071c50",
+      "dol_file_offset": "0x6ec50",
+      "iso_file_offset": "0x8d350",
+      "word": "807e0034",
+      "decoded": "lwz r3,52(r30)",
+      "gpr_reads": "[30]",
+      "gpr_writes": "[3]",
+      "opcode": 32,
+      "xo": 26,
+      "field21": 3,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 52
+    },
+    {
+      "function_entry": "0x80071af0",
+      "address": "0x80071c5c",
+      "dol_file_offset": "0x6ec5c",
+      "iso_file_offset": "0x8d35c",
+      "word": "901e0034",
+      "decoded": "stw r0,52(r30)",
+      "gpr_reads": "[0, 30]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 26,
+      "field21": 0,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 52
+    },
+    {
+      "function_entry": "0x80071d04",
+      "address": "0x80071d48",
+      "dol_file_offset": "0x6ed48",
+      "iso_file_offset": "0x8d448",
+      "word": "93c30010",
+      "decoded": "stw r30,16(r3)",
+      "gpr_reads": "[30, 3]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 8,
+      "field21": 30,
+      "field16": 3,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071d04",
+      "address": "0x80071d58",
+      "dol_file_offset": "0x6ed58",
+      "iso_file_offset": "0x8d458",
+      "word": "90030010",
+      "decoded": "stw r0,16(r3)",
+      "gpr_reads": "[0, 3]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 8,
+      "field21": 0,
+      "field16": 3,
+      "field11": 0,
+      "immediate_signed": 16
+    },
+    {
+      "function_entry": "0x80071d04",
+      "address": "0x80071d68",
+      "dol_file_offset": "0x6ed68",
+      "iso_file_offset": "0x8d468",
+      "word": "90830034",
+      "decoded": "stw r4,52(r3)",
+      "gpr_reads": "[4, 3]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 26,
+      "field21": 4,
+      "field16": 3,
+      "field11": 0,
+      "immediate_signed": 52
+    },
+    {
+      "function_entry": "0x80071e0c",
+      "address": "0x80071e78",
+      "dol_file_offset": "0x6ee78",
+      "iso_file_offset": "0x8d578",
+      "word": "907e0034",
+      "decoded": "stw r3,52(r30)",
+      "gpr_reads": "[3, 30]",
+      "gpr_writes": "[]",
+      "opcode": 36,
+      "xo": 26,
+      "field21": 3,
+      "field16": 30,
+      "field11": 0,
+      "immediate_signed": 52
+    }
+  ],
+  "source_definition_matches": 38,
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\main.dol": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\dol-elf-mapping-final.json": "2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\function_body_ranges.csv": "31af92b7d34942e22e9b5822277411ebd6a68b3de3617f7cbb7869156da9d1fd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\direct_calls.csv": "280cd3bfdbca04aa81fc9e897da762db6fc3259ea83299ddcfa5a5ee0218fa5d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8001e89c.c": "750ac8a9c5678edbc4d3e6fc3a5d4cdbc261fe5888af97b7bea56cc509c28ae4",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8001e89c.c": "286976e3f0a1b57c83970c18ff3e86173e697b23910f18b83b66f0edeb8eb53c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800708d8.c": "f015501be815a78f637bae2c7f5acd2ae63cd7c90a3f5bde1bc97ee383c03a74",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800708d8.c": "d518068b8b3314bc9807b98c3dfc1a69c79c9cf41c7f858643ddb2a5d9d243d3",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071214.c": "c2fc3df257c75373fc9705d507d2482af8144d96b65678c4127ba92c464aee5c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071214.c": "c2fc3df257c75373fc9705d507d2482af8144d96b65678c4127ba92c464aee5c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071a40.c": "d33ec8badd39771eb1c1d1e3339bd1540d05c57183c671c8ef45c755ba7f4e5e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071a40.c": "cd18a94f794714b96447be906b53f10234bba755d9410a5bfd944c27156ded1a",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071ae0.c": "edcd4af70ef8cb5ea775f01b0e635a45e828e3db440784b683f1cde4493568e5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071ae0.c": "edcd4af70ef8cb5ea775f01b0e635a45e828e3db440784b683f1cde4493568e5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071af0.c": "6a53e99b62f8d7aa964631875b25f0585915c801823cac4427494b3b112717f8",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071af0.c": "2378519779e3bf08366ca376481c0167e76d1951956778bf6ecf91f5e3c2d7c5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071d04.c": "0e7be53ef603636c4eae67684dfb74e98e16619c309cfb6505e00fef5f1d11c0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071d04.c": "0e7be53ef603636c4eae67684dfb74e98e16619c309cfb6505e00fef5f1d11c0",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071e0c.c": "bb9993290fb87aaf5a9ea44b2fdcaa6f38af4d85f98a76b84e7fe3c0ae1e37ae",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071e0c.c": "bb9993290fb87aaf5a9ea44b2fdcaa6f38af4d85f98a76b84e7fe3c0ae1e37ae",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\images\\ChaoStgOdekake.prs\\preparation.ai.json": "b1a34c6332da2c99c1e6b40913ee33d357c53f6dabfcfbfca13d6c7f7aa8fdbf",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\palette-code\\ChaoStgOdekake.prs.decoded": "0ab8fd024aee271d8911c5212c24d4c23f208647e624e72827c544d747ef830c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgOdekake.prs\\export\\function_body_ranges.csv": "600fdc856cc43e42a676ce9d30c6ec1254f0d6541ff6ee2c8aea58f7b932ea35",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\images\\ChaoStgOdekake.prs\\patches.csv.gz": "96b8c8128efd85f63a7780e5a8c649afe5d3edfb800bdf1debe8689a74e7ffc7",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgOdekake.prs\\export\\pseudocode\\0x810000e0.c": "63c4768237888309941c00e11a0438b8ce3ecb8bce2def80bf836b0351adebe1",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgOdekake.prs\\export\\pseudocode\\0x81001204.c": "fad5afa92117fffef5e8a5bb29aaf3d9006802546ca91c0a74c507c553ce1ea6",
+    "C:\\decomp\\sonic-adventure-gc\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\PowerPC\\data\\languages\\ppc_instructions.sinc": "530bf462aa5e6a66f6f063af7bda21e135f3fe63615c6e7bc9f32c8b7ef4b4bc",
+    "C:\\decomp\\sonic-adventure-gc\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\PowerPC\\data\\languages\\ppc_common.sinc": "283dd9486268c4eb908d0d22ce3d7fdb237c2d07173a3984206fc000096adf3d",
+    "C:\\decomp\\sonic-adventure-gc\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\PowerPC\\data\\languages\\lmwInstructions.sinc": "46b22984787a857833018917c8613b69c36f7ac26c0a84623d040971a2dbe695",
+    "C:\\decomp\\sonic-adventure-gc\\ghidra_12.1.4_PUBLIC\\Ghidra\\Processors\\PowerPC\\data\\languages\\stmwInstructions.sinc": "3c77bfd31e488f5f792df1387c2f0679e95d183c5e9f2f4ecc7e48729022fd81",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_odekake_pointer_abi_v1.py": "b9c504e6124d8e60b6c6c40ed9958891cc794e09cc5a5362908b7b38932831ee"
+  },
+  "all_source_inputs_unchanged": true,
+  "initialized_dol_segment_hashes_verified": 8,
+  "no_project_open": true,
+  "no_repo_engine_or_frozen_helper_edits": true,
+  "limits": [
+    "Declared body extents are inherited from the existing exports, not proven new boundaries.",
+    "Both conditional successors followed conservatively; callback effects, full register ABI, actual invocation and runtime module base remain unknown.",
+    "r3 remaining live at return is not proof of a consumed result or proof of void return.",
+    "SDA absolute globals only follow the separate startup r13 assumption. Original instructions retain relative addresses."
+  ]
+}

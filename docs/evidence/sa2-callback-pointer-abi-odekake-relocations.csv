@@ -1,0 +1,5 @@
+source_module_path,source_module_id,import_file_offset,stream_file_offset,patch_section,patch_section_offset,canonical_source_offset,analysis_site,type,width,target_module,target_section,addend,scope,target_analysis_address,target_canonical_offset,original_bytes,relocated_bytes
+ChaoStgOdekake.prs,73,0x10d11,0xb461,1,0x3c,0x11c,0x8100011c,10,4,0,2,0x80071ae0,main,0x80071ae0,0x6eae0,48000001,4b0719c5
+ChaoStgOdekake.prs,73,0x10d11,0xb491,1,0x1170,0x1250,0x81001250,10,4,0,2,0x80071e0c,main,0x80071e0c,0x6ee0c,48000001,4b070bbd
+ChaoStgOdekake.prs,73,0x10d21,0xcf81,1,0x1162,0x1242,0x81001242,6,2,73,1,0x0,self,0x810000e0,0xe0,0000,8100
+ChaoStgOdekake.prs,73,0x10d21,0xcf89,1,0x1166,0x1246,0x81001246,4,2,73,1,0x0,self,0x810000e0,0xe0,0000,00e0

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "modules": 95,
+  "section_bytes": 104389753,
+  "foreign_import_streams_preserved": 24,
+  "sonic_entries": 64,
+  "sonic_unique_nodes": 200,
+  "sonic_pointer_stores": 529,
+  "disc_modified": false,
+  "scope": "Relocated data sections and Sonic pointer-bank loading/order, no geometry rendering or gameplay."
+}

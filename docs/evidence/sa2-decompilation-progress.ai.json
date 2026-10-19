@@ -1,0 +1,1451 @@
+{
+  "game_id": "GSNE8P",
+  "disc_number": 0,
+  "revision": 0,
+  "identified_carriers": 97,
+  "all_selected_module_exports_finished": true,
+  "module_first_pass_totals": {
+    "selected_defined_functions": 60321,
+    "pseudocode_files": 60321,
+    "assembly_files_for_failures_or_warnings": 2531,
+    "functions_with_warning_categories": 2531,
+    "mapped_executable_bytes": 22940952,
+    "defined_function_body_union_bytes": 22722440,
+    "defined_instruction_union_bytes": 22834596,
+    "outside_defined_function_body_bytes": 218512,
+    "outside_defined_instruction_bytes": 106356,
+    "defined_instructions_outside_function_body_bytes": 112156,
+    "direct_call_reference_edges": 430966,
+    "computed_call_sites": 994,
+    "language_sensitive_instruction_count": 566
+  },
+  "main_gekko": {
+    "schema": "3",
+    "generated_utc": "2026-10-12T15:05:20.065850400Z",
+    "identity_sha256": "2af6f2228516e3aa80452f3396ab580216f430e166fcf5efead69455fef931c1",
+    "program": "main-analysis.elf",
+    "export_loop_finished": true,
+    "all_selected_functions_attempted": true,
+    "fully_decompiled_and_reviewed": false,
+    "selected_defined_functions": 4405,
+    "excluded_functions_with_bodies_intersecting_code": 0,
+    "function_status_counts": {
+      "completed": 2028,
+      "completed_with_warnings": 2377
+    },
+    "pending_functions": 0,
+    "pseudocode_files": 4405,
+    "assembly_files_for_failures_or_warnings": 2377,
+    "functions_with_warning_categories": 2377,
+    "warning_categories_total": 2567,
+    "reused_checkpoints_this_run": 0,
+    "mapped_executable_bytes": 1507392,
+    "defined_function_body_union_bytes": 1469512,
+    "defined_instruction_union_bytes": 1487036,
+    "outside_defined_function_body_bytes": 37880,
+    "outside_defined_instruction_bytes": 20356,
+    "defined_instructions_outside_function_body_bytes": 17524,
+    "defined_function_body_coverage_percent": 97.4870504818919,
+    "defined_instruction_coverage_percent": 98.64958816286672,
+    "direct_call_reference_edges": 22865,
+    "computed_call_sites": 665,
+    "overlapping_body_intervals": 0,
+    "elapsed_ms_this_run": 71325,
+    "limitations": [
+      "Generated C has not been manually reviewed or proven equivalent",
+      "No new functions are created and no boundary repairs are applied",
+      "Coverage gaps may include data or alignment padding",
+      "Computed-call target completeness is unknown",
+      "Canonical offsets come exclusively from caller-supplied mappings",
+      "Synthetic analysis addresses are not original runtime addresses",
+      "Database identity and analysis fingerprints gate resume; any change requires a new export",
+      "Failure and warning assembly contains defined instructions only; undisassembled bytes remain gaps"
+    ]
+  },
+  "apploader_initial_view": {
+    "schema": "3",
+    "generated_utc": "2026-10-12T15:12:15.065349900Z",
+    "identity_sha256": "1630a563792d45bc01ad6a6978914244c3db96c672adb293d840cbb6ddc19090",
+    "program": "apploader-analysis.elf",
+    "export_loop_finished": true,
+    "all_selected_functions_attempted": true,
+    "fully_decompiled_and_reviewed": false,
+    "selected_defined_functions": 415,
+    "excluded_functions_with_bodies_intersecting_code": 0,
+    "function_status_counts": {
+      "completed": 199,
+      "completed_with_warnings": 216
+    },
+    "pending_functions": 0,
+    "pseudocode_files": 415,
+    "assembly_files_for_failures_or_warnings": 216,
+    "functions_with_warning_categories": 216,
+    "warning_categories_total": 280,
+    "reused_checkpoints_this_run": 0,
+    "mapped_executable_bytes": 115316,
+    "defined_function_body_union_bytes": 95148,
+    "defined_instruction_union_bytes": 95208,
+    "outside_defined_function_body_bytes": 20168,
+    "outside_defined_instruction_bytes": 20108,
+    "defined_instructions_outside_function_body_bytes": 60,
+    "defined_function_body_coverage_percent": 82.51066634291858,
+    "defined_instruction_coverage_percent": 82.56269728398487,
+    "direct_call_reference_edges": 1526,
+    "computed_call_sites": 114,
+    "overlapping_body_intervals": 0,
+    "elapsed_ms_this_run": 4625,
+    "limitations": [
+      "Generated C has not been manually reviewed or proven equivalent",
+      "No new functions are created and no boundary repairs are applied",
+      "Coverage gaps may include data or alignment padding",
+      "Computed-call target completeness is unknown",
+      "Canonical offsets come exclusively from caller-supplied mappings",
+      "Synthetic analysis addresses are not original runtime addresses",
+      "Database identity and analysis fingerprints gate resume; any change requires a new export",
+      "Failure and warning assembly contains defined instructions only; undisassembled bytes remain gaps"
+    ]
+  },
+  "apploader_linked_trailer_view": {
+    "schema": "4",
+    "generated_utc": "2026-10-12T20:22:05.452858300Z",
+    "identity_sha256": "a770930f7dba0e024f2e95997aeb40f82ebee54e7135a3e8eca1c932acc12916",
+    "program": "apploader-trailer-link-analysis.elf",
+    "export_loop_finished": true,
+    "all_selected_functions_attempted": true,
+    "fully_decompiled_and_reviewed": false,
+    "selected_defined_functions": 411,
+    "excluded_functions_with_bodies_intersecting_code": 0,
+    "function_status_counts": {
+      "completed": 212,
+      "completed_with_warnings": 199
+    },
+    "pending_functions": 0,
+    "pseudocode_files": 411,
+    "assembly_files_for_failures_or_warnings": 199,
+    "language_sensitive_instruction_count": 66,
+    "functions_with_language_sensitive_instructions": 2,
+    "functions_with_warning_categories": 199,
+    "warning_categories_total": 257,
+    "reused_checkpoints_this_run": 0,
+    "mapped_executable_bytes": 110048,
+    "defined_function_body_union_bytes": 95556,
+    "defined_instruction_union_bytes": 96052,
+    "outside_defined_function_body_bytes": 14492,
+    "outside_defined_instruction_bytes": 13996,
+    "defined_instructions_outside_function_body_bytes": 496,
+    "defined_function_body_coverage_percent": 86.83120093050306,
+    "defined_instruction_coverage_percent": 87.28191334690317,
+    "direct_call_reference_edges": 1559,
+    "computed_call_sites": 108,
+    "overlapping_body_intervals": 0,
+    "elapsed_ms_this_run": 6257,
+    "limitations": [
+      "Generated C has not been manually reviewed or proven equivalent",
+      "No new functions are created and no boundary repairs are applied",
+      "Coverage gaps may include data or alignment padding",
+      "Computed-call target completeness is unknown",
+      "Canonical offsets come exclusively from caller-supplied mappings",
+      "Synthetic analysis addresses are not original runtime addresses",
+      "Database identity and analysis fingerprints gate resume; any change requires a new export",
+      "Failure and warning assembly contains defined instructions only; undisassembled bytes remain gaps"
+    ]
+  },
+  "apploader_unique_original_entry_candidates": 421,
+  "catalogued_original_entry_candidates": 65147,
+  "foreign_continuation_correction": {
+    "selected_modules": 11,
+    "finished": true,
+    "completed": 11,
+    "foreign_sites_without_declared_body": 21,
+    "fully_decompiled_and_reviewed": false
+  },
+  "fully_decompiled_and_reviewed": false,
+  "engine_changes_in_this_pass": [],
+  "audit_status": "All 95 module contracts/checkpoints/artifacts and the 11 corrected replacements passed; selected merge retains 62850 verified artifacts. Startup-SDA main audit passed 4406 checkpoints/5161 artifacts.",
+  "source_work_root": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work",
+  "module_seed_script_sha256": "eae027c6df1a25f6cd5f91eb51f58ca0b9bbe53fc6dc0e2aa30059ce07fa05f5",
+  "exporter_sha256": "7428f8e383b3c50196800648f008a344dde219820e3b3264be11e0a3f7d83011",
+  "continuation_seed_sha256": "fa77dd527883423eb3a9e752a83ca2a5b93f4b96e4eabec23c46c3d55bbb7c02",
+  "module_selected_final_audit": {
+    "status": "pass_merged_frozen_audits",
+    "modules": 95,
+    "corrected_modules": 11,
+    "totals": {
+      "functions": 60320,
+      "pseudocode_files": 60320,
+      "assembly_files": 2530,
+      "warned_functions": 2530,
+      "code_bytes": 22940952,
+      "body_union_bytes": 22813952,
+      "instruction_union_bytes": 22919888,
+      "outside_body_bytes": 127000,
+      "outside_instruction_bytes": 21064,
+      "instructions_outside_bodies": 105936,
+      "direct_call_reference_edges": 433128,
+      "computed_calls": 997,
+      "body_overlap_intervals": 0,
+      "language_sensitive_words": 571
+    },
+    "verified_artifact_files": 62850,
+    "foreign_branches": 1582,
+    "unowned_foreign_branches": 21,
+    "baseline_unowned_foreign_branches": 988,
+    "source_audit_sha256": {
+      "corpus-v2": "76439cb5159a7d9b6a219c198f4af2bb0e84a98479c55d039924450484fd497f",
+      "corpus-v4c-v1": "fc325e22aa2661cde9fb92495ca53fbb373bc1c03b76b3e720c4d22e24341082"
+    },
+    "fully_decompiled_and_reviewed": false,
+    "qualification": "Select corrected evidence for 11 modules and unchanged frozen evidence for 84 modules. Each source audit independently checked contracts, all checkpoints/artifact hashes, canonical offsets and CSV totals. Summary hashes were rechecked at merge. Generated C and original behavior remain unreviewed."
+  },
+  "main_startup_sda_assumption": {
+    "schema": "4",
+    "generated_utc": "2026-10-12T20:34:23.008176700Z",
+    "identity_sha256": "8496a1daf434f1164f7bcdf7199c46c2187ae410496ebd1e486228d511a5703a",
+    "program": "main-analysis.elf",
+    "export_loop_finished": true,
+    "all_selected_functions_attempted": true,
+    "fully_decompiled_and_reviewed": false,
+    "selected_defined_functions": 4406,
+    "excluded_functions_with_bodies_intersecting_code": 0,
+    "function_status_counts": {
+      "completed": 3651,
+      "completed_with_warnings": 755
+    },
+    "pending_functions": 0,
+    "pseudocode_files": 4406,
+    "assembly_files_for_failures_or_warnings": 755,
+    "language_sensitive_instruction_count": 4164,
+    "functions_with_language_sensitive_instructions": 373,
+    "functions_with_warning_categories": 755,
+    "warning_categories_total": 847,
+    "reused_checkpoints_this_run": 0,
+    "mapped_executable_bytes": 1507392,
+    "defined_function_body_union_bytes": 1462700,
+    "defined_instruction_union_bytes": 1487036,
+    "outside_defined_function_body_bytes": 44692,
+    "outside_defined_instruction_bytes": 20356,
+    "defined_instructions_outside_function_body_bytes": 24336,
+    "defined_function_body_coverage_percent": 97.03514414299664,
+    "defined_instruction_coverage_percent": 98.64958816286672,
+    "direct_call_reference_edges": 22500,
+    "computed_call_sites": 660,
+    "overlapping_body_intervals": 0,
+    "elapsed_ms_this_run": 104198,
+    "limitations": [
+      "Generated C has not been manually reviewed or proven equivalent",
+      "No new functions are created and no boundary repairs are applied",
+      "Coverage gaps may include data or alignment padding",
+      "Computed-call target completeness is unknown",
+      "Canonical offsets come exclusively from caller-supplied mappings",
+      "Synthetic analysis addresses are not original runtime addresses",
+      "Database identity and analysis fingerprints gate resume; any change requires a new export",
+      "Failure and warning assembly contains defined instructions only; undisassembled bytes remain gaps"
+    ]
+  },
+  "main_sda_checkpoint_artifact_audit": {
+    "status": "pass",
+    "selected_functions": 4406,
+    "verified_checkpoint_records": 4406,
+    "verified_artifact_files": 5161,
+    "warning_category_counts": {
+      "pseudocode_warning": 327,
+      "analysis_flow_or_length_override": 7,
+      "language_fp_semantics_unverified": 373,
+      "unrecovered_register_values": 140
+    }
+  },
+  "filename_specific_chao_motion_path": {
+    "filename": "ChaoMotionsD.rel",
+    "filename_decoded_rel_offset": "0x5f8b8",
+    "filename_analysis_address": "0x8105f8b8",
+    "filename_bytes_sha256": "27a686930c5e09df61672827337dde228957ef43108dc735dbd907b06ab71841",
+    "loading_function_decoded_rel_offset": "0x1afd4",
+    "reading_helper_decoded_rel_offset": "0x1b25c",
+    "source_module_decoded_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "requested_module_id_from_real_header": 61,
+    "requested_module_decoded_sha256": "69e26fec60cb4cc801da930434e3ff4915b46f08a168b784b501879683e2cfe9",
+    "loader_c_sha256": "ac3d1213774a7187ed62bab654a6e587dccba03d1aa99b01c36dff2b540fb30a",
+    "reader_c_sha256": "daac0d7278ac801d500bc838732ba2173bd55685c7e7786ec2c2626147a28546",
+    "conclusion": "Original ChaoMain code constructs this filename, reads through its helper, passes the returned module buffer and BSS allocation to original linker800E839C, then invokes adjusted prolog. This is a proven filename-specific load path, not proof of all successful runtime imports, lifetime or absence of another ID61 module."
+  },
+  "catalogued_selected_entry_candidates": 65146,
+  "catalogued_selected_entries_including_additional_sda_candidate": 65147,
+  "trailer_static_invocation": {
+    "version": 1,
+    "evidence_type": "Original DOL static load-and-control-transfer path; not observed execution.",
+    "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "decoded_original_words_verified": 143,
+    "requests": {
+      "first": {
+        "descriptor": "r1+0x40",
+        "destination": "0x802BA940",
+        "length_bytes": 32,
+        "disc_offset": "0x2440",
+        "r7": 0,
+        "call_virtual": "0x800E8D10",
+        "call_DOL_offset": "0xe5d10"
+      },
+      "second": {
+        "descriptor": "r1+0x10",
+        "destination": "0x81300000",
+        "length_bytes": 110048,
+        "disc_offset": "0x38f4",
+        "disc_end_exclusive": "0x1e6d4",
+        "r7": 0,
+        "call_virtual": "0x800E8D94",
+        "call_DOL_offset": "0xe5d94",
+        "trailer_carrier_offset": "0x14b4",
+        "payload_sha256": "e9c338af6fbb598f7f53cf752d4e50a997e2bda6e26e9e0989bc56336acbe05f"
+      }
+    },
+    "register_arithmetic": {
+      "header_address": "0x802ba940",
+      "trailer_length_header_offset": "0x18",
+      "body_size_header_offset": "0x14",
+      "length_rounding_mask": "0xffffffe0",
+      "sample_padding_bytes": 0,
+      "source_offset_expression": "(header.body_size+0x20+0x2440) modulo2^32",
+      "length_expression": "((header.trailer_size+31) modulo2^32)&0xFFFFFFE0"
+    },
+    "transfer": {
+      "loader_function": "0x800E8C40",
+      "loader_DOL_offset": "0xE5C40",
+      "call_site": "0x800E8DEC",
+      "call_site_DOL_offset": "0xE5DEC",
+      "helper_function": "0x800E8BF4",
+      "helper_DOL_offset": "0xE5BF4",
+      "incoming_r3_target": "0x81300000",
+      "target_saved_at": "0x800E8C04",
+      "target_saved_DOL_offset": "0xE5C04",
+      "LR_write_at": "0x800E8C18",
+      "LR_write_DOL_offset": "0xE5C18",
+      "blr_at": "0x800E8C1C",
+      "blr_DOL_offset": "0xE5C1C",
+      "proof": "Incomingr3 copiedtor31; both calledhelperspreserver31; thenmtsprLR,r31;blr. This transfers to supplied target, not savedcallerLR.",
+      "tail_cleanup": "Five raw wordsE8C20..E8C30 lie after the selected defined body; retained as separate raw continuation, reachability unproven."
+    },
+    "architectural_helpers": {
+      "0x800E78AC/DOL E48AC": "Original mfmsr/maskFFFF7FFF/mtmsr modifiesMSR; generatedC onlyreturnsvalue.",
+      "0x800E4F4C/DOL E1F4C": "Original mfsprHID0/OR800/mtsprHID0 modifiesHID0; generatedC onlyreturnsvalue.",
+      "0x800E4F14/DOL E1F14": "Source I-cache invalidation helper receives target81300000 and real roundedlength, then sync/isync."
+    },
+    "ready_callback": {
+      "start": "0x800E8C34",
+      "DOL_offset": "0xE5C34",
+      "effect": "Setsu32SDA-7620to1 thenblr; address803ADCA0 ifnormalpoststartup r13=803B52C0. Not a defined function in currentexport."
+    },
+    "decompiler_discrepancies": [
+      "Loader C folds the second request into length0/disc2460, contrary to original loads/arithmetic and real sample fields.",
+      "Transfer C prints return and omits incomingtarget/LR rewrite; sourceinstructionblr uses rewrittenLR.",
+      "Unwarned helper C omits MSR/HID0 write effects. Generated completion is not equivalence."
+    ],
+    "classification_update": "The separate81300000 trailer view now has original DOL destination-and-transfer support from this static path; it is no longer based only on external loader convention/literal inference. Existing view label remains synthetic_analysis and does not claim runtime observation.",
+    "limitations": [
+      "Outer call trigger/purpose, inputparam meanings and execution/success of this path were not established.",
+      "Validation uses the actual supplied ISO header and the original arithmetic under a successful header/read path; it does not executeDVD I/O, observehardware or prove devices/readcallbacks succeed.",
+      "Header-exposed initial entry/init/main/close callbacks still have no explicit trailer invocation; this is a separate original DOL path.",
+      "Retail FPSCR RN/NI/VE, runtimequantization and all uninspectedcaller/boot/IPL state remainunknown."
+    ],
+    "protected_hashes": {
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\FullSa2ExportV4.java": "7428f8e383b3c50196800648f008a344dde219820e3b3264be11e0a3f7d83011",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-apploader\\apploader-analysis.elf": "862682dbb0a61364fc74cd51a2a255066637d98f6cc8e9722a7f13a38d7ba24a",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-apploader\\apploader-mapping.tsv": "8671ef4638ee3c6603bc895b8ea4df26abd7e03f9b55fec51da64c84724346c7",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader\\export\\functions.csv": "683fdfa328f7ae6ef8805fcc3591417b27efddd657d15aa564f7a041d66b13e7",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader-trailer-link\\export\\functions.csv": "48ae29175169b93908b9d213be8c0c7abe5f6cc6f997914c9d87c102b5c425d3",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\functions.csv": "0651df966e4cb8c302c992962a640488addd3d5b85ecbd6f585ce9fded4b5299"
+    },
+    "protected_hashes_unchanged": true,
+    "no_project_or_engine_changes": true
+  },
+  "linked_apploader_integrity_audit": {
+    "version": 1,
+    "audit_status": "All requested checkpoint/artifact/canonical-offset/coverage consistency checks passed.",
+    "source_export": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader-trailer-link\\export",
+    "identity_sha256": "a770930f7dba0e024f2e95997aeb40f82ebee54e7135a3e8eca1c932acc12916",
+    "identity_document_sha256": "0bee200c2593df7ad0027a6dfc9595a32979f082575f6af0d9e378a0172e242d",
+    "identity_hash_recomputed": true,
+    "exporter_script_sha256": "7428f8e383b3c50196800648f008a344dde219820e3b3264be11e0a3f7d83011",
+    "frozen_helper_unchanged": true,
+    "original_carrier_sha256": "75e8479dc21fc176a67668538d3cfc5ad5516c502b5db2137bd22da47980d38b",
+    "ELF_payload_matches_carrier": true,
+    "checkpoints_verified": 411,
+    "artifacts_verified": 610,
+    "artifact_kinds": {
+      "pseudocode": 411,
+      "assembly": 199
+    },
+    "status_counts": {
+      "completed_with_warnings": 199,
+      "completed": 212
+    },
+    "body_union_bytes": 95556,
+    "instruction_union_from_gap_complement": 96052,
+    "gap_bytes": {
+      "outside_defined_function_bodies": 14492,
+      "outside_defined_instructions": 13996,
+      "instructions_outside_defined_function_bodies": 496
+    },
+    "language_sensitive_original_words_checked": 66,
+    "language_sensitive_mnemonics": {
+      "mtfsf": 1,
+      "psq_l": 32,
+      "mffs": 1,
+      "psq_st": 32
+    },
+    "fp_function_focus": [
+      {
+        "function_entry": "0x81303284",
+        "carrier_file_offset": "0x4738",
+        "iso_absolute_offset": "0x6b78",
+        "body_bytes": 292,
+        "raw_instructions_checked": 73,
+        "warning_categories": "language_fp_semantics_unverified|unrecovered_register_values",
+        "opaque_ldexpf_call_count": 32,
+        "FPSCR_input_variable_count": 0,
+        "C_qualification": "Generated C has removed architectural register effects and/or opaque quantization dependencies; raw assembly retained, no equivalence claim."
+      },
+      {
+        "function_entry": "0x813033a8",
+        "carrier_file_offset": "0x485c",
+        "iso_absolute_offset": "0x6c9c",
+        "body_bytes": 296,
+        "raw_instructions_checked": 74,
+        "warning_categories": "language_fp_semantics_unverified|unrecovered_register_values",
+        "opaque_ldexpf_call_count": 32,
+        "FPSCR_input_variable_count": 32,
+        "C_qualification": "Generated C has removed architectural register effects and/or opaque quantization dependencies; raw assembly retained, no equivalence claim."
+      }
+    ],
+    "initial_view_functions": 415,
+    "linked_view_functions": 411,
+    "unique_carrier_entry_candidates": 421,
+    "shared_entry_candidates": 405,
+    "initial_only_candidates": 10,
+    "linked_only_candidates": 6,
+    "initial_and_helper_protected_hashes": {
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-audit\\apploader-carrier.bin": "75e8479dc21fc176a67668538d3cfc5ad5516c502b5db2137bd22da47980d38b",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-apploader\\apploader-analysis.elf": "862682dbb0a61364fc74cd51a2a255066637d98f6cc8e9722a7f13a38d7ba24a",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-apploader\\apploader-mapping.tsv": "8671ef4638ee3c6603bc895b8ea4df26abd7e03f9b55fec51da64c84724346c7",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader\\export\\identity.ai.json": "e25dc80a5f21acc63380b32e83d0fe28c21aa1668669920255e41bcbc07dd7e7",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader\\export\\functions.csv": "683fdfa328f7ae6ef8805fcc3591417b27efddd657d15aa564f7a041d66b13e7",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader\\export\\function_body_ranges.csv": "daa9e7249b7062f3ab3687bc5fbebdf5aeb85266471319dc34d9e86939813a15",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\apploader\\export\\summary.ai.json": "f9d603346db0a1435b4753927fbee8a3efb35ae7f82673c83c2dbe15a8cbcc90",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\FullSa2ExportV4.java": "7428f8e383b3c50196800648f008a344dde219820e3b3264be11e0a3f7d83011"
+    },
+    "protected_hashes_unchanged": true,
+    "limitations": [
+      "This checks exported evidence identity and set consistency without reopening a project; it does not reproduce the entire saved database or prove semantic equivalence.",
+      "Both linked FP functions are now defined in this alternate view; their raw assembly contains original context save/restore instructions, not a literal control initializer.",
+      "Restore C contains opaque ldexpf calls but omits most FPR/FPSCR register assignment effects; save C contains incoming FPSCR fields and opaque quantized stores.",
+      "Initial and linked analysis views share original carrier bytes; deduplicate by canonical carrier offset. No runtime trailer copy/invocation/entry path is proven.",
+      "Retail FPSCR RN/NI/VE, GQR/runtime quantization state, exact SLEIGH arithmetic semantics and unclassified byte ownership remain unknown.",
+      "No frozen helper, engine/repository/install/globalconfig/project/export files were modified."
+    ]
+  },
+  "section_start_candidate_audit": {
+    "status": "pass_project_free_candidate_audit",
+    "modules": [
+      {
+        "module": "ChaoStgEntrance.prs",
+        "candidate_entry": "0x810000e0",
+        "canonical_decoded_rel_offset": "0xe0",
+        "candidate_body_bytes": 100,
+        "baseline_selected_functions": 109,
+        "candidate_selected_functions": 110,
+        "verified_checkpoint_records": 110,
+        "assembly_files": 41,
+        "loaded_memory_hash_matches_baseline": true,
+        "existing_selected_bodies_unchanged": true,
+        "v2_runner_saved_project_guard": true,
+        "candidate_review_status": "unreviewed section-boundary/prologue hypothesis"
+      },
+      {
+        "module": "ChaoStgLobby.rel",
+        "candidate_entry": "0x810000e0",
+        "canonical_decoded_rel_offset": "0xe0",
+        "candidate_body_bytes": 664,
+        "baseline_selected_functions": 20,
+        "candidate_selected_functions": 21,
+        "verified_checkpoint_records": 21,
+        "assembly_files": 8,
+        "loaded_memory_hash_matches_baseline": true,
+        "existing_selected_bodies_unchanged": true,
+        "v2_runner_saved_project_guard": true,
+        "candidate_review_status": "unreviewed section-boundary/prologue hypothesis"
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "candidate_entry": "0x810000e0",
+        "canonical_decoded_rel_offset": "0xe0",
+        "candidate_body_bytes": 524,
+        "baseline_selected_functions": 70,
+        "candidate_selected_functions": 71,
+        "verified_checkpoint_records": 71,
+        "assembly_files": 29,
+        "loaded_memory_hash_matches_baseline": true,
+        "existing_selected_bodies_unchanged": true,
+        "v2_runner_saved_project_guard": true,
+        "candidate_review_status": "unreviewed section-boundary/prologue hypothesis"
+      }
+    ],
+    "verified_checkpoint_records": 202,
+    "verified_artifact_files": 280,
+    "v1_observations": [
+      {
+        "module": "ChaoStgEntrance.prs",
+        "runner_project_tree_guard": false,
+        "checked_files_before_run": 10,
+        "before_hash_list_persisted": false,
+        "specific_changed_files_proven": false,
+        "loaded_memory_hash_matches_baseline": true,
+        "script_class_loading_failure": true,
+        "read_only_discard_log_present": true
+      },
+      {
+        "module": "ChaoStgLobby.rel",
+        "runner_project_tree_guard": false,
+        "checked_files_before_run": 10,
+        "before_hash_list_persisted": false,
+        "specific_changed_files_proven": false,
+        "loaded_memory_hash_matches_baseline": true,
+        "script_class_loading_failure": true,
+        "read_only_discard_log_present": true
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "runner_project_tree_guard": false,
+        "checked_files_before_run": 10,
+        "before_hash_list_persisted": false,
+        "specific_changed_files_proven": false,
+        "loaded_memory_hash_matches_baseline": true,
+        "script_class_loading_failure": true,
+        "read_only_discard_log_present": true
+      }
+    ],
+    "current_project_inventory_is_after_only": true,
+    "no_historical_before_hash_list_reconstructed": true,
+    "project_storage_source_evidence_rows": 7,
+    "snapshot_policy": [
+      "Close the project and native sessions before making an isolated candidate copy; never run experiments against the protected source checkout",
+      "Persist a sorted source-project inventory of every regular file before and after: relative path, size, SHA256 and explicit role; compare file membership as well as retained paths",
+      "Do not exclude .ps, index, journal or property files by extension from the archival source-copy guard; record any differences separately and avoid guessing their payload roles",
+      "Hash original game carriers/decoded RELs and prepared analysis ELF/mapping/scripts/language independently against their existing contracts",
+      "In the isolated copy, record semantic before/after ledgers for mapped memory ranges/bytes/flags, functions/bodies/signatures, references/overrides, context, symbols and types; declared candidate additions are separate from preserved original bodies",
+      "A read-only log proves discard was requested/reported, not that every project-storage/access file stayed byte-identical",
+      "For older runs with only a boolean guard, state that some checked path changed or disappeared; specific files and exclusive cause remain unknown",
+      "Keep candidate exports separate from selected canonical corpus and mark entry/caller/lifetime/purpose/boundaries and generated C unreviewed"
+    ],
+    "fully_decompiled_and_reviewed": false,
+    "ghidra_project_opened": false
+  },
+  "section_start_provenance": {
+    "status": "Read-only candidate/provenance audit complete; no verified function role or behavior selected.",
+    "modules": [
+      {
+        "module": "ChaoStgEntrance.prs",
+        "module_id": 75,
+        "entry_canonical_file_offset": "0xe0",
+        "entry_analysis_address": "0x810000e0",
+        "original_first3_words": [
+          "7c0802a6",
+          "90010004",
+          "9421ffe8"
+        ],
+        "candidate_body_ranges": [
+          {
+            "entry": "0x810000e0",
+            "range_start": "0x810000e0",
+            "range_end_exclusive": "0x81000144",
+            "range_bytes": "100",
+            "mapped_bytes": "100"
+          }
+        ],
+        "function_status": "completed_with_warnings",
+        "warning_categories": "unresolved_rel_import",
+        "pseudocode_sha256": "1fcb9ca1f4e90c0731c1b2fe9b5a99855c4f7e81259b1f1e1981eabf2aeedf09",
+        "pseudocode_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgEntrance.prs\\export\\pseudocode\\0x810000e0.c",
+        "source_project_preserved": true,
+        "selected_into_verified_corpus": false,
+        "caller_and_role": "Unknown; section-start location/prologue and generated C alone do not establish identity."
+      },
+      {
+        "module": "ChaoStgLobby.rel",
+        "module_id": 61,
+        "entry_canonical_file_offset": "0xe0",
+        "entry_analysis_address": "0x810000e0",
+        "original_first3_words": [
+          "7c0802a6",
+          "90010004",
+          "9421ffa0"
+        ],
+        "candidate_body_ranges": [
+          {
+            "entry": "0x810000e0",
+            "range_start": "0x810000e0",
+            "range_end_exclusive": "0x81000378",
+            "range_bytes": "664",
+            "mapped_bytes": "664"
+          }
+        ],
+        "function_status": "completed_with_warnings",
+        "warning_categories": "unresolved_rel_import",
+        "pseudocode_sha256": "08cc1016a0ce2d706891a43698290af3a09703a7af917a7e6f7b3d3ec4032143",
+        "pseudocode_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgLobby.rel\\export\\pseudocode\\0x810000e0.c",
+        "source_project_preserved": true,
+        "selected_into_verified_corpus": false,
+        "caller_and_role": "Unknown; section-start location/prologue and generated C alone do not establish identity."
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "module_id": 73,
+        "entry_canonical_file_offset": "0xe0",
+        "entry_analysis_address": "0x810000e0",
+        "original_first3_words": [
+          "7c0802a6",
+          "90010004",
+          "9421ffb8"
+        ],
+        "candidate_body_ranges": [
+          {
+            "entry": "0x810000e0",
+            "range_start": "0x810000e0",
+            "range_end_exclusive": "0x8100014c",
+            "range_bytes": "108",
+            "mapped_bytes": "108"
+          },
+          {
+            "entry": "0x810000e0",
+            "range_start": "0x810003fc",
+            "range_end_exclusive": "0x8100059c",
+            "range_bytes": "416",
+            "mapped_bytes": "416"
+          }
+        ],
+        "function_status": "completed_with_warnings",
+        "warning_categories": "unresolved_rel_import",
+        "pseudocode_sha256": "63c4768237888309941c00e11a0438b8ce3ecb8bce2def80bf836b0351adebe1",
+        "pseudocode_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\section-start-candidates-v2\\ChaoStgOdekake.prs\\export\\pseudocode\\0x810000e0.c",
+        "source_project_preserved": true,
+        "selected_into_verified_corpus": false,
+        "caller_and_role": "Unknown; section-start location/prologue and generated C alone do not establish identity."
+      }
+    ],
+    "search_boundary": "All95 original decoded REL headers/import streams; direct opcode18 words in the3 candidate modules; finished candidate-v2 metadata only.",
+    "incoming_relocations": 6,
+    "incoming_by_candidate": {
+      "ChaoStgEntrance.prs": 2,
+      "ChaoStgLobby.rel": 2,
+      "ChaoStgOdekake.prs": 2
+    },
+    "incoming_types": {
+      "6": 3,
+      "4": 3
+    },
+    "header_selects_candidate": 0,
+    "direct_code_words_to_candidates": 0,
+    "candidate_only_foreign_sites": 21,
+    "candidate_only_owned": 21,
+    "candidate_only_by_module": {
+      "ChaoStgEntrance.prs": 1,
+      "ChaoStgLobby.rel": 16,
+      "ChaoStgOdekake.prs": 4
+    },
+    "constants": [
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x96f0",
+        "storage": "BE32float",
+        "bits": "41a00000",
+        "value": 20.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x96f4",
+        "storage": "BE32float",
+        "bits": "434c0000",
+        "value": 204.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x96f8",
+        "storage": "BE32float",
+        "bits": "3d4ccccd",
+        "value": 0.05000000074505806
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x96fc",
+        "storage": "BE32float",
+        "bits": "3f800000",
+        "value": 1.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x9700",
+        "storage": "BE32float",
+        "bits": "3da3d70a",
+        "value": 0.07999999821186066
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x9704",
+        "storage": "BE32float",
+        "bits": "00000000",
+        "value": 0.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x9708",
+        "storage": "BE32float",
+        "bits": "42980000",
+        "value": 76.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x970c",
+        "storage": "BE32float",
+        "bits": "42600000",
+        "value": 56.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x9710",
+        "storage": "BE32float",
+        "bits": "c1f00000",
+        "value": -30.0
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "canonical_file_offset": "0x9718",
+        "storage": "BE64double",
+        "bits": "4330000080000000",
+        "value": 4503601774854144.0
+      }
+    ],
+    "observed_candidate_pseudocode": {
+      "ChaoStgEntrance.prs": "File0xe0: block=*(param+0x34); if16-bit field block+0x1b6 is0, call unresolved60/1/+0x1b504(param,1) then increment field; returns0.",
+      "ChaoStgLobby.rel": "File0xe0: many unresolved imports; writes param+0x10 pointer to file0x3bc, zero at+0x14 and pointer to file0x378 at+0x18; literal-zero arguments involving unresolved address imports are not verified game values.",
+      "ChaoStgOdekake.prs": "File0xe0: byte-state switch on *(param+0x34); uses fields+0x4,+0x6,+0x10,+0x14,+0x20,+0x24 and BSSsection6+8 pointer; identity/field/state meanings and exact FP behavior unknown."
+    },
+    "unknowns": [
+      "Section-start candidate identities, callers and runtime invocation remain unverified.",
+      "Foreign module bindings and signatures unresolved; untouched HA/LO/ADDR32 imports can make generated-C arguments look zero or invalid.",
+      "State/field/task meanings are not inferred from file names or struct-shaped access.",
+      "Generated C is unreviewed and floating/integer exactness has not been proved."
+    ],
+    "no_project_open": true,
+    "no_repository_engine_edits": true,
+    "pointer_assignment_chains": [
+      {
+        "module": "ChaoStgEntrance.prs",
+        "candidate_file_offset": "0xe0",
+        "caller_file_offset": "0x144",
+        "pointer_high_patch": "0x3ce",
+        "pointer_low_patch": "0x3d2",
+        "consumer_target": "Unresolved ID60/section1/addend0x7c4",
+        "consumer_callsite": "0x3d4",
+        "observed_assignment": "Sole-disc ID60 candidate ChaoMain file0x8ac forwards arg2 to file0x7c0; file0x7c0 stores arg2 at *(arg1+0x34)+0x43c.",
+        "storage_offset": "block+0x43c",
+        "runtime_binding": "Unresolved foreign binding; the inspected file is the sole-disc ID60 candidate.",
+        "role_and_abi": "Unknown"
+      },
+      {
+        "module": "ChaoStgLobby.rel",
+        "candidate_file_offset": "0xe0",
+        "caller_file_offset": "0x424",
+        "pointer_high_patch": "0x442",
+        "pointer_low_patch": "0x44a",
+        "consumer_target": "DOL retail0x800739b4",
+        "consumer_callsite": "0x458",
+        "observed_assignment": "Storage/call of the passed pointer cannot be established from the existing main view: target is an interior instruction in main function0x80073970.",
+        "storage_offset": "Unknown",
+        "runtime_binding": "Compatibility and actual runtime use against current DOL unknown.",
+        "role_and_abi": "Unknown"
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "candidate_file_offset": "0xe0",
+        "caller_file_offset": "0x1204",
+        "pointer_high_patch": "0x1242",
+        "pointer_low_patch": "0x1246",
+        "consumer_target": "DOL retail0x80071e0c",
+        "consumer_callsite": "0x1250",
+        "observed_assignment": "Main0x80071e0c forwards its arg3 to arg2 of0x80071d04; 0x80071d04 stores nonzero arg2 in its returned block at offset0x10.",
+        "storage_offset": "returned_block+0x10",
+        "runtime_binding": "Fixed main address observed; runtime invocation remains unobserved.",
+        "role_and_abi": "Unknown"
+      }
+    ],
+    "consumer_limitations": {
+      "target": "0x800739b4",
+      "declared_owner": "0x80073970",
+      "word": "4bfaa3c5",
+      "word_file_offset": "0x709b4",
+      "instruction": "BL0x8001dd78 inside declared function80073970, followed by compare/FP code; no standalone function at the encoded target in this main export.",
+      "conclusion": "Do not infer a pointer consumer, alternate executable, stale-file status or task creator. Compatibility/runtime use and boundary interpretation remain unknown."
+    },
+    "generation_history": "Audit v1 syntax failed before execution; v2 completed. Caller augment v1 stopped at an overstrict same-destination-register assumption; v2 retained the valid Lobby r4\u2192r5 addi."
+  },
+  "closed_private_project_copies": {
+    "projects": [
+      {
+        "module": "ChaoStgEntrance.prs",
+        "source_files": 9,
+        "copied_files": 9,
+        "preserved": true
+      },
+      {
+        "module": "ChaoStgLobby.rel",
+        "source_files": 9,
+        "copied_files": 9,
+        "preserved": true
+      },
+      {
+        "module": "ChaoStgOdekake.prs",
+        "source_files": 9,
+        "copied_files": 9,
+        "preserved": true
+      }
+    ],
+    "source_projects_unchanged": true,
+    "opened": false
+  },
+  "architectural_write_inventory": {
+    "status": "completed_project_free_inventory_and_bounded_samples",
+    "original_carriers_scanned": 97,
+    "mapped_bytes_scanned_once": 24563660,
+    "aligned_words_scanned_once": 6140915,
+    "explicit_write_encoding_counts": {
+      "LR_mtspr": 58857,
+      "MSR_mtmsr": 36,
+      "MSR_rfi_implicit_restore": 43,
+      "HID0_mtspr": 13
+    },
+    "implicit_LR_link_encoding_counts_aggregate_only": {
+      "direct_branch_LK": 458709,
+      "indirect_branch_LK": 1786,
+      "conditional_branch_LK": 13
+    },
+    "explicit_write_owner_status_counts": {
+      "primary_owned": 58839,
+      "primary_warned": 5029,
+      "primary_saved_asm": 5029,
+      "primary_no_recorded_warning": 53810,
+      "primary_no_saved_asm": 53810,
+      "primary_unowned": 110
+    },
+    "raw_encoding_rows": 58949,
+    "concrete_clean_c_loss_samples": [
+      {
+        "entry": "0x800e8bf4",
+        "canonical_dol_offset": "0xe5bf4",
+        "c_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800e8bf4.c",
+        "c_sha256": "fe93d75eba81491ae082c4fceab63c9f84c63b5f7423456b6dca6c3e407d6f1c",
+        "c_status": "completed",
+        "c_warning_categories": "",
+        "saved_assembly": false,
+        "explicit_architectural_write_classes": "LR_mtspr",
+        "finding": "Original transfers LR from saved incoming r3 then branches through LR; C omits the target input and ends with ordinary return. This specific transfer differs from an ordinary restored-r0 epilogue.",
+        "review_scope": "bounded original-word/generated-C comparison; no blanket semantic verdict"
+      },
+      {
+        "entry": "0x800e78ac",
+        "canonical_dol_offset": "0xe48ac",
+        "c_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800e78ac.c",
+        "c_sha256": "300525098fb0a75c2e22c1f3ca31852639b975ddcdd074335c98b1d7a018dedc",
+        "c_status": "completed",
+        "c_warning_categories": "",
+        "saved_assembly": false,
+        "explicit_architectural_write_classes": "MSR_mtmsr",
+        "finding": "Original explicitly writes MSR; generated C returns an MSR-derived scalar expression without representing the architectural write.",
+        "review_scope": "bounded original-word/generated-C comparison; no blanket semantic verdict"
+      },
+      {
+        "entry": "0x800e4f4c",
+        "canonical_dol_offset": "0xe1f4c",
+        "c_path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800e4f4c.c",
+        "c_sha256": "336cbcedc9e2ecdb7cece28ab0b776fd5fbab22c3f932609b270227dff842a8b",
+        "c_status": "completed",
+        "c_warning_categories": "",
+        "saved_assembly": false,
+        "explicit_architectural_write_classes": "HID0_mtspr",
+        "finding": "Original explicitly writes HID0; generated C returns an HID0-derived scalar expression without representing the architectural write.",
+        "review_scope": "bounded original-word/generated-C comparison; no blanket semantic verdict"
+      }
+    ],
+    "selected_module_corpus_csv_sha256": "14cf638d078c5ead2aa61cfe4eb86b919e21011d3264e8cd6e6863984e2f00e3",
+    "limitations": [
+      "Executable mappings can contain data/padding; opcode matches do not prove execution",
+      "Inventory covers explicit LR/HID0 moves and MSR writes/RFI restore; ordinary branch-link LR updates are counted separately without per-site failure claims",
+      "Owner association is to existing selected bodies, not verified original function boundaries",
+      "Ordinary LR epilogues are not classified as missing calls or bugs",
+      "Only three starting functions receive a bounded semantic-loss finding",
+      "Linked apploader and main SDA views are alternatives over the same original bytes and do not duplicate raw word counts",
+      "Generated C and architectural semantics remain unreviewed beyond these specific comparisons",
+      "No projects opened, frozen helpers changed, or engine/repository files edited"
+    ],
+    "fully_decompiled_and_reviewed": false
+  },
+  "stored_rel_reader": {
+    "status": "pass",
+    "engine_reader_scope": "immutable version-2 REL metadata and original decoded bytes; no BSS allocation/import binding/native execution",
+    "real_modules": 95,
+    "raw_modules": 76,
+    "prs_modules": 19,
+    "decoded_bytes": 115971764,
+    "sections": 1848,
+    "imports": 214,
+    "relocation_records_including_END": 1664013,
+    "all_header_section_import_record_fields_match": true,
+    "all_decoded_bytes_and_hashes_match": true,
+    "valid_boundary_cases": 10,
+    "rejected_cases": 15,
+    "strict_compile": "Windows x64 MSVC /std:c++latest /W4 /WX /O2 passed",
+    "protected_engine_content_hashes_unchanged_before_apply": 240,
+    "source_hashes": {
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-port-stage\\src\\Importers\\SA2\\Rel.h": "9772c8cf3e22c41d972c8a5aa127dfc1fb960ce732e5d74d338ce578c8df51e6",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel-port-stage\\src\\Importers\\SA2\\Rel.cpp": "5defb587918a29605644778603c6bdd0ba9b99fcbf92657673e6f83ec52be8b9",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\rel_check.cpp": "cdbfeef10a034d75b7ce3ea6118d7a7ef4b27933d88787a75341b76224611385",
+      "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_rel.cmd": "542a4a6c9011645289ff11a964a507b609c87cb847b609bec959a6b4937ca086",
+      "C:\\decomp\\SonicFantasy-master\\src\\Importers\\SA2\\Prs.cpp": "c2b47d4bdcc3c37eda437c4b535fdc455279fe2e8a1b588f949030175946651e",
+      "C:\\decomp\\SonicFantasy-master\\src\\Importers\\STH2005\\Prs.cpp": "85338ada91040e666a4ae912357ba70e17ece6e696b99a7c3905f57508f9a6cc",
+      "C:\\decomp\\SonicFantasy-master\\src\\Importers\\GameCube\\GCDisc.cpp": "91cc61e284e36bce16bd650421a074f80bceaea5a9bd3df93f9ca863e7473c82"
+    },
+    "known_limits": [
+      "Version 0/1/3 and other games/regions unvalidated and rejected.",
+      "Synthetic safety checks are host policy, not claims about retail malformed-input behavior.",
+      "Unknown types/fields, duplicate target IDs/streams, BSS totals/alignment and callback indices remain raw metadata.",
+      "No existing SA/Shadow reader or shared decoder changed; full-engine integration build follows repository apply."
+    ],
+    "full_engine_build": {
+      "exit_code": 0,
+      "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+      "debug_information": "invocation-only Embedded setting; repository defaults unchanged",
+      "log_sha256": "b5769e8be79f218256ef8dd963fe690be231147e01c039b9cd28dbc950c0379d",
+      "rel_source_compiled": true,
+      "executable_linked": true,
+      "executable_exists": true,
+      "executable_sha256": "2495df8c69648890dfcc3bfa7bfb369fea877df8bc10d15bd288c891778177af",
+      "compiler_errors": 0,
+      "runtime_claim": "No SA2 module execution or existing gameplay validation; additive reader has no existing callers."
+    },
+    "engine_files_changed": [
+      "CMakeLists.txt",
+      "src/Importers/SA2/Rel.h",
+      "src/Importers/SA2/Rel.cpp"
+    ],
+    "header_comment_only_clarification_after_validation": "Changed immutable source data wording to retains stored file; declarations/compiled implementation unchanged."
+  },
+  "engine_reader_build": {
+    "exit_code": 0,
+    "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+    "debug_information": "invocation-only Embedded setting; repository defaults unchanged",
+    "log_sha256": "b5769e8be79f218256ef8dd963fe690be231147e01c039b9cd28dbc950c0379d",
+    "rel_source_compiled": true,
+    "executable_linked": true,
+    "executable_exists": true,
+    "executable_sha256": "2495df8c69648890dfcc3bfa7bfb369fea877df8bc10d15bd288c891778177af",
+    "compiler_errors": 0,
+    "runtime_claim": "No SA2 module execution or existing gameplay validation; additive reader has no existing callers."
+  },
+  "engine_files_changed_later_continuation": [
+    "CMakeLists.txt",
+    "src/Importers/SA2/Rel.h",
+    "src/Importers/SA2/Rel.cpp"
+  ],
+  "architectural_raw_full_inventory_local": {
+    "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-quality\\architectural-writes-v1\\architectural_write_encodings.csv",
+    "sha256": "c180f6663bb1d2c20ffd13fa460738e03caddfeac1574a8669a23fc46dc13e4b",
+    "bytes": 44121628,
+    "rows": 58949,
+    "not_filtered": true
+  },
+  "original_trailer_caller_reference": {
+    "scope": "Bounded static original main DOL exact-entry callers; context-free and startup-SDA Gekko exports, reverse graph3tiers, full aligned DOL text direct-branch scan; no observed retail execution.",
+    "result": "Two visible mode-zero routes to trailer loader; exact callback/user event semantics remain unknown.",
+    "dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "immediate_caller": {
+      "entry": "800e8f48",
+      "dol_offset": "e5f48",
+      "site": "800e90f8",
+      "site_dol_offset": "e60f8",
+      "target": "800e8c40",
+      "target_dol_offset": "e5c40",
+      "original_word": "4bfffb49",
+      "predicate": "saved incomingr3 ==0",
+      "argument_flow": "saved incomingr4 -> outgoingr3; saved incomingr5 -> outgoingr4"
+    },
+    "startup_route": {
+      "entry": "80003140",
+      "dol_offset": "140",
+      "first_gate": "(halfword800030E6 &8000)==0 OR(halfword &7FFF)==1",
+      "gate_call_site": "8000323c/23c",
+      "second_gate_function": "80003100/100",
+      "second_gate": "(halfword800030E4 &0EEF)==0EEF",
+      "dispatch_call_site": "8000312c/12c",
+      "arguments": [
+        0,
+        0,
+        0
+      ]
+    },
+    "outer_loop_route": {
+      "entry": "800d3ad0",
+      "dol_offset": "d0ad0",
+      "loop_condition": "word(SDA-7714)==0; poststartupaddr803ADBAC",
+      "dispatch_call_site": "800d3bf8/d0bf8",
+      "predicate": "exit-state==1 after loop/teardown",
+      "arguments": [
+        0,
+        0,
+        0
+      ],
+      "other_dispatches": [
+        {
+          "site": "800d3c14/d0c14",
+          "predicate": "exit-state==3",
+          "arguments": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "site": "800d3c28/d0c28",
+          "predicate": "other nonzero exit-state",
+          "arguments": [
+            1,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "bounded_state_trigger": {
+      "function": "800d2dd4/cfdd4",
+      "table": "801cc258/1c9258",
+      "entries": 26,
+      "case": "0e",
+      "block": "800d3478/d0478",
+      "callback_call": "800d3480/d0480 ->80019e44/16e44",
+      "original_predicate": "r3<0, r3!=-2, r3>=-2 =>r3==-1",
+      "store_one": "800d3518/d0518 ->SDA-7714",
+      "state13_C_context": "ADVERTISE literal80175718/172718 through80019E70/16E70, state changed to0E",
+      "final_minus_two": "localresult==-2 ->800F17AC/EE7AC; nonzero return1 maymakeouterloopflag1, zero stores3@800D3AA8/D0AA8"
+    },
+    "callback": {
+      "function": "80019e44/16e44",
+      "base_load": "80019e50/16e50 ->SDA-7ABC",
+      "poststartup_global": "803ad804",
+      "target_load": "80019e54/16e54 ->pointer+14",
+      "call": "80019e5c/16e5c blrl",
+      "C_caveat": "pcRam00000014 andvoidsignature do notpreserve originaldynamicpointer/r3return"
+    },
+    "mode1_architectural_caveats": {
+      "entry": "800e8e90/e5e90",
+      "original_trampolines": [
+        "800e8eb0/e5eb0",
+        "800e8ed0/e5ed0",
+        "800e8ef0/e5ef0",
+        "800e8efc/e5efc"
+      ],
+      "HID0_write": "800e8e9c/e5e9c OR8",
+      "timebase_wait": "800e8eb4/e5eb4 unsignedlowdifference >=1124",
+      "MMIO_write3_then_r3": [
+        "800e8ee0/e5ee0",
+        "800e8ee4/e5ee4"
+      ],
+      "MMIO_address": "cc003024",
+      "spin": "800e8ef4/e5ef4",
+      "C_caveats": [
+        "HID0write omitted",
+        "timebase waitbecomesinfinite",
+        "firstMMIOwrite3 omitted"
+      ]
+    },
+    "validation": {
+      "result": "passed",
+      "prior_failures": [
+        "V1 incorrectly required lis/addi; original startup pair uses lis/ori.",
+        "V2 incorrectly required a literal compare -1; original state14 tests negative, excludes -2, and branches on >=-2, which selects -1. Both versions stopped before output and remain preserved."
+      ],
+      "dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+      "verified_source_artifacts_unique": 44,
+      "export_asm_word_rows_verified": 2231,
+      "export_asm_unique_addresses": 1694,
+      "project_free_support_words_verified": 39,
+      "control_words_verified": 52,
+      "direct_incoming_per_view": 1,
+      "incoming_selected_unique_edges_per_view": 12,
+      "raw_scan_exactly_matches_both_view_edges": true,
+      "case_14_target": "0x800d3478",
+      "case_14_dol_offset": "0xd0478",
+      "case_14_original_words": 43,
+      "startup_r13": "0x803b52c0",
+      "exit_state_address_under_startup_sda": "0x803adbac",
+      "callback_base_global_under_startup_sda": "0x803ad804",
+      "advertise_string_address": "0x80175718",
+      "advertise_string_dol_offset": "0x172718",
+      "advertise_string": "ADVERTISE",
+      "static_execution_observed": false,
+      "unknowns": [
+        "Callback target/result semantics",
+        "Aliased/indirect writers and callers",
+        "REL or copied-code caller closure",
+        "Retail device/I/O outcomes and actual trailer execution",
+        "Retail FPSCR controls"
+      ]
+    },
+    "text_words_scanned": 376848,
+    "additional_source_artifacts_verified": 2,
+    "human_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-apploader\\trailer-callers\\caller-reference.md",
+    "human_report_sha256": "3f587aeec5645b8ade9759fef7b7c36cf847ceda540d3e9749097e1e4bde9002",
+    "seed": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-apploader\\trailer-invocation\\invocation-reference.md",
+    "decisions": [
+      "Preserve numeric modes, flags andcallbacks untiltheir semanticsare demonstrated.",
+      "Preserve allanalysisoverrides/failed assumptions; no functionrepair, newseed orprojectopen.",
+      "Do not infer execution,FPSCR,orhardware outcome fromstaticcontrolflow."
+    ],
+    "unknowns": [
+      "Callback target/result semantics",
+      "Aliased/indirect writers and callers",
+      "REL or copied-code caller closure",
+      "Retail device/I/O outcomes and actual trailer execution",
+      "Retail FPSCR controls",
+      "Halfword flags origins/actual values",
+      "Readiness and full argument meanings",
+      "Exact SDK symbol names and user-facing trigger"
+    ],
+    "engine_files_changed": [],
+    "repository_files_changed": [],
+    "leaked_source": "none encountered or used",
+    "evidence_csvs": [
+      "verified-source-artifacts.csv",
+      "additional-source-artifacts.csv",
+      "verified-export-original-words.csv",
+      "verified-control-words.csv",
+      "support-original-words.csv",
+      "incoming-export-edges.csv",
+      "all-selected-incoming-edges.csv",
+      "raw-branch-candidates.csv",
+      "original-dispatch-table.csv",
+      "original-state-14-path.csv",
+      "exit-state-source-references.csv",
+      "input-artifacts.csv",
+      "local-preparation-artifacts.csv"
+    ]
+  },
+  "local_rel_checker": {
+    "status": "PASS",
+    "module_reader_bundle": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-REL-Check",
+    "module_count": 95,
+    "relocation_records": 1664013,
+    "package_resources_unchanged": true,
+    "interactive_launcher_not_started_by_agent": true,
+    "compiled_implementation_unchanged": true,
+    "game_media_included": false
+  },
+  "historical_report_limits": "Original invocation/link-view limitations describe their then-bounded scope. Subsequent original caller reference establishes visible numeric mode-zero gates; observed execution and user-facing trigger remain unknown.",
+  "odekake_conditional_callback_path": {
+    "version": 1,
+    "status": "Bounded original pointer/list-dispatch evidence; gameplay role, complete ABI and execution unknown.",
+    "candidate": {
+      "path": "ChaoStgOdekake.prs",
+      "module_id": 73,
+      "decoded_sha256": "0ab8fd024aee271d8911c5212c24d4c23f208647e624e72827c544d747ef830c",
+      "section": 1,
+      "section_offset_field": "0xe1",
+      "canonical_file_offset": "0xe0",
+      "synthetic_analysis_address": "0x810000e0",
+      "retail_module_base": "unknown",
+      "selected_corpus_member": false,
+      "minimum_input_evidence": "r3 copied to r29 at file0xf8; lwz r31,0x34(r29) word83fd0034 at file0xfc."
+    },
+    "pointer_origin": {
+      "caller_canonical_file_offset": "0x1204",
+      "input_flags_setup": "file0x1238: r3=2",
+      "input_group_setup": "file0x123c: r4=3",
+      "pointer_instructions": [
+        "file0x1240:3ca00000",
+        "file0x1244:38a50000"
+      ],
+      "pointer_register": "r5",
+      "original_self_relocation_halfwords": [
+        "0x1242",
+        "0x1246"
+      ],
+      "original_self_relocation_target": "ID73/section1/addend0 => canonicalfile0xe0",
+      "consumer_call": "file0x1250, original48000001/mainREL24 => retail0x80071e0c",
+      "label_role_inference": false
+    },
+    "native_forward_and_store": {
+      "forwarder": "retail0x80071e0c/DOL0x6ee0c",
+      "forwarding_instructions": "E28 r3=r4; E2C r4=r5; E30 r5=r6",
+      "constructor_call": "retail0x80071e34/DOL0x6ee34 BL0x80071d04",
+      "constructor": "retail0x80071d04/DOL0x6ed04",
+      "preserve_callback": "retail0x80071d1c r30=r4",
+      "allocation_call": "retail0x80071d2c calls801197d0 with0x50; NULLchecked",
+      "nonnull_callback_store": "retail0x80071d48/DOL0x6ed48 word93c30010 => [returnedr3+0x10]=r30",
+      "null_callback_default": "retail0x80071d50..d58 storesaddress80071f58; roleunknown",
+      "list_registration": "retail0x80071db0..dec: table801fceb8[group], node+0/+4 circular-link updates",
+      "observed_group": 3,
+      "retained_quirk": "D9C..DA4: previousblock44 copiedtoblock48 before passedlabel stored44; previouscontentsunknown",
+      "flag2_work_request": "retail0x80071e5c calls801197fc(1,0x30); E78/DOL6ee78 word907e0034 storesreturnedvalue atblock34; failurecalls71af0 andreturns0",
+      "allocation_success_alignment_initialization": "unknown"
+    },
+    "dispatchers": [
+      {
+        "entry": "0x80071a40",
+        "dol_entry": "0x6ea40",
+        "list_origin": "table801fceb8[selectedindex]",
+        "load": "retail80071a74/DOL6ea74 word819d0010: r12=[r29+0x10]",
+        "set_lr": "retail80071a88 word7d8803a6: LR=r12",
+        "set_input": "retail80071a8c/DOL6ea8c word387d0000: r3=currentnode r29",
+        "call": "retail80071a90/DOL6ea90 word4e800021: blrl",
+        "result_paths_visited_words": 25,
+        "explicit_r3_read_before_overwrite_or_return": false,
+        "overwrite_terminals": [
+          "0x80071aa4",
+          "0x80071a8c"
+        ],
+        "unread_live_r3_return": "0x80071adc"
+      },
+      {
+        "entry": "0x800708d8",
+        "dol_entry": "0x6d8d8",
+        "list_origin": "incomingblock+0xc",
+        "load": "retail80070908/DOL6d908 word819f0010: r12=[r31+0x10]",
+        "set_lr": "retail8007091c word7d8803a6: LR=r12",
+        "set_input": "retail80070920/DOL6d920 word387f0000: r3=currentnode r31",
+        "call": "retail80070924/DOL6d924 word4e800021: blrl",
+        "result_paths_visited_words": 31,
+        "explicit_r3_read_before_overwrite_or_return": false,
+        "overwrite_terminals": [
+          "0x8007093c",
+          "0x80070920"
+        ],
+        "unread_live_r3_return": "0x80070988"
+      }
+    ],
+    "traversal_order": "Both NULLcheck callback, snapshotnext beforecall, storecallbackat[r13-0x7878], callcurrentnode, clearlocation, conditionally recurse throughnode+c. Callback/listmutation/executionunknown.",
+    "sda_limit": "Absolute803ada48 onlyunderseparate startupassumptionr13=803b52c0; originalrelativeinstructions retained.",
+    "driver": {
+      "entry": "retail0x80071214/DOL0x6e214",
+      "callsite": "retail0x8007122c/DOL0x6e22c =>80071a40",
+      "sequence": "r31=0 at71224; passr31at71228; incrementat71230; signedcompare6at71234 andloopat71238 =>indices0..5",
+      "includes_observed_group3": true,
+      "postcall_visited_words": 9,
+      "explicit_r3_read_before_overwrite_or_return": false,
+      "unread_live_r3_return": "0x8007124c",
+      "frequency_execution": "unknown"
+    },
+    "other_direct_caller": {
+      "entry": "0x8001e89c",
+      "callsite": "retail0x8001e968/DOL0x1b968",
+      "group": 0,
+      "postcall_visited_words": 2,
+      "r3_overwrite": "0x8001e970",
+      "later_unrelated_object_plus10_not_conflated": true
+    },
+    "return_abi_limit": "No inspected dispatcher explicitly reads a GPR3 result before overwrite/return. Physicalr3mayremainliveatreturn. Notproofofvoidreturn,fullprototype,otherGPR/FPoutputs,transitivecallerorindirectuses. Minimumproveninput=currentblockinr3.",
+    "pointer_replacement": {
+      "helper": "retail80071ae0/DOL6eae0",
+      "effect": "Constructs80071af0 thenword90030010at80071ae8/DOL6eae8 writesincomingblock+0x10; fourinstructionbodyonly",
+      "candidate_original_main_relocation": "file0x11c =>80071ae0",
+      "later_clear": "word901e0010at80071b30/DOL6eb30 stores0 atblock+10 in71af0",
+      "complete_cleanup_semantics": "notresolvedinthisaudit"
+    },
+    "conditional_static_path": "If link/allocation succeed and registerednode+10 stillholdscandidatepointer, listdispatchwouldcallcandidatewithsame nodeinr3; executionnotobserved.",
+    "validation": {
+      "original_dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+      "audit_script": "audit_odekake_pointer_abi_v1.py",
+      "original_native_words": 519,
+      "declared_native_function_bodies": 8,
+      "initialized_dol_segment_hashes_verified": 8,
+      "source_input_hashes_unchanged": 31,
+      "bounded_result_path_audits_complete": 4,
+      "original_rel_stream_review_script": "review_odekake_pointer_abi_v1.py",
+      "selected_original_import_relocation_records_verified": 4,
+      "original_module_unchanged": true,
+      "execution_count_per_script_version": 1,
+      "encoding_source": "InstalledopensourceGhidraPowerPCSLEIGH; sourcehashes/excerptsretained",
+      "no_ghidra_project_open": true,
+      "no_leaked_original_source_encountered": true
+    },
+    "artifacts": {
+      "raw_csv_glob": "pointer-abi-*.csv",
+      "full_source_hash_and_word_report": "pointer-abi-evidence.ai.json",
+      "original_relocation_record_report": "original-relocation-review.ai.json",
+      "human_twin": "pointer-abi.md",
+      "prior_broad_text_matches": "Searchcandidatesonly; notassertedconsumerstothisparticularblock"
+    },
+    "unknowns": [
+      "Candidate gameplaypurpose andcompleteargument/returnABI",
+      "RuntimeRELbase/lifetime/linksuccess/allocation/listinvocation",
+      "Allocatorinitialcontents/alignment",
+      "Additionalindirectconsumers/transitivecallerresultuse/callbacksideeffects",
+      "Fullcandidatebehavior/unresolvedforeignbindings/exactFPbehavior",
+      "Existinggeneratedboundariesinherited; notnewlyproved"
+    ],
+    "engine_files_changed": [],
+    "repository_documents_or_frozen_helpers_changed": [],
+    "candidate_selected_into_corpus": false
+  },
+  "callback_evidence_handoff_manifest": {
+    "status": "Complete bounded project-free evidence handoff; complete callback ABI/role/execution still unknown.",
+    "human_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi.md",
+    "compact_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi.ai.json",
+    "artifacts": [
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\consumer-text-matches.csv",
+        "bytes": 267075,
+        "sha256": "556f9179debc1dd8587b142bcbcc505c49400b6247d8f9a80bfb0e7a2c812d10"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\native-dispatch-callers.csv",
+        "bytes": 620,
+        "sha256": "9b011f506fae846fc3272f9290e80fcc3ed87cd5afd6bc177a03440fe7511732"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\native-word-audit.csv",
+        "bytes": 18621,
+        "sha256": "5b1375e8c7a5a9884cbf2743942eabd5cefc01b2372f7ec5257a9c367a8b5d04"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\original-relocation-review.ai.json",
+        "bytes": 3443,
+        "sha256": "648fefb940d8db4905a4ac3ea11198fb54b5030ab286abac9c2dcd13e4498b58"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\original-relocation-review.md",
+        "bytes": 660,
+        "sha256": "5b32da26b454578ac0988e1af027d03239e00a8f17f5b40fc60bb5fe4bbf3961"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-encoding-sources.csv",
+        "bytes": 8491,
+        "sha256": "e0de8f73138b880d96637533db0e4e00a0b8915f555ab30a1ed8eff8212813f2"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-evidence.ai.json",
+        "bytes": 31476,
+        "sha256": "5d520f730e8a3855f6ad0bddc81052bb9607411c128bd022fcdd34c85b974f04"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-evidence.md",
+        "bytes": 1884,
+        "sha256": "a295535432ffc12ceb4ad3d87f93b3a42c9153ad5758ee6fc28164b5e5bb419d"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-native-dispatch-callers.csv",
+        "bytes": 620,
+        "sha256": "9b011f506fae846fc3272f9290e80fcc3ed87cd5afd6bc177a03440fe7511732"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-native-field-accesses.csv",
+        "bytes": 1514,
+        "sha256": "8fd0a5867d97ce9d5fdd8f46565ac88cee6cd54d0beaf52a5cdb2a9179773973"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-native-words.csv",
+        "bytes": 47218,
+        "sha256": "f884edbd801602ecfde9df27c4908e7cc8fa0d681681fc523748558446da5762"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-odekake-original-words.csv",
+        "bytes": 9924,
+        "sha256": "7927ec24d8aa4a8bad17052ed85b22e8e60bed83b043aaaeae0ce8a1547ae24c"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-odekake-relocations.csv",
+        "bytes": 749,
+        "sha256": "1f53c36c875dd88a7cf78c3bb3cf08441e01a748c72f3de7a935c92447b5bc68"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-original-relocation-records.csv",
+        "bytes": 750,
+        "sha256": "4ed5525b310cbc802e840d4ee4963928e16f2f19d8f3279ccd25849615c8f0b0"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-r3-result-paths.csv",
+        "bytes": 5647,
+        "sha256": "7256cbf0cfdf5a3c5a0a0a8c786484bd2e2234cfac056fb30babdff0460a0db9"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-selected-native-windows.csv",
+        "bytes": 11082,
+        "sha256": "375fb1010cc9b265d57a7a38b7b5369fb201a9c2bef4e538a29331eca326e925"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi.ai.json",
+        "bytes": 6952,
+        "sha256": "aae64f5912737142645a2687c1ca56a52388fab1705b71609ea8d854b1f1aa62"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi.md",
+        "bytes": 9128,
+        "sha256": "43de03272c3f7bfb1d8acfe6faaeeb1aa3e0f14d7f52c3d990f49253de3af32b"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\search.ai.json",
+        "bytes": 380190,
+        "sha256": "8ae45e82516edf121cf1f2cb44fb2f67a31cad0ec004262f81cf4b52becfa166"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\search.md",
+        "bytes": 407,
+        "sha256": "4804210b1d0a796b740d1eb5d9ae4571a805d876f360f2c6c96c3980d21fc4d3"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\word-audit.ai.json",
+        "bytes": 17434,
+        "sha256": "8db9a96a064d86e3b81845f145f17ab72d848ecb8513f2a75270a32145d44d55"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\word-audit.md",
+        "bytes": 541,
+        "sha256": "025ab44ac67a8e9bd9e5f028fc200e4260d3b6461808594d25ceda58074e49ef"
+      }
+    ],
+    "scripts": [
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\search_block10_consumers_v1.py",
+        "bytes": 2764,
+        "sha256": "f486ff7e111b363f8532d4ce256bb5deef05fd894fa111d1a8afbdfcb4d670af"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_callback_words_v1.py",
+        "bytes": 6382,
+        "sha256": "158e6adc78a4c5c2dfe77caa5fa660d0c79ce8a93b40f06bac1b00e3ee76d89f"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_odekake_pointer_abi_v1.py",
+        "bytes": 18908,
+        "sha256": "b9c504e6124d8e60b6c6c40ed9958891cc794e09cc5a5362908b7b38932831ee"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\review_odekake_pointer_abi_v1.py",
+        "bytes": 7453,
+        "sha256": "d79f5175ab87bc20145c11c138e455ab73dda2a7d784511826574d049ba678bd"
+      },
+      {
+        "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\finalize_odekake_pointer_abi_report_v1.py",
+        "bytes": 4723,
+        "sha256": "8693e0c01e8ff8c2e7452fbb67214090024553a6a15bf382540d8ae4982c3852"
+      }
+    ],
+    "validation": {
+      "original_native_words": 519,
+      "result_path_words": 67,
+      "original_relocation_records": 4,
+      "final_json_and_csv_consistent": true,
+      "all_recorded_source_hashes_unchanged": true,
+      "source_input_count": 31
+    },
+    "project_opens": 0,
+    "engine_changes": [],
+    "repository_edits": [],
+    "frozen_helper_edits": [],
+    "candidate_in_selected_corpus": false
+  }
+}

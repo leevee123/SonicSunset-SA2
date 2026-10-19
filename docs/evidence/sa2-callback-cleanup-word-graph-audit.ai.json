@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "status": "Original bounded cleanup/helper words, branch graph and explicit r3 definitions audited; semantic report follows.",
+  "original_dol_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "reused_legacy_words_verified": 519,
+  "functions": [
+    {
+      "entry": "0x80071af0",
+      "dol_file_offset": "0x6eaf0",
+      "raw_span_start": "0x80071af0",
+      "raw_span_end_exclusive": "0x80071d04",
+      "original_span_sha256": "38515bcd0d381f0c7e6a7bb4816c7a1d1cbc4e8bc7d01a12fa0a63a42250159f",
+      "declared_ranges": [
+        [
+          "0x80071af0",
+          "0x80071b90"
+        ],
+        [
+          "0x80071b94",
+          "0x80071d04"
+        ]
+      ],
+      "raw_words": 133,
+      "declared_words": 132,
+      "raw_gap_words": [
+        {
+          "function_entry": "0x80071af0",
+          "address": "0x80071b90",
+          "dol_file_offset": "0x6eb90",
+          "iso_file_offset": "0x8d290",
+          "original_word": "48000008",
+          "decoded": "b 80071b98",
+          "declared_body_member": false,
+          "gpr_reads": "[]",
+          "gpr_writes": "[]",
+          "opcode": 18,
+          "xo": 4,
+          "field21": 0,
+          "field16": 0,
+          "field11": 0,
+          "immediate_signed": 8
+        }
+      ],
+      "structurally_reachable_words": 132,
+      "unsupported_words": [],
+      "source_c": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071af0.c",
+          "sha256": "6a53e99b62f8d7aa964631875b25f0585915c801823cac4427494b3b112717f8"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071af0.c",
+          "sha256": "2378519779e3bf08366ca376481c0167e76d1951956778bf6ecf91f5e3c2d7c5"
+        }
+      ],
+      "retained_asm_words_verified": 132
+    },
+    {
+      "entry": "0x8007098c",
+      "dol_file_offset": "0x6d98c",
+      "raw_span_start": "0x8007098c",
+      "raw_span_end_exclusive": "0x800709f8",
+      "original_span_sha256": "e049ac72a2fe9fb2d74acda761906490b218481db48cd69dac4babf1f871890e",
+      "declared_ranges": [
+        [
+          "0x8007098c",
+          "0x800709d0"
+        ],
+        [
+          "0x800709d4",
+          "0x800709f8"
+        ]
+      ],
+      "raw_words": 27,
+      "declared_words": 26,
+      "raw_gap_words": [
+        {
+          "function_entry": "0x8007098c",
+          "address": "0x800709d0",
+          "dol_file_offset": "0x6d9d0",
+          "iso_file_offset": "0x8c0d0",
+          "original_word": "48000008",
+          "decoded": "b 800709d8",
+          "declared_body_member": false,
+          "gpr_reads": "[]",
+          "gpr_writes": "[]",
+          "opcode": 18,
+          "xo": 4,
+          "field21": 0,
+          "field16": 0,
+          "field11": 0,
+          "immediate_signed": 8
+        }
+      ],
+      "structurally_reachable_words": 26,
+      "unsupported_words": [],
+      "source_c": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8007098c.c",
+          "sha256": "5eb420aa2c5dfdd096c9a8e34cad21498ad25694c282769c7a131e2b02f6d2f3"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8007098c.c",
+          "sha256": "5eb420aa2c5dfdd096c9a8e34cad21498ad25694c282769c7a131e2b02f6d2f3"
+        }
+      ],
+      "retained_asm_words_verified": 0
+    },
+    {
+      "entry": "0x800067f8",
+      "dol_file_offset": "0x37f8",
+      "raw_span_start": "0x800067f8",
+      "raw_span_end_exclusive": "0x80006880",
+      "original_span_sha256": "ac43121984f30e5165ce14596ba0f017afce0700d4464ac7303e294d6096fe2c",
+      "declared_ranges": [
+        [
+          "0x800067f8",
+          "0x80006880"
+        ]
+      ],
+      "raw_words": 34,
+      "declared_words": 34,
+      "raw_gap_words": [],
+      "structurally_reachable_words": 34,
+      "unsupported_words": [],
+      "source_c": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800067f8.c",
+          "sha256": "5ff55bbad671cca56dbf3d05f09a299ba72291716744f2d5cd96f1265d3c28cb"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800067f8.c",
+          "sha256": "5ff55bbad671cca56dbf3d05f09a299ba72291716744f2d5cd96f1265d3c28cb"
+        }
+      ],
+      "retained_asm_words_verified": 0
+    },
+    {
+      "entry": "0x80119828",
+      "dol_file_offset": "0x116828",
+      "raw_span_start": "0x80119828",
+      "raw_span_end_exclusive": "0x80119854",
+      "original_span_sha256": "00996d595adeaece31d01dc6290e43d40dcf07a37e0806098ea9fe09dc27f34a",
+      "declared_ranges": [
+        [
+          "0x80119828",
+          "0x80119854"
+        ]
+      ],
+      "raw_words": 11,
+      "declared_words": 11,
+      "raw_gap_words": [],
+      "structurally_reachable_words": 11,
+      "unsupported_words": [],
+      "source_c": [
+        {
+          "view": "main",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80119828.c",
+          "sha256": "ca20c18bb854fe70dfaeb95c96869db267f6cbe9b4a6eca092f580ebf7909bed"
+        },
+        {
+          "view": "main-sda-v1",
+          "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119828.c",
+          "sha256": "f10bd41720d68abffc10edbbec243a5f6f20e568e45078dde2b1c14695db2bdc"
+        }
+      ],
+      "retained_asm_words_verified": 11
+    }
+  ],
+  "raw_words": 205,
+  "graph_edges": 230,
+  "calls": [
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071b28",
+      "dol_file_offset": "0x6eb28",
+      "word": "4e800021",
+      "target": "unknown LR target",
+      "kind": "computed_call",
+      "last_explicit_r3_definitions": "[\"0x80071b24\"]",
+      "definition_words": "[{\"address\": \"0x80071b24\", \"word\": \"387e0000\", \"decoded\": \"addi r3,r30,0\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071b94",
+      "dol_file_offset": "0x6eb94",
+      "word": "4bffff5d",
+      "target": "0x80071af0",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071b98\"]",
+      "definition_words": "[{\"address\": \"0x80071b98\", \"word\": \"807e000c\", \"decoded\": \"lwz r3,12(r30)\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071c4c",
+      "dol_file_offset": "0x6ec4c",
+      "word": "4bf94bad",
+      "target": "0x800067f8",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071c48\"]",
+      "definition_words": "[{\"address\": \"0x80071c48\", \"word\": \"7fc3f378\", \"decoded\": \"or r3,r30,r30\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071c54",
+      "dol_file_offset": "0x6ec54",
+      "word": "480a7bd5",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071c50\"]",
+      "definition_words": "[{\"address\": \"0x80071c50\", \"word\": \"807e0034\", \"decoded\": \"lwz r3,52(r30)\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071c6c",
+      "dol_file_offset": "0x6ec6c",
+      "word": "480a7bbd",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071c60\"]",
+      "definition_words": "[{\"address\": \"0x80071c60\", \"word\": \"807e003c\", \"decoded\": \"lwz r3,60(r30)\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071c84",
+      "dol_file_offset": "0x6ec84",
+      "word": "480a7ba5",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071c78\"]",
+      "definition_words": "[{\"address\": \"0x80071c78\", \"word\": \"807e0038\", \"decoded\": \"lwz r3,56(r30)\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071c9c",
+      "dol_file_offset": "0x6ec9c",
+      "word": "480a7b8d",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071c90\"]",
+      "definition_words": "[{\"address\": \"0x80071c90\", \"word\": \"807e0040\", \"decoded\": \"lwz r3,64(r30)\"}]"
+    },
+    {
+      "function_entry": "0x80071af0",
+      "callsite": "0x80071ce0",
+      "dol_file_offset": "0x6ece0",
+      "word": "480a7b49",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80071cd0\"]",
+      "definition_words": "[{\"address\": \"0x80071cd0\", \"word\": \"7fc3f378\", \"decoded\": \"or r3,r30,r30\"}]"
+    },
+    {
+      "function_entry": "0x8007098c",
+      "callsite": "0x800709d4",
+      "dol_file_offset": "0x6d9d4",
+      "word": "4800111d",
+      "target": "0x80071af0",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x800709d8\"]",
+      "definition_words": "[{\"address\": \"0x800709d8\", \"word\": \"807f000c\", \"decoded\": \"lwz r3,12(r31)\"}]"
+    },
+    {
+      "function_entry": "0x800067f8",
+      "callsite": "0x80006848",
+      "dol_file_offset": "0x3848",
+      "word": "48112fe1",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x8000683c\"]",
+      "definition_words": "[{\"address\": \"0x8000683c\", \"word\": \"807f000c\", \"decoded\": \"lwz r3,12(r31)\"}]"
+    },
+    {
+      "function_entry": "0x800067f8",
+      "callsite": "0x80006858",
+      "dol_file_offset": "0x3858",
+      "word": "48112fd1",
+      "target": "0x80119828",
+      "kind": "direct_call",
+      "last_explicit_r3_definitions": "[\"0x80006854\"]",
+      "definition_words": "[{\"address\": \"0x80006854\", \"word\": \"7fe3fb78\", \"decoded\": \"or r3,r31,r31\"}]"
+    },
+    {
+      "function_entry": "0x80119828",
+      "callsite": "0x80119840",
+      "dol_file_offset": "0x116840",
+      "word": "4e800021",
+      "target": "unknown LR target",
+      "kind": "computed_call",
+      "last_explicit_r3_definitions": "[\"incoming_r3\"]",
+      "definition_words": "[]"
+    }
+  ],
+  "unknown_data_instruction_count": 0,
+  "field_access_rows": 57,
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_odekake_pointer_abi_v1.py": "b9c504e6124d8e60b6c6c40ed9958891cc794e09cc5a5362908b7b38932831ee",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\main.dol": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\dol-elf-mapping-final.json": "2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-native-words.csv": "f884edbd801602ecfde9df27c4908e7cc8fa0d681681fc523748558446da5762",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\function_body_ranges.csv": "e1705a2f81742184bc8307aa69373393fe4efd35716e5643476aa15b5aba7e56",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\function_body_ranges.csv": "31af92b7d34942e22e9b5822277411ebd6a68b3de3617f7cbb7869156da9d1fd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071af0.c": "6a53e99b62f8d7aa964631875b25f0585915c801823cac4427494b3b112717f8",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071af0.c": "2378519779e3bf08366ca376481c0167e76d1951956778bf6ecf91f5e3c2d7c5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80071af0.asm": "b5bc4dda716838ef5db8d61ea39282b6e9aa587369c0889780c3e237b86be026",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8007098c.c": "5eb420aa2c5dfdd096c9a8e34cad21498ad25694c282769c7a131e2b02f6d2f3",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8007098c.c": "5eb420aa2c5dfdd096c9a8e34cad21498ad25694c282769c7a131e2b02f6d2f3",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800067f8.c": "5ff55bbad671cca56dbf3d05f09a299ba72291716744f2d5cd96f1265d3c28cb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800067f8.c": "5ff55bbad671cca56dbf3d05f09a299ba72291716744f2d5cd96f1265d3c28cb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80119828.c": "ca20c18bb854fe70dfaeb95c96869db267f6cbe9b4a6eca092f580ebf7909bed",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119828.c": "f10bd41720d68abffc10edbbec243a5f6f20e568e45078dde2b1c14695db2bdc",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80119828.asm": "e00e990bbc2370c34f5e336cf65aa27ea2079dc99a8b76656aaf443b28f746a5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_callback_cleanup_v1.py": "b720768d8b7ceb6dda98ccb32cbf16a15f7368f98f32ea8ef69ddb20d23d155c"
+  },
+  "all_source_hashes_unchanged": true,
+  "no_project_open": true,
+  "engine_changes": [],
+  "repo_changes": [],
+  "frozen_helper_changes": [],
+  "limits": [
+    "Conditional successors are both retained; structural reachability is not feasible-path proof.",
+    "Unowned raw gap words remain separate and do not define new instructions/functions in a project.",
+    "Indirect targets, complete callback prototypes, runtime allocation/release behavior and roles remain unknown."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "status": "All original callsites match both export graphs; two local quirks and the halfword mask checked.",
+  "original_callsites": 12,
+  "export_graph_matches": 24,
+  "clear_before_compare": {
+    "zero_definition": "0x80071b2c",
+    "clear": "0x80071b30",
+    "reload": "0x80071b68",
+    "interval_words": 15,
+    "node_register_unchanged": true,
+    "no_intervening_call": true,
+    "exact_distinct_zero_stores": "node+10,14,18,1c,20,24,28,2c",
+    "sequential_conclusion": "Reloaded node+10 is zero; comparison to nonzero8007098c cannot be equal without external/asynchronous mutation."
+  },
+  "saved_child_contradiction": "r5 loadednode+c@80071b50; nonzero requiredtoenter@71b60; sameunmodifiedr5 retested@71b78; zero-arm71b80..88 infeasible from ordinary entry.",
+  "halfword_operation": {
+    "load": "80071cb4 lha r3,2(r4)",
+    "rotate_mask": "80071cbc",
+    "shift": 0,
+    "mb": 0,
+    "me": 30,
+    "mask32": "0xfffffffe",
+    "store": "80071cc0 sth r3,2(r4)",
+    "cases": 65536,
+    "equivalent_low16": "input&0xfffe",
+    "output_be_sha256": "a2e00d1c7ada025ece01f773e15a62d214f59f40a55e42f8382558f5ca8d23bf"
+  },
+  "startup_sda_assumption": {
+    "r13": "0x803b52c0",
+    "callback_global": "0x803ada48",
+    "allocation_table_pointer_global": "0x803ae108"
+  },
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\direct_calls.csv": "a2f2586ef2d9f53611312db796c9301bfec219de710e9b2b9d6238da76e36eb9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\computed_calls.csv": "0f98db50f0fba22544b997976fdef94793a704095ab8261952d0e395c3312304",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\direct_calls.csv": "280cd3bfdbca04aa81fc9e897da762db6fc3259ea83299ddcfa5a5ee0218fa5d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\computed_calls.csv": "b4e0432730398ffd56fbfe573d6b0c9bbd4b334ef4e52fd30c848bbb2e165a3f"
+  },
+  "all_previous_and_current_sources_unchanged": true,
+  "limits": [
+    "No callback/deallocation backend behavior is emulated; no runtime execution observed.",
+    "Local infeasibility is a sequential instruction fact; retain the original branches and record external/asynchronous mutation as outside the proof."
+  ]
+}

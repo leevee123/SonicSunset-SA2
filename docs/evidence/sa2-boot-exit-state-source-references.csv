@@ -1,0 +1,8 @@
+view,entry,dol_offset,source_path,line,text,assignment_candidate
+sda,0x800d2dd4,0xcfdd4,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d2dd4.c,362,DAT_803adbac = 1;,True
+sda,0x800d2dd4,0xcfdd4,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d2dd4.c,610,DAT_803adbac = 3;,True
+sda,0x800d3ad0,0xd0ad0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d3ad0.c,19,while (DAT_803adbac == 0) {,False
+sda,0x800d3ad0,0xd0ad0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d3ad0.c,23,if ((iVar1 == 1) && (DAT_803adbac == 0)) {,False
+sda,0x800d3ad0,0xd0ad0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d3ad0.c,24,DAT_803adbac = 1;,True
+sda,0x800d3ad0,0xd0ad0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d3ad0.c,50,if (DAT_803adbac == 1) {,False
+sda,0x800d3ad0,0xd0ad0,C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x800d3ad0.c,53,else if (DAT_803adbac == 3) {,False

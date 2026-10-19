@@ -1,0 +1,13 @@
+text_section,site,dol_offset,word,target,target_dol_offset,link_bit,absolute_bit,opcode,owners,classification
+0,8000312c,12c,480e5e1d,800e8f48,e5f48,1,False,18,context_free:0x80003100;sda:0x80003100,aligned text encoding candidate; instruction validity checked separately
+0,8000323c,23c,4bfffec5,80003100,100,1,False,18,context_free:0x80003140;sda:0x80003140,aligned text encoding candidate; instruction validity checked separately
+0,8000324c,24c,480d0885,800d3ad0,d0ad0,1,False,18,context_free:0x80003140;sda:0x80003140,aligned text encoding candidate; instruction validity checked separately
+1,80012b54,fb54,480d0579,800e30cc,e00cc,1,False,18,context_free:0x80012a7c;sda:0x80012a7c,aligned text encoding candidate; instruction validity checked separately
+1,80012dec,fdec,4bfffc91,80012a7c,fa7c,1,False,18,context_free:0x80012cc0;sda:0x80012cc0,aligned text encoding candidate; instruction validity checked separately
+1,800d3b78,d0b78,4800f555,800e30cc,e00cc,1,False,18,context_free:0x800d3ad0;sda:0x800d3ad0,aligned text encoding candidate; instruction validity checked separately
+1,800d3bf8,d0bf8,48015351,800e8f48,e5f48,1,False,18,context_free:0x800d3ad0;sda:0x800d3ad0,aligned text encoding candidate; instruction validity checked separately
+1,800d3c14,d0c14,48015335,800e8f48,e5f48,1,False,18,context_free:0x800d3ad0;sda:0x800d3ad0,aligned text encoding candidate; instruction validity checked separately
+1,800d3c28,d0c28,48015321,800e8f48,e5f48,1,False,18,context_free:0x800d3ad0;sda:0x800d3ad0,aligned text encoding candidate; instruction validity checked separately
+1,800e2bc8,dfbc8,48006381,800e8f48,e5f48,1,False,18,context_free:0x800e2b78;sda:0x800e2b78,aligned text encoding candidate; instruction validity checked separately
+1,800e325c,e025c,48005ced,800e8f48,e5f48,1,False,18,context_free:0x800e30cc;sda:0x800e30cc,aligned text encoding candidate; instruction validity checked separately
+1,800e90f8,e60f8,4bfffb49,800e8c40,e5c40,1,False,18,context_free:0x800e8f48;sda:0x800e8f48,aligned text encoding candidate; instruction validity checked separately

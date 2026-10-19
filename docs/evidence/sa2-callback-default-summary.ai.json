@@ -1,0 +1,341 @@
+{
+  "status": "pass_bounded_original_allocator_analysis",
+  "default_table": [
+    {
+      "table_address": "0x801770a0",
+      "canonical_dol_offset": "0x1740a0",
+      "table_slot": 0,
+      "pointer": "0x8011989c",
+      "pointer_dol_offset": "0x11689c",
+      "role": "size allocation dispatch",
+      "qualification": "initial stored pointer table; runtime table is selected by initializer"
+    },
+    {
+      "table_address": "0x801770a4",
+      "canonical_dol_offset": "0x1740a4",
+      "table_slot": 4,
+      "pointer": "0x801198c4",
+      "pointer_dol_offset": "0x1168c4",
+      "role": "release dispatch",
+      "qualification": "initial stored pointer table; runtime table is selected by initializer"
+    },
+    {
+      "table_address": "0x801770a8",
+      "canonical_dol_offset": "0x1740a8",
+      "table_slot": 8,
+      "pointer": "0x801198ec",
+      "pointer_dol_offset": "0x1168ec",
+      "role": "two-argument allocation dispatch",
+      "qualification": "initial stored pointer table; runtime table is selected by initializer"
+    }
+  ],
+  "facts": [
+    {
+      "fact": "table_selection",
+      "functions": [
+        "0x8011979c",
+        "0x800e473c"
+      ],
+      "canonical_offsets": [
+        "0x11679c",
+        "0xe173c"
+      ],
+      "behavior": "initializer stores the heap selector returned by E473C and installs original table801770A0; no local negative-selector check",
+      "qualification": "startup r13 base803B52C0 yields table SDA803AE108 and heap selector803AE10C; runtime replacement/execution remains unproven"
+    },
+    {
+      "fact": "size_only_allocation",
+      "functions": [
+        "0x801197d0",
+        "0x8011989c",
+        "0x800e4554"
+      ],
+      "canonical_offsets": [
+        "0x1167d0",
+        "0x11689c",
+        "0xe1554"
+      ],
+      "behavior": "forwards size inr3; default target moves size to r4 and calls heap allocator with stored selector; allocator returns selected cell+0x20 or0, and does not clear requested user payload",
+      "qualification": "backend metadata/list stores are separate from payload; no zeroed-heap assumption"
+    },
+    {
+      "fact": "two_argument_zero_fill",
+      "functions": [
+        "0x801197fc",
+        "0x801198ec",
+        "0x80119778",
+        "0x8000532c",
+        "0x8000535c"
+      ],
+      "canonical_offsets": [
+        "0x1167fc",
+        "0x1168ec",
+        "0x116778",
+        "0x232c",
+        "0x235c"
+      ],
+      "behavior": "forwards count and size; default target uses low32 multiply, allocates that product, invokes byte fill(result,0,product) with no intervening branch, then returns saved allocation result",
+      "qualification": "valid pointer and completed fill imply requested bytes zero; overflow/NULL invalid-memory behavior and actual runtime faults are not inferred"
+    },
+    {
+      "fact": "record_initialization",
+      "functions": [
+        "0x80071d04"
+      ],
+      "canonical_offsets": [
+        "0x6ed04"
+      ],
+      "behavior": "requests0x50 on size-only route; on NULL returns0; on success writes callback+10, zeros listed fields, copies prior+44 to+48 before incoming third constructor value replaces+44, sets+4C0 and conditionally initializes list links",
+      "qualification": "prior+44 is existing payload, not guaranteed zero; group7 skips link insertion/init path"
+    },
+    {
+      "fact": "work_flags2",
+      "functions": [
+        "0x80071e0c"
+      ],
+      "canonical_offsets": [
+        "0x6ee0c"
+      ],
+      "behavior": "flags2 calls two-argument route(1,0x30), then stores successful return atrecord+34; returned0 invokes71AF0(record) then returns0",
+      "qualification": "default callback itself fills before returning, so no graceful-default-OOM guarantee is asserted"
+    },
+    {
+      "fact": "release_dispatch",
+      "functions": [
+        "0x80071af0",
+        "0x80119828",
+        "0x801198c4",
+        "0x800e4650",
+        "0x800e44a8"
+      ],
+      "canonical_offsets": [
+        "0x6eaf0",
+        "0x116828",
+        "0x1168c4",
+        "0xe1650",
+        "0xe14a8"
+      ],
+      "behavior": "record cleanup conditionally releases+34,+3C,+38,+40, clears those fields, and finally releases the record; dispatch slot4 forwards actualr3 pointer; default release subtracts0x20 and updates allocated/free lists with address-ordered coalescing, without payload wipe",
+      "qualification": "valid allocation/table assumed by backend; no local NULL/invalid-pointer validation or meaningful release-return contract established"
+    },
+    {
+      "fact": "nested_work_release",
+      "functions": [
+        "0x800067f8"
+      ],
+      "canonical_offsets": [
+        "0x37f8"
+      ],
+      "behavior": "when work+2C is nonzero, frees nested+0C only when nested halfword+4 bit8000 and pointer+0C nonzero; then frees nested and clears work+2C",
+      "qualification": "nested structure role/lifetime and destructive callback behavior remain unknown"
+    }
+  ],
+  "dispatch_register_checks": [
+    {
+      "function": "0x801197d0",
+      "table_slot": 0,
+      "indirect_callsite": "0x801197e8",
+      "preserved_incoming_registers": {
+        "3": "requested_size"
+      },
+      "qualification": "r13-qualified table, no local NULL/table guard"
+    },
+    {
+      "function": "0x801197fc",
+      "table_slot": 8,
+      "indirect_callsite": "0x80119814",
+      "preserved_incoming_registers": {
+        "3": "count",
+        "4": "size"
+      },
+      "qualification": "r13-qualified table, no local NULL/table guard"
+    },
+    {
+      "function": "0x80119828",
+      "table_slot": 4,
+      "indirect_callsite": "0x80119840",
+      "preserved_incoming_registers": {
+        "3": "released_pointer"
+      },
+      "qualification": "r13-qualified table, no local NULL/table guard"
+    }
+  ],
+  "saved_allocation_result_return_trace": [
+    {
+      "address": "0x80119910",
+      "event": "default allocation",
+      "r3": "loaded_memory",
+      "r4": "low32_count_times_size"
+    },
+    {
+      "address": "0x80119924",
+      "event": "zero fill",
+      "r3": "allocation_result",
+      "r4": "('constant', 0)",
+      "r5": "low32_count_times_size"
+    }
+  ],
+  "constructor_explicit_zero_stores": [
+    {
+      "address": "0x80071d60",
+      "field_offset": "0x30",
+      "word": "0x90830030"
+    },
+    {
+      "address": "0x80071d68",
+      "field_offset": "0x34",
+      "word": "0x90830034"
+    },
+    {
+      "address": "0x80071d6c",
+      "field_offset": "0x38",
+      "word": "0x90830038"
+    },
+    {
+      "address": "0x80071d70",
+      "field_offset": "0x3c",
+      "word": "0x9083003c"
+    },
+    {
+      "address": "0x80071d74",
+      "field_offset": "0x40",
+      "word": "0x90830040"
+    },
+    {
+      "address": "0x80071d78",
+      "field_offset": "0x14",
+      "word": "0x90830014"
+    },
+    {
+      "address": "0x80071d7c",
+      "field_offset": "0x18",
+      "word": "0x90830018"
+    },
+    {
+      "address": "0x80071d80",
+      "field_offset": "0x1c",
+      "word": "0x9083001c"
+    },
+    {
+      "address": "0x80071d84",
+      "field_offset": "0x20",
+      "word": "0x90830020"
+    },
+    {
+      "address": "0x80071d88",
+      "field_offset": "0x24",
+      "word": "0x90830024"
+    },
+    {
+      "address": "0x80071d8c",
+      "field_offset": "0x28",
+      "word": "0x90830028"
+    },
+    {
+      "address": "0x80071d90",
+      "field_offset": "0x2c",
+      "word": "0x9083002c"
+    },
+    {
+      "address": "0x80071d94",
+      "field_offset": "0xc",
+      "word": "0x9083000c"
+    },
+    {
+      "address": "0x80071d98",
+      "field_offset": "0x8",
+      "word": "0x90830008"
+    },
+    {
+      "address": "0x80071da8",
+      "field_offset": "0x4c",
+      "word": "0x9083004c"
+    },
+    {
+      "address": "0x80071dcc",
+      "field_offset": "0x0",
+      "word": "0x90630000"
+    },
+    {
+      "address": "0x80071dd0",
+      "field_offset": "0x4",
+      "word": "0x90630004"
+    }
+  ],
+  "request_arithmetic": [
+    {
+      "case": "flags2_work",
+      "count": 1,
+      "size": 48,
+      "low32_product": 48,
+      "default_heap_required_cell_bytes": 96,
+      "payload_after_0x20_header": 64,
+      "clear_bytes": 48,
+      "qualification": "arithmetic from original words; no live heap execution",
+      "payload_capacity_qualification": "minimum rounded payload capacity; allocator can take larger whole cell when remainder<0x40",
+      "zeroing_qualification": "clear exactly requested product, not padding/slack; record size route has no payload clear"
+    },
+    {
+      "case": "flags4_work",
+      "count": 2,
+      "size": 28,
+      "low32_product": 56,
+      "default_heap_required_cell_bytes": 96,
+      "payload_after_0x20_header": 64,
+      "clear_bytes": 56,
+      "qualification": "arithmetic from original words; no live heap execution",
+      "payload_capacity_qualification": "minimum rounded payload capacity; allocator can take larger whole cell when remainder<0x40",
+      "zeroing_qualification": "clear exactly requested product, not padding/slack; record size route has no payload clear"
+    },
+    {
+      "case": "flags1_work",
+      "count": 1,
+      "size": 64,
+      "low32_product": 64,
+      "default_heap_required_cell_bytes": 96,
+      "payload_after_0x20_header": 64,
+      "clear_bytes": 64,
+      "qualification": "arithmetic from original words; no live heap execution",
+      "payload_capacity_qualification": "minimum rounded payload capacity; allocator can take larger whole cell when remainder<0x40",
+      "zeroing_qualification": "clear exactly requested product, not padding/slack; record size route has no payload clear"
+    },
+    {
+      "case": "flags8_work",
+      "count": 1,
+      "size": 16,
+      "low32_product": 16,
+      "default_heap_required_cell_bytes": 64,
+      "payload_after_0x20_header": 32,
+      "clear_bytes": 16,
+      "qualification": "arithmetic from original words; no live heap execution",
+      "payload_capacity_qualification": "minimum rounded payload capacity; allocator can take larger whole cell when remainder<0x40",
+      "zeroing_qualification": "clear exactly requested product, not padding/slack; record size route has no payload clear"
+    },
+    {
+      "case": "record_size_path",
+      "count": 1,
+      "size": 80,
+      "low32_product": 80,
+      "default_heap_required_cell_bytes": 128,
+      "payload_after_0x20_header": 96,
+      "clear_bytes": 0,
+      "qualification": "arithmetic from original words; no live heap execution",
+      "payload_capacity_qualification": "minimum rounded payload capacity; allocator can take larger whole cell when remainder<0x40",
+      "zeroing_qualification": "clear exactly requested product, not padding/slack; record size route has no payload clear"
+    }
+  ],
+  "evidence_original_functions": 18,
+  "evidence_original_words": 626,
+  "unknowns": [
+    "runtime allocator table replacement and heap selector validity",
+    "full heap region layout/concurrency/lifetime/error policy",
+    "pointer contents before size-only allocation and priorrecord+44",
+    "invalid memory behavior when default zero-fill receives NULL and nonzero length",
+    "full callback/return ABI and destructor side effects",
+    "all other callback consumers and actual original runtime execution"
+  ],
+  "original_binary_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "fully_decompiled_and_reviewed": false,
+  "ghidra_project_opened": false,
+  "engine_files_changed": []
+}

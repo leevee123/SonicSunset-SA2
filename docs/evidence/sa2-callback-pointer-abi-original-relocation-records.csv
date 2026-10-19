@@ -1,0 +1,5 @@
+canonical_source_offset,import_file_offset,original_import_record,target_module_id,stream_file_offset,original_relocation_record,delta,type,target_section,addend,decoded_patch_section,decoded_patch_section_offset,source_original_bytes,target_canonical_file_offset,fixed_main_target,runtime_module_base
+0x11c,0x10d11,000000000000b459,0,0xb461,003c0a0280071ae0,60,10,2,0x80071ae0,1,0x3c,48000001,,0x80071ae0,fixed DOL address
+0x1250,0x10d11,000000000000b459,0,0xb491,00a80a0280071e0c,168,10,2,0x80071e0c,1,0x1170,48000001,,0x80071e0c,fixed DOL address
+0x1242,0x10d21,000000490000c919,73,0xcf81,0018060100000000,24,6,1,0x0,1,0x1162,0000,0xe0,,unknown
+0x1246,0x10d21,000000490000c919,73,0xcf89,0004040100000000,4,4,1,0x0,1,0x1166,0000,0xe0,,unknown

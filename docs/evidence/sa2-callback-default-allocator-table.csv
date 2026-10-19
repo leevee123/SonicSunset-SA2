@@ -1,0 +1,4 @@
+table_address,canonical_dol_offset,table_slot,pointer,pointer_dol_offset,role,qualification
+0x801770a0,0x1740a0,0,0x8011989c,0x11689c,size allocation dispatch,initial stored pointer table; runtime table is selected by initializer
+0x801770a4,0x1740a4,4,0x801198c4,0x1168c4,release dispatch,initial stored pointer table; runtime table is selected by initializer
+0x801770a8,0x1740a8,8,0x801198ec,0x1168ec,two-argument allocation dispatch,initial stored pointer table; runtime table is selected by initializer

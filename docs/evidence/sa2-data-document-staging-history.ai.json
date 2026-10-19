@@ -1,0 +1,8 @@
+{
+  "status": "corrected_and_preserved",
+  "failed_script": "work/prepare_data_view_docs_v1.py",
+  "failure": "SyntaxError from two multiline strings with single-quote delimiters; no Python statement executed and no repository change occurred.",
+  "corrected_script": "work/prepare_data_view_docs_v2.py",
+  "result": "Prepared 88 files with all source/preimage guards intact.",
+  "final_review": "Title and directory-table updates only; no engine code changes."
+}

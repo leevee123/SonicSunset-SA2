@@ -1,0 +1,14 @@
+{
+  "status": "corrected_and_preserved",
+  "failed_script": "work/review_data_view_docs_v1.py",
+  "reason": "Windows write_text translated LF to CRLF for two new history reports, but their expected hashes used the LF input strings; staged titles/directory update and review patches were already prepared.",
+  "repository_changes": false,
+  "engine_or_test_changes": false,
+  "corrected_script": "work/review_data_view_docs_v2.py",
+  "correction": "Hash actual saved bytes; retain all original evidence-copy hashes and repository/preimage guards.",
+  "allowed_staged_updates": [
+    "docs/SA2_CALLBACK_REFERENCE.md",
+    "docs/ai/SA2_CALLBACK.md",
+    "docs/ARCHITECTURE.md"
+  ]
+}

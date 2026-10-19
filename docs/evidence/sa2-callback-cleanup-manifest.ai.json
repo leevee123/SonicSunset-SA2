@@ -1,0 +1,131 @@
+{
+  "status": "Bounded original cleanup/helper evidence complete; release backend, complete ABI and runtime roles unknown.",
+  "human_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\cleanup.md",
+  "compact_report": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\cleanup.ai.json",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\calls-and-r3-definitions.csv",
+      "bytes": 2106,
+      "sha256": "bd51dc7b2ec08845cf47d151bf0ec1603d98429e2cf85145c02943fbdf5dff15"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\cleanup.ai.json",
+      "bytes": 6795,
+      "sha256": "dcb9c61de3e824d71b8cc72b7225a66c9d96599be7bf2317fc57c3141e6d8ba1"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\cleanup.md",
+      "bytes": 11734,
+      "sha256": "0ee353b90ab7e9c050db6a43cf073a455fafca8edbcdeff31d31589acd5cad11"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\control-flow-edges.csv",
+      "bytes": 12278,
+      "sha256": "8628ef508145448b4df63c5be1a831d4ef4b845b5eaf9968cd4b55e24906876c"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\export-call-graph-matches.csv",
+      "bytes": 9600,
+      "sha256": "5d8ad29cfb3760ea59f4a3764934ed3205b28db4285a0e0e16b0b5d9f56ae47d"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\field-accesses.csv",
+      "bytes": 5991,
+      "sha256": "d2e35c0a8b8e972ee955d1afb83b5c73f4af33f6c8f944bb0c6e816fbd3b2bea"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\graph-quirk-review.ai.json",
+      "bytes": 2620,
+      "sha256": "abf2d4ff938059b38eca91a39f47540dbb1910c75a77277e49ee6536afd29849"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\graph-quirk-review.md",
+      "bytes": 736,
+      "sha256": "be171d81cdabe92a97580cf1f13ab753ea38691e852ad68acc7a278ad48ce4fb"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\original-words.csv",
+      "bytes": 20688,
+      "sha256": "523af36f28c753c10da2c4a55d036a18ce9cab6dbf50bce3bc3a528f4c997805"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\r3-reaching-definitions.csv",
+      "bytes": 15539,
+      "sha256": "90e01e692c2ddaa2d4f4469bf065172cfd53098a36cd435c67842278a7d4ab87"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\retained-asm-80071af0.csv",
+      "bytes": 7536,
+      "sha256": "34b6f7b12994a868c2a95d6cb3ee8a7e2d62ca2549a007b1cfd7663653e50ae3"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\retained-asm-80119828.csv",
+      "bytes": 679,
+      "sha256": "d4d2a070559c5f151f0130b1aff5986b8abc3df6497c1165de31b0692c247d0a"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\word-graph-audit.ai.json",
+      "bytes": 15750,
+      "sha256": "a57e299835bcc687ce4fe0a12ed2cca14db70cf8ebd1a2562358f8c3e2529e5b"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\callback-cleanup-audit\\word-graph-audit.md",
+      "bytes": 620,
+      "sha256": "2b014d42c7d4bfb090ec4431e2265dd4eb941ae7bd51c91678bd7748b10aeffc"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_callback_cleanup_v1.py",
+      "bytes": 12162,
+      "sha256": "b720768d8b7ceb6dda98ccb32cbf16a15f7368f98f32ea8ef69ddb20d23d155c"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\review_callback_cleanup_v1.py",
+      "bytes": 6814,
+      "sha256": "f829aca231d363ed80925c3242cd048e3db05b27e9027ce07d4614c13b4c022f"
+    },
+    {
+      "path": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\finalize_callback_cleanup_v1.py",
+      "bytes": 5399,
+      "sha256": "7f9f04154596aeda120310d830d3ff88fea1ced1659817a951f1800428e034e1"
+    }
+  ],
+  "source_inputs": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_odekake_pointer_abi_v1.py": "b9c504e6124d8e60b6c6c40ed9958891cc794e09cc5a5362908b7b38932831ee",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-disc\\main.dol": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\dol-elf-mapping-final.json": "2048cc06d90b653e05b98d5e5e1737c32e8cb778aaed06e069ce08743bd77361",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\odekake-callback-abi-audit\\pointer-abi-native-words.csv": "f884edbd801602ecfde9df27c4908e7cc8fa0d681681fc523748558446da5762",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\function_body_ranges.csv": "e1705a2f81742184bc8307aa69373393fe4efd35716e5643476aa15b5aba7e56",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\function_body_ranges.csv": "31af92b7d34942e22e9b5822277411ebd6a68b3de3617f7cbb7869156da9d1fd",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80071af0.c": "6a53e99b62f8d7aa964631875b25f0585915c801823cac4427494b3b112717f8",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80071af0.c": "2378519779e3bf08366ca376481c0167e76d1951956778bf6ecf91f5e3c2d7c5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80071af0.asm": "b5bc4dda716838ef5db8d61ea39282b6e9aa587369c0889780c3e237b86be026",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x8007098c.c": "5eb420aa2c5dfdd096c9a8e34cad21498ad25694c282769c7a131e2b02f6d2f3",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x8007098c.c": "5eb420aa2c5dfdd096c9a8e34cad21498ad25694c282769c7a131e2b02f6d2f3",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x800067f8.c": "5ff55bbad671cca56dbf3d05f09a299ba72291716744f2d5cd96f1265d3c28cb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x800067f8.c": "5ff55bbad671cca56dbf3d05f09a299ba72291716744f2d5cd96f1265d3c28cb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\pseudocode\\0x80119828.c": "ca20c18bb854fe70dfaeb95c96869db267f6cbe9b4a6eca092f580ebf7909bed",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\pseudocode\\0x80119828.c": "f10bd41720d68abffc10edbbec243a5f6f20e568e45078dde2b1c14695db2bdc",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\assembly\\0x80119828.asm": "e00e990bbc2370c34f5e336cf65aa27ea2079dc99a8b76656aaf443b28f746a5",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\audit_callback_cleanup_v1.py": "b720768d8b7ceb6dda98ccb32cbf16a15f7368f98f32ea8ef69ddb20d23d155c",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\direct_calls.csv": "a2f2586ef2d9f53611312db796c9301bfec219de710e9b2b9d6238da76e36eb9",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main\\export\\computed_calls.csv": "0f98db50f0fba22544b997976fdef94793a704095ab8261952d0e395c3312304",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\direct_calls.csv": "280cd3bfdbca04aa81fc9e897da762db6fc3259ea83299ddcfa5a5ee0218fa5d",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile\\gekko\\main-sda-v1\\export\\computed_calls.csv": "b4e0432730398ffd56fbfe573d6b0c9bbd4b334ef4e52fd30c848bbb2e165a3f"
+  },
+  "validation": {
+    "raw_words": 205,
+    "graph_edges": 230,
+    "calls": 12,
+    "call_graph_matches": 24,
+    "flag8000_mask": "0x8000",
+    "halfword_values_checked": 65536,
+    "all_source_hashes_unchanged": true,
+    "paired_report_consistent": true
+  },
+  "project_opens": 0,
+  "engine_changes": [],
+  "repo_export_frozen_changes": [],
+  "leaked_original_source_encountered": false
+}

@@ -1,0 +1,1 @@
+Original DOL pointer table801770A0 contains three recorded dispatch pointers for allocation, release and two-argument allocation. Exact addresses/file offsets/raw pointers are retained in CSV and AI evidence. The initializer selects this table through the startup-qualified SDA location; no runtime execution or zeroed-heap assumption is made.

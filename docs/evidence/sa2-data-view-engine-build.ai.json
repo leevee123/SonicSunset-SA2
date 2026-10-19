@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+  "rel_translation_unit_compiled": false,
+  "pointer_bank_translation_unit_compiled": true,
+  "executable_linked": true,
+  "compiler_errors": 0,
+  "log_sha256": "4a834146d8efe4cfff7e6189b121e2037d2a582ee63321c89d4cd1e7766688f6",
+  "executable_sha256": "51415cbb35d2d4e40683fec9ca2545705065253d081bcdbf8dd11e6ed67db952",
+  "debug_information": "Existing invocation-only Embedded workaround; repository settings unchanged",
+  "runtime_scope": "Data views only; no native module execution, geometry rendering or gameplay validation."
+}

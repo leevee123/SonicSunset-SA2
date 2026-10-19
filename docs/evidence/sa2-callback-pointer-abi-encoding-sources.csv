@@ -1,0 +1,114 @@
+path,start_line,end_line,pattern,excerpt
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,6,9,^:add\s,":add D,A,B		is OP=31 & D & A & B & OE=0 & XOP_1_9=266 & Rc=0
+{
+	 D = A + B;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,103,106,^:addi\s,":addi D,A,SIMM 		is $(NOTVLE) & OP=14 & D & A & SIMM_SIGN=0 & SIMM
+{
+	D = A + SIMM;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,109,112,^:li\s,":li D,SIMM			is $(NOTVLE) & OP=14 & D & A=0 & SIMM_SIGN=1 & SIMM
+{
+	D = SIMM;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,115,118,^:li\s,":li D,SIMM			is $(NOTVLE) & OP=14 & D & A=0 & SIMM_SIGN=0 & SIMM
+{
+	D = SIMM;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,157,160,^:addis\s,":addis D,A,SIMM		is $(NOTVLE) & OP=15 & D & A & SIMM_SIGN=0 & SIMM 
+{
+	D = A + (SIMM:$(REGISTER_SIZE) << 16);
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,163,166,^:lis\s,":lis D,SIMM			is $(NOTVLE) & OP=15 & D & A=0 & SIMM_SIGN=1 & SIMM
+{
+	D = SIMM:$(REGISTER_SIZE) << 16;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,169,172,^:lis\s,":lis D,SIMM			is $(NOTVLE) & OP=15 & D & A=0 & SIMM_SIGN=0 & SIMM
+{
+	D = SIMM:$(REGISTER_SIZE) << 16;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,559,562,^:blr\s,":blr 		is $(NOTVLE) & OP=19 & BO_0=1 & BO_2=1 & LK=0 & BITS_13_15=0 & BH=0 & XOP_1_10=16
+{
+	return [LR];
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,563,566,^:blr\s,":blr BH 		is $(NOTVLE) & OP=19 & BO_0=1 & BO_2=1 & LK=0 & BITS_13_15=0 & BH & XOP_1_10=16
+{
+	goto [LR];
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,569,575,^:blrl\s,":blrl			is $(NOTVLE) & OP=19 & BO_0=1 & BO_2=1 & LK=1 & BITS_13_15=0 & BH=0 & XOP_1_10=16
+										[ linkreg=0; globalset(inst_start,linkreg); ]
+{
+	tmp:$(REGISTER_SIZE) = LR;
+	LR = inst_next;
+	call [tmp];
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,576,582,^:blrl\s,":blrl BH		is $(NOTVLE) & OP=19 & BO_0=1 & BO_2=1 & LK=1 & BITS_13_15=0 & BH & XOP_1_10=16
+										[ linkreg=0; globalset(inst_start,linkreg); ]
+{
+	tmp:$(REGISTER_SIZE) = LR;
+	LR = inst_next;
+	call [tmp];
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,2304,2311,^:lwz\s,":lwz	D,dPlusRaOrZeroAddress	is $(NOTVLE) & OP=32 & D & dPlusRaOrZeroAddress
+{
+@ifdef BIT_64
+	D = zext(*:4(dPlusRaOrZeroAddress));
+@else
+	D = *:4(dPlusRaOrZeroAddress);
+@endif
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,2931,2934,^:or\s,":or A,S,B		is OP=31 & A & S & B & XOP_1_10=444 & Rc=0
+{
+	A = (S | B);
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,3103,3114,^:rlwinm\s,":rlwinm A,S,SHL,MBL,ME	is $(NOTVLE) & OP=21 & S & A & SHL & MBL & ME & Rc=0 & rotmask
+{ 
+	shift:1 = SHL;
+@ifdef BIT_64
+	tmp:$(REGISTER_SIZE) = (S << 32) | (S & 0xffffffff);
+	tmp2:$(REGISTER_SIZE) = (tmp<<shift)|(tmp>>(64-shift));
+	A = tmp2 & rotmask;
+@else
+	tmp = (S<<shift)|(S>>(32-shift));
+	A = (tmp & rotmask);
+@endif
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_instructions.sinc,3590,3597,^:stw\s,":stw S,dPlusRaOrZeroAddress		is $(NOTVLE) & OP=36 & S & dPlusRaOrZeroAddress
+{
+@ifdef BIT_64
+	*:4(dPlusRaOrZeroAddress) = S:4;
+@else
+	*:4(dPlusRaOrZeroAddress) = S;
+@endif
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,564,564,^\s*[DASB]\s*=,"	A=(16,20)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,569,569,^\s*[DASB]\s*=,"	B=(11,15)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,645,645,^\s*BO_[02]\s*=,"	BO_0=(25,25)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,648,648,^\s*BO_[02]\s*=,"	BO_2=(23,23)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,683,683,^\s*[DASB]\s*=,"	D=(21,25)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,733,733,^\s*LK\s*=,"	LK=(0,0)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,742,742,^\s*OP\s*=,"	OP=(26,31)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,756,756,^\s*[DASB]\s*=,"	S=(21,25)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,991,991,^\s*XOP_1_10\s*=,"	XOP_1_10=(1,10)"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1790,1790,^\s*[DASB]\s*=, D = zext(a31) & 1;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1791,1791,^\s*[DASB]\s*=, D=D|(zext(a0)&1)<<31; D=D|(zext(a1)&1)<<30; D=D|(zext(a2)&1)<<29; D=D|(zext(a3)&1)<<28;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1792,1792,^\s*[DASB]\s*=, D=D|(zext(a4)&1)<<27; D=D|(zext(a5)&1)<<26; D=D|(zext(a6)&1)<<25; D=D|(zext(a7)&1)<<24;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1793,1793,^\s*[DASB]\s*=, D=D|(zext(a8)&1)<<23; D=D|(zext(a9)&1)<<22; D=D|(zext(a10)&1)<<21; D=D|(zext(a11)&1)<<20;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1794,1794,^\s*[DASB]\s*=, D=D|(zext(a12)&1)<<19; D=D|(zext(a13)&1)<<18; D=D|(zext(a14)&1)<<17; D=D|(zext(a15)&1)<<16;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1795,1795,^\s*[DASB]\s*=, D=D|(zext(a16)&1)<<15; D=D|(zext(a17)&1)<<14; D=D|(zext(a18)&1)<<13; D=D|(zext(a19)&1)<<12;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1796,1796,^\s*[DASB]\s*=, D=D|(zext(a20)&1)<<11; D=D|(zext(a21)&1)<<10; D=D|(zext(a22)&1)<<9;  D=D|(zext(a23)&1)<<8;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1797,1797,^\s*[DASB]\s*=, D=D|(zext(a24)&1)<<7;  D=D|(zext(a25)&1)<<6; D=D|(zext(a26)&1)<<5;  D=D|(zext(a27)&1)<<4;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1798,1798,^\s*[DASB]\s*=, D=D|(zext(a28)&1)<<3;  D=D|(zext(a29)&1)<<2; D=D|(zext(a30)&1)<<1;
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1932,1932,^RA_OR_ZERO:,RA_OR_ZERO:	A 	is A			{ export A; }
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1933,1933,^RA_OR_ZERO:,RA_OR_ZERO: 0   is A=0		{ export 0:$(REGISTER_SIZE); }
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\ppc_common.sinc,1991,1991,^dPlusRaOrZeroAddress:,dPlusRaOrZeroAddress: SIMM(RA_OR_ZERO)	is SIMM & RA_OR_ZERO	{ tmp:$(REGISTER_SIZE) = RA_OR_ZERO+SIMM; export tmp; }
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\lmwInstructions.sinc,96,100,^:lmw\s,":lmw	D,dPlusRaOrZeroAddress	is $(NOTVLE) & OP=46 & D & BITS_21_25 & dPlusRaOrZeroAddress & LDMR31 [ lsmul = BITS_21_25; ]
+{	
+	tea = dPlusRaOrZeroAddress;
+	build LDMR31;
+}"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PowerPC\data\languages\stmwInstructions.sinc,96,100,^:stmw\s,":stmw	S,dPlusRaOrZeroAddress	is $(NOTVLE) & OP=47 & S & BITS_21_25 & dPlusRaOrZeroAddress & STMR31 [ lsmul = BITS_21_25; ]
+{
+	tea = dPlusRaOrZeroAddress;
+	build STMR31;
+}"

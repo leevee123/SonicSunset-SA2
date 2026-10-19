@@ -1,0 +1,1 @@
+Full Windows x64 MSVC/Ninja Debug EDITOR ON integration build exit 0, REL compiled False, pointer bank compiled True, executable linked True, compiler errors 0. Repository defaults remain unchanged; the existing invocation-only debug workaround is used. No geometry rendering/native execution/gameplay is claimed.

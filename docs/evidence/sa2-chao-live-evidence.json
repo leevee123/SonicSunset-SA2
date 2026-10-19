@@ -1,0 +1,794 @@
+{
+  "canonical_addresses": "ChaoMain.prs decompressed REL file offsets; original runtime module/BSS bases unknown",
+  "source_module_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+  "analysis_mapping": {
+    "analysis_base": "0x81000000",
+    "analysis_bss": "0x81700000",
+    "runtime_addresses": "unknown; module file offsets are canonical",
+    "original_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "elf_sha256": "3c248f6d77b4fd7ac0ce74d5a73d7d8ce14956ca761c7cbbba2ed33962c3a38d",
+    "sections": [
+      {
+        "index": 0,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 1,
+        "offset": "0xe8",
+        "size": 366736,
+        "analysis_address": "0x810000e8"
+      },
+      {
+        "index": 2,
+        "offset": "0x59978",
+        "size": 4,
+        "analysis_address": "0x81059978"
+      },
+      {
+        "index": 3,
+        "offset": "0x5997c",
+        "size": 4,
+        "analysis_address": "0x8105997c"
+      },
+      {
+        "index": 4,
+        "offset": "0x59980",
+        "size": 40128,
+        "analysis_address": "0x81059980"
+      },
+      {
+        "index": 5,
+        "offset": "0x63640",
+        "size": 3736088,
+        "analysis_address": "0x81063640"
+      },
+      {
+        "index": 6,
+        "offset": "0x0",
+        "size": 330960,
+        "analysis_address": "0x81700000"
+      },
+      {
+        "index": 7,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 8,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 9,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 10,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 11,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 12,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 13,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 14,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 15,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 16,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 17,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 18,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 19,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      }
+    ],
+    "patched": 32713,
+    "unresolved": 335,
+    "unresolved_modules": {
+      "61": 335
+    },
+    "function_seeds": 800,
+    "entry": "0x81028b5c"
+  },
+  "tables": {
+    "r13": "0x803b52c0",
+    "sda": {
+      "-0x721c": "0x803ae0a4",
+      "-0x7228": "0x803ae098",
+      "-0x7c80": "0x803ad640",
+      "-0x71b8": "0x803ae108"
+    },
+    "texture_list": {
+      "0xfb07c": {
+        "original_words": [
+          "0x0",
+          "0x8f"
+        ],
+        "analysis_words": [
+          "0x810fa9c8",
+          "0x8f"
+        ]
+      },
+      "0xa72e0": {
+        "original_words": [
+          "0x0",
+          "0x1",
+          "0x2",
+          "0x3",
+          "0x4",
+          "0x5",
+          "0x6",
+          "0x7",
+          "0x8",
+          "0x9",
+          "0xa",
+          "0xb",
+          "0xc",
+          "0xd",
+          "0xe",
+          "0xf",
+          "0x10",
+          "0x11"
+        ],
+        "analysis_words": [
+          "0x0",
+          "0x1",
+          "0x2",
+          "0x3",
+          "0x4",
+          "0x5",
+          "0x6",
+          "0x7",
+          "0x8",
+          "0x9",
+          "0xa",
+          "0xb",
+          "0xc",
+          "0xd",
+          "0xe",
+          "0xf",
+          "0x10",
+          "0x11"
+        ]
+      },
+      "0xa7410": {
+        "original_words": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "analysis_words": [
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f338",
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f340",
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f348",
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f350",
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f358",
+          "0x8101f368",
+          "0x8101f368",
+          "0x8101f360"
+        ]
+      }
+    },
+    "original_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "texture_list_references": [
+      {
+        "file_offset": "0x846e",
+        "type": "6",
+        "source": "0x8100846e",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x8472",
+        "type": "4",
+        "source": "0x81008472",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x8a86",
+        "type": "6",
+        "source": "0x81008a86",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x8a8a",
+        "type": "4",
+        "source": "0x81008a8a",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x8c42",
+        "type": "6",
+        "source": "0x81008c42",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x8c46",
+        "type": "4",
+        "source": "0x81008c46",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x8dea",
+        "type": "6",
+        "source": "0x81008dea",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x8dee",
+        "type": "4",
+        "source": "0x81008dee",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x8e3e",
+        "type": "6",
+        "source": "0x81008e3e",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x8e42",
+        "type": "4",
+        "source": "0x81008e42",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x8f16",
+        "type": "6",
+        "source": "0x81008f16",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x8f1a",
+        "type": "4",
+        "source": "0x81008f1a",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x94ee",
+        "type": "6",
+        "source": "0x810094ee",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x94f2",
+        "type": "4",
+        "source": "0x810094f2",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x28896",
+        "type": "6",
+        "source": "0x81028896",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x2889e",
+        "type": "4",
+        "source": "0x8102889e",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x2e67e",
+        "type": "6",
+        "source": "0x8102e67e",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x2e682",
+        "type": "4",
+        "source": "0x8102e682",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x31af6",
+        "type": "6",
+        "source": "0x81031af6",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x31afa",
+        "type": "4",
+        "source": "0x81031afa",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x31b4e",
+        "type": "6",
+        "source": "0x81031b4e",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x31b52",
+        "type": "4",
+        "source": "0x81031b52",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x3b366",
+        "type": "6",
+        "source": "0x8103b366",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x3b36a",
+        "type": "4",
+        "source": "0x8103b36a",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x52752",
+        "type": "6",
+        "source": "0x81052752",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x52756",
+        "type": "4",
+        "source": "0x81052756",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x52786",
+        "type": "6",
+        "source": "0x81052786",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x5278a",
+        "type": "4",
+        "source": "0x8105278a",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x527d2",
+        "type": "6",
+        "source": "0x810527d2",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x527d6",
+        "type": "4",
+        "source": "0x810527d6",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      },
+      {
+        "file_offset": "0x5281e",
+        "type": "6",
+        "source": "0x8105281e",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "8110"
+      },
+      {
+        "file_offset": "0x52822",
+        "type": "4",
+        "source": "0x81052822",
+        "target": "0x810fb07c",
+        "original": "0000",
+        "relocated": "b07c"
+      }
+    ]
+  },
+  "texture_list": {
+    "list_file_offset": "0xfb07c",
+    "list_entries_file_offset": "0xfa9c8",
+    "entry_stride": 12,
+    "count": 143,
+    "first18_names": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "table_sha256": "ad4dbc3a4baae06859810eaab87d9c5bff983e0648bc5cf1cee51239006372c6"
+  },
+  "native_filename_format": {
+    "r2": "0x803b6520",
+    "address": "0x803af540",
+    "dol_file_offset": "0x1dcae0",
+    "string": "%s.PRS"
+  },
+  "constants": [
+    {
+      "file_offset": "0x5fe5c",
+      "size": 4,
+      "bytes": "3f800000",
+      "value": 1.0
+    },
+    {
+      "file_offset": "0x5fe60",
+      "size": 4,
+      "bytes": "00000000",
+      "value": 0.0
+    },
+    {
+      "file_offset": "0x5fe64",
+      "size": 4,
+      "bytes": "358637bd",
+      "value": 9.999999974752427e-07
+    },
+    {
+      "file_offset": "0x5fe68",
+      "size": 4,
+      "bytes": "bf800000",
+      "value": -1.0
+    },
+    {
+      "file_offset": "0x5fe70",
+      "size": 8,
+      "bytes": "4330000000000000",
+      "value": 4503599627370496.0
+    }
+  ],
+  "states": {
+    "real_GVP_files": 39,
+    "real_bank_bytes": 7488,
+    "real_banks_match_oracle": true,
+    "instruction_fixtures": 672,
+    "palette_bytes": 64512,
+    "all_outputs_match_original_instruction_interpreter": true,
+    "outputs_sha256": "65e16eb3ac198f7f577dc63d3a6965f347ad05ae727b39b4e3930bbc891bf782",
+    "TLUT_groups_checked": 2016,
+    "unsupported_types": 250,
+    "unsupported_types_preserve_output": true,
+    "invalid_TLUT_groups": 3,
+    "body_texture_entries": 18,
+    "body_texture_views": 504,
+    "body_mip_views": 504,
+    "body_RGBA_bytes": 2064384,
+    "all_body_pixels_match_pinned_Dolphin": true,
+    "floating_contract": "round-to-nearest ties-even, gradual underflow, invalid FP exceptions disabled; runtime FPSCR remains unverified",
+    "game_run": false,
+    "strict_MSVC_compile": true
+  },
+  "boundaries": {
+    "boundary_fixtures": 1440,
+    "palette_bytes": 138240,
+    "all_outputs_match_original_instruction_interpreter": true,
+    "outputs_sha256": "1838b7bfcfb0ac725b715468a520e9d3144e771dc5770fba1ec8e70da3d7a40c",
+    "TLUT_groups_checked": 4320,
+    "tested": [
+      "signed zero",
+      "signed min/max subnormals",
+      "signed min normals",
+      "values adjacent to +/-1",
+      "large negative C0 and color overflow",
+      "max finite C0",
+      "positive/negative signaling NaN with VE0",
+      "mixed NaN/infinities"
+    ],
+    "floating_contract": "round-to-nearest ties-even, gradual underflow, invalid FP exceptions disabled; runtime FPSCR remains unverified"
+  },
+  "combined": {
+    "fixtures": 2112,
+    "palette_bytes": 202752,
+    "TLUT_groups_checked": 6336
+  },
+  "oracle": {
+    "oracle_version": 1,
+    "stop_file_offset": "0x1fa88",
+    "source_module_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "bank_cases": {
+      "actual": "62be9e609ad17ace84233dded97a32230ac21aea5909116e9acfc9bb82bc364b",
+      "synthetic_zero": "815a644a03ed0297e45c2df07fc6a18026d963c1d422289cbd2c00af626c61dd",
+      "synthetic_max": "946378db2bfb525f4bd212013c4598198931ea0096c7bdd27881a5cae98775bf",
+      "synthetic_gradient": "f28fe291372dce188eb1578a6114b709d3d8e4ed34cf4f4b9cf5e4e498e24910"
+    },
+    "success_count": 672,
+    "unknown_count": 0,
+    "outputs_sha256": "65e16eb3ac198f7f577dc63d3a6965f347ad05ae727b39b4e3930bbc891bf782",
+    "output_bytes": 64512,
+    "raw_words": 517,
+    "ghidra_instruction_addresses": 513,
+    "omitted_raw_offsets": [
+      "0x1f5f4",
+      "0x1f71c",
+      "0x1f7c8",
+      "0x1fa3c"
+    ],
+    "omitted_executed_counts": {
+      "0x1f5f4": 0,
+      "0x1f71c": 0,
+      "0x1f7c8": 0,
+      "0x1fa3c": 0
+    },
+    "executed_distinct_instructions": 474,
+    "seconds": 13.126363515853882,
+    "fmaf_library": "ucrtbase.dll",
+    "fused_sanity_result": -1.4210854715202004e-14
+  },
+  "oracle_audit": {
+    "fixture_outputs_reproduced": 672,
+    "executed_steps": 8048076,
+    "source_cache_mutation_cases": 0,
+    "distinct_finite_fma_operand_triplets_exact_checked": 34163,
+    "nonfinite_fma_calls": 42240,
+    "fma_exact_mismatches": 0,
+    "zero_sign_ignored_only_when_exact_result_zero": true,
+    "gap_count": 4,
+    "source_module_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "outputs_sha256": "65e16eb3ac198f7f577dc63d3a6965f347ad05ae727b39b4e3930bbc891bf782"
+  },
+  "oracle_supplement": {
+    "supplement_version": 1,
+    "source_module_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "state_vectors": 60,
+    "success_count": 1440,
+    "unknown_count": 0,
+    "output_bytes": 138240,
+    "outputs_sha256": "1838b7bfcfb0ac725b715468a520e9d3144e771dc5770fba1ec8e70da3d7a40c",
+    "steps": 17268096,
+    "seconds": 43.77665877342224,
+    "original_fixtures_reproduced": 672,
+    "fma_result_class_counts": {
+      "all_finite_operands": 1530259,
+      "nonfinite_operands_nan_result": 175683,
+      "nonfinite_operands_neginf_result": 5162
+    },
+    "distinct_finite_fma_triplets_exact_checked": 62355,
+    "fma_exact_or_class_mismatches": 0,
+    "omitted_word_incoming_direct_branches": [],
+    "omitted_word_incoming_relocated_refs": [],
+    "host_subnormal_fmaf_checks": {
+      "min_normal_times_half_bits": "00400000",
+      "min_subnormal_times_one_bits": "00000001"
+    },
+    "semantic_sources": [
+      {
+        "file": "Interpreter_FloatingPoint.cpp",
+        "sha256": "413687af3756bde737061cec51f3ac24c217346eba58ef4da9b1cdd44972b423",
+        "commit": "e6f3ae17627e4344da95b13424af5baf4c892b08",
+        "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_FloatingPoint.cpp"
+      },
+      {
+        "file": "Interpreter_FPUtils.h",
+        "sha256": "a0ad865fc78191a3052ea8d8fd182192833ae242862c7ab1dad904982dc1bee1",
+        "commit": "e6f3ae17627e4344da95b13424af5baf4c892b08",
+        "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_FPUtils.h"
+      }
+    ]
+  },
+  "build": {
+    "status": "passed",
+    "strict_MSVC_W4_WX_O2": true,
+    "full_engine": true,
+    "executable_link": true,
+    "asset_copies": true,
+    "platform": "Windows x64",
+    "compiler": "MSVC 19.51.36260",
+    "generator": "Ninja",
+    "configuration": "Debug",
+    "EDITOR": "ON (repository setting)",
+    "settings": {
+      "CMAKE_BUILD_TYPE": "Debug",
+      "CMAKE_CXX_COMPILER": "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe",
+      "CMAKE_MSVC_DEBUG_INFORMATION_FORMAT": "Embedded",
+      "EDITOR": "ON",
+      "CMAKE_GENERATOR": "Ninja"
+    },
+    "debug_information": "Embedded; invocation-only existing workaround for local default-PDB C1902",
+    "repository_build_settings_changed": false,
+    "game_run": false,
+    "unverified": [
+      "Linux",
+      "EDITOR OFF",
+      "default PDB mode",
+      "running game/live Chao frame"
+    ],
+    "log_sha256": "6af625a30ba44b1f9db29224ada58686c12121e92afa349a522f2c84ab7d89f3"
+  },
+  "engine_files": [
+    "src/Importers/SA2/ChaoPalette.h",
+    "src/Importers/SA2/ChaoPalette.cpp"
+  ],
+  "unknowns": [
+    "retail FPSCR rounding/NI/VE and exception state",
+    "type and A8/AC/B0/C0 gameplay names",
+    "slot byte allocation/reuse and TLUT region callback policy",
+    "actual runtime module/BSS bases and 335 motion data imports",
+    "three GVP header meanings",
+    "full Chao models/animations/draw state/runtime wiring"
+  ],
+  "proprietary_binaries_copied_to_repo": false,
+  "leaked_original_source_encountered": false,
+  "prior_pixel_reference_manifest": {
+    "commit": "e6f3ae17627e4344da95b13424af5baf4c892b08",
+    "files": [
+      {
+        "file": "TextureDecoder_Generic.cpp",
+        "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/TextureDecoder_Generic.cpp",
+        "sha256": "8f4630151f3c28f0408a1ce0351080fec50bd85f3b0503f08580a636650dac92"
+      },
+      {
+        "file": "TextureDecoder_Util.h",
+        "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/TextureDecoder_Util.h",
+        "sha256": "49f30c4eaa4a2b59788dee9d1847b02b378e1a0dd5845ad918bb5bea1ada24a9"
+      },
+      {
+        "file": "LookUpTables.h",
+        "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/LookUpTables.h",
+        "sha256": "b5167b2c5202a8641e5bbb10e232f5d0d3ef177e395d4c84f6e29aaef3cc26ea"
+      },
+      {
+        "file": "TextureDecoder.h",
+        "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/TextureDecoder.h",
+        "sha256": "41b61799b252ffb7a0e63f1f56ccd232e88d0bb01e90c8859421259a7337a7f1"
+      }
+    ]
+  },
+  "new_primary_references": [
+    {
+      "file": "Interpreter_FloatingPoint.cpp",
+      "sha256": "413687af3756bde737061cec51f3ac24c217346eba58ef4da9b1cdd44972b423",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_FloatingPoint.cpp"
+    },
+    {
+      "file": "Interpreter_FPUtils.h",
+      "sha256": "a0ad865fc78191a3052ea8d8fd182192833ae242862c7ab1dad904982dc1bee1",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/Core/PowerPC/Interpreter/Interpreter_FPUtils.h"
+    },
+    {
+      "file": "BPMemory.h",
+      "sha256": "1ee6ef94bd1f6570cfa72a7d2f9c80b4d15dced595aa997f031860463803b501",
+      "url": "https://raw.githubusercontent.com/dolphin-emu/dolphin/e6f3ae17627e4344da95b13424af5baf4c892b08/Source/Core/VideoCommon/BPMemory.h"
+    }
+  ],
+  "raw_evidence_files": {
+    "sa2-chao-live-body-validation.csv": "3bb23e6994840bf3f8a2684b34ee3d753680ebc9e5b0d0f011dd5d160a79b74c",
+    "sa2-chao-live-cache-references.csv": "05f54784ef96882f33cea133e0e8c79e493c510d0c92bc865c0e50711535fef9",
+    "sa2-chao-live-callers.csv": "a64479a1dd1a35801c20449a5eeda339cfab67df7c44988b600773e12af3c2fb",
+    "sa2-chao-live-channel-dispatch.csv": "f2072890d6e2b317e8419f697b0d3dae9cd52b35c1225bb8680c8d9b4e2a141d",
+    "sa2-chao-live-float-order.csv": "74d1639e3d0d942afaaea678ffa30e8970be5a6018f0d851ef19b76a02e0a333",
+    "sa2-chao-live-native-addresses.csv": "1d8ed2dc81cf94ec018cb38ff80cedee70f072691c6a776094587bbf33f40277",
+    "sa2-chao-live-texture-list.csv": "87a624a13d1ba8fdcc75f7766aa7beda21b4ad74fef6e719042bdadef307c2cb",
+    "sa2-chao-live-validation.csv": "8296521ac152d90fd2bbcf8cd4aa7746495a1cdfb072b9e2b6d024ece22cdac6"
+  }
+}

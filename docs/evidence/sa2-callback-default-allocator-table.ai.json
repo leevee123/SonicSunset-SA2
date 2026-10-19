@@ -1,0 +1,36 @@
+{
+  "status": "pass_original_pointer_table_read",
+  "table": "0x801770a0",
+  "entries": [
+    {
+      "table_address": "0x801770a0",
+      "canonical_dol_offset": "0x1740a0",
+      "table_slot": 0,
+      "pointer": "0x8011989c",
+      "pointer_dol_offset": "0x11689c",
+      "role": "size allocation dispatch",
+      "qualification": "initial stored pointer table; runtime table is selected by initializer"
+    },
+    {
+      "table_address": "0x801770a4",
+      "canonical_dol_offset": "0x1740a4",
+      "table_slot": 4,
+      "pointer": "0x801198c4",
+      "pointer_dol_offset": "0x1168c4",
+      "role": "release dispatch",
+      "qualification": "initial stored pointer table; runtime table is selected by initializer"
+    },
+    {
+      "table_address": "0x801770a8",
+      "canonical_dol_offset": "0x1740a8",
+      "table_slot": 8,
+      "pointer": "0x801198ec",
+      "pointer_dol_offset": "0x1168ec",
+      "role": "two-argument allocation dispatch",
+      "qualification": "initial stored pointer table; runtime table is selected by initializer"
+    }
+  ],
+  "original_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "runtime_table_selection": "8011979C writes table pointer via r13-71B8; startup r13 qualification required",
+  "no_project_opened": true
+}

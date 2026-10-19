@@ -1,0 +1,43 @@
+address,dol_file_offset,disc_offset,body_inspected,purpose
+0x8000532c,0x232c,0x20a2c,True,byte-fill wrapper; forwards r4/r5 and returns original destination
+0x8000535c,0x235c,0x20a5c,True,byte-fill implementation; zeroes original BSS when value is zero
+0x80005420,0x2420,0x20b20,True,byte-count memory copy
+0x800709f8,0x6d9f8,0x8c0f8,False,called; body not inspected in this continuation
+0x80071ae0,0x6eae0,0x8d1e0,False,called; body not inspected in this continuation
+0x800e34cc,0xe04cc,0xfebcc,True,synchronization and permanent loop
+0x800e4554,0xe1554,0xffc54,False,called; body not inspected in this continuation
+0x800e4650,0xe1650,0xffd50,False,called; body not inspected in this continuation
+0x800e473c,0xe173c,0xffe3c,False,called; body not inspected in this continuation
+0x800e47a8,0xe17a8,0xffea8,False,called; body not inspected in this continuation
+0x800e4e4c,0xe1e4c,0x10054c,False,called; body not inspected in this continuation
+0x800e4f14,0xe1f14,0x100614,False,called; body not inspected in this continuation
+0x800e503c,0xe203c,0x10073c,False,called; body not inspected in this continuation
+0x800e5794,0xe2794,0x100e94,False,called; body not inspected in this continuation
+0x800e5bf0,0xe2bf0,0x1012f0,False,called; body not inspected in this continuation
+0x800e5c70,0xe2c70,0x101370,True,panic reporting and back-chain dump followed by halt helper
+0x800e78ac,0xe48ac,0x102fac,False,called; body not inspected in this continuation
+0x800e8114,0xe5114,0x103814,False,called; body not inspected in this continuation
+0x800e8128,0xe5128,0x103828,True,REL link imports and relocation dispatch
+0x800e839c,0xe539c,0x103a9c,True,REL section/BSS linking and list insertion
+0x800e85ec,0xe55ec,0x103cec,True,REL unlink relocation clearing
+0x8010c2fc,0x1092fc,0x1279fc,False,called; body not inspected in this continuation
+0x80116e78,0x113e78,0x132578,True,memory-state query
+0x80116ec4,0x113ec4,0x1325c4,False,called; body not inspected in this continuation
+0x80116eec,0x113eec,0x1325ec,True,native data copy and cache helper
+0x801176f4,0x1146f4,0x132df4,True,write palette slot at native object +8
+0x801176fc,0x1146fc,0x132dfc,True,current-list texture palette-slot setter
+0x80117734,0x114734,0x132e34,True,write r13-0x721c value
+0x8011773c,0x11473c,0x132e3c,True,GVPL descriptor reader
+0x80117904,0x114904,0x133004,True,native-buffer allocation wrapper
+0x8011795c,0x11495c,0x13305c,True,native-buffer release wrapper
+0x80117e40,0x114e40,0x133540,True,memory-state initialization
+0x801184b0,0x1154b0,0x133bb0,True,shared input-buffer getter
+0x801196ec,0x1166ec,0x134dec,False,called; body not inspected in this continuation
+0x801197d0,0x1167d0,0x134ed0,False,called; body not inspected in this continuation
+0x80119828,0x116828,0x134f28,False,called; body not inspected in this continuation
+0x80119d64,0x116d64,0x135464,False,called; body not inspected in this continuation
+0x80119e6c,0x116e6c,0x13556c,False,called; body not inspected in this continuation
+0x80119ea4,0x116ea4,0x1355a4,False,called; body not inspected in this continuation
+0x80119ef0,0x116ef0,0x1355f0,False,called; body not inspected in this continuation
+0x8011a280,0x117280,0x135980,False,called; body not inspected in this continuation
+0x8011c3c0,0x1193c0,0x137ac0,True,uncompressed file-to-buffer wrapper

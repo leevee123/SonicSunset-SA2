@@ -1,0 +1,206 @@
+function_entry,address,decoded,incoming_r3_definitions,data_effects_supported
+0x80071af0,0x80071af0,"mfspr r0,SPR8","[""incoming_r3""]",True
+0x80071af0,0x80071af4,"stw r0,4(r1)","[""incoming_r3""]",True
+0x80071af0,0x80071af8,"stwu r1,-32(r1)","[""incoming_r3""]",True
+0x80071af0,0x80071afc,"stw r31,28(r1)","[""incoming_r3""]",True
+0x80071af0,0x80071b00,"stw r30,24(r1)","[""incoming_r3""]",True
+0x80071af0,0x80071b04,"or r30,r3,r3","[""incoming_r3""]",True
+0x80071af0,0x80071b08,"stw r29,20(r1)","[""incoming_r3""]",True
+0x80071af0,0x80071b0c,"lwz r0,24(r3)","[""incoming_r3""]",True
+0x80071af0,0x80071b10,"stw r0,-30840(r13)","[""incoming_r3""]",True
+0x80071af0,0x80071b14,"lwz r12,24(r3)","[""incoming_r3""]",True
+0x80071af0,0x80071b18,"cmplwi r12,0","[""incoming_r3""]",True
+0x80071af0,0x80071b1c,"bc BO12,BI2,80071b2c","[""incoming_r3""]",True
+0x80071af0,0x80071b20,"mtspr r12,SPR8","[""incoming_r3""]",True
+0x80071af0,0x80071b24,"addi r3,r30,0","[""incoming_r3""]",True
+0x80071af0,0x80071b28,"bclr BO20,BI0,LK1","[""0x80071b24""]",True
+0x80071af0,0x80071b2c,"addi r0,zero,0","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b30,"stw r0,16(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b34,"stw r0,20(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b38,"stw r0,24(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b3c,"stw r0,28(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b40,"stw r0,32(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b44,"stw r0,36(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b48,"stw r0,40(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b4c,"stw r0,44(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b50,"lwz r5,12(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b54,"lwz r31,0(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b58,"cmplwi r5,0","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b5c,"lwz r29,4(r30)","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b60,"bc BO12,BI2,80071ba4","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b64,"addis r3,zero,-32761","[""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071b68,"lwz r4,16(r30)","[""0x80071b64""]",True
+0x80071af0,0x80071b6c,"addi r0,r3,2444","[""0x80071b64""]",True
+0x80071af0,0x80071b70,"cmplw r4,r0","[""0x80071b64""]",True
+0x80071af0,0x80071b74,"bc BO4,BI2,80071b98","[""0x80071b64""]",True
+0x80071af0,0x80071b78,"cmplwi r5,0","[""0x80071b64""]",True
+0x80071af0,0x80071b7c,"bc BO4,BI2,80071ba4","[""0x80071b64""]",True
+0x80071af0,0x80071b80,"addis r3,zero,-32761","[""0x80071b64""]",True
+0x80071af0,0x80071b84,"addi r0,r3,6896","[""0x80071b80""]",True
+0x80071af0,0x80071b88,"stw r0,16(r30)","[""0x80071b80""]",True
+0x80071af0,0x80071b8c,b 80071ba4,"[""0x80071b80""]",True
+0x80071af0,0x80071b90,b 80071b98,[],True
+0x80071af0,0x80071b94,bl 80071af0,"[""0x80071b98""]",True
+0x80071af0,0x80071b98,"lwz r3,12(r30)","[""0x80071b64"", ""unknown_call_result@0x80071b94""]",True
+0x80071af0,0x80071b9c,"cmplwi r3,0","[""0x80071b98""]",True
+0x80071af0,0x80071ba0,"bc BO4,BI2,80071b94","[""0x80071b98""]",True
+0x80071af0,0x80071ba4,"stw r29,4(r31)","[""0x80071b64"", ""0x80071b80"", ""0x80071b98"", ""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071ba8,"stw r31,0(r29)","[""0x80071b64"", ""0x80071b80"", ""0x80071b98"", ""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071bac,"lwz r3,8(r30)","[""0x80071b64"", ""0x80071b80"", ""0x80071b98"", ""incoming_r3"", ""unknown_call_result@0x80071b28""]",True
+0x80071af0,0x80071bb0,"cmplwi r3,0","[""0x80071bac""]",True
+0x80071af0,0x80071bb4,"bc BO12,BI2,80071be0","[""0x80071bac""]",True
+0x80071af0,0x80071bb8,"lwz r0,12(r3)","[""0x80071bac""]",True
+0x80071af0,0x80071bbc,"cmplw r0,r30","[""0x80071bac""]",True
+0x80071af0,0x80071bc0,"bc BO4,BI2,80071c30","[""0x80071bac""]",True
+0x80071af0,0x80071bc4,"cmplw r31,r30","[""0x80071bac""]",True
+0x80071af0,0x80071bc8,"bc BO4,BI2,80071bd8","[""0x80071bac""]",True
+0x80071af0,0x80071bcc,"addi r0,zero,0","[""0x80071bac""]",True
+0x80071af0,0x80071bd0,"stw r0,12(r3)","[""0x80071bac""]",True
+0x80071af0,0x80071bd4,b 80071c30,"[""0x80071bac""]",True
+0x80071af0,0x80071bd8,"stw r31,12(r3)","[""0x80071bac""]",True
+0x80071af0,0x80071bdc,b 80071c30,"[""0x80071bac""]",True
+0x80071af0,0x80071be0,"cmplw r30,r31","[""0x80071bac""]",True
+0x80071af0,0x80071be4,"bc BO4,BI2,80071bec","[""0x80071bac""]",True
+0x80071af0,0x80071be8,"addi r31,zero,0","[""0x80071bac""]",True
+0x80071af0,0x80071bec,"addi r0,zero,8","[""0x80071bac""]",True
+0x80071af0,0x80071bf0,"addis r3,zero,-32736","[""0x80071bac""]",True
+0x80071af0,0x80071bf4,"mtspr r0,SPR9","[""0x80071bf0""]",True
+0x80071af0,0x80071bf8,"addi r3,r3,-12616","[""0x80071bf0""]",True
+0x80071af0,0x80071bfc,"addi r4,zero,0","[""0x80071bf8""]",True
+0x80071af0,0x80071c00,"lwz r0,0(r3)","[""0x80071bf8"", ""0x80071c24""]",True
+0x80071af0,0x80071c04,"cmplw r30,r0","[""0x80071bf8"", ""0x80071c24""]",True
+0x80071af0,0x80071c08,"bc BO4,BI2,80071c24","[""0x80071bf8"", ""0x80071c24""]",True
+0x80071af0,0x80071c0c,"addis r3,zero,-32736","[""0x80071bf8"", ""0x80071c24""]",True
+0x80071af0,0x80071c10,"rlwinm r4,r4,2,0,29","[""0x80071c0c""]",True
+0x80071af0,0x80071c14,"addi r0,r3,-12616","[""0x80071c0c""]",True
+0x80071af0,0x80071c18,"add r3,r0,r4","[""0x80071c0c""]",True
+0x80071af0,0x80071c1c,"stw r31,0(r3)","[""0x80071c18""]",True
+0x80071af0,0x80071c20,b 80071c30,"[""0x80071c18""]",True
+0x80071af0,0x80071c24,"addi r3,r3,4","[""0x80071bf8"", ""0x80071c24""]",True
+0x80071af0,0x80071c28,"addi r4,r4,1","[""0x80071c24""]",True
+0x80071af0,0x80071c2c,"bc BO16,BI0,80071c00","[""0x80071c24""]",True
+0x80071af0,0x80071c30,"lwz r3,52(r30)","[""0x80071bac"", ""0x80071c18"", ""0x80071c24""]",True
+0x80071af0,0x80071c34,"cmplwi r3,0","[""0x80071c30""]",True
+0x80071af0,0x80071c38,"bc BO12,BI2,80071c60","[""0x80071c30""]",True
+0x80071af0,0x80071c3c,"lwz r0,44(r3)","[""0x80071c30""]",True
+0x80071af0,0x80071c40,"cmplwi r0,0","[""0x80071c30""]",True
+0x80071af0,0x80071c44,"bc BO12,BI2,80071c50","[""0x80071c30""]",True
+0x80071af0,0x80071c48,"or r3,r30,r30","[""0x80071c30""]",True
+0x80071af0,0x80071c4c,bl 800067f8,"[""0x80071c48""]",True
+0x80071af0,0x80071c50,"lwz r3,52(r30)","[""0x80071c30"", ""unknown_call_result@0x80071c4c""]",True
+0x80071af0,0x80071c54,bl 80119828,"[""0x80071c50""]",True
+0x80071af0,0x80071c58,"addi r0,zero,0","[""unknown_call_result@0x80071c54""]",True
+0x80071af0,0x80071c5c,"stw r0,52(r30)","[""unknown_call_result@0x80071c54""]",True
+0x80071af0,0x80071c60,"lwz r3,60(r30)","[""0x80071c30"", ""unknown_call_result@0x80071c54""]",True
+0x80071af0,0x80071c64,"cmplwi r3,0","[""0x80071c60""]",True
+0x80071af0,0x80071c68,"bc BO12,BI2,80071c78","[""0x80071c60""]",True
+0x80071af0,0x80071c6c,bl 80119828,"[""0x80071c60""]",True
+0x80071af0,0x80071c70,"addi r0,zero,0","[""unknown_call_result@0x80071c6c""]",True
+0x80071af0,0x80071c74,"stw r0,60(r30)","[""unknown_call_result@0x80071c6c""]",True
+0x80071af0,0x80071c78,"lwz r3,56(r30)","[""0x80071c60"", ""unknown_call_result@0x80071c6c""]",True
+0x80071af0,0x80071c7c,"cmplwi r3,0","[""0x80071c78""]",True
+0x80071af0,0x80071c80,"bc BO12,BI2,80071c90","[""0x80071c78""]",True
+0x80071af0,0x80071c84,bl 80119828,"[""0x80071c78""]",True
+0x80071af0,0x80071c88,"addi r0,zero,0","[""unknown_call_result@0x80071c84""]",True
+0x80071af0,0x80071c8c,"stw r0,56(r30)","[""unknown_call_result@0x80071c84""]",True
+0x80071af0,0x80071c90,"lwz r3,64(r30)","[""0x80071c78"", ""unknown_call_result@0x80071c84""]",True
+0x80071af0,0x80071c94,"cmplwi r3,0","[""0x80071c90""]",True
+0x80071af0,0x80071c98,"bc BO12,BI2,80071ca8","[""0x80071c90""]",True
+0x80071af0,0x80071c9c,bl 80119828,"[""0x80071c90""]",True
+0x80071af0,0x80071ca0,"addi r0,zero,0","[""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071ca4,"stw r0,64(r30)","[""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071ca8,"lwz r4,48(r30)","[""0x80071c90"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071cac,"cmplwi r4,0","[""0x80071c90"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071cb0,"bc BO12,BI2,80071cc8","[""0x80071c90"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071cb4,"lha r3,2(r4)","[""0x80071c90"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071cb8,"addi r0,zero,0","[""0x80071cb4""]",True
+0x80071af0,0x80071cbc,"rlwinm r3,r3,0,0,30","[""0x80071cb4""]",True
+0x80071af0,0x80071cc0,"sth r3,2(r4)","[""0x80071cbc""]",True
+0x80071af0,0x80071cc4,"stw r0,48(r30)","[""0x80071cbc""]",True
+0x80071af0,0x80071cc8,"addi r31,zero,0","[""0x80071c90"", ""0x80071cbc"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071ccc,"stw r31,12(r30)","[""0x80071c90"", ""0x80071cbc"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071cd0,"or r3,r30,r30","[""0x80071c90"", ""0x80071cbc"", ""unknown_call_result@0x80071c9c""]",True
+0x80071af0,0x80071cd4,"stw r31,8(r30)","[""0x80071cd0""]",True
+0x80071af0,0x80071cd8,"stw r31,4(r30)","[""0x80071cd0""]",True
+0x80071af0,0x80071cdc,"stw r31,0(r30)","[""0x80071cd0""]",True
+0x80071af0,0x80071ce0,bl 80119828,"[""0x80071cd0""]",True
+0x80071af0,0x80071ce4,"stw r31,-30840(r13)","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071ce8,"lwz r0,36(r1)","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071cec,"lwz r31,28(r1)","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071cf0,"lwz r30,24(r1)","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071cf4,"lwz r29,20(r1)","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071cf8,"addi r1,r1,32","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071cfc,"mtspr r0,SPR8","[""unknown_call_result@0x80071ce0""]",True
+0x80071af0,0x80071d00,"bclr BO20,BI0,LK0","[""unknown_call_result@0x80071ce0""]",True
+0x8007098c,0x8007098c,"mfspr r0,SPR8","[""incoming_r3""]",True
+0x8007098c,0x80070990,"stw r0,4(r1)","[""incoming_r3""]",True
+0x8007098c,0x80070994,"stwu r1,-24(r1)","[""incoming_r3""]",True
+0x8007098c,0x80070998,"stw r31,20(r1)","[""incoming_r3""]",True
+0x8007098c,0x8007099c,"addi r31,r3,0","[""incoming_r3""]",True
+0x8007098c,0x800709a0,"addis r3,zero,-32761","[""incoming_r3""]",True
+0x8007098c,0x800709a4,"lwz r4,16(r31)","[""0x800709a0""]",True
+0x8007098c,0x800709a8,"addi r0,r3,2444","[""0x800709a0""]",True
+0x8007098c,0x800709ac,"cmplw r4,r0","[""0x800709a0""]",True
+0x8007098c,0x800709b0,"bc BO4,BI2,800709d8","[""0x800709a0""]",True
+0x8007098c,0x800709b4,"lwz r0,12(r31)","[""0x800709a0""]",True
+0x8007098c,0x800709b8,"cmplwi r0,0","[""0x800709a0""]",True
+0x8007098c,0x800709bc,"bc BO4,BI2,800709e4","[""0x800709a0""]",True
+0x8007098c,0x800709c0,"addis r3,zero,-32761","[""0x800709a0""]",True
+0x8007098c,0x800709c4,"addi r0,r3,6896","[""0x800709c0""]",True
+0x8007098c,0x800709c8,"stw r0,16(r31)","[""0x800709c0""]",True
+0x8007098c,0x800709cc,b 800709e4,"[""0x800709c0""]",True
+0x8007098c,0x800709d0,b 800709d8,[],True
+0x8007098c,0x800709d4,bl 80071af0,"[""0x800709d8""]",True
+0x8007098c,0x800709d8,"lwz r3,12(r31)","[""0x800709a0"", ""unknown_call_result@0x800709d4""]",True
+0x8007098c,0x800709dc,"cmplwi r3,0","[""0x800709d8""]",True
+0x8007098c,0x800709e0,"bc BO4,BI2,800709d4","[""0x800709d8""]",True
+0x8007098c,0x800709e4,"lwz r0,28(r1)","[""0x800709a0"", ""0x800709c0"", ""0x800709d8""]",True
+0x8007098c,0x800709e8,"lwz r31,20(r1)","[""0x800709a0"", ""0x800709c0"", ""0x800709d8""]",True
+0x8007098c,0x800709ec,"addi r1,r1,24","[""0x800709a0"", ""0x800709c0"", ""0x800709d8""]",True
+0x8007098c,0x800709f0,"mtspr r0,SPR8","[""0x800709a0"", ""0x800709c0"", ""0x800709d8""]",True
+0x8007098c,0x800709f4,"bclr BO20,BI0,LK0","[""0x800709a0"", ""0x800709c0"", ""0x800709d8""]",True
+0x800067f8,0x800067f8,"mfspr r0,SPR8","[""incoming_r3""]",True
+0x800067f8,0x800067fc,"stw r0,4(r1)","[""incoming_r3""]",True
+0x800067f8,0x80006800,"stwu r1,-24(r1)","[""incoming_r3""]",True
+0x800067f8,0x80006804,"stw r31,20(r1)","[""incoming_r3""]",True
+0x800067f8,0x80006808,"stw r30,16(r1)","[""incoming_r3""]",True
+0x800067f8,0x8000680c,"or r30,r3,r3","[""incoming_r3""]",True
+0x800067f8,0x80006810,"bc BO12,BI2,80006868","[""incoming_r3""]",True
+0x800067f8,0x80006814,"lwz r3,52(r30)","[""incoming_r3""]",True
+0x800067f8,0x80006818,"cmplwi r3,0","[""0x80006814""]",True
+0x800067f8,0x8000681c,"bc BO12,BI2,80006868","[""0x80006814""]",True
+0x800067f8,0x80006820,"lwz r0,44(r3)","[""0x80006814""]",True
+0x800067f8,0x80006824,"cmplwi r0,0","[""0x80006814""]",True
+0x800067f8,0x80006828,"or r31,r0,r0","[""0x80006814""]",True
+0x800067f8,0x8000682c,"bc BO12,BI2,80006868","[""0x80006814""]",True
+0x800067f8,0x80006830,"lhz r0,4(r31)","[""0x80006814""]",True
+0x800067f8,0x80006834,"rlwinm r0,r0,0,16,16","[""0x80006814""]",True
+0x800067f8,0x80006838,"bc BO12,BI2,80006854","[""0x80006814""]",True
+0x800067f8,0x8000683c,"lwz r3,12(r31)","[""0x80006814""]",True
+0x800067f8,0x80006840,"cmplwi r3,0","[""0x8000683c""]",True
+0x800067f8,0x80006844,"bc BO12,BI2,80006854","[""0x8000683c""]",True
+0x800067f8,0x80006848,bl 80119828,"[""0x8000683c""]",True
+0x800067f8,0x8000684c,"addi r0,zero,0","[""unknown_call_result@0x80006848""]",True
+0x800067f8,0x80006850,"stw r0,12(r31)","[""unknown_call_result@0x80006848""]",True
+0x800067f8,0x80006854,"or r3,r31,r31","[""0x80006814"", ""0x8000683c"", ""unknown_call_result@0x80006848""]",True
+0x800067f8,0x80006858,bl 80119828,"[""0x80006854""]",True
+0x800067f8,0x8000685c,"lwz r3,52(r30)","[""unknown_call_result@0x80006858""]",True
+0x800067f8,0x80006860,"addi r0,zero,0","[""0x8000685c""]",True
+0x800067f8,0x80006864,"stw r0,44(r3)","[""0x8000685c""]",True
+0x800067f8,0x80006868,"lwz r0,28(r1)","[""0x80006814"", ""0x8000685c"", ""incoming_r3""]",True
+0x800067f8,0x8000686c,"lwz r31,20(r1)","[""0x80006814"", ""0x8000685c"", ""incoming_r3""]",True
+0x800067f8,0x80006870,"lwz r30,16(r1)","[""0x80006814"", ""0x8000685c"", ""incoming_r3""]",True
+0x800067f8,0x80006874,"addi r1,r1,24","[""0x80006814"", ""0x8000685c"", ""incoming_r3""]",True
+0x800067f8,0x80006878,"mtspr r0,SPR8","[""0x80006814"", ""0x8000685c"", ""incoming_r3""]",True
+0x800067f8,0x8000687c,"bclr BO20,BI0,LK0","[""0x80006814"", ""0x8000685c"", ""incoming_r3""]",True
+0x80119828,0x80119828,"mfspr r0,SPR8","[""incoming_r3""]",True
+0x80119828,0x8011982c,"stw r0,4(r1)","[""incoming_r3""]",True
+0x80119828,0x80119830,"stwu r1,-8(r1)","[""incoming_r3""]",True
+0x80119828,0x80119834,"lwz r4,-29112(r13)","[""incoming_r3""]",True
+0x80119828,0x80119838,"lwz r12,4(r4)","[""incoming_r3""]",True
+0x80119828,0x8011983c,"mtspr r12,SPR8","[""incoming_r3""]",True
+0x80119828,0x80119840,"bclr BO20,BI0,LK1","[""incoming_r3""]",True
+0x80119828,0x80119844,"lwz r0,12(r1)","[""unknown_call_result@0x80119840""]",True
+0x80119828,0x80119848,"addi r1,r1,8","[""unknown_call_result@0x80119840""]",True
+0x80119828,0x8011984c,"mtspr r0,SPR8","[""unknown_call_result@0x80119840""]",True
+0x80119828,0x80119850,"bclr BO20,BI0,LK0","[""unknown_call_result@0x80119840""]",True

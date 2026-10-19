@@ -1,0 +1,294 @@
+{
+  "palettes": 39,
+  "matched_disc_paths": 39,
+  "bank_colors": 48,
+  "bank_bytes": 192,
+  "table_file_offset": "0xa7328",
+  "texture_table_file_offset": "0xa72e0",
+  "switch_table_file_offset": "0xa73c4",
+  "texture_groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14
+    ],
+    [
+      15,
+      16,
+      17
+    ]
+  ],
+  "type_mapping": [
+    {
+      "type_value": 0,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 1,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 2,
+      "group": 0,
+      "label_file_offset": "0x1f1fc",
+      "texture_entries": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "type_value": 3,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 4,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 5,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 6,
+      "group": 1,
+      "label_file_offset": "0x1f204",
+      "texture_entries": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "type_value": 7,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 8,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 9,
+      "group": 2,
+      "label_file_offset": "0x1f20c",
+      "texture_entries": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "type_value": 10,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 11,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 12,
+      "group": 3,
+      "label_file_offset": "0x1f214",
+      "texture_entries": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "type_value": 13,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 14,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 15,
+      "group": 4,
+      "label_file_offset": "0x1f21c",
+      "texture_entries": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "type_value": 16,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 17,
+      "group": null,
+      "label_file_offset": "0x1f22c",
+      "texture_entries": []
+    },
+    {
+      "type_value": 18,
+      "group": 5,
+      "label_file_offset": "0x1f224",
+      "texture_entries": [
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "indexed_texture_count": 18,
+  "all_groups_match_al_body_C4_ordinals": true,
+  "addresses": [
+    {
+      "address": "0x800e8128",
+      "dol_file_offset": "0xe5128",
+      "disc_offset": "0x103828",
+      "purpose": "REL link imports and relocation dispatch"
+    },
+    {
+      "address": "0x800e839c",
+      "dol_file_offset": "0xe539c",
+      "disc_offset": "0x103a9c",
+      "purpose": "REL section/BSS linking and list insertion"
+    },
+    {
+      "address": "0x800e85ec",
+      "dol_file_offset": "0xe55ec",
+      "disc_offset": "0x103cec",
+      "purpose": "REL unlink relocation clearing"
+    },
+    {
+      "address": "0x8011773c",
+      "dol_file_offset": "0x11473c",
+      "disc_offset": "0x132e3c",
+      "purpose": "GVPL descriptor reader"
+    },
+    {
+      "address": "0x801176fc",
+      "dol_file_offset": "0x1146fc",
+      "disc_offset": "0x132dfc",
+      "purpose": "current-list texture palette-slot setter"
+    },
+    {
+      "address": "0x801176f4",
+      "dol_file_offset": "0x1146f4",
+      "disc_offset": "0x132df4",
+      "purpose": "write palette slot at native object +8"
+    },
+    {
+      "address": "0x80117734",
+      "dol_file_offset": "0x114734",
+      "disc_offset": "0x132e34",
+      "purpose": "write r13-0x721c value"
+    },
+    {
+      "address": "0x801184b0",
+      "dol_file_offset": "0x1154b0",
+      "disc_offset": "0x133bb0",
+      "purpose": "shared input-buffer getter"
+    },
+    {
+      "address": "0x8011c3c0",
+      "dol_file_offset": "0x1193c0",
+      "disc_offset": "0x137ac0",
+      "purpose": "uncompressed file-to-buffer wrapper"
+    },
+    {
+      "address": "0x80005420",
+      "dol_file_offset": "0x2420",
+      "disc_offset": "0x20b20",
+      "purpose": "byte-count memory copy"
+    },
+    {
+      "address": "0x80116eec",
+      "dol_file_offset": "0x113eec",
+      "disc_offset": "0x1325ec",
+      "purpose": "native data copy and cache helper"
+    },
+    {
+      "address": "0x80116e78",
+      "dol_file_offset": "0x113e78",
+      "disc_offset": "0x132578",
+      "purpose": "memory-state query"
+    },
+    {
+      "address": "0x80117904",
+      "dol_file_offset": "0x114904",
+      "disc_offset": "0x133004",
+      "purpose": "native-buffer allocation wrapper"
+    },
+    {
+      "address": "0x8011795c",
+      "dol_file_offset": "0x11495c",
+      "disc_offset": "0x13305c",
+      "purpose": "native-buffer release wrapper"
+    },
+    {
+      "address": "0x80117e40",
+      "dol_file_offset": "0x114e40",
+      "disc_offset": "0x133540",
+      "purpose": "memory-state initialization"
+    }
+  ],
+  "extra_unidentified_effect_constants": {
+    "0x5fc40": 480.0,
+    "0x5fc44": 0.0,
+    "0x5fc48": 1.0,
+    "0x5fc4c": 3.0,
+    "0x5fc50": 0.0,
+    "0x5fc54": 0.4000000059604645,
+    "0x5fc58": 0.8500000238418579,
+    "0x5fc5c": 0.10000000149011612,
+    "0x5fc60": 9.999999747378752e-06,
+    "0x5fc64": 0.9990000128746033,
+    "0x5fc68": 1.0010000467300415,
+    "0x5fc6c": 1.25,
+    "0x5fc70": 2.5,
+    "0x5fc74": 0.05999999865889549,
+    "0x5fc78": 0.800000011920929,
+    "0x5fc7c": 0.05000000074505806,
+    "0x5fc80": 0.15000000596046448
+  }
+}

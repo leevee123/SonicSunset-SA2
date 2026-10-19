@@ -1,0 +1,1 @@
+Packaged SA2 data checker passed all 95 module section views and the real Sonic bank with exact entries/node-visit/store hashes. Bundle resources are unchanged; game media is not included. Equivalent bounded commands were checked without starting the interactive console launcher.

@@ -1,0 +1,4 @@
+path,source_module,relocation_offset,type,patch_section,patch_section_offset,patch_file_offset,target_module,target_section,addend
+ChaoMain.prs,60,0x3f6230,10,1,0x1f168,0x1f250,0,2,0x801176fc
+ChaoMain.prs,60,0x3f6280,10,1,0x1fbf4,0x1fcdc,0,2,0x80117734
+ChaoMain.prs,60,0x3f6298,10,1,0x1fc5c,0x1fd44,0,2,0x8011773c

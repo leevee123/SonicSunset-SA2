@@ -1,0 +1,1 @@
+The first word auditor stopped because it required the multiply to use incoming r3/r4 directly. Original code can copy those arguments to saved registers first. V2 traces the incoming value origins instead of assuming register numbers. This was a local auditor assumption failure; no original binary, project, frozen export or engine file was changed.

@@ -1,0 +1,199 @@
+{
+  "raw_REL_modules": 76,
+  "compressed_executable_modules": 19,
+  "total_executable_modules": 95,
+  "palette_filename_strings": 39,
+  "relocation_type_counts": {
+    "202": 453,
+    "10": 356737,
+    "6": 408802,
+    "4": 408802,
+    "203": 214,
+    "1": 488311,
+    "201": 694
+  },
+  "chao": {
+    "path": "ChaoMain.prs",
+    "module_id": 60,
+    "version": 2,
+    "section_count": 20,
+    "executable_sections": 1,
+    "relocations": 33118,
+    "types": {
+      "202": 6,
+      "10": 3439,
+      "6": 5521,
+      "4": 5521,
+      "201": 61,
+      "1": 18567,
+      "203": 3
+    }
+  },
+  "analysis": {
+    "analysis_base": "0x81000000",
+    "analysis_bss": "0x81700000",
+    "runtime_addresses": "unknown; module file offsets are canonical",
+    "original_sha256": "8a92378c024fc18594e197571eda022b6b47acc052f66456fabeb8c0fffd549c",
+    "elf_sha256": "3c248f6d77b4fd7ac0ce74d5a73d7d8ce14956ca761c7cbbba2ed33962c3a38d",
+    "sections": [
+      {
+        "index": 0,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 1,
+        "offset": "0xe8",
+        "size": 366736,
+        "analysis_address": "0x810000e8"
+      },
+      {
+        "index": 2,
+        "offset": "0x59978",
+        "size": 4,
+        "analysis_address": "0x81059978"
+      },
+      {
+        "index": 3,
+        "offset": "0x5997c",
+        "size": 4,
+        "analysis_address": "0x8105997c"
+      },
+      {
+        "index": 4,
+        "offset": "0x59980",
+        "size": 40128,
+        "analysis_address": "0x81059980"
+      },
+      {
+        "index": 5,
+        "offset": "0x63640",
+        "size": 3736088,
+        "analysis_address": "0x81063640"
+      },
+      {
+        "index": 6,
+        "offset": "0x0",
+        "size": 330960,
+        "analysis_address": "0x81700000"
+      },
+      {
+        "index": 7,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 8,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 9,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 10,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 11,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 12,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 13,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 14,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 15,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 16,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 17,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 18,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      },
+      {
+        "index": 19,
+        "offset": "0x0",
+        "size": 0,
+        "analysis_address": "0x0"
+      }
+    ],
+    "patched": 32713,
+    "unresolved": 335,
+    "unresolved_modules": {
+      "61": 335
+    },
+    "function_seeds": 800,
+    "entry": "0x81028b5c"
+  },
+  "validation": {
+    "real_palettes": 49,
+    "real_mode_counts": {
+      "1": 49
+    },
+    "real_converted_colors": 2352,
+    "initializer_table_files": 39,
+    "initializer_all_files_validated": true,
+    "exhaustive": {
+      "0": {
+        "words": 65536,
+        "bgra_sha256": "46b1f033ec3cef0af12d23ccb195060e4993eaf6777fdb7a1882b74b729cf29b"
+      },
+      "1": {
+        "words": 65536,
+        "bgra_sha256": "5d6e3ad601e439bd7531d8793818d6593a3b1ef72e4235c8e1a7c97e84a4d420"
+      },
+      "2": {
+        "words": 65536,
+        "bgra_sha256": "a9953a1df9a014a0debe7febd229975927687bc50baf1ed74b0aae8d35662a7d"
+      }
+    },
+    "valid_boundary_cases": 8,
+    "malformed_cases": 13,
+    "failures_preserve_bank": true,
+    "mode6_bytes_updated": 48,
+    "mode6_bytes_retained": 144,
+    "protocol_requests": 4168,
+    "all_BGRA_and_RGBA_bytes_match": true
+  },
+  "native_palette_imports": 3
+}

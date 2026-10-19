@@ -1,0 +1,9 @@
+{
+  "script": "inspect_callback_allocator_words_v1.py",
+  "status": "failed_local_auditor_assumption",
+  "assertion": "multiply source register IDs directly equal incoming r3/r4",
+  "meaning": "incoming values may first be copied to saved registers; direct register-number matching was too restrictive",
+  "next_version": "inspect_callback_allocator_words_v2.py traces copy origins before the multiply",
+  "original_binary_mutated": false,
+  "project_opened": false
+}
