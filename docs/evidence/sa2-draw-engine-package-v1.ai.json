@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "package": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Drawing-Data-Check",
+  "launcher": "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\outputs\\SA2-Drawing-Data-Check\\Start-SA2-Drawing-Data-Check.cmd",
+  "package_files_sha256": {
+    "check_draw_data.py": "61f0b0c2ef648f7fc57fae12b231b861b73a02e4055b5aa99a225c0a159b9622",
+    "draw_data_check.exe": "db34e10785b0b29b75661f2d32b607c31763da55a0c232cb2c9075948caa7671",
+    "Last-result.ai.json": "d6a278aa6857ea240f78bd5d6ea5719b23844f98b16453611e04efbc50798eb8",
+    "Last-result.md": "b578ea808fa90c75a868751d2ed1c75688c913b53ad99b17114175dcd15488a9",
+    "Package-check.raw.log": "621c28222e2b4cc66ab6bae7c097877b3ed48bdc64d99d94b2ae62411412533b",
+    "README.ai.json": "47af3004a305c4a291356b989564ed866a3231a59fb9908058c97635832ad126",
+    "README.md": "b0bd419f35bba2259e657e09f00923897803ac7484b22306f671346453cd65c3",
+    "Reference.ai.json": "e26380765cc8fb289dbc7d11b0e500749df6a1457fd5c6afd34e2f1b2eba62c6",
+    "Start-SA2-Drawing-Data-Check.cmd": "7fc95973bfe4ce001e090a7e6974047677aa0e6083fb926b8f1da3bb89a8c80f"
+  },
+  "result": {
+    "status": "PASS",
+    "scope": "Original Sonic drawing-data reader and explicit caller-cache trace; not a playable game or a test of native cache bindings.",
+    "local_streams": 79,
+    "commands": 289,
+    "raw_command_bytes": 42042,
+    "explicit_cache_scenarios": 128,
+    "ordered_trace_steps": 814,
+    "engine_boundary_checks": "draw_preservation_cases=13 rejection_cases=19 passed",
+    "original_disc_modified": false,
+    "retail_bindings_or_draw_order_inferred": false
+  },
+  "run": "once/package-v1",
+  "game_media_included": false
+}

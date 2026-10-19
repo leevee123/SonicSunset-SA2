@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "local_streams": 79,
+  "commands": 289,
+  "raw_command_bytes": 42042,
+  "return_kinds": {
+    "exact_00ff_return": 64,
+    "cache_define_following_pointer_and_return": 15
+  },
+  "control_trace_cases": 128,
+  "control_trace_steps": 814,
+  "preservation_cases": 13,
+  "rejection_cases": 19,
+  "all_metadata_raw_bytes_and_control_steps_match_independent_original_derived_reference": true,
+  "source_sha256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\draw-stage\\prepared\\src\\Importers\\SA2\\ModelDrawData.h": "f491c722320e679db912bd3081dc09b5c5ae73e6b5dbc6f789ac830b0639d2fb",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\draw-stage\\prepared\\src\\Importers\\SA2\\ModelDrawData.cpp": "c9010e0c9c907e4b00e12a949417e06999a50a904cb97936061885299a2bd160",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\draw_data_check.cpp": "a9f84838b9c30b507f218f08d4c2c01f25d7d0a96443a7b3e1ce47d983069246",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\build_draw_data.cmd": "ad0bb6846a5d1fa1ed94cac4773496ac39b570abd25ec21b8389a5846baab961",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-draw-data-v1\\commands.csv": "6ae62105aafe56cbed3fc075e349a4c9283be3eabd06da9acc48e3c53f8028ae",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-draw-data-v1\\local-invocation-spans.csv": "94ff87b6adaaf0a18a53cb147973e87256b1cbeafeae1764b2d9fa8575156e65",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\sa2-draw-data-v1\\control-traces.ai.json": "74639a82bddd3ae291fd8671f3438157a03d9a69fda85f398cfa245188f1d708"
+  },
+  "strict_compile": "MSVC/std:c++latest/W4/WX/O2 PASS",
+  "limits": [
+    "No graphics/state-handler execution, primitive/attribute/material interpretation or vertex transforms.",
+    "Initial cache entries are explicit caller offsets; candidate pair tests are not observed native bindings or execution order.",
+    "Same-buffer offsets, positive size movement, bounds and caller command/depth limits are host policies.",
+    "Signed geometry info remains raw, without replacing the original sign-extended group expression by high2."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "selected_window_rows": 178,
+  "sample_indices": [
+    {
+      "index": 0,
+      "definition_stops": 8,
+      "reference_stops": 8,
+      "definition_payloads": "0xbb18|0x2958|0x11dd8|0x17e68|0x15748|0x12aec|0x1b5d4|0x185f0",
+      "reference_payloads": "0xc6d4|0xb0a8|0x1e40|0x15958|0x152f8|0x126a8|0x1933c|0x182a8"
+    },
+    {
+      "index": 1,
+      "definition_stops": 7,
+      "reference_stops": 7,
+      "definition_payloads": "0xfeb8|0xe5bc|0x17544|0x1676c|0x1aecc|0x1a5d8|0x19ad8",
+      "reference_payloads": "0xf144|0xd880|0x16cf0|0x15f18|0x1a9cc|0x1a0c8|0x1978c"
+    }
+  ],
+  "limitation": "Bounded initial-stream inventory only; no file-offset, payload-list, or runtime ordering assumption."
+}

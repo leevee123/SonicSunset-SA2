@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "text_words_scanned": 376848,
+  "explicit_reference_rows": 6,
+  "counter_displacement_rows": 4,
+  "table_low_half_candidates": 2,
+  "direct_interpreter_branch_rows": 2,
+  "aligned_literal_rows": 0,
+  "bounded_original_words": 700,
+  "retained_ASM_rows_compared": 915,
+  "functions": [
+    {
+      "entry": "0x8011ccf8",
+      "dol_file_offset": "0x119cf8",
+      "iso_file_offset": "0x1383f8",
+      "selected_ranges": [
+        {
+          "start": "0x8011ccf8",
+          "end_exclusive": "0x8011d1ac"
+        }
+      ],
+      "original_words": 301,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011d2f4",
+      "dol_file_offset": "0x11a2f4",
+      "iso_file_offset": "0x1389f4",
+      "selected_ranges": [
+        {
+          "start": "0x8011d2f4",
+          "end_exclusive": "0x8011d410"
+        }
+      ],
+      "original_words": 71,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011d410",
+      "dol_file_offset": "0x11a410",
+      "iso_file_offset": "0x138b10",
+      "selected_ranges": [
+        {
+          "start": "0x8011d410",
+          "end_exclusive": "0x8011d414"
+        }
+      ],
+      "original_words": 1,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011d414",
+      "dol_file_offset": "0x11a414",
+      "iso_file_offset": "0x138b14",
+      "selected_ranges": [
+        {
+          "start": "0x8011d414",
+          "end_exclusive": "0x8011d484"
+        }
+      ],
+      "original_words": 28,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011d484",
+      "dol_file_offset": "0x11a484",
+      "iso_file_offset": "0x138b84",
+      "selected_ranges": [
+        {
+          "start": "0x8011d484",
+          "end_exclusive": "0x8011d4ec"
+        }
+      ],
+      "original_words": 26,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011d4ec",
+      "dol_file_offset": "0x11a4ec",
+      "iso_file_offset": "0x138bec",
+      "selected_ranges": [
+        {
+          "start": "0x8011d4ec",
+          "end_exclusive": "0x8011d554"
+        }
+      ],
+      "original_words": 26,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011d554",
+      "dol_file_offset": "0x11a554",
+      "iso_file_offset": "0x138c54",
+      "selected_ranges": [
+        {
+          "start": "0x8011d554",
+          "end_exclusive": "0x8011d594"
+        }
+      ],
+      "original_words": 16,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x80120584",
+      "dol_file_offset": "0x11d584",
+      "iso_file_offset": "0x13bc84",
+      "selected_ranges": [
+        {
+          "start": "0x80120584",
+          "end_exclusive": "0x801205e4"
+        }
+      ],
+      "original_words": 24,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x80121764",
+      "dol_file_offset": "0x11e764",
+      "iso_file_offset": "0x13ce64",
+      "selected_ranges": [
+        {
+          "start": "0x80121764",
+          "end_exclusive": "0x801217b0"
+        }
+      ],
+      "original_words": 19,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x801217b0",
+      "dol_file_offset": "0x11e7b0",
+      "iso_file_offset": "0x13ceb0",
+      "selected_ranges": [
+        {
+          "start": "0x801217b0",
+          "end_exclusive": "0x80121850"
+        }
+      ],
+      "original_words": 40,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8011867c",
+      "dol_file_offset": "0x11567c",
+      "iso_file_offset": "0x133d7c",
+      "selected_ranges": [
+        {
+          "start": "0x8011867c",
+          "end_exclusive": "0x80118810"
+        }
+      ],
+      "original_words": 101,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x801199b0",
+      "dol_file_offset": "0x1169b0",
+      "iso_file_offset": "0x1350b0",
+      "selected_ranges": [
+        {
+          "start": "0x801199b0",
+          "end_exclusive": "0x80119a04"
+        }
+      ],
+      "original_words": 21,
+      "range_rule": "identical exported primary and SDA body ranges"
+    },
+    {
+      "entry": "0x8010afb0",
+      "dol_file_offset": "0x107fb0",
+      "iso_file_offset": "0x1266b0",
+      "selected_ranges": [
+        {
+          "start": "0x8010afb0",
+          "end_exclusive": "0x8010afe4"
+        }
+      ],
+      "original_words": 13,
+      "range_rule": "audited GPR20..31 save/restore through return"
+    },
+    {
+      "entry": "0x8010affc",
+      "dol_file_offset": "0x107ffc",
+      "iso_file_offset": "0x1266fc",
+      "selected_ranges": [
+        {
+          "start": "0x8010affc",
+          "end_exclusive": "0x8010b030"
+        }
+      ],
+      "original_words": 13,
+      "range_rule": "audited GPR20..31 save/restore through return"
+    }
+  ],
+  "mapping": {
+    "DOL_header_segment_count": 8,
+    "BSS_start": "0x801de600",
+    "BSS_size": 1900309,
+    "BSS_end_exclusive": "0x803ae515",
+    "runtime_zeroing_claimed": false
+  },
+  "limitations": [
+    "Only original main-DOL executable sections are scanned for explicit forms.",
+    "Indirect/aliased accesses and REL-module writes are outside this bounded search.",
+    "Matching SDA displacement has an absolute address only under startup r13=0x803B52C0.",
+    "Index domain is not native allocation size; unrelated named data exists within its addressable span.",
+    "No FP, paired-single, GPU or cache-counter semantic equivalence is claimed."
+  ]
+}

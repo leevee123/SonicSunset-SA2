@@ -1,0 +1,1 @@
+Full Windows x64 MSVC/Ninja Debug EDITOR ON integration build exit 0; drawing unit compiled True; executable linked True; compiler errors 0. Existing invocation-only Embedded debug setting used. No original GPU or gameplay execution claimed.

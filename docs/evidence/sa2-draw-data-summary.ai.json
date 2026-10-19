@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "result": "passed",
+  "decoded_bytes": 136360,
+  "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+  "source_artifacts_verified": 105,
+  "prior_original_instruction_rows_verified": 2427,
+  "parser_original_instruction_rows": 301,
+  "protected_files": 124,
+  "recorded_hashes_verified": 117,
+  "all_protected_sources_unchanged": true,
+  "payload_headers_checked": 115,
+  "nonzero_payload_stream4_entries": 64,
+  "prior_initial_command_rows_crosschecked": 198,
+  "local_invocation_entries_including_cached_bodies": 79,
+  "cached_body_entries": 15,
+  "local_return_kinds": {
+    "exact_00ff_return": 64,
+    "cache_define_following_pointer_and_return": 15
+  },
+  "unique_physical_commands": 289,
+  "local_command_occurrences": 289,
+  "unique_command_opcodes": {
+    "0x11": 13,
+    "0x40": 7,
+    "0xff": 64,
+    "0x4": 15,
+    "0x5": 15,
+    "0x8": 55,
+    "0x41": 66,
+    "0x17": 6,
+    "0x14": 3,
+    "0x13": 30,
+    "0x0": 15
+  },
+  "command_halfword_rows": 21021,
+  "unique_physical_command_bytes": 42042,
+  "physical_command_overlap_pairs": 0,
+  "cache_definitions": 15,
+  "cache_references": 15,
+  "cache_slots": 2,
+  "cache_candidate_pairs": 113,
+  "cache_slots_with_multiple_definitions": 2,
+  "references_without_in_file_definition": 0,
+  "geometry_commands": 73,
+  "geometry_opcodes": {
+    "0x41": 66,
+    "0x40": 7
+  },
+  "geometry_count_low14": {
+    "28": 1,
+    "15": 3,
+    "3": 5,
+    "11": 4,
+    "4": 7,
+    "6": 8,
+    "148": 1,
+    "40": 1,
+    "7": 1,
+    "27": 4,
+    "16": 2,
+    "23": 1,
+    "1": 8,
+    "57": 1,
+    "8": 2,
+    "2": 7,
+    "49": 1,
+    "13": 2,
+    "5": 2,
+    "17": 5,
+    "14": 1,
+    "12": 3,
+    "10": 1,
+    "18": 1,
+    "43": 1
+  },
+  "geometry_count_high2": {
+    "0": 73
+  },
+  "geometry_count_bit15_set_commands": 0,
+  "geometry_raw_data_bytes": 40582,
+  "geometry_original_group_expression_differences_in_sample": 0,
+  "all_u16_group_expression_cases_checked": 65536,
+  "all_u16_group_expression_differs_from_raw_high2": 32768,
+  "original_parser": "0x8011CCF8 / DOL 0x119CF8",
+  "offset_space": "decoded sonicmdl.prs file offsets; never observed runtime addresses",
+  "script_runs": "inventory_draw_data_v1.py once",
+  "runtime_execution_observed": false,
+  "topology_or_attribute_semantics_inferred": false,
+  "global_cache_initialized_or_file_order_executed": false,
+  "engine_files_changed": [],
+  "decisions": [
+    "Stop each native local invocation at exact 00FF or a cache definition, preserving that consumed byte span.",
+    "Queue the following pointer of each definition as a separate cached-body entry, rather than treating the definition as fallthrough.",
+    "For references, record the local continuation if the external cache call returns; do not resolve or execute the call.",
+    "Report every same-slot definition/reference pair as a static candidate only, without assuming file order or initial cache state.",
+    "Retain geometry 40..42 headers, sizes, raw count fields and every data halfword; do not name topology or attributes.",
+    "Keep unsigned count high2 separate from the sign-extended original group-state expression."
+  ],
+  "unknowns": [
+    "Runtime cache contents before invocation, initialization, lifetime, mutations and actual caller order.",
+    "Whether any static reference is reached and which definition supplies its runtime target.",
+    "Geometry topology, attribute/material meanings, scratch contents/capacity and runtime state overrides.",
+    "Full inner geometry grammar, grouped-command execution and exact FIFO transcript.",
+    "Other files, versions, malformed data and live behavior."
+  ],
+  "cache_slot_inventory": [
+    {
+      "slot": 0,
+      "definition_count": 8,
+      "reference_count": 8,
+      "definition_offsets_storage_order_only": "0x26d0|0xb890|0x10f60|0x129f8|0x15648|0x17b4c|0x1856c|0x1b41c",
+      "candidate_body_offsets": "0x26d2|0xb892|0x10f62|0x129fa|0x1564a|0x17b4e|0x1856e|0x1b41e",
+      "reference_offsets_storage_order_only": "0x1c38|0xaeb0|0xbb98|0x125c0|0x15210|0x157c8|0x181f4|0x192f4",
+      "binding": "unknown; file order is not execution order"
+    },
+    {
+      "slot": 1,
+      "definition_count": 7,
+      "reference_count": 7,
+      "definition_offsets_storage_order_only": "0xe0e8|0xf9ac|0x1645c|0x17234|0x19a50|0x1a3fc|0x1ad00",
+      "candidate_body_offsets": "0xe0ea|0xf9ae|0x1645e|0x17236|0x19a52|0x1a3fe|0x1ad02",
+      "reference_offsets_storage_order_only": "0xd4d0|0xed94|0x15d0c|0x16ae4|0x196d8|0x19ff4|0x1a8f8",
+      "binding": "unknown; file order is not execution order"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "cache-local-sequences.csv",
+      "bytes": 5131,
+      "sha256": "194611895e88daeaf21417dfa959fa33373b57dc938582fd8ee358d9f44f4ae2"
+    },
+    {
+      "name": "cache-reference-candidates.csv",
+      "bytes": 5513,
+      "sha256": "3d8b358cf2d25e9b18f7ca8179442659f0e7424c024bf390eb66338608c39e2a"
+    },
+    {
+      "name": "cache-slots.csv",
+      "bytes": 592,
+      "sha256": "89b0bc7296fa3f2455ee5f96c39157171ee594ebfb3fa55e3d420e9654dee0c8"
+    },
+    {
+      "name": "command-halfwords.csv",
+      "bytes": 1021014,
+      "sha256": "246cff1d706954a9fd5cd852cd2677fc135fee9d0eabb152f80fdd3c8ba62f7c"
+    },
+    {
+      "name": "command-occurrences.csv",
+      "bytes": 14503,
+      "sha256": "a9297e07dce0dc7d7efdb109d97157fed360f66767ca40e2bf3152fc264a127f"
+    },
+    {
+      "name": "commands.csv",
+      "bytes": 131059,
+      "sha256": "6ae62105aafe56cbed3fc075e349a4c9283be3eabd06da9acc48e3c53f8028ae"
+    },
+    {
+      "name": "geometry-40-42-raw-spans.csv",
+      "bytes": 94045,
+      "sha256": "bcd0369bbdfea9357f9678d6a8be348ef2757a73bc8b89e2179bf8258115a91b"
+    },
+    {
+      "name": "inventory_draw_data_v1.py",
+      "bytes": 20713,
+      "sha256": "bdb66d7bccdfdbc6fc674e5ae9173234532bbd445a88e885d6fce0645671a03f"
+    },
+    {
+      "name": "local-invocation-spans.csv",
+      "bytes": 98230,
+      "sha256": "94ff87b6adaaf0a18a53cb147973e87256b1cbeafeae1764b2d9fa8575156e65"
+    },
+    {
+      "name": "original-parser-words.csv",
+      "bytes": 70228,
+      "sha256": "da91ef034480f23bf9825e1498d293621f7c776db7342870149f8d65ed34f720"
+    },
+    {
+      "name": "physical-command-overlaps.csv",
+      "bytes": 64,
+      "sha256": "247a8c626d1e526bed8ff0b9dff16e9f948a4dce90cc74b7d69f377ce47d77fe"
+    },
+    {
+      "name": "source-digests.csv",
+      "bytes": 48112,
+      "sha256": "32be3118add99e8db98dd82848a3c9a76d437c885a0baf6513784f4f1b3b9795"
+    }
+  ]
+}

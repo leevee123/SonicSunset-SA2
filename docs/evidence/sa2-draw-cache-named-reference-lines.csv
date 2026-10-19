@@ -1,0 +1,23 @@
+view,entry,line,kind,text,path
+primary,0x8011867c,39,cache_table_named_range,"FUN_801234cc(auStack_90,&DAT_80357c60,0x20,0);",work\full-decompile\gekko\main\export\pseudocode\0x8011867c.c
+primary,0x8011867c,40,cache_table_named_range,"iVar3 = FUN_80116204(auStack_30,local_20,&DAT_80357c60);",work\full-decompile\gekko\main\export\pseudocode\0x8011867c.c
+primary,0x801199b0,7,cache_table_named_range,DAT_80357e90 = &DAT_80357c80;,work\full-decompile\gekko\main\export\pseudocode\0x801199b0.c
+primary,0x801199b0,8,cache_table_named_range,DAT_80357ec4 = &DAT_80357cf8;,work\full-decompile\gekko\main\export\pseudocode\0x801199b0.c
+primary,0x801199b0,9,cache_table_named_range,DAT_80357ef8 = &DAT_80357d70;,work\full-decompile\gekko\main\export\pseudocode\0x801199b0.c
+primary,0x801199b0,10,cache_table_named_range,DAT_80357f2c = &DAT_80357de8;,work\full-decompile\gekko\main\export\pseudocode\0x801199b0.c
+primary,0x8011ccf8,4,interpreter_entry_or_call,void FUN_8011ccf8(void),work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+primary,0x8011ccf8,172,cache_table_named_range,*(ushort **)(&DAT_80357a58 + (short)(uVar14 >> 8) * 4) = puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+primary,0x8011ccf8,183,cache_table_named_range|interpreter_entry_or_call,"FUN_8011ccf8(*(undefined4 *)(&DAT_80357a58 + (short)(uVar14 >> 8) * 4),uVar6);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+primary,0x8011d414,17,interpreter_entry_or_call,"FUN_8011ccf8(param_1[1],uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011d414.c
+startup_sda,0x8011867c,38,cache_table_named_range,"FUN_801234cc(auStack_90,&DAT_80357c60,0x20,0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011867c.c
+startup_sda,0x8011867c,39,cache_table_named_range,"iVar3 = FUN_80116204(auStack_30,local_20,&DAT_80357c60);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011867c.c
+startup_sda,0x801199b0,7,cache_table_named_range,DAT_80357e90 = &DAT_80357c80;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x801199b0.c
+startup_sda,0x801199b0,8,cache_table_named_range,DAT_80357ec4 = &DAT_80357cf8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x801199b0.c
+startup_sda,0x801199b0,9,cache_table_named_range,DAT_80357ef8 = &DAT_80357d70;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x801199b0.c
+startup_sda,0x801199b0,10,cache_table_named_range,DAT_80357f2c = &DAT_80357de8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x801199b0.c
+startup_sda,0x8011ccf8,4,interpreter_entry_or_call,void FUN_8011ccf8(void),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+startup_sda,0x8011ccf8,168,cache_table_named_range,*(ushort **)(&DAT_80357a58 + (short)(uVar13 >> 8) * 4) = puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+startup_sda,0x8011ccf8,169,cache_counter,DAT_803ae0f4 = DAT_803ae0f4 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+startup_sda,0x8011ccf8,179,cache_table_named_range|interpreter_entry_or_call,"FUN_8011ccf8(*(undefined4 *)(&DAT_80357a58 + (short)(uVar13 >> 8) * 4),uVar5);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+startup_sda,0x8011ccf8,180,cache_counter,DAT_803ae0f4 = DAT_803ae0f4 + -1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+startup_sda,0x8011d414,16,interpreter_entry_or_call,"FUN_8011ccf8(param_1[1],uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d414.c

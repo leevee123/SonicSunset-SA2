@@ -1,0 +1,11 @@
+scenario,offset,header,header_s16,opcode,kind,minimum_parser_read_bytes,byte_size,next_offset,data_offset,raw_info,length_raw,length_s16,cache_index,raw_hex,encoded_span_sha256,info_s16,raw_top2,effective_group_count,raw_low14,next_offset_u32,minimum_helper_read_bytes,argument_raw,argument_s16
+exact_end,0x0,0xff,255,0xff,exact_end,2,2,0x2,,,,,,00ff,06eb7d6a69ee19e5fbdf749018d3d2abfa04bcbd1365db312eb86dc7169389b8,,,,,,,,
+high_byte_ff_is_not_end,0x0,0x1ff,511,0xff,unsigned_length_information,6,4,0x4,0x6,0xff,0,,,01ff000000ff,2c310c26390e4fb60595fde469514a3a18a3299d5be0d300ce4834e6a72ab194,255,0,0,255,,,,
+negative_header_ff_is_not_end,0x0,0xffff,-1,0xff,unsigned_length_information,6,4,0x4,0x6,0xff,0,,,ffff000000ff,08efea1c0957a5a1fe019e6edb21fdc9fbe5de2213487eab7a05e06eca1c9784,255,0,0,255,,,,
+unsigned_zero_length_reads_overlapping_next_header,0x0,0x40,64,0x40,unsigned_length_information,6,4,0x4,0x6,0xff,0,,,0040000000ff,c9a41c78ed4170c1826be3b5da55e87f4ba32107a5595dd34baeb0cba2570eb1,255,0,0,255,,,,
+signed_zero_length_odd_handler_read_beyond_encoded_span,0x0,0x11,17,0x11,signed_length,4,4,0x4,0x4,,0,0,,00110000,714c651a3d04ad0309798d0ff1b7a8ef0d884bc648e61893ef017182e349f599,,,,,0x4,8,,
+signed_minus_two_nonprogress,0x0,0x10,16,0x10,signed_length,4,0,0x0,0x4,,65534,-2,,0010fffe,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,,,,,0x0,4,,
+signed_minus_one_next_is_length,0x0,0x10,16,0x10,signed_length,4,2,0x2,0x4,,65535,-1,,0010ffff,0298d122906dcfc10892cb53a73992fc5b9f493ea4c9badb27b791b4127a7fe7,,,,,0x2,4,,
+signed_minimum_moves_back,0x0,0x10,16,0x10,signed_length,4,-65532,-0xfffc,0x4,,32768,-32768,,00108000,,,,,,0xffff0004,4,,
+argument_sign_extension,0x0,0x8,8,0x8,signed_argument,4,4,0x4,,,,,,0008ffff,ba7a41339ccdb99ad0a73992eb7b4b00255b1c2de618e474b3d77e313124cb11,,,,,,,0xffff,-1
+highest_cache_index_define,0x0,0xff04,-252,0x4,cache_define_return,2,2,0x2,,,,,255,ff04,e66b81be1c76b815b0d2ef0c9b60e702d09219cf7d689b1f1100c6a11d0599cd,,,,,,,,

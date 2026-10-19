@@ -1,0 +1,9 @@
+# Explicit-seed Sonic second-stream control references v1
+
+One run of reference_control_traces_v1.py passed. These are synthetic callers over real command bytes, suitable for comparison with a separate control-only implementation. They do not establish game draw order, initial cache state or actual bindings.
+
+Machine result: {"version":1,"result":"passed","definition_root_cases":15,"explicit_candidate_seed_cases":113,"cases":128,"statuses":{"completed_static_control":128},"ordered_command_steps":814,"control_transitions":723,"max_call_depth":1,"blocked_cases":0,"protected_files_unchanged":129,"all_command_bytes_match_original_decoded_bank":true,"native_execution":false,"engine_execution":false,"implicit_cache_initialization":false,"retail_binding_or_execution_order_claim":false,"source":"0x8011CCF8; exact 00FF and 04 return; 05 recursively calls explicit cache value then continues locally","offset_space":"decoded sonicmdl.prs","script_runs":"reference_control_traces_v1.py once"}
+
+Each of the 15 definition-root cases begins at its real definition command with an explicitly empty cache. Each of the 113 candidate cases begins at a real reference command, with exactly its matching slot seeded to one in-file definition's following pointer. Other slots remain unknown. Commands, nested call depth, headers, raw spans and SHA256 values are preserved in order. Definitions store the following pointer and return; exact 00FF returns; references invoke the explicitly supplied entry and resume if it returns. Missing slots or cycles would stop at the exact site without substitution.
+
+control-traces.ai.json exposes cases with root_offset, initial_cache, ordered steps and final_cache. Complete raw CSVs retain case metadata, command steps, control transitions and unchanged source digests. No original, frozen, repository or engine files were modified; no engine or native execution occurred.

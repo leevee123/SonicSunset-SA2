@@ -1,0 +1,14 @@
+{
+  "scope": "Oct15 drawing-data continuation",
+  "engine_validation": "first strict build and real-data validation PASS",
+  "engine_full_build": "PASS",
+  "package": "PASS",
+  "helper_events": [
+    "Documentation preparation v1 used an inexact old compact-twin clause; assertion stopped before documentation preparation writes or repository changes. V2 uses the exact source clause.",
+    "Two read-only documentation/probe commands used unavailable paths; no changes or native failures resulted.",
+    "Grammar worker v1 unique-candidate assumption failed; explicit-candidate v2 passed and both versions remain retained.",
+    "Cache worker convenience decoder v1 column had reversed arguments; v2 authoritative original byte comparisons retained."
+  ],
+  "additional_engine_mutations": false,
+  "extra_runtime_tests": false
+}

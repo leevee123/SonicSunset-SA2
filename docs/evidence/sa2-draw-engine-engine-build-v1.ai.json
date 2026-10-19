@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+  "draw_unit_compiled": true,
+  "executable_linked": true,
+  "compiler_errors": 0,
+  "raw_log_sha256": "d2d1ee068a1393ee7a6138a3fba953951f4014e08e9eed26d5392d834e532eec",
+  "executable_sha256": "e6f5591669a6ea8961e1c216fbf41d12922276b76ee7656b0d6edd2ff72610b8",
+  "debug_information": "Existing invocation-only Embedded workaround; repository defaults unchanged",
+  "scope": "Data importer/control trace only; no rendering or gameplay/native execution test"
+}

@@ -1,0 +1,29 @@
+original_va,dol_offset,iso_offset,word,effect,primary_opcode,shift,mask_begin,mask_end,mask
+0x8011cd0c,0x119d0c,0x13840c,0x7c741b78,incoming r3 saved as stream cursor r20,31,,,,
+0x8011cd10,0x119d10,0x138410,0x7c952378,incoming r4 saved as scratch r21,31,,,,
+0x8011cd90,0x119d90,0x138490,0x5780c63e,cache selector high byte via rotate24/maskFF,21,24,24,31,0xff
+0x8011cd98,0x119d98,0x138498,0x5404103a,cache selector times4,21,2,0,29,0xfffffffc
+0x8011cda8,0x119da8,0x1384a8,0x92830000,command04 stores following pointer,36,,,,
+0x8011cdb4,0x119db4,0x1384b4,0x900d8e34,command04 stores incremented global counter,36,,,,
+0x8011cdb8,0x119db8,0x1384b8,0x480003dc,command04 branches to function return,18,,,,
+0x8011cdcc,0x119dcc,0x1384cc,0x80630000,command05 loads selected pointer without local null check,32,,,,
+0x8011cdd4,0x119dd4,0x1384d4,0x4bffff25,command05 recursive direct call,18,,,,
+0x8011cde0,0x119de0,0x1384e0,0x900d8e34,command05 stores decremented global counter after return,36,,,,
+0x8011cde4,0x119de4,0x1384e4,0x480003a0,command05 continues caller cursor,18,,,,
+0x8011cdfc,0x119dfc,0x1384fc,0xa8940000,08..0F signed16 argument load,42,,,,
+0x8011ce28,0x119e28,0x138528,0xab340000,10..3F signed16 length load,42,,,,
+0x8011ce50,0x119e50,0x138550,0x4bfff7d9,10..3F invokes helper regardless declared length,18,,,,
+0x8011ce54,0x119e54,0x138554,0x5720083c,signed length times2 modulo32,21,1,0,30,0xfffffffe
+0x8011ce68,0x119e68,0x138568,0xa3630000,40..FF unsigned16 length load,40,,,,
+0x8011ce6c,0x119e6c,0x13856c,0xa8140000,40..FF unconditional signed16 info load,42,,,,
+0x8011ce84,0x119e84,0x138584,0x7e9e192e,pending group stores data pointer before count compare,31,,,,
+0x8011cee8,0x119ee8,0x1385e8,0x7c600630,arithmetic shift of sign-extended header high byte,31,,,,
+0x8011cf2c,0x119f2c,0x13862c,0x574093be,logical right14 of sign-extended info via rotate18/mask0003FFFF,21,18,14,31,0x3ffff
+0x8011cf3c,0x119f3c,0x13863c,0x92810030,first pending group data pointer,36,,,,
+0x8011cf68,0x119f68,0x138668,0x2c190040,"draw dispatch40,41,42 only; common state still applies to others",11,,,,
+0x8011d168,0x11a168,0x138868,0x381bffff,unsigned packet length minus1,14,,,,
+0x8011d16c,0x11a16c,0x13886c,0x5400083c,length-minus1 times2 modulo32,21,1,0,30,0xfffffffe
+0x8011d170,0x11a170,0x138870,0x7e940214,next cursor from current data pointer,31,,,,
+0x8011d184,0x11a184,0x138884,0xab940000,signed16 header load,42,,,,
+0x8011d188,0x11a188,0x138888,0x3a940002,advance header cursor by2,14,,,,
+0x8011d18c,0x11a18c,0x13888c,0x2c1c00ff,exact signed-header compareFF,11,,,,

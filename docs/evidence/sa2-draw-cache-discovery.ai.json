@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "scope": "frozen main and startup-SDA generated C plus matching direct-call graphs; named-symbol search only",
+  "counts": {
+    "C_files": {
+      "primary": 4405,
+      "startup_sda": 4406
+    },
+    "matched_lines": 22,
+    "matched_functions": 8,
+    "incoming_graph_rows": 20,
+    "sample_control_stops": 30
+  },
+  "matching_entries": [
+    "0x8011867c",
+    "0x801199b0",
+    "0x8011ccf8",
+    "0x8011d414"
+  ],
+  "table": {
+    "base": "0x80357a58",
+    "entry_stride": 4,
+    "index_bits": 8,
+    "max_index": 255,
+    "bytes": 1024,
+    "end_exclusive": "0x80357e58",
+    "bss": {
+      "start": "0x801de600",
+      "end_exclusive": "0x803ae515"
+    },
+    "included_zero_range": [
+      {
+        "start": "0x801de600",
+        "end_exclusive": "0x803ad2c0"
+      }
+    ],
+    "original_DOL_file_offset": null
+  },
+  "counter": {
+    "va": "0x803ae0f4",
+    "startup_r13_displacement": "0x8e34"
+  },
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "limitations": [
+    "Named-symbol matches do not exclude alias/bulk initialization or indirect calls.",
+    "Two C views are alternative analyses of the same original bytes.",
+    "Sample rows stop at command4/5; file order is not an execution-order proof."
+  ]
+}

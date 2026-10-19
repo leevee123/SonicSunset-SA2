@@ -1,0 +1,164 @@
+{
+  "result": "bounded framing/cache control established; native render and runtime state unknown",
+  "human_report_sha256": "c2b76c095c60883220a5ac6255dc9f24467a2cd278ef2827bc4f5aa2bf4ebdc9",
+  "function": {
+    "original_va": "0x8011ccf8",
+    "dol_offset": "0x119cf8",
+    "iso_offset": "0x1383f8"
+  },
+  "source_files": "sources.csv (all SHA256); function-body-ranges.csv; original-instructions.csv; helper-original-words.csv; direct-calls.csv; critical-original-words.csv",
+  "grammar": {
+    "header": "BEs16 raw retained; op=raw&FF",
+    "EOS": "raw==00FF ONLY;2B",
+    "04": "cache[raw>>8]=p+2;counter++;RETURN",
+    "05": "recurse(cache[raw>>8],sameScratch);counter--;CONTINUE p+2",
+    "00_03_06_07": "2B;01conditionalC754",
+    "08_0F": "BEs16 argument+2;nextp+4",
+    "10_3F": "BEs16 length+2;helper(data=p+4)evenzero;nextp+4+2*s16len modulo32",
+    "40_FF": "BEu16len+2;BEs16info+4 UNCONDITIONAL;data+6;nextp+4+2*u16len modulo32"
+  },
+  "boundaries": {
+    "10_3F": "negative/backward/nonprogress original possible; host policy separately",
+    "40_FF_zero_length": "encoded4B/minimum parser read6B;info overlaps nextheader",
+    "odd10_3F_helper": "reads4B atp+4 regardlesslen;metadata boundary not handler safety"
+  },
+  "cache": {
+    "absolute_base": "80357A58",
+    "selector_domain": "rawhigh8:0..255;notnativeallocationproof",
+    "counter": "r13-71CC;startup-SDA label803AE0F4;notdepth",
+    "entry_reset": "r13-7174;startup-SDA label803AE14C pluslocalpendingstate",
+    "native_guards": "no localtargetNULL/cachepresence/depth/cycle/counterunderflow checks established",
+    "runtime_selection": "unknown;15calls have8or7sameindexcandidates"
+  },
+  "pending_groups": {
+    "effective": "(u32(s16(info))>>14)",
+    "information_examples": [
+      {
+        "raw_u16": "0",
+        "signed_s16": "0",
+        "raw_top2": "0",
+        "effective_group_count": "0",
+        "raw_low14": "0"
+      },
+      {
+        "raw_u16": "16383",
+        "signed_s16": "16383",
+        "raw_top2": "0",
+        "effective_group_count": "0",
+        "raw_low14": "16383"
+      },
+      {
+        "raw_u16": "16384",
+        "signed_s16": "16384",
+        "raw_top2": "1",
+        "effective_group_count": "1",
+        "raw_low14": "0"
+      },
+      {
+        "raw_u16": "32767",
+        "signed_s16": "32767",
+        "raw_top2": "1",
+        "effective_group_count": "1",
+        "raw_low14": "16383"
+      },
+      {
+        "raw_u16": "32768",
+        "signed_s16": "-32768",
+        "raw_top2": "2",
+        "effective_group_count": "262142",
+        "raw_low14": "0"
+      },
+      {
+        "raw_u16": "65535",
+        "signed_s16": "-1",
+        "raw_top2": "3",
+        "effective_group_count": "262143",
+        "raw_low14": "16383"
+      }
+    ],
+    "stores": "first0 thenindices1..k;storebeforeoldindexcomparison;unknowncapacity",
+    "only_draw_opcodes": "40,41,42;othersstillcommonstate/group/skip",
+    "numeric_C_equivalence": false
+  },
+  "source_validation": {
+    "source_artifacts": 38,
+    "ASM_rows_matched_original": 838,
+    "unique_ASM_addresses": 536,
+    "helper_words": 26,
+    "direct_call_rows_matched_original": 88,
+    "critical_words": 28
+  },
+  "sample_validation": {
+    "decoded_bytes": 136360,
+    "decoded_sha256": "b7ea586ed0fa22330dc8a2cfe2bb8fa9ce4ac70d9561764f35af4ced5d371963",
+    "stored_ISO_offset": "0x479024a4",
+    "stored_bytes": 102331,
+    "stored_sha256": "d8f90e6c724e709b8d3431e725a5db1d1a096bdf5118d2ecca9ad356e7862d99",
+    "coordinate_note": "All sample packet offsets refer to decompressed bytes; no direct offset mapping into PRS/ISO.",
+    "roots": 64,
+    "all_entries": 79,
+    "unique_commands": 289,
+    "encoded_bytes": 42042,
+    "unique_opcode_packets": {
+      "0x11": 13,
+      "0x8": 55,
+      "0x41": 66,
+      "0xff": 64,
+      "0x5": 15,
+      "0x4": 15,
+      "0x40": 7,
+      "0x13": 30,
+      "0x17": 6,
+      "0x14": 3,
+      "0x0": 15
+    },
+    "stream_stops": {
+      "exact_end": 64,
+      "cache_define_return": 15
+    },
+    "signed_length_range": [
+      2,
+      6
+    ],
+    "unsigned_length_range": [
+      6,
+      3738
+    ],
+    "information_effective_groups": {
+      "0": 73
+    },
+    "cache_candidate_counts": {
+      "8": 8,
+      "7": 7
+    }
+  },
+  "exhaustive": {
+    "headers": 65536,
+    "lengths": 65536,
+    "information": 65536,
+    "boundary_fixtures": 10,
+    "explicit_state_traces": 4
+  },
+  "v1_failure": "StopIteration atunique-candidate selection;preserved;v2explicitcandidate passed",
+  "host_policies": [
+    "file read bounds",
+    "encoded positive progress for linear scans",
+    "linear cursor cycle/budget",
+    "explicit cache presence in trace",
+    "call active-path cycle/depth/event budgets",
+    "negative-length rejection ifchosen",
+    "missingterminal",
+    "handler safety separate"
+  ],
+  "unknowns": [
+    "runtime cache/order/targets/counter/SDA/FP",
+    "native cache andscratchcapacity",
+    "full handler/render/material/topology/skin grammar",
+    "otherbanks/versions",
+    "malformednativeexecution"
+  ],
+  "repository_engine_frozen_changes": [],
+  "project_opens": 0,
+  "native_execution": false,
+  "leaked_source": "none encountered or used"
+}

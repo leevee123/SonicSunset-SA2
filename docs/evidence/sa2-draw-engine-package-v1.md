@@ -1,0 +1,1 @@
+Packaged drawing-data checker PASS: 79 streams / 289 commands / 128 explicit-cache scenarios / 814 ordered steps. Binary and checker packaged together; all metadata and raw hashes match. No game media is included and the original disc is not changed. The launcher is local to this computer; no playable-game or retail-cache-binding claim.
