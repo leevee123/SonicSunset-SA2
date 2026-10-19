@@ -1,0 +1,10 @@
+{
+  "scope": "weighted2C+firststream23/29/2C explicitcontract; no livebindings/2A/render/gameplay",
+  "weighted_cases": 314,
+  "stream_cases": 309,
+  "all_s16": 65536,
+  "evidence_files": 225,
+  "raw_CSVs": 92,
+  "manifest_sha256": "8c2bbc9f1d0663c246b3ad772a731085c3bcb185e5e93f3289a117d08f2a7881",
+  "native_or_dolphin_execution": false
+}
