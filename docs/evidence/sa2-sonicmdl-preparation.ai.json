@@ -1,0 +1,22 @@
+{
+  "compile_exit": 0,
+  "parse_exit": 0,
+  "parse_words": 195,
+  "parse_ranges": 4,
+  "language": "PowerPC:BE:32:SA2_Gekko",
+  "JVM": "ExistingJDK21/Ghidrajars, customGhidraclassloader; no ProgramDB/project. All home/settings/cache/temp redirectedprivately.",
+  "scripts_once_each": [
+    "discover_loader_v1.py",
+    "select_evidence_v1.py(failed)",
+    "select_evidence_v2.py",
+    "validate_sample_v1.py",
+    "finalize_reference_v1.py"
+  ],
+  "failure": "v1 source selection assumedbody_rangesdisplaytextisJSON; v2usesrangeCSV",
+  "failed_read_probe": "800EED84 was notdefined; actualpseudocodecall800EECFC was followed instead; noanalysis/projectchange",
+  "no_engine_or_project_writes": true,
+  "raw_log_sha256": {
+    "compile": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "decode": "ff650e3a1e976fdd6736a734c28e77c43032ada7f7134e637029a3d7fe0217e6"
+  }
+}

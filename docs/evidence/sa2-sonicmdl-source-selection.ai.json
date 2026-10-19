@@ -1,0 +1,29 @@
+{
+  "selected_functions": 17,
+  "source_artifacts": 42,
+  "outgoing_edges": 122,
+  "parse_ranges": [
+    {
+      "owner": "0x8001a190",
+      "start": "0x8001a190",
+      "end_exclusive": "0x8001a2b0"
+    },
+    {
+      "owner": "0x8002f88c",
+      "start": "0x8002f88c",
+      "end_exclusive": "0x8002f95c"
+    },
+    {
+      "owner": "0x80050210",
+      "start": "0x80050210",
+      "end_exclusive": "0x80050300"
+    },
+    {
+      "owner": "0x801197d0",
+      "start": "0x801197d0",
+      "end_exclusive": "0x801197fc"
+    }
+  ],
+  "scope": "Original selected main functions and complete outgoing call edges, no projects or runtime claims.",
+  "v1_failure": "body_ranges is display text with barehex, not JSON; v2 uses authoritative function_body_ranges.csv."
+}
