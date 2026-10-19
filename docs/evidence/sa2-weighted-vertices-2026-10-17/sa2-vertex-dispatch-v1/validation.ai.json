@@ -1,0 +1,55 @@
+{
+  "result": "passed",
+  "opcode_cases": 256,
+  "advance_boundary_cases": 48,
+  "information_cases": 65536,
+  "mode_cases": 256,
+  "state_OR_cases": 262144,
+  "trace_cases": 4,
+  "trace_events": 91,
+  "unknown_overlap_cases": 3,
+  "closed_helpers": [
+    {
+      "helper": "0x8011da30",
+      "words": 48,
+      "direct_or_indirect_calls": 0,
+      "GPR13_writes": 0,
+      "Dform_stores_with_RA13": 0,
+      "store_base_registers": "5",
+      "GQR1_writes": 0,
+      "matrix_binding_preservation": "conditional on no scratch/stack/source/descriptor/global/matrix overlap and no external mutation; not runtime proof"
+    },
+    {
+      "helper": "0x8011daf0",
+      "words": 72,
+      "direct_or_indirect_calls": 0,
+      "GPR13_writes": 0,
+      "Dform_stores_with_RA13": 0,
+      "store_base_registers": "1;5",
+      "GQR1_writes": 0,
+      "matrix_binding_preservation": "conditional on no scratch/stack/source/descriptor/global/matrix overlap and no external mutation; not runtime proof"
+    },
+    {
+      "helper": "0x8011dc98",
+      "words": 160,
+      "direct_or_indirect_calls": 0,
+      "GPR13_writes": 0,
+      "Dform_stores_with_RA13": 0,
+      "store_base_registers": "1;6",
+      "GQR1_writes": 1,
+      "matrix_binding_preservation": "conditional on no scratch/stack/source/descriptor/global/matrix overlap and no external mutation; not runtime proof"
+    }
+  ],
+  "2A": "only call/precall control traced; unknown math never executed/emulated",
+  "normal_return": 0,
+  "matrix_read_sites": [
+    "8011D248",
+    "8011D260",
+    "8011D288",
+    "8011D2AC"
+  ],
+  "matrix_binding": "freshreadperrecognizedcall;constant onlyunderdeclaredclosed/nonalias/noexternalmutation",
+  "native_execution": false,
+  "project_opens": 0,
+  "engine_changes": []
+}

@@ -1,0 +1,132 @@
+{
+  "result": "bounded original dispatcher integer/control and conditional closed-binding proof established",
+  "human_report_sha256": "bf4871386905e2ff6e9fbe546d08af8e990c7c60001cc937bffe00b76d49d8ae",
+  "inspection": {
+    "result": "passed",
+    "source_artifacts": 17,
+    "original_words": 386,
+    "retained_ASM_rows_verified": 632,
+    "function_scopes": [
+      {
+        "entry": "0x8011d1d4",
+        "start": "0x8011d1d4",
+        "end_exclusive": "0x8011d2f4",
+        "words": 72,
+        "va": "0x8011d1d4",
+        "dol_offset": "0x11a1d4",
+        "iso_offset": "0x1388d4"
+      },
+      {
+        "entry": "0x8011da30",
+        "start": "0x8011da30",
+        "end_exclusive": "0x8011daf0",
+        "words": 48,
+        "va": "0x8011da30",
+        "dol_offset": "0x11aa30",
+        "iso_offset": "0x139130"
+      },
+      {
+        "entry": "0x8011daf0",
+        "start": "0x8011daf0",
+        "end_exclusive": "0x8011dc10",
+        "words": 72,
+        "va": "0x8011daf0",
+        "dol_offset": "0x11aaf0",
+        "iso_offset": "0x1391f0"
+      },
+      {
+        "entry": "0x8011dc98",
+        "start": "0x8011dc98",
+        "end_exclusive": "0x8011df18",
+        "words": 160,
+        "va": "0x8011dc98",
+        "dol_offset": "0x11ac98",
+        "iso_offset": "0x139398"
+      },
+      {
+        "entry": "0x8011dc10",
+        "start": "0x8011dc10",
+        "end_exclusive": "0x8011dc98",
+        "words": 34,
+        "va": "0x8011dc10",
+        "dol_offset": "0x11ac10",
+        "iso_offset": "0x139310"
+      }
+    ],
+    "graph_rows": 14,
+    "store_words": 59,
+    "native_execution": false,
+    "project_opens": 0,
+    "limit": "2A source retained only to identify unresolved outgoing effects; no2A numerical emulation."
+  },
+  "validation": {
+    "result": "passed",
+    "opcode_cases": 256,
+    "advance_boundary_cases": 48,
+    "information_cases": 65536,
+    "mode_cases": 256,
+    "state_OR_cases": 262144,
+    "trace_cases": 4,
+    "trace_events": 91,
+    "unknown_overlap_cases": 3,
+    "closed_helpers": [
+      {
+        "helper": "0x8011da30",
+        "words": 48,
+        "direct_or_indirect_calls": 0,
+        "GPR13_writes": 0,
+        "Dform_stores_with_RA13": 0,
+        "store_base_registers": "5",
+        "GQR1_writes": 0,
+        "matrix_binding_preservation": "conditional on no scratch/stack/source/descriptor/global/matrix overlap and no external mutation; not runtime proof"
+      },
+      {
+        "helper": "0x8011daf0",
+        "words": 72,
+        "direct_or_indirect_calls": 0,
+        "GPR13_writes": 0,
+        "Dform_stores_with_RA13": 0,
+        "store_base_registers": "1;5",
+        "GQR1_writes": 0,
+        "matrix_binding_preservation": "conditional on no scratch/stack/source/descriptor/global/matrix overlap and no external mutation; not runtime proof"
+      },
+      {
+        "helper": "0x8011dc98",
+        "words": 160,
+        "direct_or_indirect_calls": 0,
+        "GPR13_writes": 0,
+        "Dform_stores_with_RA13": 0,
+        "store_base_registers": "1;6",
+        "GQR1_writes": 1,
+        "matrix_binding_preservation": "conditional on no scratch/stack/source/descriptor/global/matrix overlap and no external mutation; not runtime proof"
+      }
+    ],
+    "2A": "only call/precall control traced; unknown math never executed/emulated",
+    "normal_return": 0,
+    "matrix_read_sites": [
+      "8011D248",
+      "8011D260",
+      "8011D288",
+      "8011D2AC"
+    ],
+    "matrix_binding": "freshreadperrecognizedcall;constant onlyunderdeclaredclosed/nonalias/noexternalmutation",
+    "native_execution": false,
+    "project_opens": 0,
+    "engine_changes": []
+  },
+  "descriptor": "stack+10{dest},+14{source},+18{count};writecount\u2192source\u2192dest",
+  "packet": "BEu32lowFFENDbeforeinfo;everynonFFinfo;nextp+4*(upper16+1)mod32;upper0readsoverlappingnextheader",
+  "fields": "countinfo>>16/startlow16<<5;2Cmode(header&7FFF)>>8;bit15ignored",
+  "state": "r13-7178;23OR3/2AOR2BEFOREmatrixread/call;noreset;label803AE148onlypriorSDA",
+  "matrix": "r13-71FCfreshreadpersupportedcall;label803AE0C4onlypriorSDA",
+  "closed_binding": "280typedhelperwords/noGPR13write/noexternalcalls;constantONLYnonalias/noexternalmutation;notruntimeproof",
+  "GQR1": "explicitinitialpreserved23/29/opaque/END;2Cclobber08070807normalreturn;2Aunknownreject",
+  "return": "r3literal0atD2D4noterrorcontract",
+  "unsupported2A": "prefixOR2+matrixread+unknowncallproved;nomath",
+  "typed_helper_word_coverage": 280,
+  "host_guards": "bounds/declaredspan/knownpositivecount/finiteknownfragment;noopaqueunusedscratch/matrixeffectinvented",
+  "native_execution": false,
+  "project_opens": 0,
+  "engine_repository_frozen_changes": [],
+  "leaked_source": "none encountered or used"
+}

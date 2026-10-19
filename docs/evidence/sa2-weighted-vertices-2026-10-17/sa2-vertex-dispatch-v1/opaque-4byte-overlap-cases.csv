@@ -1,0 +1,4 @@
+opcode,header_upper16,encoded_bytes,information_raw,next_header_same_word,reads_of_overlap_word,state_unchanged,GQR1_unchanged
+0x0,0,4,0xabcd00ff,True,2,True,True
+0x10,0,4,0xabcd00ff,True,2,True,True
+0xfe,0,4,0xabcd00ff,True,2,True,True

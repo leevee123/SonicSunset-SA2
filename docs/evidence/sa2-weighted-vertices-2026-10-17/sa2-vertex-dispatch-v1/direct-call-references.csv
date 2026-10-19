@@ -1,0 +1,15 @@
+view,caller_entry,caller_file_offset,call_site,call_site_file_offset,target,target_file_offset,target_function,target_name,reference_type,target_status,va,dol_offset,iso_offset,word,native_target,native_link
+main,0x8011d1d4,0x11a1d4,8011d24c,0x11a24c,8011daf0,0x11aaf0,8011daf0,FUN_8011daf0,UNCONDITIONAL_CALL,defined_function_entry,0x8011d24c,0x11a24c,0x13894c,0x480008a5,0x8011daf0,True
+main,0x8011d1d4,0x11a1d4,8011d268,0x11a268,8011dc98,0x11ac98,8011dc98,FUN_8011dc98,UNCONDITIONAL_CALL,defined_function_entry,0x8011d268,0x11a268,0x138968,0x48000a31,0x8011dc98,True
+main,0x8011d1d4,0x11a1d4,8011d28c,0x11a28c,8011dc10,0x11ac10,8011dc10,FUN_8011dc10,UNCONDITIONAL_CALL,defined_function_entry,0x8011d28c,0x11a28c,0x13898c,0x48000985,0x8011dc10,True
+main,0x8011d1d4,0x11a1d4,8011d2b0,0x11a2b0,8011da30,0x11aa30,8011da30,FUN_8011da30,UNCONDITIONAL_CALL,defined_function_entry,0x8011d2b0,0x11a2b0,0x1389b0,0x48000781,0x8011da30,True
+main,0x8011dc10,0x11ac10,8011dc48,0x11ac48,80115df4,0x112df4,80115df4,FUN_80115df4,UNCONDITIONAL_CALL,defined_function_entry,0x8011dc48,0x11ac48,0x139348,0x4bff81ad,0x80115df4,True
+main,0x8011dc10,0x11ac10,8011dc54,0x11ac54,80115f00,0x112f00,80115f00,FUN_80115f00,UNCONDITIONAL_CALL,defined_function_entry,0x8011dc54,0x11ac54,0x139354,0x4bff82ad,0x80115f00,True
+main,0x8011dc10,0x11ac10,8011dc64,0x11ac64,8010af3c,0x107f3c,8010af3c,FUN_8010af3c,UNCONDITIONAL_CALL,defined_function_entry,0x8011dc64,0x11ac64,0x139364,0x4bfed2d9,0x8010af3c,True
+main-sda-v1,0x8011d1d4,0x11a1d4,8011d24c,0x11a24c,8011daf0,0x11aaf0,8011daf0,FUN_8011daf0,UNCONDITIONAL_CALL,defined_function_entry,0x8011d24c,0x11a24c,0x13894c,0x480008a5,0x8011daf0,True
+main-sda-v1,0x8011d1d4,0x11a1d4,8011d268,0x11a268,8011dc98,0x11ac98,8011dc98,FUN_8011dc98,UNCONDITIONAL_CALL,defined_function_entry,0x8011d268,0x11a268,0x138968,0x48000a31,0x8011dc98,True
+main-sda-v1,0x8011d1d4,0x11a1d4,8011d28c,0x11a28c,8011dc10,0x11ac10,8011dc10,FUN_8011dc10,UNCONDITIONAL_CALL,defined_function_entry,0x8011d28c,0x11a28c,0x13898c,0x48000985,0x8011dc10,True
+main-sda-v1,0x8011d1d4,0x11a1d4,8011d2b0,0x11a2b0,8011da30,0x11aa30,8011da30,FUN_8011da30,UNCONDITIONAL_CALL,defined_function_entry,0x8011d2b0,0x11a2b0,0x1389b0,0x48000781,0x8011da30,True
+main-sda-v1,0x8011dc10,0x11ac10,8011dc48,0x11ac48,80115df4,0x112df4,80115df4,FUN_80115df4,UNCONDITIONAL_CALL,defined_function_entry,0x8011dc48,0x11ac48,0x139348,0x4bff81ad,0x80115df4,True
+main-sda-v1,0x8011dc10,0x11ac10,8011dc54,0x11ac54,80115f00,0x112f00,80115f00,FUN_80115f00,UNCONDITIONAL_CALL,defined_function_entry,0x8011dc54,0x11ac54,0x139354,0x4bff82ad,0x80115f00,True
+main-sda-v1,0x8011dc10,0x11ac10,8011dc64,0x11ac64,8010af3c,0x107f3c,8010af3c,FUN_8010af3c,UNCONDITIONAL_CALL,defined_function_entry,0x8011dc64,0x11ac64,0x139364,0x4bfed2d9,0x8010af3c,True

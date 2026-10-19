@@ -1,0 +1,1 @@
+{"version":1,"result":"typed_classifier_coverage_guard_failure","exception":"AssertionError","missing_classification":"Immediate compare primary opcodes10/11 have no GPR destination","prior_control_validation":"passed","original_evidence_changed":false,"correction":"Explicitly allow compare forms as GPR-preserving; retain unknown-opcode guard; rerun newversion only"}

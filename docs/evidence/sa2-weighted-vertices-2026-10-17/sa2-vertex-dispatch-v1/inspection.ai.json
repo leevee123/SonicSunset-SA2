@@ -1,0 +1,58 @@
+{
+  "result": "passed",
+  "source_artifacts": 17,
+  "original_words": 386,
+  "retained_ASM_rows_verified": 632,
+  "function_scopes": [
+    {
+      "entry": "0x8011d1d4",
+      "start": "0x8011d1d4",
+      "end_exclusive": "0x8011d2f4",
+      "words": 72,
+      "va": "0x8011d1d4",
+      "dol_offset": "0x11a1d4",
+      "iso_offset": "0x1388d4"
+    },
+    {
+      "entry": "0x8011da30",
+      "start": "0x8011da30",
+      "end_exclusive": "0x8011daf0",
+      "words": 48,
+      "va": "0x8011da30",
+      "dol_offset": "0x11aa30",
+      "iso_offset": "0x139130"
+    },
+    {
+      "entry": "0x8011daf0",
+      "start": "0x8011daf0",
+      "end_exclusive": "0x8011dc10",
+      "words": 72,
+      "va": "0x8011daf0",
+      "dol_offset": "0x11aaf0",
+      "iso_offset": "0x1391f0"
+    },
+    {
+      "entry": "0x8011dc98",
+      "start": "0x8011dc98",
+      "end_exclusive": "0x8011df18",
+      "words": 160,
+      "va": "0x8011dc98",
+      "dol_offset": "0x11ac98",
+      "iso_offset": "0x139398"
+    },
+    {
+      "entry": "0x8011dc10",
+      "start": "0x8011dc10",
+      "end_exclusive": "0x8011dc98",
+      "words": 34,
+      "va": "0x8011dc10",
+      "dol_offset": "0x11ac10",
+      "iso_offset": "0x139310"
+    }
+  ],
+  "graph_rows": 14,
+  "store_words": 59,
+  "native_execution": false,
+  "project_opens": 0,
+  "limit": "2A source retained only to identify unresolved outgoing effects; no2A numerical emulation."
+}

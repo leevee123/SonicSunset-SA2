@@ -1,0 +1,5 @@
+case,ops,state,GQR1,matrix_arguments,steps,stop,qualification
+mixed,0x29;0x10;0x23;0x29;0x2c;0x23;0x2c,0x1234567b,0x8070807,0x800000;0x800000;0x800000;0x800000;0x800000;0x800000,238,normal literal0 return,synthetic explicit bindings/opaque helper hooks; no numerical or native execution
+opaque_only,0x10,0x12345678,0xdeadbeef,,42,normal literal0 return,synthetic explicit bindings/opaque helper hooks; no numerical or native execution
+unknown2A,0x2a,0x1234567a,0xdeadbeef,0x800000,37,unknown2A call reached after known pre-call effects; math not modeled,synthetic explicit bindings/opaque helper hooks; no numerical or native execution
+per_call_reload_outside_closed_contract,0x29;0x23;0x2c,0x1234567b,0x8070807,0x800000;0x800100;0x800200,109,normal literal0 return,synthetic explicit bindings/opaque helper hooks; no numerical or native execution
