@@ -1,0 +1,57 @@
+name: Import verified source snapshot
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and import the uploaded source
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, io, json, stat, subprocess, zipfile
+          from pathlib import Path, PurePosixPath
+          root = Path.cwd().resolve()
+          parts = sorted(root.glob("source-upload.part*"))
+          assert parts, "No pending source transport parts"
+          data = b"".join(p.read_bytes() for p in parts)
+          assert hashlib.sha256(data).hexdigest() == "17be8afe19f7950caad7c7b6b9762b158f62d5d9776faf3a4873fd62ae87f6d8"
+          with zipfile.ZipFile(io.BytesIO(data)) as archive:
+              manifest = json.loads(archive.read("SOURCE_MANIFEST.ai.json"))
+              entries = {row["path"]: row for row in manifest["files"]}
+              assert len(entries) == len(manifest["files"])
+              assert set(archive.namelist()) == set(entries) | {"SOURCE_MANIFEST.ai.json"}
+              for entry in archive.infolist():
+                  name = PurePosixPath(entry.filename)
+                  assert not name.is_absolute() and ".." not in name.parts and "\\" not in entry.filename
+                  assert name.parts and not any(part in (".git", ".github") for part in name.parts)
+                  assert not stat.S_ISLNK(entry.external_attr >> 16)
+                  target = (root / Path(*name.parts)).resolve()
+                  assert target.is_relative_to(root)
+                  contents = archive.read(entry)
+                  if entry.filename in entries:
+                      wanted = entries[entry.filename]
+                      assert len(contents) == wanted["bytes"] and hashlib.sha256(contents).hexdigest() == wanted["sha256"]
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(contents)
+          for part in parts:
+              assert part.resolve().parent == root
+              part.unlink()
+          for path, wanted in entries.items():
+              assert hashlib.sha256((root / path).read_bytes()).hexdigest() == wanted["sha256"]
+          subprocess.run(["git", "-c", "core.autocrlf=false", "add", "--force", "--all"], check=True)
+          tracked = subprocess.check_output(["git", "ls-files", "-z"]).decode().split("\0")
+          assert set(filter(None, tracked)) == set(entries) | {"SOURCE_MANIFEST.ai.json", ".github/workflows/import-source.yml"}
+          print("Verified", len(entries), "source files; every byte hash matches; transport parts removed.")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Import validated SonicSunset engine and SA2 research"
+          git push origin HEAD:main
