@@ -1,0 +1,5 @@
+view,caller_entry,caller_file_offset,call_site,call_site_file_offset,target,target_file_offset,target_function,target_name,reference_type,target_status,raw_target,raw_link_bit,raw_target_matches_graph,va,dol_offset,iso_offset,word
+main,0x80003140,0x140,80003250,0x250,8010b458,0x108458,8010b458,FUN_8010b458,UNCONDITIONAL_CALL,defined_function_entry,0x8010b458,False,True,0x80003250,0x250,0x1e950,0x48108208
+main,0x8010a474,0x107474,8010a504,0x107504,8010aa2c,0x107a2c,8010aa2c,FUN_8010aa2c,UNCONDITIONAL_CALL,defined_function_entry,0x8010aa2c,False,True,0x8010a504,0x107504,0x125c04,0x48000528
+main-sda-v1,0x80003140,0x140,80003250,0x250,8010b458,0x108458,8010b458,FUN_8010b458,UNCONDITIONAL_CALL,defined_function_entry,0x8010b458,False,True,0x80003250,0x250,0x1e950,0x48108208
+main-sda-v1,0x8010a474,0x107474,8010a504,0x107504,8010aa2c,0x107a2c,8010aa2c,FUN_8010aa2c,UNCONDITIONAL_CALL,defined_function_entry,0x8010aa2c,False,True,0x8010a504,0x107504,0x125c04,0x48000528

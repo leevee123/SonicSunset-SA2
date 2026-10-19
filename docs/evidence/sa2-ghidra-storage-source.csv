@@ -1,0 +1,8 @@
+archive,source_file,source_line,source_statement
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\FileSystem\lib\FileSystem-src.zip,ghidra/framework/store/local/IndexedLocalFileSystem.java,33,* and recovery journal (~index.jrn).
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\FileSystem\lib\FileSystem-src.zip,ghidra/framework/store/local/IndexedLocalFileSystem.java,53,"static final String INDEX_FILE = ""~index.dat"";"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\FileSystem\lib\FileSystem-src.zip,ghidra/framework/store/local/IndexedLocalFileSystem.java,54,"static final String BAK_INDEX_FILE = ""~index.bak"";"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\FileSystem\lib\FileSystem-src.zip,ghidra/framework/store/local/IndexedLocalFileSystem.java,55,"static final String TMP_INDEX_FILE = ""~index.tmp"";"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\FileSystem\lib\FileSystem-src.zip,ghidra/framework/store/local/IndexedLocalFileSystem.java,59,"static final String INDEX_LOCK_FILE = ""~index.lock"";"
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\FileSystem\lib\FileSystem-src.zip,ghidra/framework/store/local/IndexedV1LocalFileSystem.java,28,* and recovery journal (~index.jrn).  File system also maintains a file-ID mapping.
+C:\decomp\sonic-adventure-gc\ghidra_12.1.4_PUBLIC\Ghidra\Framework\DB\lib\DB-src.zip,db/buffers/LocalBufferFile.java,39,"public static final String PRESAVE_FILE_EXT = "".ps"";"

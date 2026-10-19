@@ -1,0 +1,141 @@
+{
+  "result": "startup literal-zero plus snapshot save/restore proven statically;live gameplay GQR0 remains unknown",
+  "human_report_sha256": "516b06a599c14d9ed18d3f9555e7433054627941467c677d986d66e05e71b4e4",
+  "scan": {
+    "result": "passed",
+    "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+    "DOL_ISO_base": "0x1e700",
+    "text_sections": 2,
+    "text_words_scanned": 376848,
+    "all_GQR_accesses": 72,
+    "GQR0_accesses": 3,
+    "GQR0_writes": 2,
+    "GQR0_reads": 1,
+    "reserved_bit_rejected_candidates": 0,
+    "GQR0_sites": [
+      {
+        "va": "0x800e3d5c",
+        "dol_offset": "0xe0d5c",
+        "iso_offset": "0xff45c",
+        "word": "0x7c70e3a6",
+        "SPR": 912,
+        "GQR": 0,
+        "access": "write_mtspr",
+        "gpr": 3,
+        "BIT_0": 0,
+        "classification": "exact valid instruction encoding candidate; static word presence not execution"
+      },
+      {
+        "va": "0x8010a788",
+        "dol_offset": "0x107788",
+        "iso_offset": "0x125e88",
+        "word": "0x7e90e2a6",
+        "SPR": 912,
+        "GQR": 0,
+        "access": "read_mfspr",
+        "gpr": 20,
+        "BIT_0": 0,
+        "classification": "exact valid instruction encoding candidate; static word presence not execution"
+      },
+      {
+        "va": "0x8010a8ac",
+        "dol_offset": "0x1078ac",
+        "iso_offset": "0x125fac",
+        "word": "0x7e90e3a6",
+        "SPR": 912,
+        "GQR": 0,
+        "access": "write_mtspr",
+        "gpr": 20,
+        "BIT_0": 0,
+        "classification": "exact valid instruction encoding candidate; static word presence not execution"
+      }
+    ],
+    "GQR0_owner_entries": [
+      "0x800e3d38",
+      "0x8010a6b4",
+      "0x8010a86c"
+    ],
+    "source_artifacts": 40,
+    "SPR_selector_cases": 1024,
+    "scope": "Main DOL original text words only; no REL/apploader/copied/new/runtime code or implicit hardware paths.",
+    "native_execution": false,
+    "project_opens": 0
+  },
+  "bounded_sources": {
+    "source_files": 66,
+    "word_rows": 704,
+    "ASM_rows": 1180,
+    "graph_rows": 56,
+    "source_scopes": "complete rawCSV;overlap prioraudits"
+  },
+  "startup": {
+    "entry": "80003140",
+    "call03330": "80003144",
+    "callE3D38": "80003340",
+    "li0": "800E3D58",
+    "write": "800E3D5C/E0D5C/FF45C",
+    "value": 0,
+    "C_omission": true
+  },
+  "snapshot": {
+    "save_owner": "8010A6B4",
+    "read": "8010A788/107788/125E88",
+    "store": "8010A7B8",
+    "base": "802D6AA8",
+    "displacement": "2FC",
+    "slot": "802D6DA4",
+    "slot_file_offset": null,
+    "BSS": true,
+    "restore_owner": "8010A86C",
+    "load": "8010A8A8",
+    "write": "8010A8AC/1078AC/125FAC",
+    "restore_value": "savedmemoryword,notliteral",
+    "ownr2construction": true,
+    "C_restore_omission": true
+  },
+  "ordinary_context": {
+    "save_owner": "800E563C",
+    "reads": "800E5640..E5670 GQR1..7",
+    "context_offsets": "1A8..1C0",
+    "restore_owner": "800E56BC",
+    "writes": "800E5714..E5744 GQR1..7",
+    "GQR0_explicit_access": false,
+    "unassigned_hole_meaning": "unknown"
+  },
+  "implicit_consumers": {
+    "functions": [
+      "800E5388",
+      "800E54AC"
+    ],
+    "paired_index0_loads": 32,
+    "paired_index0_stores": 32,
+    "not_counted_as_mfspr_reads": true
+  },
+  "primary_zero_fields": {
+    "st_type": 0,
+    "st_scale": 0,
+    "ld_type": 0,
+    "ld_scale": 0,
+    "type_reference": "pinnedGekko.h QUANTIZE_FLOAT=0; conditional register decoding only"
+  },
+  "reference_SHA256": {
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-fp\\Sa2GekkoLanguage\\data\\languages\\ppc_gekko_broadway.slaspec": "32ce4852d6243f5eea19cda1eb8cf0b2af8fb93532dcd9a585ee927a32c8eb75",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-fp\\Sa2GekkoLanguage\\data\\languages\\ppc_embedded.sinc": "31d65b30afdba57a89254ebef5a4af4b47504d5efb0d237c48abec341e5ea884",
+    "C:\\Users\\naync\\Documents\\Codex\\2026-10-10\\you-are-reverse-engineering-sonic-adventure\\work\\full-decompile-fp\\Gekko.pinned.h": "739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f"
+  },
+  "caller_scope": "5exactentryimmediatebranches maintext;notclosure/execution",
+  "graph_v1_failure": "link-bit assumption;v2matchingtarget nonlinksites3250/A504 retained",
+  "live_gameplay_GQR0_proven": false,
+  "unknowns": [
+    "runtime startup/reach",
+    "liveconsumer value",
+    "snapshot mutation/order/ownership",
+    "othercarriers/copiedcode/async/external",
+    "ABI/indirectclosure",
+    "FPSCR/exactFP/paired/FMA/quantization"
+  ],
+  "engine_repository_frozen_changes": [],
+  "native_execution": false,
+  "project_opens": 0,
+  "leaked_source": "none encountered or used"
+}

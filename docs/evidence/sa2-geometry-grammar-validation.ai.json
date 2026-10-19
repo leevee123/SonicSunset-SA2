@@ -1,0 +1,53 @@
+{
+  "result": "passed",
+  "real_geometry_packets": 73,
+  "explicit_layout_parses": 139,
+  "unique_data_bytes": 40582,
+  "sample_unambiguous_base_layout_runs": 952,
+  "sample_unambiguous_base_layout_records": 6561,
+  "raw_count_signs": {
+    "positive": 675,
+    "negative": 277
+  },
+  "absolute_count_range": [
+    3,
+    60
+  ],
+  "signed_index_range": [
+    0,
+    508
+  ],
+  "padding_bytes": 72,
+  "padding_values": [
+    "",
+    "0000"
+  ],
+  "runs_by_opcode": {
+    "0x41": 927,
+    "0x40": 25
+  },
+  "records_by_opcode": {
+    "0x41": 6371,
+    "0x40": 190
+  },
+  "raw_info_skip_counts": {
+    "0": 73
+  },
+  "full_count_cases": 65536,
+  "full_parameter_cases": 65536,
+  "full_index_cases": 65536,
+  "boundary_fixtures": 17,
+  "critical_words": 41,
+  "FIFO_store_words": 39,
+  "input_sources_reverified": 104,
+  "actual_runtime_layout_selection": "unknown; explicit layout parses are structural comparisons",
+  "sample_not_covering": [
+    "opcode42",
+    "nonzero info skips",
+    "outer groups",
+    "negative indices",
+    "zero count loops"
+  ],
+  "native_execution": false,
+  "engine_changes": []
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "distinct_original_analysis_reference_inputs": 116,
+  "source_ledger_files": 7,
+  "all_source_hashes_unchanged": true,
+  "native_execution": false,
+  "project_opens": 0,
+  "worker_turns": "Usage limits interrupted final narrative handoffs; completed paired/raw results were reused and independently rechecked.",
+  "reader_evidence": "Original instruction/word-model audits and explicit real-byte probe oracle, not observed runtime groups."
+}

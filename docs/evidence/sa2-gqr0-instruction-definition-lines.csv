@@ -1,0 +1,8 @@
+path,line,text
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_embedded.sinc,94,":mfspr D,SPRVAL		is OP=31 & D & SPRVAL & XOP_1_10=339 & BIT_0=0"
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_embedded.sinc,147,":mtspr SPRVAL,S		is OP=31 & SPRVAL & S & XOP_1_10=467 & BIT_0=0"
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_embedded.sinc,152,":mtspr SPRVAL,S		is OP=31 & BITS_11_20=0x100 & BITS_21_25=0 & SPRVAL & S & XOP_1_10=467 & BIT_0=0"
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_embedded.sinc,158,":mtspr SPRVAL,S		is linkreg=1 & OP=31 & BITS_11_20=0x100 & BITS_21_25=0 & SPRVAL & S & XOP_1_10=467 & BIT_0=0"
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_gekko_broadway.slaspec,452,"	SPRVAL=(11,20)"
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Sa2GekkoLanguage\data\languages\ppc_gekko_broadway.slaspec,635,	spr010	spr030	spr050  spr070	spr090	spr0b0	spr0d0	spr0f0	spr110	spr130	spr150	spr170	spr190	spr1b0	spr1d0	spr1f0	spr210	spr230	spr250	spr270	spr290	spr2b0	spr2d0	spr2f0	spr310	spr330	spr350	spr370	GQR0   	spr3b0 	spr3d0	spr3f0
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,884,"  SPR_GQR0 = 912,"

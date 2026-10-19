@@ -1,0 +1,145 @@
+view,va,dol_offset,iso_offset,word,SPR,GQR,access,gpr,BIT_0,classification,entry,status,range_start,range_end_exclusive
+main,0x800e3cf4,0xe0cf4,0xff3f4,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3cfc,0xe0cfc,0xff3fc,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3d04,0xe0d04,0xff404,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3d0c,0xe0d0c,0xff40c,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3d14,0xe0d14,0xff414,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3d1c,0xe0d1c,0xff41c,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3d24,0xe0d24,0xff424,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e3d5c,0xe0d5c,0xff45c,0x7c70e3a6,912,0,write_mtspr,3,0,exact valid instruction encoding candidate; static word presence not execution,0x800e3d38,completed,0x800e3d38,0x800e3d70
+main,0x800e446c,0xe146c,0xffb6c,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e4474,0xe1474,0xffb74,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e447c,0xe147c,0xffb7c,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e4484,0xe1484,0xffb84,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e448c,0xe148c,0xffb8c,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e4494,0xe1494,0xffb94,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e449c,0xe149c,0xffb9c,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e5640,0xe2640,0x100d40,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5648,0xe2648,0x100d48,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5650,0xe2650,0x100d50,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5658,0xe2658,0x100d58,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5660,0xe2660,0x100d60,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5668,0xe2668,0x100d68,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5670,0xe2670,0x100d70,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main,0x800e5714,0xe2714,0x100e14,0x7c91e3a6,913,1,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e571c,0xe271c,0x100e1c,0x7c92e3a6,914,2,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e5724,0xe2724,0x100e24,0x7c93e3a6,915,3,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e572c,0xe272c,0x100e2c,0x7c94e3a6,916,4,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e5734,0xe2734,0x100e34,0x7c95e3a6,917,5,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e573c,0xe273c,0x100e3c,0x7c96e3a6,918,6,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e5744,0xe2744,0x100e44,0x7c97e3a6,919,7,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main,0x800e80d8,0xe50d8,0x1037d8,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e80e0,0xe50e0,0x1037e0,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e80e8,0xe50e8,0x1037e8,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e80f0,0xe50f0,0x1037f0,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e80f8,0xe50f8,0x1037f8,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e8100,0xe5100,0x103800,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x800e8108,0xe5108,0x103808,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main,0x8010a788,0x107788,0x125e88,0x7e90e2a6,912,0,read_mfspr,20,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a78c,0x10778c,0x125e8c,0x7eb1e2a6,913,1,read_mfspr,21,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a790,0x107790,0x125e90,0x7ed2e2a6,914,2,read_mfspr,22,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a794,0x107794,0x125e94,0x7ef3e2a6,915,3,read_mfspr,23,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a798,0x107798,0x125e98,0x7f14e2a6,916,4,read_mfspr,24,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a79c,0x10779c,0x125e9c,0x7f35e2a6,917,5,read_mfspr,25,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a7a0,0x1077a0,0x125ea0,0x7f56e2a6,918,6,read_mfspr,26,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a7a4,0x1077a4,0x125ea4,0x7f77e2a6,919,7,read_mfspr,27,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main,0x8010a8ac,0x1078ac,0x125fac,0x7e90e3a6,912,0,write_mtspr,20,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8b0,0x1078b0,0x125fb0,0x7eb1e3a6,913,1,write_mtspr,21,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8b4,0x1078b4,0x125fb4,0x7ed2e3a6,914,2,write_mtspr,22,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8b8,0x1078b8,0x125fb8,0x7ef3e3a6,915,3,write_mtspr,23,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8bc,0x1078bc,0x125fbc,0x7f14e3a6,916,4,write_mtspr,24,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8c0,0x1078c0,0x125fc0,0x7f35e3a6,917,5,write_mtspr,25,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8c4,0x1078c4,0x125fc4,0x7f56e3a6,918,6,write_mtspr,26,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x8010a8c8,0x1078c8,0x125fc8,0x7f77e3a6,919,7,write_mtspr,27,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main,0x80113fa0,0x110fa0,0x12f6a0,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80113f98,completed_with_warnings,0x80113f98,0x80113fc0
+main,0x80113fc8,0x110fc8,0x12f6c8,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80113fc0,completed_with_warnings,0x80113fc0,0x80113fe8
+main,0x8011dcac,0x11acac,0x1393ac,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x8011dc98,completed_with_warnings,0x8011dc98,0x8011df18
+main,0x80144c5c,0x141c5c,0x16035c,0x7c17e3a6,919,7,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80144c54,completed,0x80144c54,0x80144c64
+main,0x80150ab0,0x14dab0,0x16c1b0,0x7c14e3a6,916,4,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80150aa8,completed,0x80150aa8,0x80150ad0
+main,0x80150abc,0x14dabc,0x16c1bc,0x7c13e3a6,915,3,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80150aa8,completed,0x80150aa8,0x80150ad0
+main,0x80150ac8,0x14dac8,0x16c1c8,0x7c15e3a6,917,5,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80150aa8,completed,0x80150aa8,0x80150ad0
+main,0x80169b4c,0x166b4c,0x18524c,0x7c12e3a6,914,2,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main,0x80169b50,0x166b50,0x185250,0x7c93e3a6,915,3,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main,0x80169b54,0x166b54,0x185254,0x7cb4e3a6,916,4,write_mtspr,5,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main,0x80169b58,0x166b58,0x185258,0x7cd5e3a6,917,5,write_mtspr,6,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main,0x80169b5c,0x166b5c,0x18525c,0x7cf6e3a6,918,6,write_mtspr,7,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main,0x80169b60,0x166b60,0x185260,0x7c77e3a6,919,7,write_mtspr,3,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main,0x80169b68,0x166b68,0x185268,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main,0x80169b6c,0x166b6c,0x18526c,0x7c93e2a6,915,3,read_mfspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main,0x80169b70,0x166b70,0x185270,0x7cb4e2a6,916,4,read_mfspr,5,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main,0x80169b74,0x166b74,0x185274,0x7cd5e2a6,917,5,read_mfspr,6,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main,0x80169b78,0x166b78,0x185278,0x7cf6e2a6,918,6,read_mfspr,7,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main,0x80169b7c,0x166b7c,0x18527c,0x7d17e2a6,919,7,read_mfspr,8,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main,0x80169bbc,0x166bbc,0x1852bc,0x7c14e3a6,916,4,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b9c,completed_with_warnings,0x80169b9c,0x80169fd0
+main-sda-v1,0x800e3cf4,0xe0cf4,0xff3f4,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3cfc,0xe0cfc,0xff3fc,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3d04,0xe0d04,0xff404,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3d0c,0xe0d0c,0xff40c,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3d14,0xe0d14,0xff414,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3d1c,0xe0d1c,0xff41c,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3d24,0xe0d24,0xff424,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e3d5c,0xe0d5c,0xff45c,0x7c70e3a6,912,0,write_mtspr,3,0,exact valid instruction encoding candidate; static word presence not execution,0x800e3d38,completed,0x800e3d38,0x800e3d70
+main-sda-v1,0x800e446c,0xe146c,0xffb6c,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e4474,0xe1474,0xffb74,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e447c,0xe147c,0xffb7c,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e4484,0xe1484,0xffb84,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e448c,0xe148c,0xffb8c,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e4494,0xe1494,0xffb94,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e449c,0xe149c,0xffb9c,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e5640,0xe2640,0x100d40,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5648,0xe2648,0x100d48,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5650,0xe2650,0x100d50,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5658,0xe2658,0x100d58,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5660,0xe2660,0x100d60,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5668,0xe2668,0x100d68,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5670,0xe2670,0x100d70,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x800e563c,completed_with_warnings,0x800e563c,0x800e56bc
+main-sda-v1,0x800e5714,0xe2714,0x100e14,0x7c91e3a6,913,1,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e571c,0xe271c,0x100e1c,0x7c92e3a6,914,2,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e5724,0xe2724,0x100e24,0x7c93e3a6,915,3,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e572c,0xe272c,0x100e2c,0x7c94e3a6,916,4,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e5734,0xe2734,0x100e34,0x7c95e3a6,917,5,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e573c,0xe273c,0x100e3c,0x7c96e3a6,918,6,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e5744,0xe2744,0x100e44,0x7c97e3a6,919,7,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x800e56bc,completed,0x800e56bc,0x800e5794
+main-sda-v1,0x800e80d8,0xe50d8,0x1037d8,0x7c11e2a6,913,1,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e80e0,0xe50e0,0x1037e0,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e80e8,0xe50e8,0x1037e8,0x7c13e2a6,915,3,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e80f0,0xe50f0,0x1037f0,0x7c14e2a6,916,4,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e80f8,0xe50f8,0x1037f8,0x7c15e2a6,917,5,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e8100,0xe5100,0x103800,0x7c16e2a6,918,6,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x800e8108,0xe5108,0x103808,0x7c17e2a6,919,7,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,,not owned by exported body ranges,,
+main-sda-v1,0x8010a788,0x107788,0x125e88,0x7e90e2a6,912,0,read_mfspr,20,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a78c,0x10778c,0x125e8c,0x7eb1e2a6,913,1,read_mfspr,21,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a790,0x107790,0x125e90,0x7ed2e2a6,914,2,read_mfspr,22,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a794,0x107794,0x125e94,0x7ef3e2a6,915,3,read_mfspr,23,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a798,0x107798,0x125e98,0x7f14e2a6,916,4,read_mfspr,24,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a79c,0x10779c,0x125e9c,0x7f35e2a6,917,5,read_mfspr,25,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a7a0,0x1077a0,0x125ea0,0x7f56e2a6,918,6,read_mfspr,26,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a7a4,0x1077a4,0x125ea4,0x7f77e2a6,919,7,read_mfspr,27,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a6b4,completed_with_warnings,0x8010a6b4,0x8010a7c0
+main-sda-v1,0x8010a8ac,0x1078ac,0x125fac,0x7e90e3a6,912,0,write_mtspr,20,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8b0,0x1078b0,0x125fb0,0x7eb1e3a6,913,1,write_mtspr,21,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8b4,0x1078b4,0x125fb4,0x7ed2e3a6,914,2,write_mtspr,22,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8b8,0x1078b8,0x125fb8,0x7ef3e3a6,915,3,write_mtspr,23,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8bc,0x1078bc,0x125fbc,0x7f14e3a6,916,4,write_mtspr,24,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8c0,0x1078c0,0x125fc0,0x7f35e3a6,917,5,write_mtspr,25,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8c4,0x1078c4,0x125fc4,0x7f56e3a6,918,6,write_mtspr,26,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x8010a8c8,0x1078c8,0x125fc8,0x7f77e3a6,919,7,write_mtspr,27,0,exact valid instruction encoding candidate; static word presence not execution,0x8010a86c,completed,0x8010a86c,0x8010a8dc
+main-sda-v1,0x80113fa0,0x110fa0,0x12f6a0,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80113f98,completed_with_warnings,0x80113f98,0x80113fc0
+main-sda-v1,0x80113fc8,0x110fc8,0x12f6c8,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80113fc0,completed_with_warnings,0x80113fc0,0x80113fe8
+main-sda-v1,0x8011dcac,0x11acac,0x1393ac,0x7c11e3a6,913,1,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x8011dc98,completed_with_warnings,0x8011dc98,0x8011df18
+main-sda-v1,0x80144c5c,0x141c5c,0x16035c,0x7c17e3a6,919,7,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80144c54,completed,0x80144c54,0x80144c64
+main-sda-v1,0x80150ab0,0x14dab0,0x16c1b0,0x7c14e3a6,916,4,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80150aa8,completed,0x80150aa8,0x80150ad0
+main-sda-v1,0x80150abc,0x14dabc,0x16c1bc,0x7c13e3a6,915,3,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80150aa8,completed,0x80150aa8,0x80150ad0
+main-sda-v1,0x80150ac8,0x14dac8,0x16c1c8,0x7c15e3a6,917,5,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80150aa8,completed,0x80150aa8,0x80150ad0
+main-sda-v1,0x80169b4c,0x166b4c,0x18524c,0x7c12e3a6,914,2,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main-sda-v1,0x80169b50,0x166b50,0x185250,0x7c93e3a6,915,3,write_mtspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main-sda-v1,0x80169b54,0x166b54,0x185254,0x7cb4e3a6,916,4,write_mtspr,5,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main-sda-v1,0x80169b58,0x166b58,0x185258,0x7cd5e3a6,917,5,write_mtspr,6,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main-sda-v1,0x80169b5c,0x166b5c,0x18525c,0x7cf6e3a6,918,6,write_mtspr,7,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main-sda-v1,0x80169b60,0x166b60,0x185260,0x7c77e3a6,919,7,write_mtspr,3,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b34,completed,0x80169b34,0x80169b68
+main-sda-v1,0x80169b68,0x166b68,0x185268,0x7c12e2a6,914,2,read_mfspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main-sda-v1,0x80169b6c,0x166b6c,0x18526c,0x7c93e2a6,915,3,read_mfspr,4,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main-sda-v1,0x80169b70,0x166b70,0x185270,0x7cb4e2a6,916,4,read_mfspr,5,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main-sda-v1,0x80169b74,0x166b74,0x185274,0x7cd5e2a6,917,5,read_mfspr,6,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main-sda-v1,0x80169b78,0x166b78,0x185278,0x7cf6e2a6,918,6,read_mfspr,7,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main-sda-v1,0x80169b7c,0x166b7c,0x18527c,0x7d17e2a6,919,7,read_mfspr,8,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b68,completed_with_warnings,0x80169b68,0x80169b9c
+main-sda-v1,0x80169bbc,0x166bbc,0x1852bc,0x7c14e3a6,916,4,write_mtspr,0,0,exact valid instruction encoding candidate; static word presence not execution,0x80169b9c,completed_with_warnings,0x80169b9c,0x80169fd0

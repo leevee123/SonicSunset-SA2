@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "build": "Windows x64 MSVC/Ninja Debug EDITOR ON",
+  "group_unit_compiled": true,
+  "executable_linked": true,
+  "compiler_errors": 0,
+  "raw_log_sha256": "50abeb63777355d2fab25bf869ac7120bc8d502efd0951f9de748e7a579b98d1",
+  "executable_sha256": "aae943ee8ff967f9a05179578a37ac0d0fbc9fa4bfc9bf558a5e67e897fde295",
+  "debug_information": "Existing invocation-only Embedded workaround; repository defaults unchanged",
+  "scope": "Explicit grouped-helper data resource; no native GPU/FP/animation/gameplay execution"
+}

@@ -1,0 +1,60 @@
+{
+  "result": "passed",
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "DOL_ISO_base": "0x1e700",
+  "text_sections": 2,
+  "text_words_scanned": 376848,
+  "all_GQR_accesses": 72,
+  "GQR0_accesses": 3,
+  "GQR0_writes": 2,
+  "GQR0_reads": 1,
+  "reserved_bit_rejected_candidates": 0,
+  "GQR0_sites": [
+    {
+      "va": "0x800e3d5c",
+      "dol_offset": "0xe0d5c",
+      "iso_offset": "0xff45c",
+      "word": "0x7c70e3a6",
+      "SPR": 912,
+      "GQR": 0,
+      "access": "write_mtspr",
+      "gpr": 3,
+      "BIT_0": 0,
+      "classification": "exact valid instruction encoding candidate; static word presence not execution"
+    },
+    {
+      "va": "0x8010a788",
+      "dol_offset": "0x107788",
+      "iso_offset": "0x125e88",
+      "word": "0x7e90e2a6",
+      "SPR": 912,
+      "GQR": 0,
+      "access": "read_mfspr",
+      "gpr": 20,
+      "BIT_0": 0,
+      "classification": "exact valid instruction encoding candidate; static word presence not execution"
+    },
+    {
+      "va": "0x8010a8ac",
+      "dol_offset": "0x1078ac",
+      "iso_offset": "0x125fac",
+      "word": "0x7e90e3a6",
+      "SPR": 912,
+      "GQR": 0,
+      "access": "write_mtspr",
+      "gpr": 20,
+      "BIT_0": 0,
+      "classification": "exact valid instruction encoding candidate; static word presence not execution"
+    }
+  ],
+  "GQR0_owner_entries": [
+    "0x800e3d38",
+    "0x8010a6b4",
+    "0x8010a86c"
+  ],
+  "source_artifacts": 40,
+  "SPR_selector_cases": 1024,
+  "scope": "Main DOL original text words only; no REL/apploader/copied/new/runtime code or implicit hardware paths.",
+  "native_execution": false,
+  "project_opens": 0
+}

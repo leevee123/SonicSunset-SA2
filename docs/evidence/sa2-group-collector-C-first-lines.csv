@@ -1,0 +1,1022 @@
+view,entry,line,text,path
+main,0x8011ccf8,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011ccf8; retail_virtual; canonical original-file offset 0x119cf8. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,4,void FUN_8011ccf8(void),work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,7,uint uVar1;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,8,uint uVar2;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,9,ushort uVar5;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,10,uint uVar3;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,11,uint uVar4;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,12,undefined4 uVar6;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,13,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,14,ushort *puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,15,ushort *puVar8;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,16,uint unaff_r22;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,17,int iVar9;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,18,uint uVar10;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,19,uint uVar11;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,20,ushort uVar14;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,21,uint uVar12;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,22,int iVar13;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,23,undefined8 uVar15;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,24,uint local_70 [8];,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,25,ushort *local_50 [20];,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,27,uVar15 = FUN_8010afb0();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,28,uVar6 = (undefined4)uVar15;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,29,*(undefined4 *)(unaff_r13 + -0x7174) = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,30,puVar8 = (ushort *)((ulonglong)uVar15 >> 0x20);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,31,iVar9 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,32,uVar4 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,33,LAB_8011d184:,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,34,do {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,35,uVar5 = (ushort)unaff_r22;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,36,uVar14 = *puVar8;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,37,iVar13 = (int)(short)uVar14;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,38,puVar7 = puVar8 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,39,if (iVar13 == 0xff) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,40,LAB_8011d194:,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,41,FUN_8010affc();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,42,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,43,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,44,uVar10 = (uint)(short)(uVar14 & 0xff);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,45,if (7 < uVar10) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,46,if (uVar10 < 0x10) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,47,if (uVar4 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,48,"FUN_8011c76c(iVar13,(int)(short)*puVar7);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,49,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,50,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,51,"FUN_8011c85c(iVar13,(int)(short)*puVar7,iVar9);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,52,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,53,puVar8 = puVar8 + 2;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,54,goto LAB_8011d184;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,55,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,56,if (uVar10 < 0x40) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,57,uVar14 = *puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,58,if ((*(uint *)(unaff_r13 + -0x71d8) & 0x8000) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,59,FUN_8011c754(iVar13);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,60,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,61,"FUN_8011c628(iVar13,puVar8 + 2);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,62,puVar8 = puVar8 + 2 + (short)uVar14;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,63,goto LAB_8011d184;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,64,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,65,uVar11 = (uint)*puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,66,uVar1 = (uint)(short)puVar8[2];,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,67,puVar7 = puVar8 + 3;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,68,if (uVar4 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,69,if ((*(uint *)(unaff_r13 + -0x71d8) & 0x800) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,70,uVar14 = uVar14 & (ushort)*(undefined4 *)(unaff_r13 + -0x71dc) |,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,71,(ushort)*(undefined4 *)(unaff_r13 + -0x71e0);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,72,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,73,uVar5 = (ushort)(char)(uVar14 >> 8);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,74,uVar12 = (uint)(short)uVar5;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,75,uVar2 = *(uint *)(unaff_r13 + -0x7180);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,76,uVar3 = *(uint *)(unaff_r13 + -0x717c);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,77,*(uint *)(unaff_r13 + -0x7180) = uVar12;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,78,*(undefined4 *)(unaff_r13 + -0x717c) = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,79,if (((uVar12 ^ uVar2 | uVar3) & 1) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,80,FUN_8011caac();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,81,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,82,FUN_8011cc08(uVar12 | *(uint *)(unaff_r13 + -0x717c));,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,83,if (uVar1 >> 0xe != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,84,local_70[0] = countLeadingZeros(0x42 - uVar10);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,85,local_70[0] = local_70[0] >> 5;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,86,iVar9 = 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,87,puVar8 = puVar7 + (uVar11 - 1);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,88,unaff_r22 = uVar12;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,89,uVar4 = uVar1 >> 0xe;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,90,local_50[0] = puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,91,goto LAB_8011d184;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,92,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,93,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,94,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,95,local_50[iVar9] = puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,96,uVar2 = countLeadingZeros(0x42 - uVar10);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,97,local_70[iVar9] = uVar2 >> 5;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,98,if (iVar9 < (int)uVar4) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,99,puVar8 = puVar7 + (uVar11 - 1);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,100,iVar9 = iVar9 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,101,goto LAB_8011d184;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,102,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,103,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,104,if (uVar10 == 0x40) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,105,if ((uVar5 & 0x40) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,106,if (uVar4 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,107,FUN_8011c960();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,108,if ((*(uint *)(unaff_r13 + -0x7178) & 2) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,109,"FUN_8011d594(puVar7,uVar6,uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,110,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,111,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,112,"FUN_8011fef4(puVar7,uVar6,uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,113,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,114,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,115,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,116,FUN_8011c960();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,117,if ((*(uint *)(unaff_r13 + -0x7178) & 2) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,118,"FUN_8011d594(puVar7,uVar6,uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,119,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,120,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,121,"FUN_8011fef4(puVar7,uVar6,uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,122,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,123,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,124,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,125,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,126,FUN_8011c9ac();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,127,"FUN_8011d1ac(0,0,1,0x2a);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,128,"FUN_8011d6a4(puVar7,uVar6,uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,129,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,130,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,131,else if ((0x3f < uVar10) && (uVar10 < 0x43)) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,132,if ((uVar5 & 0x40) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,133,if (uVar4 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,134,FUN_8011c9ac();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,135,"FUN_8011d1ac(0,1,4,0x3c);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,136,if ((*(uint *)(unaff_r13 + -0x7178) & 2) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,137,uVar4 = countLeadingZeros(0x42 - uVar10);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,138,"FUN_8011d7b4(puVar7,uVar6,uVar1,uVar4 >> 5);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,139,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,140,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,141,uVar4 = countLeadingZeros(0x42 - uVar10);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,142,"FUN_8011fff4(puVar7,uVar6,uVar1,uVar4 >> 5);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,143,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,144,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,145,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,146,FUN_8011c9f8(uVar4);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,147,for (iVar9 = 0; iVar9 <= (int)uVar4; iVar9 = iVar9 + 1) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,148,"FUN_8011d1ac(iVar9,1,iVar9 + 4,0x3c);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,149,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,150,if ((*(uint *)(unaff_r13 + -0x7178) & 2) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,151,uVar4 = countLeadingZeros(0x42 - uVar10);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,152,"FUN_8011d7b4(puVar7,uVar6,uVar1,uVar4 >> 5);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,153,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,154,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,155,"FUN_80120158(local_50,uVar6,uVar1,local_70,uVar4);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,156,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,157,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,158,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,159,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,160,FUN_8011c9ac();,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,161,"FUN_8011d1ac(0,0,1,0x2a);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,162,"FUN_8011d91c(puVar7,uVar6,uVar1);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,163,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,164,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,165,iVar9 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,166,*(undefined4 *)(unaff_r13 + -0x7174) = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,167,puVar8 = puVar7 + (uVar11 - 1);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,168,uVar4 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,169,goto LAB_8011d184;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,170,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,171,if (uVar10 == 4) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,172,*(ushort **)(&DAT_80357a58 + (short)(uVar14 >> 8) * 4) = puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,173,*(int *)(unaff_r13 + -0x71cc) = *(int *)(unaff_r13 + -0x71cc) + 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,174,goto LAB_8011d194;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,175,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,176,puVar8 = puVar7;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,177,if (uVar10 < 4) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,178,if ((uVar10 == 1) && ((*(uint *)(unaff_r13 + -0x71d8) & 0x8000) == 0)) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,179,FUN_8011c754(iVar13);,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,180,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,181,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,182,else if (uVar10 < 6) {,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,183,"FUN_8011ccf8(*(undefined4 *)(&DAT_80357a58 + (short)(uVar14 >> 8) * 4),uVar6);",work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,184,*(int *)(unaff_r13 + -0x71cc) = *(int *)(unaff_r13 + -0x71cc) + -1;,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,185,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,186,} while( true );,work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x8011ccf8,187,},work\full-decompile\gekko\main\export\pseudocode\0x8011ccf8.c
+main,0x80120158,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x80120158; retail_virtual; canonical original-file offset 0x11d158. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,4,"void FUN_80120158(undefined4 param_1,undefined4 param_2,uint param_3,int *param_4,uint param_5)",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,6,{,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,7,short sVar1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,8,undefined4 uVar2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,9,int *piVar3;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,10,short *psVar4;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,11,uint uVar5;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,12,int *piVar6;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,13,uint uVar7;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,14,float *pfVar8;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,15,uint uVar9;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,16,undefined8 uVar10;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,18,uVar10 = FUN_8010afc4();,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,19,piVar3 = (int *)((ulonglong)uVar10 >> 0x20);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,20,param_3 = param_3 & 0x3fff;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,21,for (uVar7 = 0; uVar7 <= param_5; uVar7 = uVar7 + 1) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,22,if (*param_4 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,23,uVar2 = 8;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,24,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,25,else {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,26,uVar2 = 0xc;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,27,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,28,"FUN_80100d44(0,uVar7 + 0xd,1,3,uVar2);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,29,param_4 = param_4 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,30,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,31,FUN_80100cf8();,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,32,"FUN_80100830(9,1);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,33,"FUN_80100830(0xb,1);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,34,for (uVar7 = 0; uVar7 <= param_5; uVar7 = uVar7 + 1) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,35,"FUN_80100830(uVar7 + 0xd,1);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,36,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,37,do {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,38,psVar4 = (short *)*piVar3;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,39,*piVar3 = (int)(psVar4 + 1);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,40,uVar7 = (uint)*psVar4;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,41,piVar6 = piVar3 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,42,if (param_5 != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,43,uVar9 = param_5 >> 3;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,44,uVar5 = param_5;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,45,if (uVar9 != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,46,do {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,47,*piVar6 = *piVar6 + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,48,piVar6[1] = piVar6[1] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,49,piVar6[2] = piVar6[2] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,50,piVar6[3] = piVar6[3] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,51,piVar6[4] = piVar6[4] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,52,piVar6[5] = piVar6[5] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,53,piVar6[6] = piVar6[6] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,54,piVar6[7] = piVar6[7] + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,55,piVar6 = piVar6 + 8;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,56,uVar9 = uVar9 - 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,57,} while (uVar9 != 0);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,58,uVar5 = param_5 & 7;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,59,if (uVar5 == 0) goto LAB_801202fc;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,60,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,61,do {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,62,*piVar6 = *piVar6 + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,63,piVar6 = piVar6 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,64,uVar5 = uVar5 - 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,65,} while (uVar5 != 0);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,66,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,67,LAB_801202fc:,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,68,if ((int)uVar7 < 0) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,69,uVar7 = -uVar7;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,70,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,71,"FUN_80101948(0x98,0,uVar7 & 0xffff);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,72,do {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,73,psVar4 = (short *)*piVar3;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,74,*piVar3 = (int)(psVar4 + 1);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,75,pfVar8 = (float *)((int)uVar10 + *psVar4 * 0x20);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,76,"FUN_80120144((double)*pfVar8,(double)pfVar8[1],(double)pfVar8[2]);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,77,FUN_80120138(pfVar8[6]);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,78,piVar6 = piVar3;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,79,for (uVar9 = 0; uVar9 <= param_5; uVar9 = uVar9 + 1) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,80,if (uVar9 != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,81,*piVar6 = *piVar6 + 2;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,82,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,83,psVar4 = (short *)*piVar6;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,84,*piVar6 = (int)(psVar4 + 1);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,85,sVar1 = *psVar4;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,86,psVar4 = (short *)*piVar6;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,87,*piVar6 = (int)(psVar4 + 1);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,88,"FUN_80120128((int)sVar1,(int)*psVar4);",work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,89,piVar6 = piVar6 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,90,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,91,uVar7 = uVar7 - 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,92,} while (uVar7 != 0);,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,93,FUN_80120124();,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,94,param_3 = param_3 - 1;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,95,if (param_3 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,96,FUN_8010b010();,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,97,return;,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,98,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,99,} while( true );,work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x80120158,100,},work\full-decompile\gekko\main\export\pseudocode\0x80120158.c
+main,0x8011c754,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c754; retail_virtual; canonical original-file offset 0x119754. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,4,void FUN_8011c754(uint param_1),work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,7,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,9,*(uint *)(unaff_r13 + -0x71e4) = param_1 & 0x3f00;,work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,10,*(uint *)(unaff_r13 + -0x717c) = *(uint *)(unaff_r13 + -0x717c) | 8;,work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,11,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c754,12,},work\full-decompile\gekko\main\export\pseudocode\0x8011c754.c
+main,0x8011c76c,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c76c; retail_virtual; canonical original-file offset 0x11976c. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,4,"void FUN_8011c76c(uint param_1,uint param_2)",work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,7,int iVar1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,8,undefined4 uVar2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,9,undefined4 uVar3;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,10,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,12,iVar1 = *(int *)(*(int *)(**(int **)(*(int *)(unaff_r13 + -0x7228) + 0x20) +,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,13,(param_2 & 0x1fff) * 0xc + 8) + 0xc);,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,14,*(undefined4 **)(unaff_r13 + -0x7174) = (undefined4 *)(iVar1 + 4);,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,15,uVar3 = 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,16,uVar2 = 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,17,if ((param_1 & 0x2000) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,18,if ((param_1 & 0x8000) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,19,uVar2 = 2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,20,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,21,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,22,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,23,uVar2 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,24,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,25,if ((param_1 & 0x1000) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,26,if ((param_1 & 0x4000) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,27,uVar3 = 2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,28,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,29,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,30,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,31,uVar3 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,32,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,33,"FUN_8010334c(&DAT_80357fb0,*(undefined4 *)(iVar1 + 0x20),*(uint *)(iVar1 + 0x10) & 0xffff,",work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,34,"*(uint *)(iVar1 + 0x14) & 0xffff,*(undefined4 *)(iVar1 + 4),uVar2,uVar3,",work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,35,(*(uint *)(iVar1 + 0x1c) & 0x80000000) != 0);,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,36,"FUN_8010394c(&DAT_80357fb0,0);",work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,37,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c76c,38,},work\full-decompile\gekko\main\export\pseudocode\0x8011c76c.c
+main,0x8011c85c,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c85c; retail_virtual; canonical original-file offset 0x11985c. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,4,"void FUN_8011c85c(uint param_1,uint param_2,int param_3)",work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,7,int iVar1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,8,undefined4 uVar2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,9,undefined4 uVar3;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,10,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,12,iVar1 = *(int *)(*(int *)(**(int **)(*(int *)(unaff_r13 + -0x7228) + 0x20) +,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,13,(param_2 & 0x1fff) * 0xc + 8) + 0xc);,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,14,*(undefined4 **)(unaff_r13 + -0x7174) = (undefined4 *)(iVar1 + 4);,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,15,uVar3 = 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,16,uVar2 = 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,17,if ((param_1 & 0x2000) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,18,if ((param_1 & 0x8000) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,19,uVar2 = 2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,20,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,21,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,22,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,23,uVar2 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,24,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,25,if ((param_1 & 0x1000) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,26,if ((param_1 & 0x4000) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,27,uVar3 = 2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,28,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,29,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,30,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,31,uVar3 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,32,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,33,"FUN_8010334c(&DAT_80357fb0 + param_3 * 0x20,*(undefined4 *)(iVar1 + 0x20),",work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,34,"*(uint *)(iVar1 + 0x10) & 0xffff,*(uint *)(iVar1 + 0x14) & 0xffff,",work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,35,"*(undefined4 *)(iVar1 + 4),uVar2,uVar3,(*(uint *)(iVar1 + 0x1c) & 0x80000000) != 0);",work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,36,"FUN_8010394c(&DAT_80357fb0 + param_3 * 0x20,param_3);",work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,37,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c85c,38,},work\full-decompile\gekko\main\export\pseudocode\0x8011c85c.c
+main,0x8011c628,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c628; retail_virtual; canonical original-file offset 0x119628. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,4,"void FUN_8011c628(uint param_1,undefined2 *param_2)",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,7,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,8,undefined4 local_2c;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,9,undefined4 local_28;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,10,undefined4 local_24;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,11,undefined4 local_20;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,12,float local_1c;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,13,float local_18;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,14,float local_14;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,15,float local_10;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,16,undefined4 local_c;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,17,undefined4 local_8 [2];,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,19,if (((param_1 & 0xff) - 0x10 & 1) != 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,20,"local_2c = CONCAT22(CONCAT11((char)param_2[1],(char)((ushort)*param_2 >> 8)),",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,21,"CONCAT11((char)*param_2,(char)((ushort)param_2[1] >> 8)));",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,22,local_8[0] = local_2c;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,23,if ((*(uint *)(unaff_r13 + -0x71d8) & 0x10) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,24,if ((*(uint *)(unaff_r13 + -0x71d8) & 0x20) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,25,"FUN_80102d90(4,&local_2c);",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,26,},work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,27,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,28,"FUN_80113fc0(local_8,&local_1c);",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,29,local_1c = local_1c + DAT_803578b0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,30,local_18 = local_18 + DAT_803578b4;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,31,local_14 = local_14 + DAT_803578b8;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,32,local_10 = local_10 + DAT_803578bc;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,33,"FUN_80113f98(&local_1c,&local_20);",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,34,local_28 = local_20;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,35,"FUN_80102d90(4,&local_28);",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,36,},work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,37,},work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,38,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,39,"FUN_80113f98(&DAT_803578b0,&local_c);",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,40,local_24 = local_c;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,41,"FUN_80102d90(4,&local_24);",work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,42,},work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,43,},work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,44,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011c628,45,},work\full-decompile\gekko\main\export\pseudocode\0x8011c628.c
+main,0x8011caac,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011caac; retail_virtual; canonical original-file offset 0x119aac. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,4,void FUN_8011caac(uint param_1),work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,7,bool bVar1;,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,8,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,10,if (((*(uint *)(unaff_r13 + -0x71d8) & 0x80000) == 0) ||,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,11,(*(code **)(unaff_r13 + -0x7140) == (code *)0x0)) {,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,12,bVar1 = (*(uint *)(unaff_r13 + -0x7178) & 2) != 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,13,"FUN_80102f44(0,(*(uint *)(unaff_r13 + -0x7178) & 1) == 0 && (param_1 & 1) == 0,0,bVar1,",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,14,"*(undefined4 *)(unaff_r13 + -0x71d0),*(undefined4 *)(unaff_r13 + -0x7ba4),",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,15,*(undefined4 *)(unaff_r13 + -0x7ba8));,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,16,"FUN_80102f44(2,0,0,bVar1,*(undefined4 *)(unaff_r13 + -0x71d0),",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,17,"*(undefined4 *)(unaff_r13 + -0x7ba4),*(undefined4 *)(unaff_r13 + -0x7ba8));",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,18,if ((param_1 & 2) == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,19,FUN_80102ef8(2);,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,20,"FUN_80102f44(1,1,0,bVar1,*(undefined4 *)(unaff_r13 + -0x71d0),0,0);",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,21,"FUN_80102f44(3,0,0,bVar1,*(undefined4 *)(unaff_r13 + -0x71d0),0,0);",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,22,},work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,23,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,24,"FUN_80102f44(1,0,0,0,*(undefined4 *)(unaff_r13 + -0x71d0),0,2);",work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,25,},work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,26,},work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,27,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,28,(**(code **)(unaff_r13 + -0x7140))(0);,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,29,},work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,30,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011caac,31,},work\full-decompile\gekko\main\export\pseudocode\0x8011caac.c
+main,0x8011cc08,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011cc08; retail_virtual; canonical original-file offset 0x119c08. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,4,void FUN_8011cc08(uint param_1),work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,7,int unaff_r13;,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,8,char cVar1;,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,10,if (*(char *)(unaff_r13 + -0x7170) == '\0') {,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,11,cVar1 = (param_1 & 0x88) != 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,12,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,13,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,14,cVar1 = '\x03';,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,15,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,16,"FUN_80104ff8(cVar1,(*(uint *)(unaff_r13 + -0x71e4) & 0x3800) >> 0xb,",work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,17,"(*(uint *)(unaff_r13 + -0x71e4) & 0x700) >> 8,0);",work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,18,if (cVar1 == '\x03') {,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,19,FUN_80122ab4();,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,20,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,21,else if (cVar1 == '\x01') {,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,22,if (((((param_1 & 0x80) == 0) && ((*(uint *)(unaff_r13 + -0x71e4) & 0x3800) != 0x800)) &&,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,23,((*(uint *)(unaff_r13 + -0x71e4) & 0x700) != 0x100)) &&,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,24,((*(int **)(unaff_r13 + -0x7174) != (int *)0x0 && (**(int **)(unaff_r13 + -0x7174) == 0xe)))),work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,25,{,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,26,FUN_80122a44();,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,27,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,28,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,29,FUN_80122ab4();,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,30,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,31,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,32,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,33,FUN_801229ec();,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,34,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,35,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011cc08,36,},work\full-decompile\gekko\main\export\pseudocode\0x8011cc08.c
+main,0x8011c9f8,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c9f8; retail_virtual; canonical original-file offset 0x1199f8. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,4,void FUN_8011c9f8(uint param_1),work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,7,int iVar1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,8,int iVar2;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,9,uint uVar3;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,11,iVar2 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,12,iVar1 = 0;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,13,FUN_80104d14(param_1 + 1);,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,14,FUN_801014a8(param_1 + 1);,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,15,for (uVar3 = 0; uVar3 <= param_1; uVar3 = uVar3 + 1) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,16,if (uVar3 == 0) {,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,17,"FUN_801044a8(0,0);",work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,18,},work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,19,else {,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,20,"FUN_801044a8(uVar3,1);",work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,21,},work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,22,"FUN_80104b74(uVar3,iVar2,iVar1,4);",work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,23,iVar2 = iVar2 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,24,iVar1 = iVar1 + 1;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,25,},work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,26,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011c9f8,27,},work\full-decompile\gekko\main\export\pseudocode\0x8011c9f8.c
+main,0x8011d1ac,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011d1ac; retail_virtual; canonical original-file offset 0x11a1ac. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8011d1ac.c
+main,0x8011d1ac,4,void FUN_8011d1ac(void),work\full-decompile\gekko\main\export\pseudocode\0x8011d1ac.c
+main,0x8011d1ac,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8011d1ac.c
+main,0x8011d1ac,7,FUN_801011d8();,work\full-decompile\gekko\main\export\pseudocode\0x8011d1ac.c
+main,0x8011d1ac,8,return;,work\full-decompile\gekko\main\export\pseudocode\0x8011d1ac.c
+main,0x8011d1ac,9,},work\full-decompile\gekko\main\export\pseudocode\0x8011d1ac.c
+main,0x8010afb0,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8010afb0; retail_virtual; canonical original-file offset 0x107fb0. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,4,void FUN_8010afb0(void),work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,7,int in_r11;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,8,undefined4 unaff_r20;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,9,undefined4 unaff_r21;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,10,undefined4 unaff_r22;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,11,undefined4 unaff_r23;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,12,undefined4 unaff_r24;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,13,undefined4 unaff_r25;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,14,undefined4 unaff_r26;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,15,undefined4 unaff_r27;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,16,undefined4 unaff_r28;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,17,undefined4 unaff_r29;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,18,undefined4 unaff_r30;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,19,undefined4 unaff_r31;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,21,*(undefined4 *)(in_r11 + -0x30) = unaff_r20;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,22,*(undefined4 *)(in_r11 + -0x2c) = unaff_r21;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,23,*(undefined4 *)(in_r11 + -0x28) = unaff_r22;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,24,*(undefined4 *)(in_r11 + -0x24) = unaff_r23;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,25,*(undefined4 *)(in_r11 + -0x20) = unaff_r24;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,26,*(undefined4 *)(in_r11 + -0x1c) = unaff_r25;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,27,*(undefined4 *)(in_r11 + -0x18) = unaff_r26;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,28,*(undefined4 *)(in_r11 + -0x14) = unaff_r27;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,29,*(undefined4 *)(in_r11 + -0x10) = unaff_r28;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,30,*(undefined4 *)(in_r11 + -0xc) = unaff_r29;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,31,*(undefined4 *)(in_r11 + -8) = unaff_r30;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,32,*(undefined4 *)(in_r11 + -4) = unaff_r31;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,33,return;,work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010afb0,34,},work\full-decompile\gekko\main\export\pseudocode\0x8010afb0.c
+main,0x8010affc,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8010affc; retail_virtual; canonical original-file offset 0x107ffc. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main\export\pseudocode\0x8010affc.c
+main,0x8010affc,4,void FUN_8010affc(void),work\full-decompile\gekko\main\export\pseudocode\0x8010affc.c
+main,0x8010affc,6,{,work\full-decompile\gekko\main\export\pseudocode\0x8010affc.c
+main,0x8010affc,7,return;,work\full-decompile\gekko\main\export\pseudocode\0x8010affc.c
+main,0x8010affc,8,},work\full-decompile\gekko\main\export\pseudocode\0x8010affc.c
+main-sda-v1,0x8011ccf8,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011ccf8; retail_virtual; canonical original-file offset 0x119cf8. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,4,void FUN_8011ccf8(void),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,7,uint uVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,8,uint uVar2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,9,ushort uVar4;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,10,uint uVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,11,undefined4 uVar5;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,12,ushort *puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,13,ushort *puVar7;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,14,uint unaff_r22;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,15,int iVar8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,16,uint uVar9;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,17,uint uVar10;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,18,ushort uVar13;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,19,uint uVar11;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,20,int iVar12;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,21,undefined8 uVar14;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,22,uint local_70 [8];,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,23,ushort *local_50 [20];,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,25,uVar14 = FUN_8010afb0();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,26,uVar5 = (undefined4)uVar14;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,27,DAT_803ae14c = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,28,puVar7 = (ushort *)((ulonglong)uVar14 >> 0x20);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,29,iVar8 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,30,uVar3 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,31,LAB_8011d184:,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,32,do {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,33,uVar4 = (ushort)unaff_r22;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,34,uVar13 = *puVar7;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,35,iVar12 = (int)(short)uVar13;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,36,puVar6 = puVar7 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,37,if (iVar12 == 0xff) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,38,LAB_8011d194:,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,39,FUN_8010affc();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,40,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,41,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,42,uVar9 = (uint)(short)(uVar13 & 0xff);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,43,if (7 < uVar9) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,44,if (uVar9 < 0x10) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,45,if (uVar3 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,46,"FUN_8011c76c(iVar12,(int)(short)*puVar6);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,47,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,48,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,49,"FUN_8011c85c(iVar12,(int)(short)*puVar6,iVar8);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,50,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,51,puVar7 = puVar7 + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,52,goto LAB_8011d184;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,53,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,54,if (uVar9 < 0x40) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,55,uVar13 = *puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,56,if ((DAT_803ae0e8 & 0x8000) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,57,FUN_8011c754(iVar12);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,58,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,59,"FUN_8011c628(iVar12,puVar7 + 2);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,60,puVar7 = puVar7 + 2 + (short)uVar13;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,61,goto LAB_8011d184;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,62,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,63,uVar10 = (uint)*puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,64,uVar1 = (uint)(short)puVar7[2];,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,65,puVar6 = puVar7 + 3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,66,if (uVar3 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,67,if ((DAT_803ae0e8 & 0x800) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,68,uVar13 = uVar13 & (ushort)DAT_803ae0e4 | (ushort)DAT_803ae0e0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,69,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,70,uVar4 = (ushort)(char)(uVar13 >> 8);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,71,uVar11 = (uint)(short)uVar4;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,72,uVar2 = uVar11 ^ DAT_803ae140 | DAT_803ae144;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,73,DAT_803ae144 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,74,DAT_803ae140 = uVar11;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,75,if ((uVar2 & 1) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,76,FUN_8011caac();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,77,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,78,FUN_8011cc08(uVar11 | DAT_803ae144);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,79,if (uVar1 >> 0xe != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,80,local_70[0] = countLeadingZeros(0x42 - uVar9);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,81,local_70[0] = local_70[0] >> 5;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,82,iVar8 = 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,83,puVar7 = puVar6 + (uVar10 - 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,84,unaff_r22 = uVar11;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,85,uVar3 = uVar1 >> 0xe;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,86,local_50[0] = puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,87,goto LAB_8011d184;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,88,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,89,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,90,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,91,local_50[iVar8] = puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,92,uVar2 = countLeadingZeros(0x42 - uVar9);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,93,local_70[iVar8] = uVar2 >> 5;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,94,if (iVar8 < (int)uVar3) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,95,puVar7 = puVar6 + (uVar10 - 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,96,iVar8 = iVar8 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,97,goto LAB_8011d184;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,98,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,99,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,100,if (uVar9 == 0x40) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,101,if ((uVar4 & 0x40) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,102,if (uVar3 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,103,FUN_8011c960();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,104,if ((DAT_803ae148 & 2) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,105,"FUN_8011d594(puVar6,uVar5,uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,106,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,107,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,108,"FUN_8011fef4(puVar6,uVar5,uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,109,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,110,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,111,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,112,FUN_8011c960();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,113,if ((DAT_803ae148 & 2) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,114,"FUN_8011d594(puVar6,uVar5,uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,115,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,116,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,117,"FUN_8011fef4(puVar6,uVar5,uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,118,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,119,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,120,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,121,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,122,FUN_8011c9ac();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,123,"FUN_8011d1ac(0,0,1,0x2a);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,124,"FUN_8011d6a4(puVar6,uVar5,uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,125,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,126,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,127,else if ((0x3f < uVar9) && (uVar9 < 0x43)) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,128,if ((uVar4 & 0x40) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,129,if (uVar3 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,130,FUN_8011c9ac();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,131,"FUN_8011d1ac(0,1,4,0x3c);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,132,if ((DAT_803ae148 & 2) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,133,uVar3 = countLeadingZeros(0x42 - uVar9);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,134,"FUN_8011d7b4(puVar6,uVar5,uVar1,uVar3 >> 5);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,135,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,136,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,137,uVar3 = countLeadingZeros(0x42 - uVar9);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,138,"FUN_8011fff4(puVar6,uVar5,uVar1,uVar3 >> 5);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,139,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,140,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,141,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,142,FUN_8011c9f8(uVar3);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,143,for (iVar8 = 0; iVar8 <= (int)uVar3; iVar8 = iVar8 + 1) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,144,"FUN_8011d1ac(iVar8,1,iVar8 + 4,0x3c);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,145,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,146,if ((DAT_803ae148 & 2) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,147,uVar3 = countLeadingZeros(0x42 - uVar9);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,148,"FUN_8011d7b4(puVar6,uVar5,uVar1,uVar3 >> 5);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,149,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,150,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,151,"FUN_80120158(local_50,uVar5,uVar1,local_70,uVar3);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,152,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,153,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,154,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,155,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,156,FUN_8011c9ac();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,157,"FUN_8011d1ac(0,0,1,0x2a);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,158,"FUN_8011d91c(puVar6,uVar5,uVar1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,159,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,160,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,161,iVar8 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,162,DAT_803ae14c = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,163,puVar7 = puVar6 + (uVar10 - 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,164,uVar3 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,165,goto LAB_8011d184;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,166,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,167,if (uVar9 == 4) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,168,*(ushort **)(&DAT_80357a58 + (short)(uVar13 >> 8) * 4) = puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,169,DAT_803ae0f4 = DAT_803ae0f4 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,170,goto LAB_8011d194;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,171,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,172,puVar7 = puVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,173,if (uVar9 < 4) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,174,if ((uVar9 == 1) && ((DAT_803ae0e8 & 0x8000) == 0)) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,175,FUN_8011c754(iVar12);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,176,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,177,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,178,else if (uVar9 < 6) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,179,"FUN_8011ccf8(*(undefined4 *)(&DAT_80357a58 + (short)(uVar13 >> 8) * 4),uVar5);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,180,DAT_803ae0f4 = DAT_803ae0f4 + -1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,181,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,182,} while( true );,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x8011ccf8,183,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011ccf8.c
+main-sda-v1,0x80120158,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x80120158; retail_virtual; canonical original-file offset 0x11d158. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,4,"void FUN_80120158(undefined4 param_1,undefined4 param_2,uint param_3,int *param_4,uint param_5)",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,7,short sVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,8,undefined4 uVar2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,9,int *piVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,10,short *psVar4;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,11,uint uVar5;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,12,int *piVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,13,uint uVar7;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,14,float *pfVar8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,15,uint uVar9;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,16,undefined8 uVar10;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,18,uVar10 = FUN_8010afc4();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,19,piVar3 = (int *)((ulonglong)uVar10 >> 0x20);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,20,param_3 = param_3 & 0x3fff;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,21,for (uVar7 = 0; uVar7 <= param_5; uVar7 = uVar7 + 1) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,22,if (*param_4 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,23,uVar2 = 8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,24,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,25,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,26,uVar2 = 0xc;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,27,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,28,"FUN_80100d44(0,uVar7 + 0xd,1,3,uVar2);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,29,param_4 = param_4 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,30,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,31,FUN_80100cf8();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,32,"FUN_80100830(9,1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,33,"FUN_80100830(0xb,1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,34,for (uVar7 = 0; uVar7 <= param_5; uVar7 = uVar7 + 1) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,35,"FUN_80100830(uVar7 + 0xd,1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,36,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,37,do {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,38,psVar4 = (short *)*piVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,39,*piVar3 = (int)(psVar4 + 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,40,uVar7 = (uint)*psVar4;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,41,piVar6 = piVar3 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,42,if (param_5 != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,43,uVar9 = param_5 >> 3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,44,uVar5 = param_5;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,45,if (uVar9 != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,46,do {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,47,*piVar6 = *piVar6 + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,48,piVar6[1] = piVar6[1] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,49,piVar6[2] = piVar6[2] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,50,piVar6[3] = piVar6[3] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,51,piVar6[4] = piVar6[4] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,52,piVar6[5] = piVar6[5] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,53,piVar6[6] = piVar6[6] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,54,piVar6[7] = piVar6[7] + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,55,piVar6 = piVar6 + 8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,56,uVar9 = uVar9 - 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,57,} while (uVar9 != 0);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,58,uVar5 = param_5 & 7;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,59,if (uVar5 == 0) goto LAB_801202fc;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,60,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,61,do {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,62,*piVar6 = *piVar6 + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,63,piVar6 = piVar6 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,64,uVar5 = uVar5 - 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,65,} while (uVar5 != 0);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,66,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,67,LAB_801202fc:,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,68,if ((int)uVar7 < 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,69,uVar7 = -uVar7;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,70,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,71,"FUN_80101948(0x98,0,uVar7 & 0xffff);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,72,do {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,73,psVar4 = (short *)*piVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,74,*piVar3 = (int)(psVar4 + 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,75,pfVar8 = (float *)((int)uVar10 + *psVar4 * 0x20);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,76,"FUN_80120144((double)*pfVar8,(double)pfVar8[1],(double)pfVar8[2]);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,77,FUN_80120138(pfVar8[6]);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,78,piVar6 = piVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,79,for (uVar9 = 0; uVar9 <= param_5; uVar9 = uVar9 + 1) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,80,if (uVar9 != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,81,*piVar6 = *piVar6 + 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,82,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,83,psVar4 = (short *)*piVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,84,*piVar6 = (int)(psVar4 + 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,85,sVar1 = *psVar4;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,86,psVar4 = (short *)*piVar6;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,87,*piVar6 = (int)(psVar4 + 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,88,"FUN_80120128((int)sVar1,(int)*psVar4);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,89,piVar6 = piVar6 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,90,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,91,uVar7 = uVar7 - 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,92,} while (uVar7 != 0);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,93,FUN_80120124();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,94,param_3 = param_3 - 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,95,if (param_3 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,96,FUN_8010b010();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,97,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,98,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,99,} while( true );,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x80120158,100,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x80120158.c
+main-sda-v1,0x8011c754,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c754; retail_virtual; canonical original-file offset 0x119754. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c754,4,void FUN_8011c754(uint param_1),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c754,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c754,7,DAT_803ae0dc = param_1 & 0x3f00;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c754,8,DAT_803ae144 = DAT_803ae144 | 8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c754,9,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c754,10,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c754.c
+main-sda-v1,0x8011c76c,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c76c; retail_virtual; canonical original-file offset 0x11976c. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,4,"void FUN_8011c76c(uint param_1,uint param_2)",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,7,int iVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,8,undefined4 uVar2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,9,undefined4 uVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,11,iVar1 = *(int *)(*(int *)(**(int **)(DAT_803ae098 + 0x20) + (param_2 & 0x1fff) * 0xc + 8) + 0xc);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,12,DAT_803ae14c = (undefined4 *)(iVar1 + 4);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,13,uVar3 = 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,14,uVar2 = 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,15,if ((param_1 & 0x2000) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,16,if ((param_1 & 0x8000) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,17,uVar2 = 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,18,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,19,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,20,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,21,uVar2 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,22,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,23,if ((param_1 & 0x1000) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,24,if ((param_1 & 0x4000) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,25,uVar3 = 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,26,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,27,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,28,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,29,uVar3 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,30,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,31,"FUN_8010334c(&DAT_80357fb0,*(undefined4 *)(iVar1 + 0x20),*(uint *)(iVar1 + 0x10) & 0xffff,",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,32,"*(uint *)(iVar1 + 0x14) & 0xffff,*DAT_803ae14c,uVar2,uVar3,",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,33,(*(uint *)(iVar1 + 0x1c) & 0x80000000) != 0);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,34,"FUN_8010394c(&DAT_80357fb0,0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,35,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c76c,36,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c76c.c
+main-sda-v1,0x8011c85c,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c85c; retail_virtual; canonical original-file offset 0x11985c. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,4,"void FUN_8011c85c(uint param_1,uint param_2,int param_3)",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,7,int iVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,8,undefined4 uVar2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,9,undefined4 uVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,11,iVar1 = *(int *)(*(int *)(**(int **)(DAT_803ae098 + 0x20) + (param_2 & 0x1fff) * 0xc + 8) + 0xc);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,12,DAT_803ae14c = (undefined4 *)(iVar1 + 4);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,13,uVar3 = 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,14,uVar2 = 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,15,if ((param_1 & 0x2000) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,16,if ((param_1 & 0x8000) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,17,uVar2 = 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,18,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,19,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,20,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,21,uVar2 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,22,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,23,if ((param_1 & 0x1000) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,24,if ((param_1 & 0x4000) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,25,uVar3 = 2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,26,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,27,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,28,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,29,uVar3 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,30,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,31,"FUN_8010334c(&DAT_80357fb0 + param_3 * 0x20,*(undefined4 *)(iVar1 + 0x20),",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,32,"*(uint *)(iVar1 + 0x10) & 0xffff,*(uint *)(iVar1 + 0x14) & 0xffff,*DAT_803ae14c,uVar2",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,33,",uVar3,(*(uint *)(iVar1 + 0x1c) & 0x80000000) != 0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,34,"FUN_8010394c(&DAT_80357fb0 + param_3 * 0x20,param_3);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,35,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c85c,36,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c85c.c
+main-sda-v1,0x8011c628,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c628; retail_virtual; canonical original-file offset 0x119628. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,4,"void FUN_8011c628(uint param_1,undefined2 *param_2)",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,7,undefined4 local_2c;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,8,undefined4 local_28;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,9,undefined4 local_24;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,10,undefined4 local_20;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,11,float local_1c;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,12,float local_18;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,13,float local_14;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,14,float local_10;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,15,undefined4 local_c;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,16,undefined4 local_8 [2];,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,18,if (((param_1 & 0xff) - 0x10 & 1) != 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,19,"local_2c = CONCAT22(CONCAT11((char)param_2[1],(char)((ushort)*param_2 >> 8)),",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,20,"CONCAT11((char)*param_2,(char)((ushort)param_2[1] >> 8)));",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,21,local_8[0] = local_2c;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,22,if ((DAT_803ae0e8 & 0x10) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,23,if ((DAT_803ae0e8 & 0x20) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,24,"FUN_80102d90(4,&local_2c);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,25,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,26,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,27,"FUN_80113fc0(local_8,&local_1c);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,28,local_1c = local_1c + DAT_803578b0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,29,local_18 = local_18 + DAT_803578b4;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,30,local_14 = local_14 + DAT_803578b8;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,31,local_10 = local_10 + DAT_803578bc;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,32,"FUN_80113f98(&local_1c,&local_20);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,33,local_28 = local_20;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,34,"FUN_80102d90(4,&local_28);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,35,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,36,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,37,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,38,"FUN_80113f98(&DAT_803578b0,&local_c);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,39,local_24 = local_c;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,40,"FUN_80102d90(4,&local_24);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,41,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,42,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,43,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011c628,44,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c628.c
+main-sda-v1,0x8011caac,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011caac; retail_virtual; canonical original-file offset 0x119aac. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,4,void FUN_8011caac(uint param_1),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,7,bool bVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,9,if (((DAT_803ae0e8 & 0x80000) == 0) || (true)) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,10,bVar1 = (DAT_803ae148 & 2) != 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,11,"FUN_80102f44(0,(DAT_803ae148 & 1) == 0 && (param_1 & 1) == 0,0,bVar1,DAT_803ae0f0,DAT_803ad71c,",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,12,DAT_803ad718);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,13,"FUN_80102f44(2,0,0,bVar1,DAT_803ae0f0,DAT_803ad71c,DAT_803ad718);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,14,if ((param_1 & 2) == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,15,FUN_80102ef8(2);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,16,"FUN_80102f44(1,1,0,bVar1,DAT_803ae0f0,0,0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,17,"FUN_80102f44(3,0,0,bVar1,DAT_803ae0f0,0,0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,18,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,19,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,20,"FUN_80102f44(1,0,0,0,DAT_803ae0f0,0,2);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,21,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,22,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,23,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,24,(*(code *)0x0)(0);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,25,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,26,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011caac,27,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011caac.c
+main-sda-v1,0x8011cc08,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011cc08; retail_virtual; canonical original-file offset 0x119c08. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,4,void FUN_8011cc08(uint param_1),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,7,char cVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,9,if (DAT_803ae150 == '\0') {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,10,cVar1 = (param_1 & 0x88) != 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,11,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,12,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,13,cVar1 = '\x03';,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,14,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,15,"FUN_80104ff8(cVar1,(DAT_803ae0dc & 0x3800) >> 0xb,(DAT_803ae0dc & 0x700) >> 8,0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,16,if (cVar1 == '\x03') {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,17,FUN_80122ab4();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,18,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,19,else if (cVar1 == '\x01') {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,20,if (((((param_1 & 0x80) == 0) && ((DAT_803ae0dc & 0x3800) != 0x800)) &&,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,21,((DAT_803ae0dc & 0x700) != 0x100)) &&,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,22,((DAT_803ae14c != (int *)0x0 && (*DAT_803ae14c == 0xe)))) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,23,FUN_80122a44();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,24,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,25,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,26,FUN_80122ab4();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,27,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,28,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,29,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,30,FUN_801229ec();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,31,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,32,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011cc08,33,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011cc08.c
+main-sda-v1,0x8011c9f8,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011c9f8; retail_virtual; canonical original-file offset 0x1199f8. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,4,void FUN_8011c9f8(uint param_1),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,7,int iVar1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,8,int iVar2;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,9,uint uVar3;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,11,iVar2 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,12,iVar1 = 0;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,13,FUN_80104d14(param_1 + 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,14,FUN_801014a8(param_1 + 1);,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,15,for (uVar3 = 0; uVar3 <= param_1; uVar3 = uVar3 + 1) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,16,if (uVar3 == 0) {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,17,"FUN_801044a8(0,0);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,18,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,19,else {,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,20,"FUN_801044a8(uVar3,1);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,21,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,22,"FUN_80104b74(uVar3,iVar2,iVar1,4);",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,23,iVar2 = iVar2 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,24,iVar1 = iVar1 + 1;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,25,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,26,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011c9f8,27,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011c9f8.c
+main-sda-v1,0x8011d1ac,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8011d1ac; retail_virtual; canonical original-file offset 0x11a1ac. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1ac.c
+main-sda-v1,0x8011d1ac,4,void FUN_8011d1ac(void),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1ac.c
+main-sda-v1,0x8011d1ac,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1ac.c
+main-sda-v1,0x8011d1ac,7,FUN_801011d8();,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1ac.c
+main-sda-v1,0x8011d1ac,8,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1ac.c
+main-sda-v1,0x8011d1ac,9,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8011d1ac.c
+main-sda-v1,0x8010afb0,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8010afb0; retail_virtual; canonical original-file offset 0x107fb0. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,4,void FUN_8010afb0(void),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,7,int in_r11;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,8,undefined4 unaff_r20;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,9,undefined4 unaff_r21;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,10,undefined4 unaff_r22;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,11,undefined4 unaff_r23;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,12,undefined4 unaff_r24;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,13,undefined4 unaff_r25;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,14,undefined4 unaff_r26;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,15,undefined4 unaff_r27;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,16,undefined4 unaff_r28;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,17,undefined4 unaff_r29;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,18,undefined4 unaff_r30;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,19,undefined4 unaff_r31;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,21,*(undefined4 *)(in_r11 + -0x30) = unaff_r20;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,22,*(undefined4 *)(in_r11 + -0x2c) = unaff_r21;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,23,*(undefined4 *)(in_r11 + -0x28) = unaff_r22;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,24,*(undefined4 *)(in_r11 + -0x24) = unaff_r23;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,25,*(undefined4 *)(in_r11 + -0x20) = unaff_r24;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,26,*(undefined4 *)(in_r11 + -0x1c) = unaff_r25;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,27,*(undefined4 *)(in_r11 + -0x18) = unaff_r26;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,28,*(undefined4 *)(in_r11 + -0x14) = unaff_r27;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,29,*(undefined4 *)(in_r11 + -0x10) = unaff_r28;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,30,*(undefined4 *)(in_r11 + -0xc) = unaff_r29;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,31,*(undefined4 *)(in_r11 + -8) = unaff_r30;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,32,*(undefined4 *)(in_r11 + -4) = unaff_r31;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,33,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010afb0,34,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010afb0.c
+main-sda-v1,0x8010affc,1,"/* Generated, unreviewed Ghidra pseudocode. Entry 0x8010affc; retail_virtual; canonical original-file offset 0x107ffc. This is not original source or a verified behavior reconstruction. */",work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010affc.c
+main-sda-v1,0x8010affc,4,void FUN_8010affc(void),work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010affc.c
+main-sda-v1,0x8010affc,6,{,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010affc.c
+main-sda-v1,0x8010affc,7,return;,work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010affc.c
+main-sda-v1,0x8010affc,8,},work\full-decompile\gekko\main-sda-v1\export\pseudocode\0x8010affc.c

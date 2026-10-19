@@ -1,0 +1,1 @@
+Full Windows x64 MSVC/Ninja Debug EDITOR ON build exit 0; grouped unit compiled True; executable linked True; compiler errors 0. Existing invocation-only Embedded debug setting used. No native drawing/animation/gameplay claim.

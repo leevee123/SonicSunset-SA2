@@ -1,0 +1,7 @@
+path,line,text,sha256
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,329,"  QUANTIZE_FLOAT = 0,",739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,342,"  BitField<0, 3, EQuantizeType> st_type;",739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,343,"  BitField<8, 6, u32> st_scale;",739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,344,"  BitField<16, 3, EQuantizeType> ld_type;",739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,345,"  BitField<24, 6, u32> ld_scale;",739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f
+C:\Users\naync\Documents\Codex\2026-10-10\you-are-reverse-engineering-sonic-adventure\work\full-decompile-fp\Gekko.pinned.h,884,"  SPR_GQR0 = 912,",739ace6d79be9e7acfbf4da271647b88f1f5a0a4c053346700cd48d228e7498f

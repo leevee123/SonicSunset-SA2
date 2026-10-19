@@ -1,0 +1,10 @@
+{
+  "functions": 12,
+  "original_words": 897,
+  "retained_ASM_rows_compared": 957,
+  "direct_call_rows_two_views": 138,
+  "computed_call_rows_two_views": 2,
+  "source_hashes": 43,
+  "DOL_sha256": "a53335308d1f820be236fd2b6342fee850eaf048eb26aac21ddb1903b060db2e",
+  "scope": "collector, grouped helper,4 state handlers,2 dispatch-state helpers,grouped setup/thunk, shared register save/restore suffixes; no GPU/state-callee closure"
+}

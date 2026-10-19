@@ -1,0 +1,63 @@
+{
+  "info_cases": 65536,
+  "pending_partitions": [
+    {
+      "first_raw_info": "0x0",
+      "last_raw_info": "0x3fff",
+      "pending": 0,
+      "entry_count_if_completed": 1,
+      "cases": 16384
+    },
+    {
+      "first_raw_info": "0x4000",
+      "last_raw_info": "0x7fff",
+      "pending": 1,
+      "entry_count_if_completed": 2,
+      "cases": 16384
+    },
+    {
+      "first_raw_info": "0x8000",
+      "last_raw_info": "0xbfff",
+      "pending": 262142,
+      "entry_count_if_completed": 262143,
+      "cases": 16384
+    },
+    {
+      "first_raw_info": "0xc000",
+      "last_raw_info": "0xffff",
+      "pending": 262143,
+      "entry_count_if_completed": 262144,
+      "cases": 16384
+    }
+  ],
+  "opcode_cases": 256,
+  "cursor_cases": 65536,
+  "synthetic_cases": 5,
+  "synthetic_trace_rows": 17,
+  "frame": {
+    "bytes": 128,
+    "types_new_SP": "0x10",
+    "pointers_new_SP": "0x30",
+    "saved_GPRs_start": "0x50",
+    "saved_GPRs_end_exclusive": "0x80",
+    "saved_LR_new_SP": "0x84",
+    "independent_nonoverlap_slots": 8,
+    "native_capacity_asserted": false,
+    "native_guard_found": false
+  },
+  "callback": {
+    "original_va": "0x8011cae8",
+    "r13_displacement": "-0x7140",
+    "VA_under_startup_r13": "0x803ae180",
+    "argument_r3": 0,
+    "gate": "0x8011CAAC reached AND SDA-71D8&0x80000 nonzero AND callback pointer nonnull",
+    "C_loss": "generatedC ||true/null-target branch contradicted by original instructions"
+  },
+  "source_guards_unchanged": 43,
+  "limitations": [
+    "Integer/table/frame audit only; no target CPU execution.",
+    "Synthetic binding examples omit opaque state-helper/callback effects.",
+    "Independent storage window is not intended/native capacity.",
+    "No real nonzero-pending geometry sample has been validated."
+  ]
+}

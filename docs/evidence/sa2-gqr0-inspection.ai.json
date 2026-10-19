@@ -1,0 +1,184 @@
+{
+  "result": "passed",
+  "source_artifacts": 34,
+  "original_words": 704,
+  "retained_ASM_rows_matched": 1180,
+  "direct_call_rows": 56,
+  "full_text_direct_branches": [
+    {
+      "va": "0x80003144",
+      "dol_offset": "0x144",
+      "iso_offset": "0x1e844",
+      "word": "0x480001ed",
+      "target": "0x80003330",
+      "link": true,
+      "absolute": false
+    },
+    {
+      "va": "0x80003340",
+      "dol_offset": "0x340",
+      "iso_offset": "0x1ea40",
+      "word": "0x480e09f9",
+      "target": "0x800e3d38",
+      "link": true,
+      "absolute": false
+    },
+    {
+      "va": "0x80109964",
+      "dol_offset": "0x106964",
+      "iso_offset": "0x125064",
+      "word": "0x48000d51",
+      "target": "0x8010a6b4",
+      "link": true,
+      "absolute": false
+    },
+    {
+      "va": "0x80109ba4",
+      "dol_offset": "0x106ba4",
+      "iso_offset": "0x1252a4",
+      "word": "0x48000cc9",
+      "target": "0x8010a86c",
+      "link": true,
+      "absolute": false
+    },
+    {
+      "va": "0x8010a4c0",
+      "dol_offset": "0x1074c0",
+      "iso_offset": "0x125bc0",
+      "word": "0x480001f5",
+      "target": "0x8010a6b4",
+      "link": true,
+      "absolute": false
+    }
+  ],
+  "branch_owners": [
+    {
+      "view": "main",
+      "va": "0x80003144",
+      "dol_offset": "0x144",
+      "iso_offset": "0x1e844",
+      "word": "0x480001ed",
+      "target": "0x80003330",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80003140"
+    },
+    {
+      "view": "main",
+      "va": "0x80003340",
+      "dol_offset": "0x340",
+      "iso_offset": "0x1ea40",
+      "word": "0x480e09f9",
+      "target": "0x800e3d38",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80003330"
+    },
+    {
+      "view": "main",
+      "va": "0x80109964",
+      "dol_offset": "0x106964",
+      "iso_offset": "0x125064",
+      "word": "0x48000d51",
+      "target": "0x8010a6b4",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80109838"
+    },
+    {
+      "view": "main",
+      "va": "0x80109ba4",
+      "dol_offset": "0x106ba4",
+      "iso_offset": "0x1252a4",
+      "word": "0x48000cc9",
+      "target": "0x8010a86c",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80109b18"
+    },
+    {
+      "view": "main",
+      "va": "0x8010a4c0",
+      "dol_offset": "0x1074c0",
+      "iso_offset": "0x125bc0",
+      "word": "0x480001f5",
+      "target": "0x8010a6b4",
+      "link": true,
+      "absolute": false,
+      "owner": "0x8010a474"
+    },
+    {
+      "view": "main-sda-v1",
+      "va": "0x80003144",
+      "dol_offset": "0x144",
+      "iso_offset": "0x1e844",
+      "word": "0x480001ed",
+      "target": "0x80003330",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80003140"
+    },
+    {
+      "view": "main-sda-v1",
+      "va": "0x80003340",
+      "dol_offset": "0x340",
+      "iso_offset": "0x1ea40",
+      "word": "0x480e09f9",
+      "target": "0x800e3d38",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80003330"
+    },
+    {
+      "view": "main-sda-v1",
+      "va": "0x80109964",
+      "dol_offset": "0x106964",
+      "iso_offset": "0x125064",
+      "word": "0x48000d51",
+      "target": "0x8010a6b4",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80109838"
+    },
+    {
+      "view": "main-sda-v1",
+      "va": "0x80109ba4",
+      "dol_offset": "0x106ba4",
+      "iso_offset": "0x1252a4",
+      "word": "0x48000cc9",
+      "target": "0x8010a86c",
+      "link": true,
+      "absolute": false,
+      "owner": "0x80109b18"
+    },
+    {
+      "view": "main-sda-v1",
+      "va": "0x8010a4c0",
+      "dol_offset": "0x1074c0",
+      "iso_offset": "0x125bc0",
+      "word": "0x480001f5",
+      "target": "0x8010a6b4",
+      "link": true,
+      "absolute": false,
+      "owner": "0x8010a474"
+    }
+  ],
+  "selected_entries": [
+    "0x80003140",
+    "0x80003330",
+    "0x800e3d38",
+    "0x800e5388",
+    "0x800e54ac",
+    "0x80109838",
+    "0x80109b18",
+    "0x8010a474",
+    "0x8010a6b4",
+    "0x8010a86c"
+  ],
+  "source_selection_limits": [
+    "Core startupGQR0 and globalrestore functions completed C-only: no individual ASM file.",
+    "Expanded FP-context C oversized/truncated; selected structural C lines and complete original words retained."
+  ],
+  "native_execution": false,
+  "project_opens": 0
+}

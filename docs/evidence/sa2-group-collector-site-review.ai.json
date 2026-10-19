@@ -1,0 +1,5 @@
+{
+  "source": "original-words.csv",
+  "rows": 173,
+  "scope": "frame,collector,multi-stream call/reset and callback prefix"
+}
