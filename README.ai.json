@@ -1,15 +1,13 @@
 {
+  "project": "SonicSunset-SA2",
   "repository": "https://github.com/leevee123/SonicSunset-SA2",
-  "visibility": "private",
-  "source_snapshot_files": 2118,
-  "archive_sha256": "17be8afe19f7950caad7c7b6b9762b158f62d5d9776faf3a4873fd62ae87f6d8",
-  "original_game_or_build_binaries_included": false,
-  "restoration": "Download repository ZIP; Restore-Source.cmd verifies every member and creates new Source folder; no network or overwrite",
-  "normal_github_source_tree": "pending approval or direct file uploads",
-  "automatic_review_rejection": "Proposed GitHub Actions contents:write plus push permission; no workflow enabled",
-  "proposal": "proposed-import-workflow.yml.txt is inert text",
-  "weighted_cases_passed": 314,
-  "stream_cases_passed": 309,
-  "signed_weights_passed": 65536,
-  "full_game_complete": false
+  "visibility": "public",
+  "source_layout": "ordinary src/, Scripts/, third-party/, docs/ plus CMake and authored runtime config",
+  "importers": "src/Importers/SA2 plus shared SA/Shadow/GameCube/RenderWare readers",
+  "engine_logic": "src/Gameplay,Objects,Physics,Scripting,Graphics,Loading and Lua Scripts/",
+  "build_dependencies": "Includes existing GLFW static libraries required by unchanged CMake",
+  "original_game_data_included": false,
+  "full_game_complete": false,
+  "handoff": "docs/HANDOFF.md and docs/ai/HANDOFF.md",
+  "publication": "Direct browser file uploads; no write-enabled workflow or new credentials"
 }
